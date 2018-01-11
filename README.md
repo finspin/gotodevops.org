@@ -4,4 +4,4 @@ This is a source code for the website [gotodevops.org](http://www.gotodevops.org
 
 # How can I contribute?
 
-Feel free to submit a pull request to add a new conference or update anything on the site.
+To add a new conference, modify the [conferences.yml](https://github.com/finspin/gotodevops.org/blob/master/_data/conferences.yml) file and submit a pull request.
