@@ -1,0 +1,20 @@
+body {
+    font-family: Roboto, Helvetica, Arial sans-serif;
+    font-size: 19px;
+    color: #333;
+}
+
+.header {
+    margin: 2rem 0 4rem;
+}
+
+.header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
