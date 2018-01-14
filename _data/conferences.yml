@@ -223,6 +223,15 @@
   start-date: 1524225600
   cost: 1
 
+- name: DevOpsDays Copenhagen
+  url: https://www.devopsdays.org/events/2018-copenhagen
+  location:
+      city: Copenhagen
+      country: Denmark
+  date: April 24 - 25, 2018
+  start-date: 1524571200
+  cost: 1
+
 - name: Interop ITX
   url: https://www.interop.com/
   location:
