@@ -250,6 +250,15 @@
   start-date: 1524571200
   cost: 1
 
+- name: DevOpsDays Jakarta
+  url: https://www.devopsdays.org/events/2018-jakarta
+  location:
+      city: Jakarta
+      country: Indonesia
+  date: April 26 - 27, 2018
+  start-date: 1524744000
+  cost: 1
+
 - name: Interop ITX
   url: https://www.interop.com/
   location:
