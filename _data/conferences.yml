@@ -79,6 +79,15 @@
   start-date: 1521676800
   cost: 2
 
+- name: SREcon18 Americas
+  url: https://www.usenix.org/conference/srecon18americas
+  location:
+      city: Santa Clara
+      country: USA
+  date: March 27 – 29, 2018
+  start-date: 1522108800
+  cost: unknown
+
 - name: JAX DevOps
   url: https://devops.jaxlondon.com
   location:
@@ -178,6 +187,15 @@
   start-date: 1528070400
   cost: 2
 
+- name: SREcon18 Asia/Australia
+  url: https://www.usenix.org/conference/srecon18asia
+  location:
+      city: Singapore
+      country: Singapore
+  date: June 6 – 8, 2018
+  start-date: 1528243200
+  cost: unknown
+
 - name: Velocity
   url: https://conferences.oreilly.com/velocity/vl-ca
   location:
@@ -204,6 +222,16 @@
   date: June 25 - 26, 2018
   start-date: 1529884800
   cost: unknown
+
+- name: SREcon18 Europe/Middle East/Africa
+  url: https://www.usenix.org/conference/srecon18europe
+  location:
+      city: Dusseldorf
+      country: Germany
+  date: August 29 - 31, 2018
+  start-date: 1535500800
+  cost: unknown
+
 
 - name: SaltConf
   url: http://saltconf.com/
@@ -268,6 +296,15 @@
   start-date: 1540166400
   cost: unknown
 
+- name: LISA18
+  url: https://www.usenix.org/conference/lisa18
+  location:
+      city: Nashville
+      country: USA
+  date: October 28 - November 2, 2018
+  start-date: 1540684800
+  cost: unknown
+
 - name: DevOps East
   url: https://devopseast.techwell.com/
   location:
@@ -294,3 +331,4 @@
   date: December 11 - 13, 2018
   start-date: 1544486400
   cost: unknown
+
