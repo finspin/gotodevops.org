@@ -367,6 +367,15 @@
   start-date: 1527465600
   cost: 2
 
+- name: DevOpsDays Toronto
+  url: https://www.devopsdays.org/events/2018-toronto
+  location:
+      city: Toronto
+      country: Canada
+  date: May 30 - 31, 2018
+  start-date: 1527681600
+  cost: 1
+
 - name: DevOps West
   url: https://devopswest.techwell.com/
   location:
