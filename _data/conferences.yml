@@ -331,6 +331,15 @@
   start-date: 1526472000
   cost: 1
 
+- name: DevOpsDays Silicon Valley
+  url: https://www.devopsdays.org/events/2018-silicon-valley/
+  location:
+      city: Mountain View
+      country: USA
+  date: May 17 - 18, 2018
+  start-date: 1526558400
+  cost: 1
+
 - name: ChefConf
   url: https://chefconf.chef.io/
   location:
