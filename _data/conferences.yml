@@ -448,6 +448,15 @@
   start-date: 1531396800
   cost: 1
 
+- name: DevOpsDays Indianapolis
+  url: https://www.devopsdays.org/events/2018-indianapolis
+  location:
+      city: Indianapolis
+      country: USA
+  date: July 23 - 24, 2018
+  start-date: 1532347200
+  cost: 1
+
 - name: SREcon18 Europe/Middle East/Africa
   url: https://www.usenix.org/conference/srecon18europe
   location:
