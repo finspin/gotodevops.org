@@ -277,6 +277,15 @@
   start-date: 1525262400
   cost: 1
 
+- name: DevOpsDays Austin
+  url: https://www.devopsdays.org/events/2018-austin
+  location:
+      city: Austin
+      country: USA
+  date: May 3 - 4, 2018
+  start-date: 1525348800
+  cost: 1
+
 - name: Red Hat Summit
   url: https://www.redhat.com/en/summit/2018
   location:
