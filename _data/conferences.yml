@@ -115,6 +115,15 @@
   start-date: 1520589600
   cost: 1
 
+- name: DevOpsDays Baltimore
+  url: https://www.devopsdays.org/events/2018-baltimore
+  location:
+      city: Baltimore
+      country: USA
+  date: March 21 - 22, 2018
+  start-date: 1521633600
+  cost: 1
+
 - name: DevOps Talks
   url: http://devopstalks.com/devops.html
   location:
