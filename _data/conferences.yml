@@ -16,6 +16,15 @@
   start-date: 1516320000
   cost: 1
 
+- name: Incontro DevOps Italia
+  url: http://2018.incontrodevops.it/
+  location:
+      city: Bologna
+      country: Italy
+  date: March 8 - 9, 2018
+  start-date: 1520467200
+  cost: 1
+
 - name: DevOps Talks
   url: http://devopstalks.com/devops.html
   location:
@@ -87,3 +96,12 @@
   date: October 22 - 24, 2018
   start-date: 1540166400
   cost: unknown
+
+- name: DevOps East
+  url: https://devopseast.techwell.com/
+  location:
+      city: Orlando
+      country: USA
+  date: November 4 - 9, 2018
+  start-date: 1541721600
+  cost: 3
