@@ -1,4 +1,4 @@
-- name: NCD London
+- name: NDC London
   url: https://ndc-london.com/
   location:
       city: London
@@ -177,6 +177,15 @@
   date: April 9 – 12, 2018
   start-date: 1523232001
   cost: 2
+
+- name: TechSummit
+  url: http://www.techsummit.io/berlin/
+  location:
+      city: Berlin
+      country: Germany
+  date: April 12, 2018
+  start-date: 1523491200
+  cost: 1
 
 - name: DevOpsDays Des Moines
   url: https://www.devopsdays.org/events/2018-des-moines
