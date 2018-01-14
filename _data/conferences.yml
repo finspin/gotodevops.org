@@ -520,6 +520,15 @@
   start-date: 1537358400
   cost: 1
 
+- name: DevOpsDays Riga
+  url: https://www.devopsdays.org/events/2018-riga
+  location:
+      city: Riga
+      country: Latvia
+  date: September 27 - 28, 2018
+  start-date: 1538049600
+  cost: 1
+
 - name: PuppetConf
   url: https://puppet.com/puppetconf
   location:
