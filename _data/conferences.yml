@@ -16,6 +16,42 @@
   start-date: 1516320000
   cost: 1
 
+- name: Fosdem
+  url: https://fosdem.org/2018/
+  location:
+      city: Brussels
+      country: Belgium
+  date: February 3 - 4, 2018
+  start-date: 1517616000
+  cost: free
+
+- name: Config Management Camp
+  url: http://cfgmgmtcamp.eu/
+  location:
+      city: Gent
+      country: Belgium
+  date: February 5 - 7, 2018
+  start-date: 1517788800
+  cost: free
+
+- name: ElasticOn
+  url: https://www.elastic.co/elasticon/conf/2018/sf
+  location:
+      city: San Francisco
+      country: USA
+  date: February 27 - March 1, 2018
+  start-date: 1519689600
+  cost: 2
+
+- name: GrafanaCon
+  url: http://grafanacon.org/
+  location:
+      city: Amsterdam
+      country: Netherlands
+  date: March 1 - 2, 2018
+  start-date: 1519862400
+  cost: 1
+
 - name: Incontro DevOps Italia
   url: http://2018.incontrodevops.it/
   location:
@@ -24,6 +60,15 @@
   date: March 8 - 9, 2018
   start-date: 1520467200
   cost: 1
+
+- name: ScaleConf
+  url: http://scaleconf.org/
+  location:
+      city: Cape Town
+      country: South Africa
+  date: March 8 - 9, 2018
+  start-date: 1520467201
+  cost: unknown
 
 - name: DevOps Talks
   url: http://devopstalks.com/devops.html
@@ -43,6 +88,51 @@
   start-date: 1523232000
   cost: 2
 
+- name: PowerShell Summit
+  url: https://powershell.org/summit/
+  location:
+      city: Bellevue
+      country: USA
+  date: April 9 – 12, 2018
+  start-date: 1523232001
+  cost: 2
+
+- name: Cloud Foundry Summit
+  url: https://www.cloudfoundry.org/event/nasummit2018/
+  location:
+      city: Boston
+      country: USA
+  date: April 18 – 20, 2018
+  start-date: 1524009600
+  cost: unknown
+
+- name: Interop ITX
+  url: https://www.interop.com/
+  location:
+      city: Las Vegas
+      country: USA
+  date: April 30 –  May 4, 2018
+  start-date: 1525046400
+  cost: 3
+
+- name: Red Hat Summit
+  url: https://www.redhat.com/en/summit/2018
+  location:
+      city: Orlando
+      country: USA
+  date: May 8 - 10, 2018
+  start-date: 1525737600
+  cost: 2
+
+- name: Gartner IT Summit
+  url: https://www.gartner.com/events/na/infrastructure-operations-management#
+  location:
+      city: Orlando
+      country: USA
+  date: May 15 - 17, 2018
+  start-date: 1526342399
+  cost: 2
+
 - name: Continuous LifeCycle
   url: https://continuouslifecycle.london
   location:
@@ -50,6 +140,15 @@
       country: UK
   date: May 15 - 18, 2018
   start-date: 1526342400
+  cost: 2
+
+- name: ChefConf
+  url: https://chefconf.chef.io/
+  location:
+      city: Chicago
+      country: USA
+  date: May 23 - 26, 2018
+  start-date: 1527033600
   cost: 2
 
 - name: DevOpsCon
@@ -70,7 +169,25 @@
   start-date: 1527984000
   cost: 3
 
-- name: dockercon18
+- name: MonitoRama
+  url: http://monitorama.com/
+  location:
+      city: Portland
+      country: USA
+  date: June 4 - 6, 2018
+  start-date: 1528070400
+  cost: 2
+
+- name: Velocity
+  url: https://conferences.oreilly.com/velocity/vl-ca
+  location:
+      city: San Jose
+      country: USA
+  date: June 11 - 14, 2018
+  start-date: 1528675200
+  cost: unknown
+
+- name: DockerCon
   url: https://2018.dockercon.com
   location:
       city: San Francisco
@@ -87,6 +204,51 @@
   date: June 25 - 26, 2018
   start-date: 1529884800
   cost: unknown
+
+- name: SaltConf
+  url: http://saltconf.com/
+  location:
+      city: Salt Like City
+      country: USA
+  date: September 10 - 14, 2018
+  start-date: 1536537600
+  cost: unknown
+
+- name: Jenkins World 2018
+  url: https://www.cloudbees.com/jenkinsworld
+  location:
+      city: San Francisco
+      country: USA
+  date: September 16 - 19, 2018
+  start-date: 1537056000
+  cost: unknown
+
+- name: PuppetConf
+  url: https://puppet.com/puppetconf
+  location:
+      city: San Francisco
+      country: USA
+  date: October 9 - 11, 2018
+  start-date: 1539043200
+  cost: 2
+
+- name: Cloud Foundry Summit
+  url: https://www.cloudfoundry.org/event/eusummit2018/
+  location:
+      city: Basel
+      country: Switzerland
+  date: October 10 – 11, 2018
+  start-date: 1539129600
+  cost: unknown
+
+- name: IT/Dev Connections
+  url: http://itdevconnections.com/dc18/Public/Enter.aspx
+  location:
+      city: Dallas
+      country: USA
+  date: October 15 - 18, 2018
+  start-date: 1539561600
+  cost: 2
 
 - name: HashiConf
   url: https://www.hashiconf.com
@@ -105,3 +267,21 @@
   date: November 4 - 9, 2018
   start-date: 1541721600
   cost: 3
+
+- name: re:INVENT
+  url: https://reinvent.awsevents.com/
+  location:
+      city: Las Vegas
+      country: USA
+  date: November 26 - 30, 2018
+  start-date: 1543190400
+  cost: unknown
+
+- name: KubeCon
+  url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/
+  location:
+      city: Seattle
+      country: USA
+  date: December 11 - 13, 2018
+  start-date: 1544486400
+  cost: unknown

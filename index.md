@@ -25,6 +25,8 @@ layout: homepage
                 {% case conference.cost %}
                     {% when "unknown" %}
                         <i class="fa fa-question"></i>
+                    {% when "free" %}
+                        <span>FREE</span>
                     {% when 1 %}
                         <i class="fa fa-usd"></i>
                     {% when 2 %}
