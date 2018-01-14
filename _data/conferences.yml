@@ -574,6 +574,15 @@
   start-date: 1540166400
   cost: unknown
 
+- name: DevOpsDays Philadelphia
+  url: https://www.devopsdays.org/events/2018-philadelphia
+  location:
+      city: Philadelphia
+      country: USA
+  date: October 23 - 24, 2018
+  start-date: 1540296000
+  cost: 1
+
 - name: LISA18
   url: https://www.usenix.org/conference/lisa18
   location:
