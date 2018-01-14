@@ -285,3 +285,39 @@
   date: December 11 - 13, 2018
   start-date: 1544486400
   cost: unknown
+
+- name: SREcon18 Europe/Middle East/Africa
+  url: https://www.usenix.org/conference/srecon18europe
+  location:
+      city: Dusseldorf
+      country: Germany
+  date: August 29 - 31, 2018
+  start-date: 
+  cost: 1
+
+- name: SREcon18 Asia/Australia
+  url: https://www.usenix.org/conference/srecon18asia
+  location:
+      city: Singapore
+      country: Singapore
+  date: June 6–8, 2018
+  start-date: 1515951146
+  cost: 1
+
+- name: SREcon18 Americas
+  url:https://www.usenix.org/conference/srecon18americas
+  location:
+      city: Santa Clara
+      country: USA
+  date: March 27–29, 2018
+  start-date: 1515951146
+  cost: 1
+
+- name: LISA18
+  url: https://www.usenix.org/conference/lisa18
+  location:
+      city: Nashville
+      country: USA
+  date: October 28-November 2, 2018
+  start-date: 1515951146
+  cost: unknown
