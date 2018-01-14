@@ -250,6 +250,15 @@
   start-date: 1539561600
   cost: 2
 
+- name: All Things Open
+  url: https://allthingsopen.org/
+  location:
+      city: Raleigh
+      country: USA
+  date: October 21 - 23, 2018
+  start-date: 1540080000 
+  cost: unknown
+
 - name: HashiConf
   url: https://www.hashiconf.com
   location:
