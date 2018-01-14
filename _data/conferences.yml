@@ -133,6 +133,15 @@
   start-date: 1521676800
   cost: 2
 
+- name: DevOpsDays Maringá
+  url: https://www.devopsdays.org/events/2018-maringa
+  location:
+      city: Maringá
+      country: Brazil
+  date: March 23 - 24, 2018
+  start-date: 1521806400
+  cost: 1
+
 - name: SREcon18 Americas
   url: https://www.usenix.org/conference/srecon18americas
   location:
