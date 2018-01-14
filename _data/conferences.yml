@@ -87,6 +87,15 @@
   date: March 8 - 11, 2018
   start-date: 1520467200
   cost: 1
+
+- name: DevOpsDays Los Angeles
+  url: https://www.devopsdays.org/events/2018-los-angeles
+  location:
+      city: Los Angeles
+      country: USA
+  date: March 9 - 10, 2018
+  start-date: 1520596800
+  cost: 1
   
 - name: ScaleConf
   url: http://scaleconf.org/
