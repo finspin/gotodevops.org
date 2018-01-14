@@ -285,3 +285,12 @@
   date: December 11 - 13, 2018
   start-date: 1544486400
   cost: unknown
+
+- name: All Things Open
+  url: https://allthingsopen.org/
+  location:
+      city: Raleigh
+      country: USA
+  date: October 21 - 23, 2018
+  start-date: 1540252800
+  cost: 1
