@@ -439,6 +439,15 @@
   start-date: 1530100800
   cost: 1
 
+- name: DevOpsDays Minneapolis
+  url: https://www.devopsdays.org/events/2018-minneapolis
+  location:
+      city: Minneapolis
+      country: USA
+  date: July 12 - 13, 2018
+  start-date: 1531396800
+  cost: 1
+
 - name: SREcon18 Europe/Middle East/Africa
   url: https://www.usenix.org/conference/srecon18europe
   location:
