@@ -124,6 +124,15 @@
   start-date: 1523232001
   cost: 2
 
+- name: TechSummit
+  url: http://www.techsummit.io/berlin/
+  location:
+      city: Berlin
+      country: Germany
+  date: April 12, 2018
+  start-date: 1523491200
+  cost: 1
+
 - name: Cloud Foundry Summit
   url: https://www.cloudfoundry.org/event/nasummit2018/
   location:
