@@ -511,6 +511,15 @@
   start-date: 1537056000
   cost: unknown
 
+- name: DevOpsDays Columbus
+  url: https://www.devopsdays.org/events/2018-columbus
+  location:
+      city: Columbus
+      country: USA
+  date: September 19 - 20, 2018
+  start-date: 1537358400
+  cost: 1
+
 - name: PuppetConf
   url: https://puppet.com/puppetconf
   location:
