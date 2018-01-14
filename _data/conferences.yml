@@ -484,6 +484,15 @@
   start-date: 1536537600
   cost: unknown
 
+- name: DevOpsDays Portland
+  url: https://www.devopsdays.org/events/2018-portland
+  location:
+      city: Portland
+      country: USA
+  date: September 11 - 12, 2018
+  start-date: 1536667200
+  cost: 1
+
 - name: Jenkins World 2018
   url: https://www.cloudbees.com/jenkinsworld
   location:
