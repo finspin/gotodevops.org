@@ -241,6 +241,15 @@
   start-date: 1524571200
   cost: 1
 
+- name: DevOpsDays Tokyo
+  url: https://www.devopsdays.org/events/2018-tokyo
+  location:
+      city: Tokyo
+      country: Japan
+  date: April 24 - 25, 2018
+  start-date: 1524571200
+  cost: 1
+
 - name: Interop ITX
   url: https://www.interop.com/
   location:
