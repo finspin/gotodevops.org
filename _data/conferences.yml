@@ -66,19 +66,10 @@
   location:
       city: Los Angeles
       country: USA
-  date: March 8-11, 2018
+  date: March 8 - 11, 2018
   start-date: 1520467200
   cost: 1
   
-- name: DevOpsDay Los Angeles
-  url: http://devopsdays.org/events/2018-los-angeles/
-  location:
-      city: Los Angeles
-      country: USA
-  date: March 9, 2018
-  start-date: 1520589600
-  cost: 1
-
 - name: ScaleConf
   url: http://scaleconf.org/
   location:
@@ -87,6 +78,15 @@
   date: March 8 - 9, 2018
   start-date: 1520467201
   cost: unknown
+
+- name: DevOpsDay Los Angeles
+  url: http://devopsdays.org/events/2018-los-angeles/
+  location:
+      city: Los Angeles
+      country: USA
+  date: March 9, 2018
+  start-date: 1520589600
+  cost: 1
 
 - name: DevOps Talks
   url: http://devopstalks.com/devops.html
