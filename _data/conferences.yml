@@ -214,6 +214,15 @@
   start-date: 1524009600
   cost: unknown
 
+- name: DevOpsDays Vancouver
+  url: https://www.devopsdays.org/events/2018-vancouver
+  location:
+      city: Vancouver
+      country: Canada
+  date: April 20 - 21, 2018
+  start-date: 1524225600
+  cost: 1
+
 - name: Interop ITX
   url: https://www.interop.com/
   location:
