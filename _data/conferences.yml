@@ -268,6 +268,15 @@
   start-date: 1525046400
   cost: 3
 
+- name: DevOpsDays Zürich
+  url: https://www.devopsdays.org/events/2018-zurich
+  location:
+      city: Zürich
+      country: Switzerland
+  date: May 2 - 3, 2018
+  start-date: 1525262400
+  cost: 1
+
 - name: Red Hat Summit
   url: https://www.redhat.com/en/summit/2018
   location:
