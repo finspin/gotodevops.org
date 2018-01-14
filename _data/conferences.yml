@@ -349,6 +349,15 @@
   start-date: 1527033600
   cost: 2
 
+- name: DevOpsDays Stockholm
+  url: https://www.devopsdays.org/events/2018-stockholm
+  location:
+      city: Stockholm
+      country: Sweden
+  date: May 24 - 25, 2018
+  start-date: 1527163200
+  cost: 1
+
 - name: DevOpsCon
   url: https://devopsconference.de/
   location:
