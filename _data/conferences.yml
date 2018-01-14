@@ -61,6 +61,24 @@
   start-date: 1520467200
   cost: 1
 
+- name: SCALE
+  url: http://socallinuxexpo.org/scale/16x/
+  location:
+      city: Los Angeles
+      country: USA
+  date: March 8-11, 2018
+  start-date: 1520467200
+  cost: 1
+  
+- name: DevOpsDay Los Angeles
+  url: http://devopsdays.org/events/2018-los-angeles/
+  location:
+      city: Los Angeles
+      country: USA
+  date: March 9, 2018
+  start-date: 1520589600
+  cost: 1
+
 - name: ScaleConf
   url: http://scaleconf.org/
   location:
