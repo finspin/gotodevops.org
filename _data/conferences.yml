@@ -178,6 +178,15 @@
   start-date: 1523232001
   cost: 2
 
+- name: DevOpsDays Des Moines
+  url: https://www.devopsdays.org/events/2018-des-moines
+  location:
+      city: Des Moines
+      country: USA
+  date: April 12 - 13, 2018
+  start-date: 1523534400
+  cost: 1
+
 - name: Cloud Foundry Summit
   url: https://www.cloudfoundry.org/event/nasummit2018/
   location:
