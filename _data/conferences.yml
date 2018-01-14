@@ -493,6 +493,15 @@
   start-date: 1536667200
   cost: 1
 
+- name: DevOpsDays Berlin
+  url: https://www.devopsdays.org/events/2018-berlin
+  location:
+      city: Berlin
+      country: Germany
+  date: September 12 - 13, 2018
+  start-date: 1536753600
+  cost: 1
+
 - name: Jenkins World 2018
   url: https://www.cloudbees.com/jenkinsworld
   location:
