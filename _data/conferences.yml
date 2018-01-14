@@ -322,6 +322,15 @@
   start-date: 1526342400
   cost: 2
 
+- name: DevOpsDays Kiel
+  url: https://www.devopsdays.org/events/2018-kiel
+  location:
+      city: Kiel
+      country: Germany
+  date: May 16 - 17, 2018
+  start-date: 1526472000
+  cost: 1
+
 - name: ChefConf
   url: https://chefconf.chef.io/
   location:
