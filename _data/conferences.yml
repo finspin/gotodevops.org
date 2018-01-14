@@ -295,6 +295,15 @@
   start-date: 1525737600
   cost: 2
 
+- name: DevOpsDays Salt Lake city
+  url: https://www.devopsdays.org/events/2018-salt-lake-city
+  location:
+      city: Salt Lake City
+      country: USA
+  date: May 15 - 16, 2018
+  start-date: 1526385600
+  cost: 1
+
 - name: Gartner IT Summit
   url: https://www.gartner.com/events/na/infrastructure-operations-management#
   location:
