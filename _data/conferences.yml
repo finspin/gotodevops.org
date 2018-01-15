@@ -403,6 +403,15 @@
   start-date: 1528243200
   cost: unknown
 
+- name: MacDevOpsYVR
+  url: https://mdoyvr.com
+  location:
+      city: Vancouver
+      country: Canada
+  date: June 7 - 8, 2018
+  start-date: 1528381800
+  cost: 2
+
 - name: Velocity
   url: https://conferences.oreilly.com/velocity/vl-ca
   location:
