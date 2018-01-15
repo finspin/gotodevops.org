@@ -6,7 +6,7 @@
     {% include header.html %}
 
     <div class="content">
-        <div id="conferences">
+        <div id="conferences-mobile" class="d-block d-sm-none">
             <div class="row">
                 <div class="col-xs-12 d-block d-sm-none">
                     <table class="table table-hover">
@@ -47,7 +47,11 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-md-12 d-none d-sm-block">
+            </div>
+        </div>
+        <div id="conferences" class="d-none d-sm-block">
+            <div class="row">
+                <div class="col-md-12">
                     <table class="table table-hover">
                         <thead class="thead-dark">
                         <tr>
