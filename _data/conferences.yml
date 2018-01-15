@@ -21,8 +21,8 @@
   location:
       city: Bochum
       country: Germany
-  date: January 19 - 25, 2018
-  start-date: 1516320000
+  date: February 19 - 21, 2018
+  start-date: 1519025400
   cost: 1
 
 - name: Fosdem
@@ -105,6 +105,15 @@
   date: March 8 - 9, 2018
   start-date: 1520467201
   cost: unknown
+
+- name: DevOn Summit
+  url: https://www.devonsummit.com/
+  location:
+      city: Utrecht
+      country: Netherlands
+  date: March 14, 2018
+  start-date: 1521014400
+  cost: 1
 
 - name: DevOpsDays Baltimore
   url: https://www.devopsdays.org/events/2018-baltimore
@@ -294,6 +303,15 @@
   date: May 8 - 10, 2018
   start-date: 1525737600
   cost: 2
+  
+- name: RootConf
+  url: https://rootconf.in/2018/
+  location:
+      city: Bangalore
+      country: India
+  date: May 11 - 12, 2018
+  start-date: 1525996800
+  cost: 1
 
 - name: DevOpsDays Salt Lake city
   url: https://www.devopsdays.org/events/2018-salt-lake-city
@@ -339,6 +357,15 @@
   date: May 17 - 18, 2018
   start-date: 1526558400
   cost: 1
+
+- name: Container Camp Australia
+  url: https://2018.container.camp/au/
+  location:
+      city: Melbourne
+      country: Australia
+  date: May 23 - 25, 2018
+  start-date: 1527030000
+  cost: unknown
 
 - name: ChefConf
   url: https://chefconf.chef.io/
@@ -402,6 +429,15 @@
   date: June 6 – 8, 2018
   start-date: 1528243200
   cost: unknown
+
+- name: MacDevOpsYVR
+  url: https://mdoyvr.com
+  location:
+      city: Vancouver
+      country: Canada
+  date: June 7 - 8, 2018
+  start-date: 1528381800
+  cost: 2
 
 - name: Velocity
   url: https://conferences.oreilly.com/velocity/vl-ca
@@ -627,4 +663,3 @@
   date: December 11 - 13, 2018
   start-date: 1544486400
   cost: unknown
-
