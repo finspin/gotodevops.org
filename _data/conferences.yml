@@ -159,6 +159,15 @@
   date: May 8 - 10, 2018
   start-date: 1525737600
   cost: 2
+  
+- name: RootConf
+  url: https://rootconf.in/2018/
+  location:
+      city: Bangalore
+      country: India
+  date: May 11 - 12, 2018
+  start-date: 1525996800
+  cost: 1
 
 - name: Gartner IT Summit
   url: https://www.gartner.com/events/na/infrastructure-operations-management#
@@ -358,12 +367,3 @@
   date: December 11 - 13, 2018
   start-date: 1544486400
   cost: unknown
-
-- name: RootConf
-  url: https://rootconf.in/2018/
-  location:
-      city: Bangalore
-      country: India
-  date: May 11 - 12, 2018
-  start-date: 1525996800
-  cost: 1
