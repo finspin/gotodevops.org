@@ -340,6 +340,15 @@
   start-date: 1526558400
   cost: 1
 
+- name: Container Camp Australia
+  url: https://2018.container.camp/au/
+  location:
+      city: Melbourne
+      country: Australia
+  date: May 23 - 25, 2018
+  start-date: 1527030000
+  cost: 2
+
 - name: ChefConf
   url: https://chefconf.chef.io/
   location:
