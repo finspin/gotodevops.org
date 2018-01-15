@@ -303,6 +303,15 @@
   date: May 8 - 10, 2018
   start-date: 1525737600
   cost: 2
+  
+- name: RootConf
+  url: https://rootconf.in/2018/
+  location:
+      city: Bangalore
+      country: India
+  date: May 11 - 12, 2018
+  start-date: 1525996800
+  cost: 1
 
 - name: DevOpsDays Salt Lake city
   url: https://www.devopsdays.org/events/2018-salt-lake-city
@@ -654,4 +663,3 @@
   date: December 11 - 13, 2018
   start-date: 1544486400
   cost: unknown
-
