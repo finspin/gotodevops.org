@@ -286,6 +286,15 @@
   start-date: 1525262400
   cost: 1
 
+- name: KubeCon and CloudNativeCon Europe
+  url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/
+  location:
+      city: Copenhagen
+      country: Denmark
+  date: May 2 - 4, 2018
+  start-date: 1525248000
+  cost: 2
+
 - name: DevOpsDays Austin
   url: https://www.devopsdays.org/events/2018-austin
   location:
@@ -655,7 +664,7 @@
   start-date: 1543190400
   cost: unknown
 
-- name: KubeCon
+- name: KubeCon and CloudNativeCon North America
   url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/
   location:
       city: Seattle
