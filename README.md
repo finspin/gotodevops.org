@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/finspin/gotodevops.org.svg?branch=master)](https://travis-ci.org/finspin/gotodevops.org)
+
 # What is this repo?
 
 This is a source code for the website [gotodevops.org](http://www.gotodevops.org).
