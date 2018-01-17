@@ -186,6 +186,15 @@
   date: April 9 – 12, 2018
   start-date: 1523232001
   cost: 2
+  
+- name: DevOps Barcelona
+  url: https://devops.barcelona/
+  location:
+      city: Barcelona
+      country: Spain
+  date: April 10 – 12, 2018
+  start-date: 1523318400
+  cost: 1
 
 - name: TechSummit
   url: http://www.techsummit.io/berlin/
