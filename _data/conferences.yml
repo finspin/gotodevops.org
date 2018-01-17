@@ -340,6 +340,15 @@
   start-date: 1526385600
   cost: 1
 
+- name: Devops 2018
+  url: http://devops2018.com/
+  location:
+      city: Helsinki
+      country: Finland
+  date: May 15 - 16, 2018
+  start-date: 1526367600
+  cost: 1
+
 - name: Gartner IT Summit
   url: https://www.gartner.com/events/na/infrastructure-operations-management#
   location:
