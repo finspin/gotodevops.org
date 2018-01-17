@@ -259,6 +259,15 @@
   start-date: 1524571200
   cost: 1
 
+- name: FlossUK Spring Conference
+  url: https://www.flossuk.org/membership/spring-conference-2018/
+  location:
+      city: Edinburgh
+      country: Scotland
+  date: April 25 - 27, 2018
+  start-date: 1524646800
+  cost: 1
+
 - name: DevOpsDays Jakarta
   url: https://www.devopsdays.org/events/2018-jakarta
   location:
