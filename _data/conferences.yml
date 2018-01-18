@@ -519,6 +519,15 @@
   date: June 25 - 26, 2018
   start-date: 1529884800
   cost: unknown
+  
+- name: HashiDays
+  url: https://www.hashidays.com/
+  location:
+      city: Amsterdam
+      country: Netherlands
+  date: June 25 - 27, 2018
+  start-date: 1529917200
+  cost: $
 
 - name: DevOpsDays Amsterdam
   url: https://www.devopsdays.org/events/2018-amsterdam
