@@ -17,13 +17,13 @@
   cost: 1
   
 - name: Devops 2018 Copenhangen
-    url: https://www.eficode.com/events/devops-copenhagen
-    location:
-        city: Copenhagen
-        country: Denmark
-    date: January 23, 2018
-    start-date: 1516701600
-    cost: 1
+  url: https://www.eficode.com/events/devops-copenhagen
+  location:
+      city: Copenhagen
+      country: Denmark
+  date: January 23, 2018
+  start-date: 151670160
+  cost: 1
 
 - name: DevOps Gathering
   url: https://devops-gathering.io/
