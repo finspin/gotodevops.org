@@ -349,6 +349,15 @@
   start-date: 1525737600
   cost: 2
   
+- name: Craft Conference
+  url: https://craft-conf.com/
+  location:
+      city: Budapest
+      country: Hungary
+  date: May 8 - 11, 2018
+  start-date: 1525737601
+  cost: 1
+  
 - name: RootConf
   url: https://rootconf.in/2018/
   location:
