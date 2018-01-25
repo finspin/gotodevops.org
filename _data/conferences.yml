@@ -16,7 +16,7 @@
   start-date: 1516276800
   cost: 1
   
-- name: Devops 2018 Copenhangen
+- name: Devops 2018 Copenhagen
   url: https://www.eficode.com/events/devops-copenhagen
   location:
       city: Copenhagen
@@ -293,15 +293,6 @@
       country: Japan
   date: April 24 - 25, 2018
   start-date: 1524571200
-  cost: 1
-
-  - name: DevOpsDays Copenhagen
-  url: https://www.devopsdays.org/events/2018-copenhagen/
-  location:
-      city: Copenhagen
-      country: Denmark
-  date: April 24 - 25, 2018
-  start-date: 1524558600
   cost: 1
 
 - name: FlossUK Spring Conference
