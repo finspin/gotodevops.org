@@ -16,7 +16,7 @@
   start-date: 1516276800
   cost: 1
   
-- name: Devops 2018 Copenhangen
+- name: Devops 2018 Copenhagen
   url: https://www.eficode.com/events/devops-copenhagen
   location:
       city: Copenhagen
@@ -122,6 +122,15 @@
       country: Netherlands
   date: March 14, 2018
   start-date: 1521014400
+  cost: 1
+
+- name: Day Of Cloud Native 
+  url: https://www.code-conf.com/2018/dcn/
+  location:
+      city: Oslo  
+      country: Norway
+  date: March 20, 2018
+  start-date: 1521534600
   cost: 1
 
 - name: Cloud Expo Europe
