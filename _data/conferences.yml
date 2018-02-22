@@ -79,6 +79,15 @@
   start-date: 1519862400
   cost: 1
 
+- name: DevOpsDays Kiev
+  url: https://www.devopsdays.org/events/2018-kiev
+  location:
+      city: Kiev
+      country: Ukraine
+  date: March 5, 2018
+  start-date: 1520236800
+  cost: 1
+
 - name: Incontro DevOps Italia
   url: http://2018.incontrodevops.it/
   location:
@@ -178,14 +187,6 @@
   start-date: 1522108800
   cost: unknown
 
-- name: DevOpsDays Kiev
-  url: https://www.devopsdays.org/events/2018-kiev
-  location:
-      city: Kiev
-      country: Ukraine
-  date: March 31, 2018
-  start-date: 1522497600
-  cost: 1
 
 - name: JAX DevOps
   url: https://devops.jaxlondon.com
@@ -564,6 +565,14 @@
   date: June 27 - 29, 2018
   start-date: 1530100800
   cost: 1
+
+- name: Dash
+  url: https://www.dashcon.io
+  location:
+      city: New York City
+      country: USA
+  date: July 11 - 12, 2018
+  start-date: 1531400400
 
 - name: DevOpsDays Minneapolis
   url: https://www.devopsdays.org/events/2018-minneapolis
