@@ -573,6 +573,7 @@
       country: USA
   date: July 11 - 12, 2018
   start-date: 1531400400
+  cost: unknown
 
 - name: DevOpsDays Minneapolis
   url: https://www.devopsdays.org/events/2018-minneapolis
