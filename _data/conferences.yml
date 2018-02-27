@@ -540,6 +540,15 @@
   start-date: 1528761600
   cost: 2
 
+- name: Global DevOps Bootcamp
+  url: http://globaldevopsbootcamp.com/
+  location:
+      city: Worldwide
+      country: Global
+  date: June 16, 2018
+  start-date: 1529143200
+  cost: free
+
 - name: DevOps Enterprise Summit
   url: https://events.itrevolution.com/eur
   location:
