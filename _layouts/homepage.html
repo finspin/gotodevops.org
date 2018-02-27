@@ -21,7 +21,8 @@
                         </tr>
                         </thead>
                         <tbody class="list">
-                        {% for conference in site.data.conferences %}
+                        {% assign conferences = site.data.conferences | sort: 'start-date' %}
+                        {% for conference in conferences %}
                         <tr>
                             <td class="name" data-name="{{ conference.name }}"><a href="{{ conference.url }}">{{
                                 conference.name }}</a><br>
@@ -66,7 +67,8 @@
                         </tr>
                         </thead>
                         <tbody class="list">
-                        {% for conference in site.data.conferences %}
+                        {% assign conferences = site.data.conferences | sort: 'start-date' %}
+                        {% for conference in conferences %}
                         <tr>
                             <td class="name" data-name="{{ conference.name }}"><a href="{{ conference.url }}">{{
                                 conference.name }}</a></td>

@@ -1,3 +1,12 @@
+- name: DevOpsDays New York City
+  url: https://www.devopsdays.org/events/2018-new-york-city/
+  location:
+      city: New York City
+      country: USA
+  date: January 18 - 19, 2018
+  start-date: 1516276800
+  cost: 1
+
 - name: NDC London
   url: https://ndc-london.com/
   location:
@@ -7,15 +16,7 @@
   start-date: 1515974400
   cost: 2
 
-- name: DevOpsDays New York City
-  url: https://www.devopsdays.org/events/2018-new-york-city/
-  location:
-      city: New York City
-      country: USA
-  date: January 18 - 19, 2018
-  start-date: 1516276800
-  cost: 1
-  
+
 - name: Devops 2018 Copenhagen
   url: https://www.eficode.com/events/devops-copenhagen
   location:
