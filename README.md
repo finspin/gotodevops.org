@@ -17,6 +17,6 @@ To add a new conference, modify the [conferences.yml](https://github.com/finspin
      city: e.g. New York
      country: e.g. USA
   date: e.g. January 18 - 19, 2018
-  start-date: epoch timestamp, e.g. 1516276800 (use [https://www.epochconverter.com/](https://www.epochconverter.com/) to generate)
-  cost: [free, 1, 2, 3] under $400/day: 1, under $800/day: 2, over $800/day: 3
+  start-date: epoch timestamp, e.g. 1516276800 (use https://www.epochconverter.com to generate the timestamp)
+  cost: [free, 1, 2, 3] under $400/day = 1, under $800/day = 2, over $800/day = 3
 ```
