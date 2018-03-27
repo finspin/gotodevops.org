@@ -377,6 +377,15 @@
   date: May 11 - 12, 2018
   start-date: 1525996800
   cost: 1
+  
+- name: CoDers Who Test Gothenburg
+  url: https://www.code-conf.com/2018/coders-who-test/
+  location:
+      city: Gothenburg
+      country: Sweden
+  date: May 15, 2018
+  start-date: 1526342400
+  cost: 1
 
 - name: DevOpsDays Salt Lake city
   url: https://www.devopsdays.org/events/2018-salt-lake-city
