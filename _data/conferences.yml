@@ -486,6 +486,15 @@
   start-date: 1527681600
   cost: 1
 
+- name: dotScale 2018
+  url: https://www.dotscale.io
+  location:
+      city: Paris
+      country: France
+  date: June 1, 2018
+  start-date: 1527838200
+  cost: 1
+
 - name: DevOps West
   url: https://devopswest.techwell.com/
   location:
