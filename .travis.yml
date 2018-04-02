@@ -23,4 +23,5 @@ deploy:
   
 after_deploy:
   - aws configure set preview.cloudfront true
-  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+  - aws cloudfront create-invalidation --distribution-id $WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+  - aws cloudfront create-invalidation --distribution-id $NON_WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
