@@ -800,3 +800,12 @@
   date: December 11 - 13, 2018
   start-date: 1544486400
   cost: unknown
+
+- name: Atmosphere 
+  url: http://atmosphere-conference.com/
+  location:
+      city: Warsaw
+      country: Poland
+  date: June 18, 2018
+  start-date: 1529308800
+  cost: 1
