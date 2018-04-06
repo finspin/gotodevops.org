@@ -16,7 +16,6 @@
   start-date: 1515974400
   cost: 2
 
-
 - name: Devops 2018 Copenhagen
   url: https://www.eficode.com/events/devops-copenhagen
   location:
@@ -477,6 +476,15 @@
   start-date: 1527465600
   cost: 2
 
+- name: Riga Dev Days
+  url: https://rigadevdays.lv/
+  location:
+      city: Riga
+      country: Latvia
+  date: May 29 - 31, 2018
+  start-date: 1527552000
+  cost: 1
+  
 - name: DevOpsDays Toronto
   url: https://www.devopsdays.org/events/2018-toronto
   location:
