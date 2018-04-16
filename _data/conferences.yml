@@ -692,6 +692,15 @@
   start-date: 1537358400
   cost: 1
 
+  - name: DevOpsDays Boston
+    url: https://www.devopsdays.org/events/2018-boston
+    location:
+        city: Boston
+        country: USA
+    date: September 24 - 25, 2018
+    start-date: 1537801525
+    cost: 1
+
 - name: DevOpsDays Riga
   url: https://www.devopsdays.org/events/2018-riga
   location:
