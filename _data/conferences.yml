@@ -664,6 +664,15 @@
   date: September 11 - 12, 2018
   start-date: 1536667200
   cost: 1
+  
+- name: Jazoon TechDays
+  url: http://jazoon.com
+  location:
+      city: Bern
+      country: Switzerland
+  date: September 6 - 7, 2018
+  start-date: 1536224400
+  cost: 1
 
 - name: DevOpsDays Berlin
   url: https://www.devopsdays.org/events/2018-berlin
