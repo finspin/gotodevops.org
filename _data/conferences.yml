@@ -728,6 +728,15 @@
   start-date: 1538553600
   cost: free
 
+- name: JAX London
+  url: https://jaxlondon.com
+  location:
+      city: London
+      country: UK
+  date: October 08 - 11, 2018
+  start-date: 1538949601
+  cost: 2
+
 - name: PuppetConf
   url: https://puppet.com/puppetconf
   location:
