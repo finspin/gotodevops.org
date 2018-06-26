@@ -854,7 +854,7 @@
   start-date: 1529308800
   cost: 1
   
-  - name: DevOpsDays Shanghai 
+- name: DevOpsDays Shanghai 
   url: https://www.devopsdays.org/events/2018-shanghai
   location:
       city: Shanghai
@@ -863,7 +863,7 @@
   start-date: 1534582800
   cost: 1
   
-  - name: DevOpsDays Singapore 
+- name: DevOpsDays Singapore 
   url: https://www.devopsdays.org/events/2018-singapore
   location:
       city: Singapore
@@ -872,7 +872,7 @@
   start-date: 1539248400
   cost: 1
   
-  - name: DevOpsDays Taipei 
+- name: DevOpsDays Taipei 
   url: https://www.devopsdays.org/events/2018-taipei
   location:
       city: Taipei
@@ -880,4 +880,3 @@
   date: September 10 - 12, 2018
   start-date: 1536570000
   cost: 1
-
