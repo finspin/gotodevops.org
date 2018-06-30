@@ -826,7 +826,16 @@
   date: November 4 - 9, 2018
   start-date: 1541721600
   cost: 3
-
+  
+- name: RE•WORK Machine Learning for DevOps Summit
+  url: https://www.re-work.co/events/machine-learning-for-devops-summit-2018
+  location:
+     city: Houston
+     country: USA
+  date: November 29 - 30, 2018
+  start-date: 1543487324
+  cost: 2
+  
 - name: re:INVENT
   url: https://reinvent.awsevents.com/
   location:
