@@ -827,6 +827,15 @@
   start-date: 1541721600
   cost: 3
   
+- name: DevOpsDays Galway
+  url: https://www.devopsdays.org/events/2018-galway/welcome/
+  location:
+      city: Galway
+      country: Ireland
+  date: November 19 - 20, 2018
+  start-date: 1542614400
+  cost: 2
+  
 - name: RE•WORK Machine Learning for DevOps Summit
   url: https://www.re-work.co/events/machine-learning-for-devops-summit-2018
   location:
