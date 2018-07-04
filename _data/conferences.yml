@@ -889,3 +889,12 @@
   date: September 10 - 12, 2018
   start-date: 1536570000
   cost: 1
+  
+- name: DevOps Gathering 2019
+  url: https://devops-gathering.io/
+  location: 
+     city: Bochum
+     country: Germany
+  date: March 11 - 13, 2019
+  start-date: 1520755200 
+  cost: 1
