@@ -907,3 +907,12 @@
   date: March 11 - 13, 2019
   start-date: 1552262400
   cost: 1
+  
+- name: DevOpsDays Cape Town 2018
+  url: https://www.devopsdays.org/events/2018-cape-town/
+  location:
+      city: Cape Town
+      country: South Africa
+  date: September 20 - 21, 2018
+  start-date: 1537428600
+  cost: 1
