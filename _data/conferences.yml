@@ -916,3 +916,12 @@
   date: September 20 - 21, 2018
   start-date: 1537428600
   cost: 1
+  
+- name: DevOps Summit Amsterdam
+  url: https://www.devopssummitamsterdam.com
+  location:
+      city: Amsterdam
+      country: The Netherlands
+  date: November 8 - 9, 2018
+  start-date: 1541667600
+  cost: 2
