@@ -629,6 +629,15 @@
   start-date: 1532347200
   cost: 1
 
+- name: DevOpsSaar
+  url: https://www.meetup.com/de-DE/DevOps-Saar/events/251877165/
+  location:
+      city: Saarbruecken
+      country: Germany
+  date: July 31, 2018
+  start-date: 1533060000
+  cost: free
+
 - name: SREcon18 Europe/Middle East/Africa
   url: https://www.usenix.org/conference/srecon18europe
   location:
