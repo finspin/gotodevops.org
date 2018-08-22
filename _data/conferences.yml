@@ -764,6 +764,15 @@
   start-date: 1539561600
   cost: 2
 
+- name: DevOps REX
+  url: http://www.devopsrex.fr/
+  location:
+      city: Paris
+      country: France
+  date: October 16, 2018
+  start-date: 1539673200
+  cost: 1
+
 - name: All Things Open
   url: https://allthingsopen.org/
   location:
