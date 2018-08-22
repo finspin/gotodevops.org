@@ -925,3 +925,12 @@
   date: November 8 - 9, 2018
   start-date: 1541667600
   cost: 2
+
+- name: DevOps India Summit 2018
+  url: https://www.xellentro.com/devops-india-summit-2018/
+  location:
+    city: Bangalore
+    country: India
+  date: August 31 - September 1, 2018
+  start-date: 1535688045
+  cost: 1
