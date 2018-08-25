@@ -943,3 +943,12 @@
   date: August 31 - September 1, 2018
   start-date: 1535688045
   cost: 1
+
+- name: DockerCon EU 2018
+  url: https://europe-2018.dockercon.com/
+  location:
+    city: Barcelona
+    country: Spain
+  date: December 2 - 5, 2018
+  start-date: 1543737600
+  cost: 2
