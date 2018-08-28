@@ -952,3 +952,21 @@
   date: December 2 - 5, 2018
   start-date: 1543737600
   cost: 2
+
+- name: DevOps Enterprise Summit EU
+  url: https://events.itrevolution.com/eur/
+  location:
+    city: London
+    country: UK
+  date: June 25 - 26, 2018
+  start-date: 1529906400
+  cost: 2
+
+- name: DevOps Enterprise Summit US
+  url: https://events.itrevolution.com/us/
+  location:
+    city: Las Vegas
+    country: USA
+  date: October 22 - 24, 2018
+  start-date: 1540137600
+  cost: 2
