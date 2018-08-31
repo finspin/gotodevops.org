@@ -539,7 +539,7 @@
   start-date: 1528381800
   cost: 2
 
-- name: Velocity
+- name: Velocity CA
   url: https://conferences.oreilly.com/velocity/vl-ca
   location:
       city: San Jose
@@ -547,6 +547,24 @@
   date: June 11 - 14, 2018
   start-date: 1528675200
   cost: 3
+
+- name: Velocity NY
+  url: https://conferences.oreilly.com/velocity/vl-ny
+  location:
+      city: New York
+      country: USA
+  date: Sep 30 - Oct 3, 2018
+  start-date: 1538312400
+  cost: 3
+
+- name: Velocity EU
+  url: https://conferences.oreilly.com/velocity/vl-eu
+  location:
+      city: London
+      country: UK
+  date: Oct 30 - Nov 2, 2018
+  start-date: 1540888200
+  cost: 2
 
 - name: Cloud & DevOps World
   url: https://tmt.knect365.com/cloud-devops-world/
@@ -951,4 +969,22 @@
     country: Spain
   date: December 2 - 5, 2018
   start-date: 1543737600
+  cost: 2
+
+- name: DevOps Enterprise Summit EU
+  url: https://events.itrevolution.com/eur/
+  location:
+    city: London
+    country: UK
+  date: June 25 - 26, 2018
+  start-date: 1529906400
+  cost: 2
+
+- name: DevOps Enterprise Summit US
+  url: https://events.itrevolution.com/us/
+  location:
+    city: Las Vegas
+    country: USA
+  date: October 22 - 24, 2018
+  start-date: 1540137600
   cost: 2
