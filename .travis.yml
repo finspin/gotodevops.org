@@ -1,11 +1,15 @@
-language: minimal
+language: node_js
+node_js:
+  - lts/*
 
 install:
 - pip install --user awscli
+- npm install
 
 script:
-- mkdir dist
-- cp -R css js index.html dist
+- mkdir publish
+- npm run build
+- cp -R index.html dist publish
 
 deploy:
   on:
@@ -17,7 +21,7 @@ deploy:
   region: us-west-2
   acl: public_read
   skip_cleanup: true
-  local_dir: ./dist
+  local_dir: ./publish
 
 after_deploy:
 - aws configure set preview.cloudfront true
