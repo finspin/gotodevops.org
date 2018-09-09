@@ -2,7 +2,7 @@
 
 # What is this repo?
 
-This is a source code for the website [gotodevops.org](http://www.gotodevops.org).
+This is the source code for the website [gotodevops.org](http://www.gotodevops.org).
 
 # How can I contribute?
 

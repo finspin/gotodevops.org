@@ -1,27 +1,24 @@
-language: ruby
-rvm:
-- 2.3.3
+language: minimal
 
 install:
-  - gem install jekyll
-  - pip install --user awscli
+- pip install --user awscli
 
 script:
-  - jekyll build
+- mkdir dist
+- cp -R css js index.html dist
 
 deploy:
   on:
-    branch: master
+    branch: beta
   provider: s3
-  bucket: www.gotodevops.org
+  bucket: beta.gotodevops.org
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: us-west-2
   acl: public_read
   skip_cleanup: true
-  local_dir: ./_site
-  
+  local_dir: ./dist
+
 after_deploy:
-  - aws configure set preview.cloudfront true
-  - aws cloudfront create-invalidation --distribution-id $WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-  - aws cloudfront create-invalidation --distribution-id $NON_WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+- aws configure set preview.cloudfront true
+- aws cloudfront create-invalidation --distribution-id $BETA_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
