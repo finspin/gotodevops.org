@@ -10,7 +10,8 @@ export default new Vuex.Store({
     filters: {
       cost: null,
       months: [],
-      weather: null
+      weather: null,
+      continent: null
     }
   },
   getters: {
@@ -24,10 +25,11 @@ export default new Vuex.Store({
       const activeCostFilter = state.filters.cost;
       const activeMonthFilter = state.filters.months;
       const activeWeatherFilter = state.filters.weather;
+      const activeContinentFilter = state.filters.continent;
 
 
       return _.filter(state.conferences, function (conference) {
-        let monthMatch, costMatch, weatherMatch = false;
+        let monthMatch, costMatch, continentMatch = false, weatherMatch = false;
 
         // Month filter
         const confDate = new Date(conference.startDate * 1000);
@@ -49,7 +51,21 @@ export default new Vuex.Store({
           weatherMatch = true
         }
 
-        return monthMatch && costMatch && weatherMatch;
+        // Continent filter
+        if (activeContinentFilter === null) {
+          continentMatch = true
+        } else if (activeContinentFilter === 'USA' && conference.location.country === 'USA') {
+          continentMatch = true
+        } else if (activeContinentFilter === 'Europe' && conference.location.continent === 'Europe') {
+          continentMatch = true
+        } else if (
+          activeContinentFilter === 'Asia / Australia' &&
+          ['Asia', 'Australia'].indexOf(conference.location.continent) > -1
+        ) {
+          continentMatch = true
+        }
+
+        return monthMatch && costMatch && weatherMatch && continentMatch;
       })
     }
   },
@@ -65,10 +81,14 @@ export default new Vuex.Store({
     UPDATE_WEATHER_FILTER: (state, weather) => {
       state.filters.weather = state.filters.weather === weather ? null : state.filters.weather = weather
     },
+    UPDATE_CONTINENT_FILTER: (state, continent) => {
+      state.filters.continent = state.filters.continent === continent ? null : continent
+    },
     CLEAR_ALL_FILTERS: state => {
       state.filters.cost = null;
       state.filters.months = [];
       state.filters.weather = null;
+      state.filters.continent = null;
     }
   }
   ,

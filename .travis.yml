@@ -4,10 +4,10 @@ node_js:
 
 install:
 - pip install --user awscli
-- npm install
 
 script:
 - mkdir publish
+- npm install
 - npm run build
 - cp -R index.html dist publish
 
