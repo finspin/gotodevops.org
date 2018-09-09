@@ -39,10 +39,6 @@
 </script>
 
 <style>
-  html, body {
-    margin-top: 29px;
-  }
-
   @media (max-width: 1200px) {
     .container {
       max-width: 100%;
@@ -57,10 +53,6 @@
   }
 
   @media (min-width: 768px) {
-    html, body {
-      margin-top: 50px;
-    }
-
     .scroll-element {
       height: 100vh;
       overflow: hidden;
