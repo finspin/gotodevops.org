@@ -598,7 +598,7 @@
   temperature:
     celsius: 9
     fahrenheit: 49
-  cost: 3
+  cost: 2
 
 - name: Fosdem
   url: https://fosdem.org/2019/
