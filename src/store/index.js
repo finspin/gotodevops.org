@@ -32,10 +32,11 @@ export default new Vuex.Store({
         let monthMatch, costMatch, continentMatch = false, weatherMatch = false;
 
         // Month filter
-        const confDate = new Date(conference.startDate * 1000);
-        const conferenceMonth = confDate.toLocaleString('en-us', {month: "short"}).toUpperCase();
+        const locale = 'en-us';
+        const confStartDate = new Date(conference.date.start);
+        const confStartMonth = confStartDate.toLocaleString(locale, {month: "short"}).toUpperCase();
 
-        monthMatch = activeMonthFilter.length === 0 ? true : activeMonthFilter.indexOf(conferenceMonth) > -1;
+        monthMatch = activeMonthFilter.length === 0 ? true : activeMonthFilter.indexOf(confStartMonth) > -1;
 
         // Cost filter
         costMatch = activeCostFilter === null ? true : conference.cost <= activeCostFilter;
@@ -43,11 +44,11 @@ export default new Vuex.Store({
         // Weather filter
         if (activeWeatherFilter === null) {
           weatherMatch = true;
-        } else if (activeWeatherFilter === 'cold' && conference.temperature <= 10) {
+        } else if (activeWeatherFilter === 'cold' && conference.temperature.celsius < 10) {
           weatherMatch = true;
-        } else if (activeWeatherFilter === 'mild' && (conference.temperature > 10 && conference.temperature < 20)) {
+        } else if (activeWeatherFilter === 'mild' && (conference.temperature.celsius >= 10 && conference.temperature.celsius < 20)) {
           weatherMatch = true;
-        } else if (activeWeatherFilter === 'warm' && conference.temperature >= 20) {
+        } else if (activeWeatherFilter === 'warm' && conference.temperature.celsius >= 20) {
           weatherMatch = true
         }
 
