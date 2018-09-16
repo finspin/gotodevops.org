@@ -7,7 +7,7 @@
       <div class="col-12">
         <div class="location">{{conference.location.city }}, {{ conference.location.country}}</div>
       </div>
-      <div class="col-6">
+      <div class="col-7">
         <div class="date">
           <!--<i class="far fa-calendar-alt"></i> &lt;!&ndash;{{ conference.date.start }} - {{ conference.date.end }}&ndash;&gt;-->
           <i class="far fa-calendar-alt"></i> {{ conferenceDateRange(conference) }}
@@ -23,7 +23,7 @@
           }}℃
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-2">
         <div class="cost float-right">
           <div v-if="conference.cost === 0">FREE</div>
           <div v-if="conference.cost === 1">
@@ -84,7 +84,7 @@
 
 <style scoped>
   .conference {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ececec;
     padding-top: 20px;
     padding-bottom: 10px;
   }

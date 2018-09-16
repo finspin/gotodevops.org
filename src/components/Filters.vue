@@ -33,7 +33,7 @@
 
   @media (min-width: 768px) {
     #filters {
-      background-color: #fff;
+      border-radius: 9px;
     }
   }
 </style>

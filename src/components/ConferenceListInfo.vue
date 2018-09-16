@@ -5,7 +5,6 @@
         Showing {{ numberOfDisplayedConferences }} out of {{ numberOfConferences }} conferences. <span class="link-style" @click="clearAllFilters()">Clear all filters</span>
       </div>
       <div class="col-12" v-if="numberOfDisplayedConferences === 0">
-        <!--<p>There are no conferences to display.</p>-->
         <p>There are no conferences to display. Try removing some filters or <span class="link-style" @click="clearAllFilters()">clear all filters</span>.</p>
       </div>
     </div>
@@ -44,7 +43,7 @@
 
   .link-style {
     cursor: pointer;
-    color: #298cff;
+    color: #ef4150;
     text-decoration: underline;
   }
 </style>

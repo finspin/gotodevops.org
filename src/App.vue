@@ -16,6 +16,7 @@
 </template>
 
 <script>
+  import 'bootstrap';
   import Conferences from './components/Conferences'
   import ConferenceListInfo from './components/ConferenceListInfo'
   import Filters from './components/Filters'
