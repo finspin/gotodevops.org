@@ -35,8 +35,9 @@ export default new Vuex.Store({
         const locale = 'en-us';
         const confStartDate = new Date(conference.date.start);
         const confStartMonth = confStartDate.toLocaleString(locale, {month: "short"}).toUpperCase();
+        const confStartYear = confStartDate.getFullYear().toString();
 
-        monthMatch = activeMonthFilter.length === 0 ? true : activeMonthFilter.indexOf(confStartMonth) > -1;
+        monthMatch = activeMonthFilter.length === 0 ? true : _.findIndex(state.filters.months, { month: confStartMonth, year: confStartYear}) > -1;
 
         // Cost filter
         costMatch = activeCostFilter === null ? true : conference.cost <= activeCostFilter;
@@ -74,10 +75,10 @@ export default new Vuex.Store({
     UPDATE_COST_FILTER: (state, cost) => {
       state.filters.cost = state.filters.cost === cost ? null : cost
     },
-    UPDATE_MONTH_FILTER: (state, month) => {
-      const index = state.filters.months.indexOf(month);
+    UPDATE_MONTH_FILTER: (state, payload) => {
+      const index = _.findIndex(state.filters.months, payload);
 
-      index > -1 ? state.filters.months.splice(index, 1) : state.filters.months.push(month)
+      index > -1 ? state.filters.months.splice(index, 1) : state.filters.months.push(payload)
     },
     UPDATE_WEATHER_FILTER: (state, weather) => {
       state.filters.weather = state.filters.weather === weather ? null : state.filters.weather = weather

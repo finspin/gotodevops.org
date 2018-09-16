@@ -26,6 +26,7 @@
 <style scoped>
   #conferences {
     padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .fade-enter-active, .fade-leave-active {

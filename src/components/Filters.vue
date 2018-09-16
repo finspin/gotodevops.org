@@ -1,9 +1,9 @@
 <template>
   <div id="filters" class="container">
     <month-filter></month-filter>
+    <continent-filter></continent-filter>
     <cost-filter></cost-filter>
     <weather-filter></weather-filter>
-    <continent-filter></continent-filter>
   </div>
 </template>
 

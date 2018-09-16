@@ -22,4 +22,9 @@
     font-size: 23px;
     color: #fdeaea;
   }
+  @media (min-width: 768px) {
+    nav {
+      margin-bottom: 30px;
+    }
+  }
 </style>

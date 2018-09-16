@@ -1,15 +1,36 @@
 <template>
-  <div class="row month-filter">
-    <div class="col-12">
-      <div class="row no-gutters">
-        <div v-for="month in months" class="col-1">
-          <div @click="applyMonthFilter(month)"
-               :class="['month', { active: isActive(month) }]"
-          >{{ month }}
+  <div id="month-filters">
+    <div class="row month-filter">
+      <div class="col-12">
+          <span class="year">2018</span>
+      </div>
+      <div class="col-12">
+        <div class="row no-gutters">
+          <div v-for="month in months" class="col-1">
+            <div @click="applyMonthFilter(month, '2018')"
+                 :class="['month', { active: isActive(month, '2018') }]"
+            >{{ month }}
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="row month-filter">
+      <div class="col-12">
+        <span class="year">2019</span>
+      </div>
+      <div class="col-12">
+        <div class="row no-gutters">
+          <div v-for="month in months" class="col-1">
+            <div @click="applyMonthFilter(month, '2019')"
+                 :class="['month', { active: isActive(month, '2019') }]"
+            >{{ month }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -27,16 +48,17 @@
       ...mapMutations([
         'UPDATE_MONTH_FILTER'
       ]),
-      applyMonthFilter: function (month) {
-        this.UPDATE_MONTH_FILTER(month)
+      applyMonthFilter: function (month, year) {
+        const payload = { month: month, year: year };
+        this.UPDATE_MONTH_FILTER(payload)
       },
-      isActive: function (month) {
-        return this.filters.months.indexOf(month) > -1;
+      isActive: function (month, year) {
+        return _.findIndex(this.filters.months, { month: month, year: year}) > -1;
       }
     },
     data() {
       return {
-        months: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
+        months: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
       }
     }
   }
@@ -72,5 +94,9 @@
   .month.active {
     background-color: #e6616d;
     color: #fff;
+  }
+
+  .year {
+    font-size: 13px;
   }
 </style>
