@@ -17,7 +17,7 @@
         <div class="weather">
           <span v-if="conference.temperature.celsius < 10"><i class="far fa-snowflake"></i>️️</span>
           <span v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"><i
-            class="wi wi-day-cloudy"></i></span>
+            class="fa fa-cloud"></i></span>
           <span v-if="conference.temperature.celsius >= 20"><i class="fas fa-umbrella-beach"></i>️</span> {{
           conference.temperature.celsius
           }}℃

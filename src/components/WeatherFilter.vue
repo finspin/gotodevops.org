@@ -11,8 +11,8 @@
         </div>
         <div class="col-4">
           <div @click="applyWeatherFilter('mild')" :class="['weather', { active: isActive('mild') }]">
-            <!--<i class="fas fa-cloud"></i>-->
-            <i class="wi wi-day-cloudy"></i>
+            <i class="fas fa-cloud"></i>
+            <!--<i class="wi wi-day-cloudy"></i>-->
            <!--WARM-->
           </div>
         </div>
@@ -54,7 +54,7 @@
 
 <style scoped>
   .weather-filter {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
   .weather {
