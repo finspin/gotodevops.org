@@ -43,7 +43,7 @@
 
   .link-style {
     cursor: pointer;
-    color: #ef4150;
+    color: #ff2f3f;
     text-decoration: underline;
   }
 </style>

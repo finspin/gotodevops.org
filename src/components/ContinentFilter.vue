@@ -63,7 +63,7 @@
   }
 
   .continent.active {
-    background-color: #ef4150;
+    background-color: #ff2f3f;
     color: #fff;
   }
 </style>

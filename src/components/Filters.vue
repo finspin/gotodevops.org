@@ -1,9 +1,22 @@
 <template>
   <div id="filters" class="container">
-    <month-filter></month-filter>
-    <continent-filter></continent-filter>
-    <cost-filter></cost-filter>
-    <weather-filter></weather-filter>
+    <div class="row">
+      <div class="col-4 offset-8">
+        <!--<a class="" data-toggle="collapse" href="#collapse-filters" role="button" aria-expanded="false" aria-controls="collapse-filters">-->
+          <!--<i class="fas fa-filter"></i> FILTERS-->
+        <!--</a>-->
+        <button class="btn btn-filter btn-sm float-right" type="button" data-toggle="collapse" data-target="#collapse-filters"
+                aria-expanded="false" aria-controls="collapse-filters">
+          <i class="fas fa-filter"></i> FILTERS
+        </button>
+      </div>
+    </div>
+    <div class="collapse" id="collapse-filters">
+      <month-filter></month-filter>
+      <continent-filter></continent-filter>
+      <cost-filter></cost-filter>
+      <weather-filter></weather-filter>
+    </div>
   </div>
 </template>
 
@@ -26,10 +39,18 @@
 
 <style scoped>
   #filters {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: aliceblue;
   }
+
+  .btn-filter {
+    background-color: #ff2f3f;
+    color: #fff;
+    border: 1px solid #ff2f3f;
+  }
+
+
 
   @media (min-width: 768px) {
     #filters {

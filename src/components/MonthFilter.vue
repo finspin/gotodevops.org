@@ -66,6 +66,7 @@
 
 <style scoped>
   .month-filter {
+    padding-top: 20px;
     padding-bottom: 30px;
   }
 
@@ -92,7 +93,7 @@
   }
 
   .month.active {
-    background-color: #ef4150;
+    background-color: #ff2f3f;
     color: #fff;
   }
 

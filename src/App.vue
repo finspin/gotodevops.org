@@ -61,4 +61,8 @@
       border-left: 1px solid #ececec;
     }
   }
+
+  .btn:focus, button:focus {
+    box-shadow: none;
+  }
 </style>

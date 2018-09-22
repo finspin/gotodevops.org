@@ -48,7 +48,7 @@
 
 <style scoped>
   .weather-filter {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
 
   .weather {
@@ -63,7 +63,7 @@
   }
 
   .weather.active {
-    background-color: #ef4150;
+    background-color: #ff2f3f;
     color: #fff;
   }
 </style>
