@@ -1,6 +1,6 @@
 <template>
   <div id="month-filters">
-    <div class="row month-filter">
+    <div class="row month-filter first">
       <div class="col-12">
           <span class="year">2018</span>
       </div>
@@ -68,6 +68,10 @@
   .month-filter {
     padding-top: 20px;
     padding-bottom: 30px;
+  }
+
+  .month-filter.first {
+    padding-bottom: 0;
   }
 
   .month {

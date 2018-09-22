@@ -5,16 +5,22 @@
         <div class="col-4">
           <div @click="applyWeatherFilter('cold')" :class="['weather', { active: isActive('cold') }]">
             <i class="far fa-snowflake"></i>
+            <!--<i class="wi wi-snowflake-cold"></i>-->
+            <!--COLD-->
           </div>
         </div>
         <div class="col-4">
           <div @click="applyWeatherFilter('mild')" :class="['weather', { active: isActive('mild') }]">
-            <i class="fas fa-cloud"></i>
+            <!--<i class="fas fa-cloud"></i>-->
+            <i class="wi wi-day-cloudy"></i>
+           <!--WARM-->
           </div>
         </div>
         <div class="col-4">
           <div @click="applyWeatherFilter('warm')" :class="['weather', { active: isActive('warm') }]">
             <i class="fas fa-umbrella-beach"></i>
+            <!--<i class="wi wi-day-sunny"></i>-->
+            <!--HOT-->
           </div>
         </div>
       </div>
@@ -53,9 +59,9 @@
 
   .weather {
     border: 1px solid #e3e3e3;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 5px;
-    padding: 7px 0;
+    padding: 5px 0;
     color: #111;
     background-color: #f1f1f1;
     cursor: pointer;
