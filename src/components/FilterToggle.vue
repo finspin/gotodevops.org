@@ -3,6 +3,8 @@
     <div class="row">
       <div class="col-12 float-right">
         <div class="buttons float-right">
+          <a class="info" href="/"><i
+            class="fas fa-info-circle fa-2x"></i></a>
           <a class="btn btn-primary btn-sm btn-filter" href="/" role="button"><i
             class="fas fa-envelope"></i>&nbsp; SUBSCRIBE</a>
           <button class="btn btn-filter btn-sm" type="button" data-toggle="collapse"
@@ -10,7 +12,6 @@
                   aria-expanded="false" aria-controls="collapse-filters">
             <i class="fas fa-filter"></i> FILTERS
           </button>
-
         </div>
       </div>
     </div>
@@ -34,5 +35,11 @@
     color: #fff;
     border: 1px solid #ff2f3f;
     margin-left: 7px;
+  }
+
+  .info {
+    color: #666;
+    position: relative;
+    top: 7px;
   }
 </style>

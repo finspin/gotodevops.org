@@ -2,7 +2,10 @@
   <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <h1>gotoDevOps <i class="fas fa-angle-double-right"></i></h1>
+        <h1>
+          <img src="static/gotodevops-logo.png" alt="Go To DevOps logo" width="30" height="30">
+          <span class="site-title">Go To DevOps</span>
+        </h1>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,15 +42,20 @@
     border-bottom: 1px solid #ececec;
   }
 
-  h1 {
-    font-size: 21px;
-    color: #333;
-    font-weight: 600;
+  .navbar-light .navbar-toggler {
+    border: none;
   }
 
-  h1 i {
-    color: #fd3244;
-    font-size: 16px;
+  h1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .site-title {
+    position: relative;
+    top: 2px;
+    padding-left: 6px;
   }
 
   ul {
@@ -80,4 +88,5 @@
       padding-left: 15px;
     }
   }
+
 </style>
