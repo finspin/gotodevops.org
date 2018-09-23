@@ -3,7 +3,7 @@
     <div class="container">
       <a class="navbar-brand" href="/">
         <h1>
-          <img src="static/gotodevops-logo.png" alt="Go To DevOps logo" width="30" height="30">
+          <img src="/static/gotodevops-logo.png" alt="Go To DevOps logo" width="30" height="30">
           <span class="site-title">Go To DevOps</span>
         </h1>
       </a>
