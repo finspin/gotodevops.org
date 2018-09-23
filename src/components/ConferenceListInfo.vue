@@ -1,6 +1,9 @@
 <template>
   <div id="conference-list-info" class="container">
     <div class="row">
+      <div class="col-12 list-info" v-if="numberOfDisplayedConferences === numberOfConferences">
+        Showing all {{ numberOfConferences }} conferences. Try some filters above.
+      </div>
       <div class="col-12 list-info" v-if="numberOfDisplayedConferences > 0 && numberOfDisplayedConferences < numberOfConferences">
         Showing {{ numberOfDisplayedConferences }} out of {{ numberOfConferences }} conferences. <span class="link-style" @click="clearAllFilters()">Clear all filters</span>
       </div>
@@ -38,15 +41,19 @@
     text-align: center;
     font-size: 13px;
     color: grey;
-  }
-
-  .list-info {
-    padding-top: 15px;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 15px;
   }
 
   .link-style {
     cursor: pointer;
     color: #ff2f3f;
     text-decoration: underline;
+  }
+
+  @media (min-width: 768px) {
+    #conference-list-info {
+      border-bottom: none;
+    }
   }
 </style>

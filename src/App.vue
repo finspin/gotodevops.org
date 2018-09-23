@@ -5,7 +5,6 @@
       <div class="row">
         <div class="col-md-6 no-padding">
           <filters></filters>
-          <conference-list-info></conference-list-info>
         </div>
         <div class="col-md-6 no-padding scroll-element">
           <conferences></conferences>
@@ -18,7 +17,6 @@
 <script>
   import 'bootstrap';
   import Conferences from './components/Conferences'
-  import ConferenceListInfo from './components/ConferenceListInfo'
   import Filters from './components/Filters'
   import Navigation from './components/Navigation'
 
@@ -31,7 +29,6 @@
     },
     components: {
       Conferences,
-      ConferenceListInfo,
       Filters,
       Navigation
     }
