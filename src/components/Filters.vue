@@ -1,21 +1,18 @@
 <template>
-  <div>
-    <filter-toggle></filter-toggle>
-    <div class="container filters">
-      <div class="collapse d-md-none" id="collapse-filters">
-        <month-filter></month-filter>
-        <continent-filter></continent-filter>
-        <cost-filter></cost-filter>
-        <weather-filter></weather-filter>
-        <conference-list-info></conference-list-info>
-      </div>
-      <div class="d-none d-md-block">
-        <month-filter></month-filter>
-        <continent-filter></continent-filter>
-        <cost-filter></cost-filter>
-        <weather-filter></weather-filter>
-        <conference-list-info></conference-list-info>
-      </div>
+  <div class="container filters">
+    <div class="collapse d-md-none" id="collapse-filters">
+      <month-filter></month-filter>
+      <continent-filter></continent-filter>
+      <cost-filter></cost-filter>
+      <weather-filter></weather-filter>
+      <conference-list-info></conference-list-info>
+    </div>
+    <div class="d-none d-md-block">
+      <month-filter></month-filter>
+      <continent-filter></continent-filter>
+      <cost-filter></cost-filter>
+      <weather-filter></weather-filter>
+      <conference-list-info></conference-list-info>
     </div>
   </div>
 </template>
@@ -25,7 +22,6 @@
   import CostFilter from './CostFilter'
   import WeatherFilter from './WeatherFilter'
   import ContinentFilter from './ContinentFilter'
-  import FilterToggle from './FilterToggle'
   import ConferenceListInfo from './ConferenceListInfo'
 
   export default {
@@ -35,7 +31,6 @@
       CostFilter,
       WeatherFilter,
       ContinentFilter,
-      FilterToggle,
       ConferenceListInfo
     }
   }

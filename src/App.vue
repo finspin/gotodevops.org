@@ -4,6 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 no-padding">
+          <info-row></info-row>
           <filters></filters>
         </div>
         <div class="col-md-6 no-padding scroll-element">
@@ -19,18 +20,15 @@
   import Conferences from './components/Conferences'
   import Filters from './components/Filters'
   import Navigation from './components/Navigation'
+  import InfoRow from './components/InfoRow'
 
   export default {
-    name: 'App',
-    data() {
-      return {
-        msg: 'Welcome to Your Vue.js App'
-      }
-    },
+    name: 'DevopsConferences',
     components: {
       Conferences,
       Filters,
-      Navigation
+      Navigation,
+      InfoRow
     }
 
   }
