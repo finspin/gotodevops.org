@@ -67,15 +67,20 @@
 <style scoped>
   .info {
     color: #666;
+    margin-left: 7px;
     position: relative;
     top: 7px;
   }
 
-  .modal-body {
-
-  }
-
   table {
     font-size: 13px;
+  }
+
+  table th {
+    background-color: #f2f2f2;
+  }
+
+  .table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 1px;
   }
 </style>

@@ -102,7 +102,7 @@
   }
 
   .date, .weather, .cost {
-    color: #888;
+    color: #333;
     margin-bottom: 7px;
     font-size: 15px;
   }
@@ -115,7 +115,7 @@
 
   /*Make cloud icon slightly lighter color*/
   .fa-cloud {
-    color: #777;
+    color: #555;
   }
 
   a {
