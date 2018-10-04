@@ -961,7 +961,16 @@
   date: August 31 - September 1, 2018
   start-date: 1535688045
   cost: 1
-
+  
+- name: Serverless Computing London
+  url: https://serverlesscomputing.london/
+  location:
+    city: London
+    country: UK
+  date: November 12 - 14, 2018
+  start-date: 1541980800
+  cost: 2
+  
 - name: DockerCon EU 2018
   url: https://europe-2018.dockercon.com/
   location:
