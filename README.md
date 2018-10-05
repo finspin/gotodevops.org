@@ -2,21 +2,26 @@
 
 # What is this repo?
 
-This is a source code for the website [gotodevops.org](http://www.gotodevops.org).
+This is the source code for the website [gotodevops.org](http://www.gotodevops.org).
 
 # How can I contribute?
 
-To add a new conference, modify the [conferences.yml](https://github.com/finspin/gotodevops.org/blob/master/_data/conferences.yml) file and submit a pull request. To get the epoch timestamp for the `start-date` field you can use [https://www.epochconverter.com/](https://www.epochconverter.com/).
+To add a new conference, modify the [conferences.yml](https://github.com/finspin/gotodevops.org/blob/master/src/conferences.yml) file and submit a pull request.
 
 ## Data format
 
 ```
 - name: name of the conference
-  url: URL of the conference
+  url: URL of the conference site
   location:
-     city: e.g. New York
-     country: e.g. USA
-  date: e.g. January 18 - 19, 2018
-  start-date: epoch timestamp, e.g. 1516276800 (use https://www.epochconverter.com to generate the timestamp)
-  cost: [free, 1, 2, 3] under $400/day = 1, under $800/day = 2, over $800/day = 3
+    city: city where the conference takes place
+    country: country where the conference takes place
+    continent: continent where the conference takes place [ North America, South America, Europe, Asia, Africa, Australia, Antarctica]
+  date:
+    start: start date of the conference, e.g. 2019-10-22
+    end: end date of the conference, e.g. 2019-10-25
+  temperature:
+    celsius: average temperature in the city during the conference in Celsius, e.g. 18
+    fahrenheit: average temperature in the city during the conference in Fahrenheit, e.g. 65
+  cost: [free, 1, 2, 3] under $300/day = 1, under $600/day = 2, over $600/day = 3
 ```

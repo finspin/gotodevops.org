@@ -1,13 +1,15 @@
-language: ruby
-rvm:
-- 2.3.3
+language: node_js
+node_js:
+  - lts/*
 
 install:
-  - gem install jekyll
-  - pip install --user awscli
+- pip install --user awscli
 
 script:
-  - jekyll build
+- mkdir publish
+- npm install
+- npm run build
+- cp -R index.html dist static publish
 
 deploy:
   on:
@@ -19,9 +21,8 @@ deploy:
   region: us-west-2
   acl: public_read
   skip_cleanup: true
-  local_dir: ./_site
-  
+  local_dir: ./publish
+
 after_deploy:
-  - aws configure set preview.cloudfront true
-  - aws cloudfront create-invalidation --distribution-id $WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-  - aws cloudfront create-invalidation --distribution-id $NON_WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+- aws configure set preview.cloudfront true
+- aws cloudfront create-invalidation --distribution-id $BETA_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
