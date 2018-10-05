@@ -16,7 +16,13 @@ export default new Vuex.Store({
   },
   getters: {
     numberOfConferences: state => {
-      return state.conferences.length;
+      // Don't count conferences with start day older than today
+      return _.filter(state.conferences, function (conference) {
+        const confStartDate = new Date(conference.date.start);
+        if (confStartDate >= new Date()) {
+          return conference;
+        }
+      }).length;
     },
     numberOfDisplayedConferences: (state, context) => {
       return context.filteredConferences.length;
@@ -29,7 +35,7 @@ export default new Vuex.Store({
 
 
       return _.filter(state.conferences, function (conference) {
-        let monthMatch, costMatch, continentMatch = false, weatherMatch = false;
+        let monthMatch, costMatch, continentMatch = false, weatherMatch = false, show = true;
 
         // Month filter
         const locale = 'en-us';
@@ -67,7 +73,12 @@ export default new Vuex.Store({
           continentMatch = true
         }
 
-        return monthMatch && costMatch && weatherMatch && continentMatch;
+        // Hide conferences with start day older than today
+        if (confStartDate < new Date()) {
+          show = false;
+        }
+
+        return monthMatch && costMatch && weatherMatch && continentMatch && show;
       })
     }
   },

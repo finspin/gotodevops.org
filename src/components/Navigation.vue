@@ -18,7 +18,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/finspin/gotodevops.org#how-can-i-contribute"><i class="fas fa-plus"></i> ADD CONFERENCE</a>
+            <a class="nav-link" href="https://www.subscribepage.com/devops-conferences" rel="nofollow"><i class="fas fa-envelope"></i> SUBSCRIBE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/finspin/gotodevops.org#how-can-i-contribute" rel="nofollow"><i class="fas fa-plus"></i> ADD CONFERENCE</a>
           </li>
         </ul>
       </div>
@@ -83,6 +86,11 @@
     nav {
       margin-bottom: 30px;
     }
+
+    .nav-item {
+      margin-left: 10px;
+    }
+
   }
 
   @media (max-width: 767px) {
@@ -91,11 +99,4 @@
       padding-right: 0;
     }
   }
-
-  /*@media (min-width: 1200px) {*/
-    /*h1 {*/
-      /*padding-left: 15px;*/
-    /*}*/
-  /*}*/
-
 </style>
