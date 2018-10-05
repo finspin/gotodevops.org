@@ -13,9 +13,9 @@ script:
 
 deploy:
   on:
-    branch: beta
+    branch: master
   provider: s3
-  bucket: beta.gotodevops.org
+  bucket: www.gotodevops.org
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: us-west-2
