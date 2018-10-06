@@ -17,7 +17,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item d-none d-md-block">
             <a class="nav-link" href="https://www.subscribepage.com/devops-conferences" rel="nofollow"><i class="fas fa-envelope"></i> SUBSCRIBE</a>
           </li>
           <li class="nav-item">
