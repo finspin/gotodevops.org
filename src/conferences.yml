@@ -1047,3 +1047,17 @@
     celsius: 27
     fahrenheit: 81
   cost: 1
+
+- name: Container Day
+  url: https://2018.containerday.it/
+  location:
+    city: Verona
+    country: Italy
+    continent: Europe
+  date:
+    start: 2018-10-25
+    end: 2018-10-26
+  temperature:
+    celsius: 16
+    fahrenheit: 61
+  cost: 1
