@@ -78,7 +78,7 @@
     color: #999;
   }
   
-  ul a.subscribe {
+  ul a.nav-link.subscribe {
     color: #ff4954;
     font-weight: bold;
   }

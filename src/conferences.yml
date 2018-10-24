@@ -626,7 +626,7 @@
   temperature:
     celsius: 21
     fahrenheit: 69
-  cost: unknown
+  cost: 1
 
 - name: Incontro DevOps Italia
   url: http://www.incontrodevops.it/events/idi2019/
@@ -696,7 +696,7 @@
   temperature:
     celsius: 21
     fahrenheit: 70
-  cost: unknown
+  cost: 1
 
 - name: Cloud Expo Europe
   url: https://www.cloudexpoeurope.com/
@@ -741,7 +741,7 @@
   cost: 1
 
 - name: SREcon Americas
-  url: hhttps://www.usenix.org/conference/srecon19americas
+  url: https://www.usenix.org/conference/srecon19americas
   location:
     city: New York
     country: USA
