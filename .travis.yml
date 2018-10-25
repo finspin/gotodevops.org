@@ -9,7 +9,7 @@ script:
 - mkdir publish
 - npm install
 - npm run build
-- cp -R index.html dist static publish
+- cp -R index.html thank-you.html dist static publish
 
 deploy:
   on:
