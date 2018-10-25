@@ -1,14 +1,14 @@
 <template>
   <div class="d-inline-block">
-    <a class="info" href="/" data-toggle="modal" data-target="#infoModal">
+    <a class="info" href="/" data-toggle="modal" data-target="#filterInfoModal">
       <i class="fas fa-info-circle fa-2x"></i>
     </a>
-    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel"
+    <div class="modal fade" id="filterInfoModal" tabindex="-1" role="dialog" aria-labelledby="filterInfoModalLabel"
          aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="infoModalLabel">Filter Info</h5>
+            <h5 class="modal-title" id="filterInfoModalLabel">Filter Info</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -60,7 +60,7 @@
 
 <script>
   export default {
-    name: 'InfoModal'
+    name: 'FilterInfoModal'
   }
 </script>
 

@@ -18,7 +18,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item d-none d-md-block">
-            <a class="nav-link subscribe" href="https://www.subscribepage.com/devops-conferences" rel="nofollow"><i class="fas fa-envelope"></i> SUBSCRIBE</a>
+            <a class="nav-link" href="https://www.subscribepage.com/devops-conferences" rel="nofollow"><i class="fas fa-envelope"></i> SUBSCRIBE</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://github.com/finspin/gotodevops.org#how-can-i-contribute" rel="nofollow"><i class="fas fa-plus"></i> ADD CONFERENCE</a>
@@ -77,11 +77,6 @@
   ul a {
     color: #999;
   }
-  
-  ul a.nav-link.subscribe {
-    color: #ff4954;
-    font-weight: bold;
-  }
 
   .navbar-toggler-icon {
     color: #999;
@@ -95,7 +90,6 @@
     .nav-item {
       margin-left: 10px;
     }
-
   }
 
   @media (max-width: 767px) {
