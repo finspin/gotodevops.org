@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <navigation></navigation>
+    <promo-box></promo-box>
     <div class="container">
       <div class="row">
         <div class="col-md-6 no-padding">
-          <info-row></info-row>
+          <filter-info-row></filter-info-row>
           <filters></filters>
         </div>
         <div class="col-md-6 no-padding scroll-element">
@@ -19,7 +20,8 @@
   import Conferences from './components/Conferences'
   import Filters from './components/Filters'
   import Navigation from './components/Navigation'
-  import InfoRow from './components/InfoRow'
+  import FilterInfoRow from './components/FilterInfoRow'
+  import PromoBox from './components/PromoBox'
 
   export default {
     name: 'DevopsConferences',
@@ -27,7 +29,8 @@
       Conferences,
       Filters,
       Navigation,
-      InfoRow
+      FilterInfoRow,
+      PromoBox
     }
 
   }
