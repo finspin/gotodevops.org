@@ -1,6 +1,6 @@
 {
-  "name": "gotodevops.org.vue",
-  "description": "gotodevops.org",
+  "name": "gotodevops.org",
+  "description": "Community maintained list of DevOps conferences",
   "version": "1.0.0",
   "author": "Jaro Spisak",
   "license": "MIT",
@@ -10,6 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "@sentry/browser": "^4.2.3",
     "bootstrap": "^4.1.3",
     "i": "^0.3.6",
     "jquery": "^3.3.1",

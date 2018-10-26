@@ -22,6 +22,9 @@
   import Navigation from './components/Navigation'
   import FilterInfoRow from './components/FilterInfoRow'
   import PromoBox from './components/PromoBox'
+  import * as Sentry from '@sentry/browser'
+
+  Sentry.init({ dsn: 'https://7f9b876b596b45319aa2b59093ccef19@sentry.io/1310125' });
 
   export default {
     name: 'DevopsConferences',
