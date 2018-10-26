@@ -34,7 +34,7 @@ export default new Vuex.Store({
       const activeContinentFilter = state.filters.continent;
 
 
-      return _.filter(state.conferences, function (conference) {
+      let filteredConferences = _.filter(state.conferences, function (conference) {
         let monthMatch, costMatch, continentMatch = false, weatherMatch = false, show = true;
 
         // Month filter
@@ -79,7 +79,9 @@ export default new Vuex.Store({
         }
 
         return monthMatch && costMatch && weatherMatch && continentMatch && show;
-      })
+      });
+
+      return _.orderBy(filteredConferences, 'date.start');
     }
   },
   mutations: {
