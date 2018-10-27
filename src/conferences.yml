@@ -26,20 +26,6 @@
     fahrenheit: 60
   cost: 1
 
-- name: IP Expo Europe
-  url: https://www.ipexpoeurope.com/
-  location:
-    city: London
-    country: UK
-    continent: Europe
-  date:
-    start: 2018-10-03
-    end: 2018-10-04
-  temperature:
-    celsius: 16
-    fahrenheit: 60
-  cost: 2
-
 - name: JAX London
   url: https://jaxlondon.com/
   location:
@@ -248,6 +234,20 @@
   temperature:
     celsius: 22
     fahrenheit: 72
+  cost: 1
+
+- name: Container Day
+  url: https://2018.containerday.it/
+  location:
+    city: Verona
+    country: Italy
+    continent: Europe
+  date:
+    start: 2018-10-25
+    end: 2018-10-26
+  temperature:
+    celsius: 16
+    fahrenheit: 61
   cost: 1
 
 - name: DevOpsDays Salvador
@@ -610,9 +610,23 @@
     start: 2019-02-02
     end: 2019-02-03
   temperature:
-    celsius: 11
-    fahrenheit: 51
+    celsius: 7
+    fahrenheit: 44
   cost: 0
+
+- name: Config Management Camp
+  url: https://cfgmgmtcamp.eu/
+  location:
+    city: Ghent
+    country: Belgium
+    continent: Europe
+  date:
+    start: 2019-02-04
+    end: 2019-02-06
+  temperature:
+    celsius: 7
+    fahrenheit: 44
+  cost: unknown
 
 - name: GrafanaCon
   url: http://grafanacon.org/
@@ -950,6 +964,20 @@
     fahrenheit: 65
   cost: unknown
 
+- name: Riga DevDays
+  url: https://rigadevdays.lv/
+  location:
+    city: Riga
+    country: Latvia
+    continent: Europe
+  date:
+    start: 2019-05-29
+    end: 2019-05-31
+  temperature:
+    celsius: 17
+    fahrenheit: 63
+  cost: 1
+
 - name: DevOps West
   url: https://devopswest.techwell.com/
   location:
@@ -977,6 +1005,20 @@
     celsius: 23
     fahrenheit: 73
   cost: 1
+
+- name: DEVOPS.BCN
+  url: https://devops.barcelona/2019/
+  location:
+    city: Barcelona
+    country: Spain
+    continent: Europe
+  date:
+    start: 2019-06-10
+    end: 2019-06-12
+  temperature:
+    celsius: 27
+    fahrenheit: 81
+  cost: unknown
 
 - name: Velocity
   url: https://conferences.oreilly.com/velocity/vl-ca
@@ -1020,6 +1062,20 @@
     fahrenheit: 67
   cost: 1
 
+- name: Rootconf 2019
+  url: https://rootconf.in/2019/
+  location:
+    city: Bangalore
+    country: India
+    continent: Asia
+  date:
+    start: 2019-06-21
+    end: 2019-06-22
+  temperature:
+    celsius: 29
+    fahrenheit: 84
+  cost: 1
+
 - name: DevOpsDays Amsterdam
   url: https://www.devopsdays.org/events/2019-amsterdam/welcome/
   location:
@@ -1048,16 +1104,16 @@
     fahrenheit: 81
   cost: 1
 
-- name: Container Day
-  url: https://2018.containerday.it/
+- name: IP Expo Europe
+  url: https://www.ipexpoeurope.com/
   location:
-    city: Verona
-    country: Italy
+    city: London
+    country: UK
     continent: Europe
   date:
-    start: 2018-10-25
-    end: 2018-10-26
+    start: 2019-10-09
+    end: 2019-10-10
   temperature:
     celsius: 16
-    fahrenheit: 61
-  cost: 1
+    fahrenheit: 60
+  cost: 2
