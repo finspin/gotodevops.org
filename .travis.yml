@@ -4,8 +4,10 @@ node_js:
 
 install:
 - pip install --user awscli
+- npm install -g yaml-lint
 
 script:
+- yamllint src/conferences.yml
 - mkdir publish
 - npm install
 - npm run build
