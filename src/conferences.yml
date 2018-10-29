@@ -1,3 +1,31 @@
+name: devops Simulation Workshop
+  url: https://lnkd.in/feNbdSH
+  location:
+    city: Melbourne
+    country: Australia
+    continent: Australia
+  date:
+    start: 2018-12-05
+    end: 2018-12-05
+  temperature:
+    celsius: 24
+    fahrenheit: 60
+  cost: 2
+
+- name: devops Simulation workshop
+  url: https://lnkd.in/feNbdSH
+  location:
+    city: Sydney
+    country: Australia
+    continent: Australia
+  date:
+    start: 2018-12-07
+    end: 2018-12-07
+  temperature:
+    celsius: 24
+    fahrenheit: 60
+  cost: 2
+
 - name: Velocity
   url: https://conferences.oreilly.com/velocity/vl-ny
   location:
