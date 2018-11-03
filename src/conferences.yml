@@ -963,6 +963,20 @@
     celsius: 18
     fahrenheit: 65
   cost: unknown
+  
+- name: GlueCon
+  url: http://gluecon.com
+  location:
+    city: Denver
+    country: USA
+    continent: North America
+  date:
+    start: 2019-05-22
+    end: 2019-05-23
+  temperature:
+    celsius: 23
+    fahrenheit: 73
+  cost: 2
 
 - name: Riga DevDays
   url: https://rigadevdays.lv/
