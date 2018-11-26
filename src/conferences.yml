@@ -1117,6 +1117,20 @@
     celsius: 27
     fahrenheit: 81
   cost: 1
+  
+  - name: DevOpsCon Spring 2019
+  url: https://devopsconference.de/
+  location:
+    city: Berlin
+    country: Germany
+    continent: Europe
+  date:
+    start: 2019-11-06
+    end: 2019-14-07
+  temperature:
+    celsius: 21
+    fahrenheit: 70
+  cost: 2
 
 - name: IP Expo Europe
   url: https://www.ipexpoeurope.com/
