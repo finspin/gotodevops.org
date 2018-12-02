@@ -17,10 +17,23 @@
 </script>
 
 <style scoped>
+  /*.btn-filter {*/
+    /*background-color: #fff;*/
+    /*color: #ccc;*/
+    /*border: 1px solid #fff;*/
+    /*margin-left: 7px;*/
+  /*}*/
+
   .btn-filter {
-    background-color: #ff2f3f;
-    color: #fff;
-    border: 1px solid #ff2f3f;
-    margin-left: 7px;
+    border: 1px solid #D4DDE9;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 9px;
+    color: #545e6d;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
   }
+
 </style>

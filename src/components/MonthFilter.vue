@@ -1,23 +1,23 @@
 <template>
   <div id="month-filters">
-    <div class="row month-filter first">
-      <div class="col-12">
-          <span class="year">2018</span>
-      </div>
-      <div class="col-12">
-        <div class="row no-gutters">
-          <div v-for="month in months" class="col-1">
-            <div @click="applyMonthFilter(month, '2018')"
-                 :class="['month', { active: isActive(month, '2018') }]"
-            >{{ month }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!--<div class="row month-filter first">-->
+      <!--<div class="col-12">-->
+          <!--<span class="year">2018</span>-->
+      <!--</div>-->
+      <!--<div class="col-12">-->
+        <!--<div class="row no-gutters">-->
+          <!--<div v-for="month in months" class="col-1">-->
+            <!--<div @click="applyMonthFilter(month, '2018')"-->
+                 <!--:class="['month', { active: isActive(month, '2018') }]"-->
+            <!--&gt;{{ month }}-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
     <div class="row month-filter">
       <div class="col-12">
-        <span class="year">2019</span>
+        <div class="filter-label">Year 2019</div>
       </div>
       <div class="col-12">
         <div class="row no-gutters">
@@ -67,7 +67,7 @@
 <style scoped>
   .month-filter {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
 
   .month-filter.first {
@@ -75,12 +75,13 @@
   }
 
   .month {
-    border: 1px solid #e3e3e3;
-    font-size: .7rem;
+    border: 1px solid #D4DDE9;
+    font-size: 12px;
+    font-weight: 600;
     border-right: none;
-    padding: 5px 0;
-    color: #111;
-    background-color: #f1f1f1;
+    padding: 10px 0;
+    color: #545e6d;
+    background-color: #fff;
     cursor: pointer;
     text-align: center;
   }
@@ -96,12 +97,26 @@
     border-bottom-right-radius: 5px;
   }
 
+  .month:hover {
+    background-color: #ECEEF0;
+  }
+
   .month.active {
-    background-color: #ff2f3f;
+    background-color: #6542CB;
     color: #fff;
   }
 
-  .year {
-    font-size: 13px;
+  .filter-label {
+    font-size: 15px;
+    color: #13273E;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 576px) {
+    .month {
+      padding: 5px 0;
+      font-weight: 400;
+      font-size: 11px;
+    }
   }
 </style>

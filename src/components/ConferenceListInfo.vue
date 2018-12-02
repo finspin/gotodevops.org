@@ -3,15 +3,15 @@
     <div class="row">
       <div class="col-12 list-info">
         <span v-if="numberOfDisplayedConferences === numberOfConferences">
-        Showing all {{ numberOfConferences }} conferences. Try some filters above.
+        Displaying {{ numberOfConferences }} conferences. Try some filters.
         </span>
         <span v-if="numberOfDisplayedConferences > 0 && numberOfDisplayedConferences < numberOfConferences">
-          Showing {{ numberOfDisplayedConferences }} out of {{ numberOfConferences }} conferences. <span
-          class="link-style" @click="clearAllFilters()">Clear all filters</span>
-      </span>
+          Displaying {{ numberOfDisplayedConferences }} out of {{ numberOfConferences }} conferences. <span
+          class="link-style" @click="clearAllFilters()">Clear all filters</span>.
+        </span>
         <span v-if="numberOfDisplayedConferences === 0">
-          <p>There are no conferences to display. Try removing some filters or <span class="link-style"
-                                                                                     @click="clearAllFilters()">clear all filters</span>.</p>
+          <span>There are no conferences to display. Try removing some filters or <span class="link-style"
+                                                                                     @click="clearAllFilters()">clear all filters</span>.</span>
         </span>
       </div>
     </div>
@@ -20,13 +20,13 @@
 
 <script>
   import {mapGetters, mapMutations} from 'vuex'
-  import FilterInfoModal from './FilterInfoModal'
+  // import FilterInfoModal from './FilterInfoModal'
 
   export default {
     name: "ConferenceListInfo",
-    components: {
-      FilterInfoModal
-    },
+    // components: {
+    //   FilterInfoModal
+    // },
     computed: {
       ...mapGetters([
         'numberOfConferences',
@@ -45,23 +45,23 @@
 </script>
 
 <style scoped>
-  #conference-list-info {
-    text-align: center;
+  .list-info {
+    text-align: right;
     font-size: 13px;
-    color: grey;
-    border-bottom: 1px solid #ececec;
+    color: #627690;
+    padding-top: 30px;
     padding-bottom: 15px;
   }
 
   .link-style {
     cursor: pointer;
-    color: #ff2f3f;
+    color: #5F2BF9;
     text-decoration: underline;
   }
 
-  @media (min-width: 768px) {
-    #conference-list-info {
-      border-bottom: none;
+  @media (max-width: 576px) {
+    .list-info {
+      text-align: center;
     }
   }
 </style>

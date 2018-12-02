@@ -1,20 +1,21 @@
 <template>
   <div class="row cost-filter">
     <div class="col-12">
+      <div class="filter-label">Ticket Cost</div>
       <div class="row">
-        <div class="col-4">
-          <div @click="applyCostFilter(0)" :class="['cost', { active: isActive(0) }]">
+        <div class="col-4 pr-2 pr-sm-3">
+          <div @click="applyCostFilter(0)" :class="['cost', 'cost-free', { active: isActive(0) }]">
             FREE
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 pr-2 pl-2 pr-sm-3 pl-sm-3">
           <div @click="applyCostFilter(1)" :class="['cost', { active: isActive(1)} ]">
-            <i class="fas fa-dollar-sign"></i>
+            < $300 / DAY
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 pl-2 pl-sm-3">
           <div @click="applyCostFilter(2)" :class="['cost', { active: isActive(2) }]">
-            <i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i>
+            < $600 / DAY
           </div>
         </div>
       </div>
@@ -48,22 +49,44 @@
 
 <style scoped>
   .cost-filter {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
 
   .cost {
-    border: 1px solid #e3e3e3;
-    font-size: 13px;
+    border: 1px solid #D4DDE9;
+    font-size: 14px;
+    font-weight: 600;
     border-radius: 5px;
-    padding: 7px 0;
-    color: #111;
-    background-color: #f1f1f1;
+    padding: 9px 0;
+    color: #545e6d;
+    background-color: #fff;
     cursor: pointer;
     text-align: center;
   }
 
+  .cost-free {
+    font-size: 13px;
+  }
+
+  .cost:hover {
+    background-color: #ECEEF0;
+  }
+
   .cost.active {
-    background-color: #ff2f3f;
+    background-color: #6542CB;
     color: #fff;
+  }
+
+  .filter-label {
+    font-size: 15px;
+    color: #13273E;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 576px) {
+    .cost {
+      padding: 5px 0;
+      font-weight: 400;
+    }
   }
 </style>

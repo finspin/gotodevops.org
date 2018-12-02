@@ -1,20 +1,21 @@
 <template>
   <div class="row continent-filter">
     <div class="col-12">
+      <div class="filter-label">Location</div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-4 pr-2 pr-sm-3">
           <div @click="applyContinentFilter('USA')" :class="['continent', { active: isActive('USA') }]">
             USA
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 pr-2 pl-2 pr-sm-3 pl-sm-3">
           <div @click="applyContinentFilter('Europe')" :class="['continent', { active: isActive('Europe')} ]">
-            Europe
+            EUROPE
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 pl-2 pl-sm-3">
           <div @click="applyContinentFilter('Asia / Australia')" :class="['continent', { active: isActive('Asia / Australia') }]">
-            Asia / Austr.
+            ASIA / AUS
           </div>
         </div>
       </div>
@@ -48,22 +49,40 @@
 
 <style scoped>
   .continent-filter {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
   }
 
   .continent {
-    border: 1px solid #e3e3e3;
+    border: 1px solid #D4DDE9;
     font-size: 13px;
+    font-weight: 600;
     border-radius: 5px;
-    padding: 7px 0;
-    color: #111;
-    background-color: #f1f1f1;
+    padding: 10px 0;
+    color: #545e6d;
+    background-color: #fff;
     cursor: pointer;
     text-align: center;
   }
 
+  .continent:hover {
+    background-color: #ECEEF0;
+  }
+
   .continent.active {
-    background-color: #ff2f3f;
+    background-color: #6542CB;
     color: #fff;
+  }
+
+  .filter-label {
+    font-size: 15px;
+    color: #13273E;
+    margin-bottom: 5px;
+  }
+
+  @media (max-width: 576px) {
+    .continent {
+      padding: 5px 0;
+      font-weight: 400;
+    }
   }
 </style>

@@ -7,39 +7,39 @@
       <div class="col-12">
         <div class="location">{{conference.location.city }}, {{ conference.location.country}}</div>
       </div>
-      <div class="col-7">
+      <div class="col-6">
         <div class="date">
           <!--<i class="far fa-calendar-alt"></i> &lt;!&ndash;{{ conference.date.start }} - {{ conference.date.end }}&ndash;&gt;-->
-          <i class="far fa-calendar-alt"></i> {{ conferenceDateRange(conference) }}
+          <i class="far fa-calendar-alt mr-1"></i> {{ conferenceDateRange(conference) }}
         </div>
       </div>
       <div class="col-3 weather">
         <div class="weather">
-          <span v-if="conference.temperature.celsius < 10"><i class="far fa-snowflake"></i>️️</span>
+          <span v-if="conference.temperature.celsius < 10"><i class="far fa-snowflake mr-1"></i>️️</span>
           <span v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"><i
-            class="fa fa-cloud"></i></span>
-          <span v-if="conference.temperature.celsius >= 20"><i class="fas fa-umbrella-beach"></i>️</span> {{
+            class="fa fa-cloud mr-1"></i></span>
+          <span v-if="conference.temperature.celsius >= 20"><i class="fas fa-umbrella-beach mr-1"></i>️</span> {{
           conference.temperature.celsius
           }}℃
         </div>
       </div>
-      <div class="col-2">
+      <div class="col-3">
         <div class="cost float-right">
           <div v-if="conference.cost === 0">FREE</div>
           <div v-if="conference.cost === 1">
-            <i class="fas fa-dollar-sign"></i>
+            < $300 / DAY
           </div>
           <div v-if="conference.cost === 2">
-            <i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i>
+            < $600 / DAY
           </div>
           <div v-if="conference.cost === 3">
-            <i class="fas fa-dollar-sign"></i><i class="fas fa-dollar-sign"></i><i
-            class="fas fa-dollar-sign"></i>
+            > $600 / DAY
           </div>
           <div v-if="conference.cost === 'unknown'"><i class="far fa-question-circle"></i></div>
         </div>
       </div>
     </div>
+    <hr>
   </a>
 </template>
 
@@ -84,27 +84,30 @@
 
 <style scoped>
   .conference {
-    border-bottom: 1px solid #ececec;
     padding-top: 20px;
     padding-bottom: 10px;
   }
 
   .name {
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 19px;
     line-height: 1.4;
+    color: #12263D;
   }
 
   .location {
-    color: grey;
-    margin-bottom: 10px;
+    color: #8C9197;
+    margin-bottom: 20px;
     font-size: 16px;
   }
 
   .date, .weather, .cost {
-    color: #333;
-    margin-bottom: 7px;
-    font-size: 15px;
+    color: #3f5167;
+    font-size: 14px;
+  }
+
+  .date i, .weather i, .cost i {
+    color: #576f87;
   }
 
   .weather {
@@ -123,6 +126,11 @@
     text-underline: none;
     color: #333;
     display: block;
+  }
+
+  hr {
+    margin-top: 2px;
+    margin-bottom: 7px;
   }
 
 </style>
