@@ -74,6 +74,7 @@
 
   .cost.active {
     background-color: #6542CB;
+    border: 1px solid #6542CB;
     color: #fff;
   }
 

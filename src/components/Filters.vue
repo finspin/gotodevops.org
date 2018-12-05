@@ -40,10 +40,4 @@
 </script>
 
 <style scoped>
-  @media (min-width: 768px) {
-    .filters {
-      border-radius: 9px;
-      background-color: aliceblue;
-    }
-  }
 </style>

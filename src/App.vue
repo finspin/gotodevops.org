@@ -7,16 +7,14 @@
           <div class="left-content">
             <div class="col-md-12">
               <h1>DevOps Conferences 2019</h1>
-              <filter-info-row></filter-info-row>
               <filters></filters>
-            </div>
-            <div class="col-md-12">
             </div>
           </div>
         </div>
         <div class="col-md-6 no-padding right scroll-element">
           <div class="right-content">
-            <div class="col-md-12">
+            <div class="col-md-12 no-padding">
+              <filter-info-row></filter-info-row>
               <conference-list-info></conference-list-info>
               <conferences></conferences>
             </div>

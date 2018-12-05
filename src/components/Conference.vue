@@ -13,7 +13,7 @@
           <i class="far fa-calendar-alt mr-1"></i> {{ conferenceDateRange(conference) }}
         </div>
       </div>
-      <div class="col-3 weather">
+      <div class="col-2 col-md-3 weather">
         <div class="weather">
           <span v-if="conference.temperature.celsius < 10"><i class="far fa-snowflake mr-1"></i>️️</span>
           <span v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"><i
@@ -23,7 +23,7 @@
           }}℃
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-4 col-md-3 pl-0">
         <div class="cost float-right">
           <div v-if="conference.cost === 0">FREE</div>
           <div v-if="conference.cost === 1">
