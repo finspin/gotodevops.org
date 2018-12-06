@@ -1,7 +1,7 @@
 <template>
-  <div class="container d-md-none filter-info-row">
+  <div class="container d-md-none filter-info-row no-padding">
     <div class="row">
-      <div class="col-12 text-right">
+      <div class="col-12 text-right no-padding">
         <!--<subscribe-button></subscribe-button>-->
         <filter-toggle-button></filter-toggle-button>
       </div>

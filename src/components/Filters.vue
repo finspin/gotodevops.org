@@ -1,20 +1,9 @@
 <template>
   <div class="filters">
-    <div class="collapse d-md-none" id="collapse-filters">
-      <month-filter></month-filter>
-      <continent-filter></continent-filter>
-      <cost-filter></cost-filter>
-      <weather-filter></weather-filter>
-      <!--<conference-list-info></conference-list-info>-->
-    </div>
-    <div class="d-none d-md-block">
-      <month-filter></month-filter>
-      <continent-filter></continent-filter>
-      <cost-filter></cost-filter>
-      <weather-filter></weather-filter>
-      <subscription-form></subscription-form>
-      <!--<conference-list-info></conference-list-info>-->
-    </div>
+    <month-filter></month-filter>
+    <continent-filter></continent-filter>
+    <cost-filter></cost-filter>
+    <weather-filter></weather-filter>
   </div>
 </template>
 

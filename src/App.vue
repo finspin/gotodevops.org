@@ -3,21 +3,25 @@
     <div id="top-stripe"></div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 left no-padding">
+        <div class="col-md-6 left no-gutters">
           <div class="left-content">
-            <div class="col-md-12">
-              <h1>DevOps Conferences 2019</h1>
+            <h1>DevOps Conferences 2019</h1>
+            <div class="d-none d-md-block">
               <filters></filters>
+              <subscription-form></subscription-form>
             </div>
           </div>
         </div>
-        <div class="col-md-6 no-padding right scroll-element">
+        <div class="col-md-6 right no-gutters">
           <div class="right-content">
-            <div class="col-md-12 no-padding">
-              <filter-info-row></filter-info-row>
-              <conference-list-info></conference-list-info>
+            <!--<div class="col-md-12">-->
+              <!--<filter-info-row></filter-info-row>-->
+              <!--<div class="collapse d-md-none" id="collapse-filters">-->
+                <!--<filters></filters>-->
+              <!--</div>-->
+              <!--<conference-list-info></conference-list-info>-->
               <conferences></conferences>
-            </div>
+            <!--</div>-->
           </div>
         </div>
       </div>
@@ -32,6 +36,7 @@
   import Navigation from './components/Navigation'
   import FilterInfoRow from './components/FilterInfoRow'
   import PromoBox from './components/PromoBox'
+  import SubscriptionForm from './components/SubscriptionForm'
   import * as Sentry from '@sentry/browser'
 
   Sentry.init({dsn: 'https://7f9b876b596b45319aa2b59093ccef19@sentry.io/1310125'});
@@ -44,7 +49,8 @@
       Filters,
       Navigation,
       FilterInfoRow,
-      PromoBox
+      PromoBox,
+      SubscriptionForm
     }
 
   }
@@ -64,11 +70,12 @@
 
   .left {
     background-color: #EFF8FF;
+    padding-left: 40px;
     padding-right: 40px;
   }
 
   .left-content {
-    max-width: 550px;
+    max-width: 500px;
     float: right;
     width: 100%;
   }
@@ -76,10 +83,11 @@
   .right {
     background-color: #fff;
     padding-left: 25px;
+    padding-right: 40px;
   }
 
   .right-content {
-    max-width: 550px;
+    max-width: 500px;
     float: left;
     width: 100%;
   }
@@ -91,10 +99,9 @@
     padding-bottom: 30px;
   }
 
-  .container {
-    max-width: 600px;
-  }
-
+  /*.container {*/
+    /*max-width: 600px;*/
+  /*}*/
 
   @media (max-width: 576px) {
     h1 {
@@ -105,21 +112,22 @@
   }
 
   @media (max-width: 767px) {
-    .no-padding {
+    .left {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .right {
       padding-left: 0;
       padding-right: 0;
     }
   }
 
   @media (min-width: 768px) {
-    .scroll-element {
+    .right {
       height: 100vh;
       overflow: hidden;
       overflow-y: scroll;
     }
-  }
-
-  .btn:focus, button:focus {
-    box-shadow: none;
   }
 </style>
