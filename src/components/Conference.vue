@@ -9,16 +9,18 @@
       </div>
       <div class="col-6">
         <div class="date">
-          <i class="far fa-calendar-alt mr-1"></i> {{ conferenceDateRange(conference) }}
+          <i class="far fa-calendar-alt mr-1"></i>{{ conferenceDateRange(conference) }}
         </div>
       </div>
       <div class="col-2 col-md-3 weather">
         <div class="weather">
-          <span v-if="conference.temperature.celsius < 10"><i class="far fa-snowflake mr-1"></i>️️</span><span
-          v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"><i
-          class="fa fa-cloud mr-1"></i></span><span v-if="conference.temperature.celsius >= 20"><i
-          class="fas fa-umbrella-beach mr-1"></i>️</span>{{
-          conference.temperature.celsius }}℃
+          <i v-if="conference.temperature.celsius < 10" class="far fa-snowflake mr-1"></i>️<i v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"
+             class="fa fa-cloud mr-1"></i><i v-if="conference.temperature.celsius >= 20" class="fas fa-umbrella-beach mr-1"></i>️{{conference.temperature.celsius}}℃
+          <!--<span v-if="conference.temperature.celsius < 10"><i class="far fa-snowflake mr-1"></i>️️</span><span-->
+          <!--v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"><i-->
+          <!--class="fa fa-cloud mr-1"></i></span><span v-if="conference.temperature.celsius >= 20"><i-->
+          <!--class="fas fa-umbrella-beach mr-1"></i>️</span>{{-->
+          <!--conference.temperature.celsius }}℃-->
         </div>
       </div>
       <div class="col-4 col-md-3 pl-0">
@@ -106,6 +108,7 @@
 
   .date i, .weather i, .cost i {
     color: #576f87;
+    padding-right: 3px;
   }
 
   .weather {
