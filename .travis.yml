@@ -1,4 +1,5 @@
 language: node_js
+
 node_js:
   - lts/*
 
@@ -15,9 +16,9 @@ script:
 
 deploy:
   on:
-    branch: master
+    branch: beta
   provider: s3
-  bucket: www.gotodevops.org
+  bucket: beta.gotodevops.org
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: us-west-2
@@ -27,5 +28,4 @@ deploy:
 
 after_deploy:
 - aws configure set preview.cloudfront true
-- aws cloudfront create-invalidation --distribution-id $WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-- aws cloudfront create-invalidation --distribution-id $NON_WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+- aws cloudfront create-invalidation --distribution-id $BETA_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
