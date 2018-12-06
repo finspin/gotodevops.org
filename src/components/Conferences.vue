@@ -1,5 +1,5 @@
 <template>
-    <transition-group id="conferences" class="container no-padding" name="fade" tag="div">
+    <transition-group id="conferences" class="container" name="fade" tag="div">
       <conference v-for="conference in filteredConferences"
                   :key="conference.url + conference.location.city"
                   :conference=conference></conference>

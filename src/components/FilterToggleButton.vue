@@ -3,7 +3,7 @@
     <button class="btn btn-filter btn-link" type="button" data-toggle="collapse"
             data-target="#collapse-filters"
             aria-expanded="false" aria-controls="collapse-filters">
-      <i class="fas fa-filter"></i> FILTERS
+      <font-awesome-icon icon="filter" class="mr-1" />FILTER
     </button>
     <!--<i class="fas fa-filter"></i> FILTERS-->
 
@@ -27,7 +27,7 @@
 
   .btn-filter {
     /*border: 1px solid #D4DDE9;*/
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     /*border-radius: 5px;*/
     /*padding: 9px;*/

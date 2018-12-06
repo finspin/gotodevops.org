@@ -15,10 +15,10 @@
         <div class="col-md-6 right no-gutters">
           <div class="right-content">
             <!--<div class="col-md-12">-->
-              <!--<filter-info-row></filter-info-row>-->
-              <!--<div class="collapse d-md-none" id="collapse-filters">-->
-                <!--<filters></filters>-->
-              <!--</div>-->
+              <filter-info-row></filter-info-row>
+              <div class="collapse d-md-none" id="collapse-filters">
+                <filters></filters>
+              </div>
               <conference-list-info></conference-list-info>
               <conferences></conferences>
             <!--</div>-->
@@ -96,7 +96,7 @@
   }
 
   /*.container {*/
-    /*max-width: 600px;*/
+  /*max-width: 600px;*/
   /*}*/
 
   @media (max-width: 576px) {
