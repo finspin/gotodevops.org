@@ -19,7 +19,7 @@
               <!--<div class="collapse d-md-none" id="collapse-filters">-->
                 <!--<filters></filters>-->
               <!--</div>-->
-              <!--<conference-list-info></conference-list-info>-->
+              <conference-list-info></conference-list-info>
               <conferences></conferences>
             <!--</div>-->
           </div>
@@ -33,9 +33,7 @@
   import Conferences from './components/Conferences'
   import ConferenceListInfo from './components/ConferenceListInfo'
   import Filters from './components/Filters'
-  import Navigation from './components/Navigation'
   import FilterInfoRow from './components/FilterInfoRow'
-  import PromoBox from './components/PromoBox'
   import SubscriptionForm from './components/SubscriptionForm'
   import * as Sentry from '@sentry/browser'
 
@@ -47,9 +45,7 @@
       Conferences,
       ConferenceListInfo,
       Filters,
-      Navigation,
       FilterInfoRow,
-      PromoBox,
       SubscriptionForm
     }
 

@@ -11,7 +11,6 @@
 
 <script>
   import SubscribeButton from './SubscribeButton'
-  import FilterInfoModal from './FilterInfoModal'
   import FilterToggleButton from './FilterToggleButton'
   import SubscriptionForm from './SubscriptionForm'
 
@@ -19,7 +18,6 @@
     name: "FilterInfoRow",
     components: {
       SubscribeButton,
-      FilterInfoModal,
       FilterToggleButton,
       SubscriptionForm
     }

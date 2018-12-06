@@ -9,14 +9,18 @@
       </div>
       <div class="col-5 col-md-6 mr-0 pr-0">
         <div class="date">
-          <font-awesome-icon :icon="['far', 'calendar-alt']" class="mr-1" />{{ conferenceDateRange(conference) }}
+          <font-awesome-icon :icon="['far', 'calendar-alt']" :style="{ color: '#3f5167' }" class="mr-1"/>
+          {{ conferenceDateRange(conference) }}
         </div>
       </div>
       <div class="col-3 col-md-3 weather">
         <div class="weather">
-          <font-awesome-icon v-if="conference.temperature.celsius < 10" icon="snowflake" class="mr-1" />
-          <font-awesome-icon v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20" icon="cloud" class="mr-1" />
-          <font-awesome-icon v-if="conference.temperature.celsius >= 20" icon="umbrella-beach" class="mr-1" />
+          <font-awesome-icon v-if="conference.temperature.celsius < 10" icon="snowflake" :style="{ color: '#3f5167' }"
+                             class="mr-1"/>
+          <font-awesome-icon v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"
+                             icon="cloud" :style="{ color: '#3f5167' }" class="mr-1"/>
+          <font-awesome-icon v-if="conference.temperature.celsius >= 20" icon="umbrella-beach"
+                             :style="{ color: '#3f5167' }" class="mr-1"/>
           {{ conference.temperature.celsius }}℃
         </div>
       </div>
@@ -32,8 +36,9 @@
           <div v-if="conference.cost === 3">
             > $600 / DAY
           </div>
-          <div v-if="conference.cost === 'unknown'"><font-awesome-icon :icon="['far', 'question-circle']"  /></div>
-            <!--<i class="far fa-question-circle"></i></div>-->
+          <div v-if="conference.cost === 'unknown'">
+            <font-awesome-icon :icon="['far', 'question-circle']"/>
+          </div>
         </div>
       </div>
     </div>
@@ -104,20 +109,10 @@
     font-size: 14px;
   }
 
-  .date i, .weather i, .cost i {
-    color: #576f87;
-    padding-right: 3px;
-  }
-
   .weather {
     padding-right: 0;
     padding-left: 0;
     text-align: center;
-  }
-
-  /*Make cloud icon slightly lighter color*/
-  .fa-cloud {
-    color: #555;
   }
 
   a {
@@ -131,5 +126,4 @@
     margin-top: 2px;
     margin-bottom: 7px;
   }
-
 </style>

@@ -20,13 +20,9 @@
 
 <script>
   import {mapGetters, mapMutations} from 'vuex'
-  // import FilterInfoModal from './FilterInfoModal'
 
   export default {
     name: "ConferenceListInfo",
-    // components: {
-    //   FilterInfoModal
-    // },
     computed: {
       ...mapGetters([
         'numberOfConferences',
