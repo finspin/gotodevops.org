@@ -105,7 +105,7 @@
 
   @media (max-width: 576px) {
     h1 {
-      font-size: 28px;
+      font-size: 24px;
       text-align: center;
       padding-bottom: 10px;
     }
