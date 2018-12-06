@@ -7,20 +7,17 @@
       <div class="col-12">
         <div class="location">{{conference.location.city }}, {{ conference.location.country}}</div>
       </div>
-      <div class="col-6">
+      <div class="col-5 col-md-6 mr-0 pr-0">
         <div class="date">
-          <i class="far fa-calendar-alt mr-1"></i>{{ conferenceDateRange(conference) }}
+          <font-awesome-icon :icon="['far', 'calendar-alt']" class="mr-1" />{{ conferenceDateRange(conference) }}
         </div>
       </div>
-      <div class="col-2 col-md-3 weather">
+      <div class="col-3 col-md-3 weather">
         <div class="weather">
-          <i v-if="conference.temperature.celsius < 10" class="far fa-snowflake mr-1"></i>️<i v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"
-             class="fa fa-cloud mr-1"></i><i v-if="conference.temperature.celsius >= 20" class="fas fa-umbrella-beach mr-1"></i>️{{conference.temperature.celsius}}℃
-          <!--<span v-if="conference.temperature.celsius < 10"><i class="far fa-snowflake mr-1"></i>️️</span><span-->
-          <!--v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"><i-->
-          <!--class="fa fa-cloud mr-1"></i></span><span v-if="conference.temperature.celsius >= 20"><i-->
-          <!--class="fas fa-umbrella-beach mr-1"></i>️</span>{{-->
-          <!--conference.temperature.celsius }}℃-->
+          <font-awesome-icon v-if="conference.temperature.celsius < 10" icon="snowflake" class="mr-1" />
+          <font-awesome-icon v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20" icon="cloud" class="mr-1" />
+          <font-awesome-icon v-if="conference.temperature.celsius >= 20" icon="umbrella-beach" class="mr-1" />
+          {{ conference.temperature.celsius }}℃
         </div>
       </div>
       <div class="col-4 col-md-3 pl-0">
@@ -35,7 +32,8 @@
           <div v-if="conference.cost === 3">
             > $600 / DAY
           </div>
-          <div v-if="conference.cost === 'unknown'"><i class="far fa-question-circle"></i></div>
+          <div v-if="conference.cost === 'unknown'"><font-awesome-icon :icon="['far', 'question-circle']"  /></div>
+            <!--<i class="far fa-question-circle"></i></div>-->
         </div>
       </div>
     </div>

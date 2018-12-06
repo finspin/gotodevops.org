@@ -5,19 +5,20 @@
       <div class="row">
         <div class="col-4 pr-2 pr-sm-3">
           <div @click="applyWeatherFilter('cold')" :class="['weather', { active: isActive('cold') }]">
-            <i class="far fa-snowflake mr-1"></i>
+            <!--<i class="far fa-snowflake mr-1"></i>-->
+            <font-awesome-icon icon="snowflake" class="mr-1" />
             COLD
           </div>
         </div>
         <div class="col-4 pr-2 pl-2 pr-sm-3 pl-sm-3">
           <div @click="applyWeatherFilter('mild')" :class="['weather', { active: isActive('mild') }]">
-            <i class="fas fa-cloud mr-1"></i>
+            <font-awesome-icon icon="cloud" class="mr-1" />
            MILD
           </div>
         </div>
         <div class="col-4 pl-2 pl-sm-3">
           <div @click="applyWeatherFilter('warm')" :class="['weather', { active: isActive('warm') }]">
-            <i class="fas fa-umbrella-beach mr-1"></i>
+            <font-awesome-icon icon="umbrella-beach" class="mr-1" />
             WARM
           </div>
         </div>
