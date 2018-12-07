@@ -2,7 +2,7 @@
   <div class="row cost-filter">
     <div class="col-12 mt-5">
         <h2>Get notified of new DevOps conferences!</h2>
-      <form class="form-inline mb-4">
+      <form action="https://formspree.io/subscribe@gotodevops.org" method="POST" class="form-inline mb-4">
         <input class="form-control col-7 offset-1" id="email" name="email" type="text" placeholder="Enter your email"/>
         <button type="submit" class="btn col-3">SUBSCRIBE</button>
       </form>
