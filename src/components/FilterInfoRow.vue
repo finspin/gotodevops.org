@@ -2,7 +2,7 @@
   <div class="container d-md-none filter-info-row">
     <div class="row">
       <div class="col-12 text-right">
-        <!--<subscribe-button></subscribe-button>-->
+        <subscribe-button></subscribe-button>
         <filter-toggle-button></filter-toggle-button>
       </div>
     </div>
@@ -27,6 +27,5 @@
 <style scoped>
   .filter-info-row {
     padding-top: 15px;
-    padding-bottom: 10px;
   }
 </style>

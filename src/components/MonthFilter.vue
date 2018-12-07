@@ -1,20 +1,5 @@
 <template>
   <div id="month-filters">
-    <!--<div class="row month-filter first">-->
-      <!--<div class="col-12">-->
-          <!--<span class="year">2018</span>-->
-      <!--</div>-->
-      <!--<div class="col-12">-->
-        <!--<div class="row no-gutters">-->
-          <!--<div v-for="month in months" class="col-1">-->
-            <!--<div @click="applyMonthFilter(month, '2018')"-->
-                 <!--:class="['month', { active: isActive(month, '2018') }]"-->
-            <!--&gt;{{ month }}-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
     <div class="row month-filter">
       <div class="col-12">
         <div class="filter-label">Year 2019</div>

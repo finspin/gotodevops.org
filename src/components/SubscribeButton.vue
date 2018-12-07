@@ -1,7 +1,8 @@
 <template>
   <div class="d-inline-block">
-    <a class="btn btn-primary btn-sm btn-filter" href="https://www.subscribepage.com/devops-conferences" role="button"><i
-      class="fas fa-envelope"></i>&nbsp; SUBSCRIBE</a>
+    <a class="subscribe-link" href="https://www.subscribepage.com/devops-conferences">
+      <font-awesome-icon icon="envelope" class="mr-0" /> SUBSCRIBE
+    </a>
   </div>
 </template>
 
@@ -13,9 +14,12 @@
 </script>
 
 <style scoped>
-  .btn-filter {
-    background-color: #ff2f3f;
-    color: #fff;
-    border: 1px solid #ff2f3f;
+  .subscribe-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #627690;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
   }
 </style>

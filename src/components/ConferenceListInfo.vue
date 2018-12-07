@@ -58,6 +58,7 @@
   @media (max-width: 576px) {
     .list-info {
       text-align: center;
+      padding-top: 5px;
     }
   }
 </style>

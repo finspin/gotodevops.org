@@ -14,14 +14,17 @@
         </div>
         <div class="col-md-6 right no-gutters">
           <div class="right-content">
-            <!--<div class="col-md-12">-->
+            <div class="col-md-12 no-padding">
               <filter-info-row></filter-info-row>
-              <div class="collapse d-md-none" id="collapse-filters">
+              <div class="collapse d-md-none container" id="collapse-filters">
                 <filters></filters>
+                <conference-list-info></conference-list-info>
               </div>
-              <conference-list-info></conference-list-info>
+              <div class="d-none d-md-block">
+                <conference-list-info></conference-list-info>
+              </div>
               <conferences></conferences>
-            <!--</div>-->
+            </div>
           </div>
         </div>
       </div>
@@ -58,6 +61,11 @@
     color: #132839;
   }
 
+  .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   #top-stripe {
     width: 100%;
     height: 6px;
@@ -83,7 +91,7 @@
   }
 
   .right-content {
-    max-width: 500px;
+    max-width: 530px;
     float: left;
     width: 100%;
   }
@@ -94,10 +102,6 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
-  /*.container {*/
-  /*max-width: 600px;*/
-  /*}*/
 
   @media (max-width: 576px) {
     h1 {
