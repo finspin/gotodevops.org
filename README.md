@@ -40,6 +40,10 @@ If you submit a pull request with the conference details, please follow this for
   * **start**: Start date of the conference in the format YYYY-MM-DD, e.g. 2019-10-22
   * **end**: End date of the conference in the format YYYY-MM-DD, e.g. 2019-10-25
 * **temperature**:
-  * **celsius**: Average temperature in the city during the conference in Celsius, e.g. 18. To find out the temperature, google e.g. _average weather new york february_ and switch to Celsius.
-  * **fahrenheit**: Average temperature in the city during the conference in Fahrenheit, e.g. 65. To find out the temperature, google e.g. _average weather new york february_ and switch to Fahrenheit.
-* **cost**: Cost of the conference ticket. Estimate the average price per day based on the total ticket cost and the number of days. Enter one of the following values: _free_, _1_, _2_ or _3_. Use the following mapping for the cost: < $300/day = 1, under $600/day = 2, over $600/day = 3
+  * **celsius**: Average temperature in the city during the conference in Celsius, e.g. 18. To find out the temperature, google e.g. _weather new york february_ and switch to Celsius.
+  * **fahrenheit**: Average temperature in the city during the conference in Fahrenheit, e.g. 65. To find out the temperature, google e.g. _weather new york february_ and switch to Fahrenheit.
+* **cost**: Cost of the conference ticket. Estimate the average price per day based on the total ticket cost and the number of days. Enter one of the following values: _unknown_, _0_, _1_, _2_ or _3_. Use the following cost mapping: 
+  * free = 0
+  * less than $300/day = 1
+  * less than $600/day = 2
+  * more than $600/day = 3

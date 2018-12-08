@@ -159,8 +159,8 @@
     country: USA
     continent: North America
   date:
-    start: 2018-10-21
-    end: 2018-10-23
+    start: 2019-10-13
+    end: 2019-10-15
   temperature:
     celsius: 22
     fahrenheit: 72
@@ -169,12 +169,12 @@
 - name: HashiConf
   url: https://www.hashiconf.com
   location:
-    city: San Francisco
+    city: Seattle
     country: USA
     continent: North America
   date:
-    start: 2018-10-22
-    end: 2018-10-24
+    start: 2019-09-09
+    end: 2019-09-11
   temperature:
     celsius: 21
     fahrenheit: 70
@@ -320,15 +320,15 @@
     fahrenheit: 49
   cost: 1
 
-- name: DevOps East
-  url: https://devopseast.techwell.com/
+- name: Agile + DevOps East
+  url: https://agiledevopseast.techwell.com/
   location:
     city: Orlando
     country: USA
     continent: North America
   date:
-    start: 2018-11-04
-    end: 2018-11-09
+    start: 2019-11-04
+    end: 2019-11-09
   temperature:
     celsius: 25
     fahrenheit: 78
@@ -377,17 +377,17 @@
   cost: 1
 
 - name: KubeCon and CloudNativeCon China
-  url: https://events.linuxfoundation.cn/events/kubecon-cloudnativecon-china-2018/
+  url: https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2019/
   location:
     city: Shanghai
     country: China
     continent: Asia
   date:
-    start: 2018-11-14
-    end: 2018-11-15
+    start: 2019-06-25
+    end: 2019-06-26
   temperature:
-    celsius: 17
-    fahrenheit: 63
+    celsius: 28
+    fahrenheit: 82
   cost: 1
 
 - name: DevOpsDays Shenzhen
@@ -481,8 +481,8 @@
     country: USA
     continent: North America
   date:
-    start: 2018-11-26
-    end: 2018-11-30
+    start: 2019-12-02
+    end: 2019-12-06
   temperature:
     celsius: 20
     fahrenheit: 69
@@ -531,17 +531,31 @@
   cost: 1
 
 - name: KubeCon and CloudNativeCon North America
-  url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2018/
+  url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/
   location:
-    city: Seattle
+    city: San Diego
     country: USA
     continent: North America
   date:
-    start: 2018-12-10
-    end: 2018-12-13
+    start: 2019-11-18
+    end: 2019-11-21
   temperature:
-    celsius: 8
-    fahrenheit: 46
+    celsius: 21
+    fahrenheit: 70
+  cost: 1
+
+- name: KubeCon and CloudNativeCon Europe
+  url: https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/
+  location:
+    city: Barcelona
+    country: Spain
+    continent: Europe
+  date:
+    start: 2019-05-20
+    end: 2019-05-23
+  temperature:
+    celsius: 23
+    fahrenheit: 73
   cost: 1
 
 - name: Devops 2018
@@ -730,7 +744,7 @@
   url: https://www.devonsummit.com/
   location:
     city: Utrecht
-    country: Netherlands
+    country: The Netherlands
     continent: Europe
   date:
     start: 2019-03-14
@@ -992,8 +1006,8 @@
     fahrenheit: 63
   cost: 1
 
-- name: DevOps West
-  url: https://devopswest.techwell.com/
+- name: Agile + DevOps West
+  url: https://agiledevopswest.techwell.com/
   location:
     city: Las Vegas
     country: USA
@@ -1131,3 +1145,59 @@
     celsius: 16
     fahrenheit: 60
   cost: 2
+
+- name: DevOps For Web
+  url: https://www.code-conf.com/2019/devops-for-web-aar/
+  location:
+    city: Aarhus
+    country: Denmark
+    continent: Europe
+  date:
+    start: 2019-03-07
+    end: 2019-03-07
+  temperature:
+    celsius: 6
+    fahrenheit: 42
+  cost: 1
+
+- name: SREcon19 Asia/Australia
+  url: https://www.usenix.org/conferences
+  location:
+    city: Singapore
+    country: Singapore
+    continent: Asia
+  date:
+    start: 2019-06-12
+    end: 2019-06-14
+  temperature:
+    celsius: 32
+    fahrenheit: 89
+  cost: unknown
+
+- name: Building The Future North America
+  url: https://www.cloudfoundry.org/event/nasummit2019/
+  location:
+    city: Philadelphia
+    country: USA
+    continent: North America
+  date:
+    start: 2019-04-02
+    end: 2019-04-04
+  temperature:
+    celsius: 19
+    fahrenheit: 66
+  cost: 2
+
+- name: Building The Future Europe
+  url: https://www.cloudfoundry.org/event/eusummit2019/
+  location:
+    city: The Hague
+    country: The Netherlands
+    continent: Europe
+  date:
+    start: 2019-09-11
+    end: 2019-09-12
+  temperature:
+    celsius: 18
+    fahrenheit: 65
+  cost: unknown
