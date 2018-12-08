@@ -18,11 +18,8 @@
               <filter-info-row></filter-info-row>
               <div class="collapse d-md-none container" id="collapse-filters">
                 <filters></filters>
-                <!--<conference-list-info></conference-list-info>-->
               </div>
-              <!--<div class="d-none d-md-block">-->
                 <conference-list-info></conference-list-info>
-              <!--</div>-->
               <conferences></conferences>
             </div>
           </div>

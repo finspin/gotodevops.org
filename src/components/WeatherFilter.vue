@@ -5,7 +5,6 @@
       <div class="row">
         <div class="col-4 pr-2 pr-sm-3">
           <div @click="applyWeatherFilter('cold')" :class="['weather', { active: isActive('cold') }]">
-            <!--<i class="far fa-snowflake mr-1"></i>-->
             <font-awesome-icon icon="snowflake" class="mr-1" />
             COLD
           </div>
