@@ -126,7 +126,7 @@
   @media (min-width: 768px) {
     .right {
       height: 100vh;
-      overflow: hidden;
+      /*overflow: hidden;*/
       overflow-y: scroll;
     }
   }
