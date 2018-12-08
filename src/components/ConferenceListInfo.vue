@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12 list-info">
         <span v-if="numberOfDisplayedConferences === numberOfConferences">
-        Displaying {{ numberOfConferences }} conferences. Try some filters.
+        Displaying all {{ numberOfConferences }} conferences. Try some filters.
         </span>
         <span v-if="numberOfDisplayedConferences > 0 && numberOfDisplayedConferences < numberOfConferences">
           Displaying {{ numberOfDisplayedConferences }} out of {{ numberOfConferences }} conferences. <span
