@@ -1,7 +1,7 @@
 <template>
   <div class="d-inline-block">
     <a class="subscribe-link" href="https://www.subscribepage.com/devops-conferences">
-      <font-awesome-icon icon="envelope" class="mr-0" /> SUBSCRIBE
+      <font-awesome-icon icon="envelope" class="mr-1" />SUBSCRIBE
     </a>
   </div>
 </template>
