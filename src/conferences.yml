@@ -1174,21 +1174,7 @@
     fahrenheit: 89
   cost: unknown
 
-- name: Building The Future North America
-  url: https://www.cloudfoundry.org/event/nasummit2019/
-  location:
-    city: Philadelphia
-    country: USA
-    continent: North America
-  date:
-    start: 2019-04-02
-    end: 2019-04-04
-  temperature:
-    celsius: 19
-    fahrenheit: 66
-  cost: 2
-
-- name: Building The Future Europe
+- name: Cloud Foundry Summit Europe
   url: https://www.cloudfoundry.org/event/eusummit2019/
   location:
     city: The Hague
