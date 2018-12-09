@@ -23,7 +23,7 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   region: us-west-2
   acl: public_read
-  cache_control: no-store
+  cache_control: no-cache
   skip_cleanup: true
   local_dir: ./publish
 
