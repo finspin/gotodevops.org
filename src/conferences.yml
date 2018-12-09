@@ -1187,3 +1187,31 @@
     celsius: 18
     fahrenheit: 65
   cost: unknown
+
+- name: Container Days
+  url: https://www.containerdays.io/
+  location:
+    city: Hamburg
+    country: Germany
+    continent: Europe
+  date:
+    start: 2019-06-24
+    end: 2019-06-26
+  temperature:
+    celsius: 20
+    fahrenheit: 69
+  cost: 1
+
+- name: GOTO Amsterdam 2019
+  url: https://gotoams.nl/
+  location:
+    city: Amsterdam
+    country: The Netherlands
+    continent: Europe
+  date:
+    start: 2019-06-17
+    end: 2019-06-20
+  temperature:
+    celsius: 20
+    fahrenheit: 68
+  cost: 2
