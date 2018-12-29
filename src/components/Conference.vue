@@ -61,11 +61,11 @@
         const confStartDate = new Date(conference.date.start);
         const confEndDate = new Date(conference.date.end);
 
-        const confStartDay = confStartDate.getDate();
+        const confStartDay = confStartDate.getUTCDate();
         const confStartMonth = confStartDate.toLocaleString(locale, {month: "short"}).toUpperCase();
         const confStartYear = confStartDate.getFullYear();
 
-        const confEndDay = confEndDate.getDate();
+        const confEndDay = confEndDate.getUTCDate();
         const confEndMonth = confEndDate.toLocaleString(locale, {month: "short"}).toUpperCase();
         const confEndYear = confEndDate.getFullYear();
 
