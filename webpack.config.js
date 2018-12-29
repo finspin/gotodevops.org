@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const {VueLoaderPlugin} = require('vue-loader')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 
 module.exports = {
@@ -62,7 +63,22 @@ module.exports = {
       _: 'lodash'
     }),
     new VueLoaderPlugin()
-  ]
+  ],
+  optimization: {
+    minimizer: [
+      // we specify a custom UglifyJsPlugin here to get source maps in production
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        uglifyOptions: {
+          compress: false,
+          ecma: 6,
+          mangle: true
+        },
+        sourceMap: true
+      })
+    ]
+  }
 };
 
 if (process.env.NODE_ENV === 'production') {
@@ -72,12 +88,6 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"'
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      compress: {
-        warnings: false
       }
     }),
     new webpack.LoaderOptionsPlugin({
