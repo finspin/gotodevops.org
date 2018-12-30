@@ -2,7 +2,6 @@ const path = require('path');
 const webpack = require('webpack');
 const {VueLoaderPlugin} = require('vue-loader')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-const CompressionPlugin = require('compression-webpack-plugin');
 
 
 module.exports = {
@@ -63,13 +62,7 @@ module.exports = {
       jquery: 'jquery',
       _: 'lodash'
     }),
-    new VueLoaderPlugin(),
-    new CompressionPlugin({
-      algorithm: "gzip",
-      test: /\.(js|css|html)$/,
-      threshold: 10240,
-      minRatio: 0.8
-    })
+    new VueLoaderPlugin()
   ],
   optimization: {
     minimizer: [
