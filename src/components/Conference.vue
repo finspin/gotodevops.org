@@ -122,6 +122,11 @@
     display: block;
   }
 
+  a:hover {
+    text-decoration: none;
+    text-underline: none;
+  }
+
   hr {
     margin-top: 2px;
     margin-bottom: 7px;
