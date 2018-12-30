@@ -180,20 +180,6 @@
     fahrenheit: 70
   cost: 2
 
-- name: DevOps Enterprise Summit
-  url: https://events.itrevolution.com/us/
-  location:
-    city: Las Vegas
-    country: USA
-    continent: North America
-  date:
-    start: 2018-10-22
-    end: 2018-10-24
-  temperature:
-    celsius: 28
-    fahrenheit: 82
-  cost: 3
-
 - name: DevOpsDays Phoenix
   url: https://www.devopsdays.org/events/2018-phoenix/welcome/
   location:
@@ -614,6 +600,20 @@
     fahrenheit: 49
   cost: 2
 
+- name: Agile, Testing & DevOps Showcase
+  url: http://conference.unicom.co.uk/showcases/2019/amsterdam/
+  location:
+    city: Amsterdam
+    country: The Netherlands
+    continent: Europe
+  date:
+    start: 2019-01-31
+    end: 2019-01-31
+  temperature:
+    celsius: 6
+    fahrenheit: 42
+  cost: 2
+
 - name: Fosdem
   url: https://fosdem.org/2019/
   location:
@@ -655,6 +655,20 @@
     celsius: 21
     fahrenheit: 69
   cost: 1
+
+- name: QCon London
+  url: https://qconlondon.com/
+  location:
+    city: London
+    country: UK
+    continent: Europe
+  date:
+    start: 2019-03-04
+    end: 2019-03-08
+  temperature:
+    celsius: 12
+    fahrenheit: 53
+  cost: 3
 
 - name: Incontro DevOps Italia
   url: http://www.incontrodevops.it/events/idi2019/
@@ -838,6 +852,20 @@
     fahrenheit: 59
   cost: 1
 
+- name: GOTO Chicago
+  url: https://gotochgo.com/
+  location:
+    city: Chicago
+    country: USA
+    continent: North America
+  date:
+    start: 2019-04-28
+    end: 2019-05-02
+  temperature:
+    celsius: 19
+    fahrenheit: 66
+  cost: 2
+
 - name: PowerShell Summit
   url: https://powershell.org/summit/
   location:
@@ -935,6 +963,20 @@
     celsius: 18
     fahrenheit: 65
   cost: 1
+
+- name: JAX DevOps
+  url: https://devops.jaxlondon.com/
+  location:
+    city: London
+    country: UK
+    continent: Europe
+  date:
+    start: 2019-05-14
+    end: 2019-05-17
+  temperature:
+    celsius: 18
+    fahrenheit: 65
+  cost: 2
 
 - name: DevOpsDays Kiev
   url: https://www.devopsdays.org/events/2019-kiev/welcome/
@@ -1076,6 +1118,20 @@
     fahrenheit: 70
   cost: unknown
 
+- name: DevOpsCon
+  url: https://devopsconference.de/
+  location:
+    city: Berlin
+    country: Germany
+    continent: Europe
+  date:
+    start: 2019-06-11
+    end: 2019-06-14
+  temperature:
+    celsius: 22
+    fahrenheit: 71
+  cost: 2
+
 - name: MacDevOpsYVR
   url: https://mdoyvr.com
   location:
@@ -1099,6 +1155,20 @@
   date:
     start: 2019-06-21
     end: 2019-06-22
+  temperature:
+    celsius: 29
+    fahrenheit: 84
+  cost: 1
+
+- name: DevOps Enterprise Summit London
+  url: https://events.itrevolution.com/eur/
+  location:
+    city: London
+    country: UK
+    continent: Europe
+  date:
+    start: 2019-06-25
+    end: 2019-06-27
   temperature:
     celsius: 29
     fahrenheit: 84
@@ -1131,6 +1201,20 @@
     celsius: 27
     fahrenheit: 81
   cost: 1
+
+- name: CloudNative London
+  url: https://skillsmatter.com/conferences/11723-cloudnative-london-2019
+  location:
+    city: London
+    country: UK
+    continent: Europe
+  date:
+    start: 2019-09-25
+    end: 2019-09-27
+  temperature:
+    celsius: 20
+    fahrenheit: 67
+  cost: 2
 
 - name: IP Expo Europe
   url: https://www.ipexpoeurope.com/
@@ -1215,3 +1299,17 @@
     celsius: 20
     fahrenheit: 68
   cost: 2
+
+- name: SREcon Europe
+  url: https://www.usenix.org/conference/srecon19europe
+  location:
+    city: Dublin
+    country: Ireland
+    continent: Europe
+  date:
+    start: 2019-10-02
+    end: 2019-10-04
+  temperature:
+    celsius: 14
+    fahrenheit: 57
+  cost: unknown
