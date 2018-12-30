@@ -584,7 +584,7 @@
   temperature:
     celsius: 4
     fahrenheit: 39
-  cost: unknown
+  cost: 1
 
 - name: NDC London
   url: https://ndc-london.com/
@@ -640,7 +640,7 @@
   temperature:
     celsius: 7
     fahrenheit: 44
-  cost: unknown
+  cost: 0
 
 - name: GrafanaCon
   url: http://grafanacon.org/
@@ -752,7 +752,7 @@
   temperature:
     celsius: 12
     fahrenheit: 53
-  cost: unknown
+  cost: 0
 
 - name: DevOn Summit
   url: https://www.devonsummit.com/
@@ -920,7 +920,7 @@
   temperature:
     celsius: 19
     fahrenheit: 67
-  cost: unknown
+  cost: 3
 
 - name: Craft Conference
   url: https://craft-conf.com/
@@ -1018,8 +1018,8 @@
   temperature:
     celsius: 18
     fahrenheit: 65
-  cost: unknown
-  
+  cost: 1
+
 - name: GlueCon
   url: http://gluecon.com
   location:
@@ -1077,14 +1077,14 @@
   cost: 1
 
 - name: DEVOPS.BCN
-  url: https://devops.barcelona/2019/
+  url: https://devops.barcelona
   location:
     city: Barcelona
     country: Spain
     continent: Europe
   date:
-    start: 2019-06-10
-    end: 2019-06-12
+    start: 2019-06-04
+    end: 2019-06-06
   temperature:
     celsius: 27
     fahrenheit: 81
@@ -1111,7 +1111,7 @@
     country: UK
     continent: Europe
   date:
-    start: 2019-06-11
+    start: 2019-06-12
     end: 2019-06-13
   temperature:
     celsius: 21
