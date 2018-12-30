@@ -12,7 +12,7 @@ script:
 - mkdir publish
 - npm install
 - npm run build
-- cp -R index.html thank-you.html dist static publish
+- cp -R index.html thank-you.html dist/build.js.gz static publish
 
 deploy:
   on:
@@ -26,6 +26,7 @@ deploy:
   cache_control: no-cache
   skip_cleanup: true
   local_dir: ./publish
+  detect_encoding: true
 
 after_deploy:
 - aws configure set preview.cloudfront true
