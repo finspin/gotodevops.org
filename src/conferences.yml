@@ -4,13 +4,13 @@
     city: Melbourne
     country: Australia 
     continent: Australia
-   date:
-     start: 2019-03-21
-     end: 2019-03-22
-   temperature: 
-     celsius: 19
-     fahrenheit: 66
-   cost: 2
+  date:
+    start: 2019-03-21
+    end: 2019-03-22
+  temperature: 
+    celsius: 19
+    fahrenheit: 66
+  cost: 2
 
 - name: DevOps Talks Conference Auckland
   url: https://devopstalks.com/nz/devops.html
