@@ -376,20 +376,6 @@
     fahrenheit: 50
   cost: 1
 
-- name: DevOps Talks
-  url: http://devopstalks.com/devops.html
-  location:
-    city: Melbourne
-    country: Australia
-    continent: Australia
-  date:
-    start: 2019-03-21
-    end: 2019-03-22
-  temperature:
-    celsius: 24
-    fahrenheit: 75
-  cost: 1
-
 - name: SREcon Americas
   url: https://www.usenix.org/conference/srecon19americas
   location:
