@@ -1,3 +1,45 @@
+- name: DevOps Talks Conference Melbourne
+  url: https://devopstalks.com/au/devops.html
+  location:
+    city: Melbourne
+    country: Australia 
+    continent: Australia
+  date:
+    start: 2019-03-21
+    end: 2019-03-22
+  temperature: 
+    celsius: 19
+    fahrenheit: 66
+  cost: 2
+
+- name: DevOps Talks Conference Auckland
+  url: https://devopstalks.com/nz/devops.html
+  location:
+    city: Auckland 
+    country: New Zealand 
+    continent: Oceania
+  date:
+    start: 2019-03-26
+    end: 2019-03-27
+  temperature: 
+    celsius: 19
+    fahrenheit: 66
+  cost: 1
+
+- name: DevOps Talks Conference Sydney
+  url: https://devopstalks.com
+  location:
+    city: Sydney
+    country: Australia 
+    continent: Australia
+  date:
+    start: 2019-09-10
+    end: 2019-09-11
+  temperature: 
+    celsius: 21
+    fahrenheit: 71
+  cost: 2
+
 - name: All Things Open
   url: https://allthingsopen.org/
   location:
