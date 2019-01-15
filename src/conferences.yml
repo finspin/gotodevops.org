@@ -209,7 +209,7 @@
   cost: 3
 
 - name: QCon New York
-  url: qconnewyork.com
+  url: https://qconnewyork.com/
   location:
     city: New York City
     country: USA
