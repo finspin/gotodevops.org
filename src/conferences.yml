@@ -194,6 +194,48 @@
     fahrenheit: 53
   cost: 3
 
+- name: QCon San Francisco
+  url: https://qconsf.com/
+  location:
+    city: San Francisco
+    country: USA
+    continent: North America
+  date:
+    start: 2019-11-11
+    end: 2019-11-15
+  temperature:
+    celsius: 64
+    fahrenheit: 17
+  cost: 3
+
+- name: QCon New York
+  url: https://qconnewyork.com/
+  location:
+    city: New York City
+    country: USA
+    continent: North America
+  date:
+    start: 2019-6-24
+    end: 2019-6-28
+  temperature:
+    celsius: 80
+    fahrenheit: 26
+  cost: 3
+
+- name: QCon.ai San Francisco
+  url: https://qcon.ai/
+  location:
+    city: San Francisco
+    country: USA
+    continent: North America
+  date:
+    start: 2019-04-16
+    end: 2019-04-17
+  temperature:
+    celsius: 65
+    fahrenheit: 18
+  cost: 3
+
 - name: Incontro DevOps Italia
   url: http://www.incontrodevops.it/events/idi2019/
   location:
