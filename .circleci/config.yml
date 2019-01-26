@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:10.15.0
+    working_directory: ~/workspace
     steps:
       - checkout
       - run:
@@ -11,6 +12,12 @@ jobs:
       - run:
           name: Generate static site
           command: 'npm run generate'
+      - persist_to_workspace:
+          root: ~/workspace
+          paths:
+            - dist/nuxt
+            - dist/index.html
+            - dist/favicon.png
   deploy:
     docker:
       - image: circleci/python:3.6.8
@@ -33,3 +40,10 @@ jobs:
           command: |
             aws configure set preview.cloudfront true
             aws cloudfront create-invalidation --distribution-id $BETA_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+workflows:
+  version: 2
+  jobs:
+    - build
+    - deploy:
+        requires:
+          - build
