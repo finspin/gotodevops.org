@@ -1,49 +1,22 @@
-[![Build Status](https://travis-ci.org/finspin/gotodevops.org.svg?branch=master)](https://travis-ci.org/finspin/gotodevops.org)
+# gotodevops.org.nuxt
 
-# What is this repository?
+> My flawless Nuxt.js project
 
-This is the source code for the website [gotodevops.org](http://www.gotodevops.org).
+## Build Setup
 
-# How can I contribute?
+``` bash
+# install dependencies
+$ npm install
 
-To add a new conference, send an email with the conference website URL to _hello@gotodevops.org_ or clone this repository, modify the [conferences.yml](https://github.com/finspin/gotodevops.org/blob/master/src/conferences.yml) file and submit a pull request.
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-## Data format
+# build for production and launch server
+$ npm run build
+$ npm start
 
-If you submit a pull request with the conference details, please follow this format:
-
-```
-- name:
-  url: 
-  location:
-    city:
-    country:
-    continent:
-  date:
-    start:
-    end:
-  temperature:
-    celsius:
-    fahrenheit:
-  cost:
+# generate static project
+$ npm run generate
 ```
 
-* **name**: Name of the conference
-
-* **url**: URL of the conference website
-
-* **location**:
-  * **city**: City where the conference takes place
-  * **country**: Country where the conference takes place
-  * **continent**: Continent where the conference takes place. Enter one of the following: _North America_, _South America_, _Europe_, _Asia_, _Africa_, _Australia_, _Antarctica_
-* **date**:
-  * **start**: Start date of the conference in the format YYYY-MM-DD, e.g. 2019-10-22
-  * **end**: End date of the conference in the format YYYY-MM-DD, e.g. 2019-10-25
-* **temperature**:
-  * **celsius**: Average temperature in the city during the conference in Celsius, e.g. 18. To find out the temperature, google e.g. _weather new york february_ and switch to Celsius.
-  * **fahrenheit**: Average temperature in the city during the conference in Fahrenheit, e.g. 65. To find out the temperature, google e.g. _weather new york february_ and switch to Fahrenheit.
-* **cost**: Cost of the conference ticket. Estimate the average price per day based on the total ticket cost and the number of days. Enter one of the following values: _unknown_, _0_, _1_, _2_ or _3_. Use the following cost mapping: 
-  * free = 0
-  * less than $300/day = 1
-  * less than $600/day = 2
-  * more than $600/day = 3
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

@@ -19,7 +19,7 @@
               <div class="collapse d-md-none container" id="collapse-filters">
                 <filters></filters>
               </div>
-                <conference-list-info></conference-list-info>
+              <conference-list-info></conference-list-info>
               <conferences></conferences>
             </div>
           </div>
@@ -30,17 +30,14 @@
 </template>
 
 <script>
-  import Conferences from './components/Conferences'
-  import ConferenceListInfo from './components/ConferenceListInfo'
-  import Filters from './components/Filters'
-  import FilterInfoRow from './components/FilterInfoRow'
-  import SubscriptionForm from './components/SubscriptionForm'
-  import * as Sentry from '@sentry/browser'
-
-  Sentry.init({dsn: 'https://7f9b876b596b45319aa2b59093ccef19@sentry.io/1310125'});
+  import Conferences from "../components/Conferences";
+  import ConferenceListInfo from "../components/ConferenceListInfo";
+  import Filters from "../components/Filters";
+  import FilterInfoRow from "../components/FilterInfoRow";
+  import SubscriptionForm from "../components/SubscriptionForm";
 
   export default {
-    name: 'DevopsConferences',
+    name: "DevopsConferences",
     components: {
       Conferences,
       ConferenceListInfo,
@@ -49,7 +46,7 @@
       SubscriptionForm
     }
 
-  }
+  };
 </script>
 
 <style>

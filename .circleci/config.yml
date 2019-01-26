@@ -1,0 +1,35 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.15.0
+    steps:
+      - checkout
+      - run:
+          name: Install dependenies
+          command: 'npm install'
+      - run:
+          name: Generate static site
+          command: 'npm run generate'
+  deploy:
+    docker:
+      - image: circleci/python:3.6.8
+    steps:
+      - run:
+          name: Install awscli
+          command: 'sudo apt-get install awscli'
+      - run:
+          name: Deploy to S3
+          command: |
+            if [ "${CIRCLE_BRANCH}" = "master" ]; then
+              aws s3 sync ./dist  s3://www.payrolled.fi --delete --acl public-read
+            elif [ "${CIRCLE_BRANCH}" = "beta" ]; then
+              aws s3 sync ./dist s3://beta.payrolled.fi --delete --acl public-read
+            else
+              echo "No instruction for branch ${CIRCLE_BRANCH}"
+            fi
+      - run:
+          name: Invalidate CloudFront cache
+          command: |
+            aws configure set preview.cloudfront true
+            aws cloudfront create-invalidation --distribution-id $BETA_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"

@@ -1,0 +1,1082 @@
+[
+  {
+    "name": "All Things Open",
+    "url": "https://allthingsopen.org/",
+    "location": {
+      "city": "Raleigh",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-10-13T00:00:00.000Z",
+      "end": "2019-10-15T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 22,
+      "fahrenheit": 72
+    },
+    "cost": 1
+  },
+  {
+    "name": "HashiConf",
+    "url": "https://www.hashiconf.com",
+    "location": {
+      "city": "Seattle",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-09-09T00:00:00.000Z",
+      "end": "2019-09-11T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70
+    },
+    "cost": 2
+  },
+  {
+    "name": "Agile + DevOps East",
+    "url": "https://agiledevopseast.techwell.com/",
+    "location": {
+      "city": "Orlando",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-11-04T00:00:00.000Z",
+      "end": "2019-11-09T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 25,
+      "fahrenheit": 78
+    },
+    "cost": 3
+  },
+  {
+    "name": "KubeCon and CloudNativeCon China",
+    "url": "https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2019/",
+    "location": {
+      "city": "Shanghai",
+      "country": "China",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2019-06-25T00:00:00.000Z",
+      "end": "2019-06-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 28,
+      "fahrenheit": 82
+    },
+    "cost": 1
+  },
+  {
+    "name": "re:INVENT",
+    "url": "https://reinvent.awsevents.com/",
+    "location": {
+      "city": "Las Vegas",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-12-02T00:00:00.000Z",
+      "end": "2019-12-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 69
+    },
+    "cost": 2
+  },
+  {
+    "name": "KubeCon and CloudNativeCon North America",
+    "url": "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/",
+    "location": {
+      "city": "San Diego",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-11-18T00:00:00.000Z",
+      "end": "2019-11-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70
+    },
+    "cost": 1
+  },
+  {
+    "name": "KubeCon and CloudNativeCon Europe",
+    "url": "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-20T00:00:00.000Z",
+      "end": "2019-05-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays New York City",
+    "url": "https://www.devopsdays.org/events/2019-new-york-city/welcome/",
+    "location": {
+      "city": "New York City",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-01-24T00:00:00.000Z",
+      "end": "2019-01-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 4,
+      "fahrenheit": 39
+    },
+    "cost": 1
+  },
+  {
+    "name": "NDC London",
+    "url": "https://ndc-london.com/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-01-28T00:00:00.000Z",
+      "end": "2019-02-01T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 9,
+      "fahrenheit": 49
+    },
+    "cost": 2
+  },
+  {
+    "name": "Agile, Testing & DevOps Showcase",
+    "url": "http://conference.unicom.co.uk/showcases/2019/amsterdam/",
+    "location": {
+      "city": "Amsterdam",
+      "country": "The Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-01-31T00:00:00.000Z",
+      "end": "2019-01-31T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 6,
+      "fahrenheit": 42
+    },
+    "cost": 2
+  },
+  {
+    "name": "Fosdem",
+    "url": "https://fosdem.org/2019/",
+    "location": {
+      "city": "Brussels",
+      "country": "Belgium",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-02-02T00:00:00.000Z",
+      "end": "2019-02-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 7,
+      "fahrenheit": 44
+    },
+    "cost": 0
+  },
+  {
+    "name": "Config Management Camp",
+    "url": "https://cfgmgmtcamp.eu/",
+    "location": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-02-04T00:00:00.000Z",
+      "end": "2019-02-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 7,
+      "fahrenheit": 44
+    },
+    "cost": 0
+  },
+  {
+    "name": "GrafanaCon",
+    "url": "http://grafanacon.org/",
+    "location": {
+      "city": "Los Angeles",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-02-25T00:00:00.000Z",
+      "end": "2019-02-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 69
+    },
+    "cost": 1
+  },
+  {
+    "name": "QCon London",
+    "url": "https://qconlondon.com/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-03-04T00:00:00.000Z",
+      "end": "2019-03-08T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 12,
+      "fahrenheit": 53
+    },
+    "cost": 3
+  },
+  {
+    "name": "Incontro DevOps Italia",
+    "url": "http://www.incontrodevops.it/events/idi2019/",
+    "location": {
+      "city": "Bologna",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-03-08T00:00:00.000Z",
+      "end": "2019-03-08T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 14,
+      "fahrenheit": 57
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Gathering 2019",
+    "url": "https://devops-gathering.io/",
+    "location": {
+      "city": "Bochum",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-03-11T00:00:00.000Z",
+      "end": "2019-03-13T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 8,
+      "fahrenheit": 47
+    },
+    "cost": 1
+  },
+  {
+    "name": "ScaleConf",
+    "url": "http://scaleconf.org/",
+    "location": {
+      "city": "Cape Town",
+      "country": "South Africa",
+      "continent": "Africa"
+    },
+    "date": {
+      "start": "2019-03-07T00:00:00.000Z",
+      "end": "2019-03-08T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 27,
+      "fahrenheit": 81
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "SCALE 17x",
+    "url": "http://www.socallinuxexpo.org/scale/17x",
+    "location": {
+      "city": "Pasadena",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-03-07T00:00:00.000Z",
+      "end": "2019-03-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 22,
+      "fahrenheit": 72
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Los Angeles",
+    "url": "https://www.devopsdays.org/events/2019-los-angeles/welcome/",
+    "location": {
+      "city": "Los Angeles",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-03-08T00:00:00.000Z",
+      "end": "2019-03-08T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70
+    },
+    "cost": 1
+  },
+  {
+    "name": "Cloud Expo Europe",
+    "url": "https://www.cloudexpoeurope.com/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-03-12T00:00:00.000Z",
+      "end": "2019-03-13T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 12,
+      "fahrenheit": 53
+    },
+    "cost": 0
+  },
+  {
+    "name": "DevOn Summit",
+    "url": "https://www.devonsummit.com/",
+    "location": {
+      "city": "Utrecht",
+      "country": "The Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-03-14T00:00:00.000Z",
+      "end": "2019-03-14T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 10,
+      "fahrenheit": 50
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Talks",
+    "url": "http://devopstalks.com/devops.html",
+    "location": {
+      "city": "Melbourne",
+      "country": "Australia",
+      "continent": "Australia"
+    },
+    "date": {
+      "start": "2019-03-21T00:00:00.000Z",
+      "end": "2019-03-22T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 24,
+      "fahrenheit": 75
+    },
+    "cost": 1
+  },
+  {
+    "name": "SREcon Americas",
+    "url": "https://www.usenix.org/conference/srecon19americas",
+    "location": {
+      "city": "New York",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-03-25T00:00:00.000Z",
+      "end": "2019-03-27T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 10,
+      "fahrenheit": 50
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "DevOpsDays Vancouver",
+    "url": "https://www.devopsdays.org/events/2019-vancouver/welcome/",
+    "location": {
+      "city": "Vancouver",
+      "country": "Canada",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-03-29T00:00:00.000Z",
+      "end": "2019-03-30T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 10,
+      "fahrenheit": 51
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "Cloud Foundry Summit North America",
+    "url": "https://www.cloudfoundry.org/event/nasummit2019/",
+    "location": {
+      "city": "Philadelphia",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-04-02T00:00:00.000Z",
+      "end": "2019-04-04T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Tokyo",
+    "url": "https://www.devopsdays.org/events/2019-tokyo/welcome/",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2019-04-09T00:00:00.000Z",
+      "end": "2019-04-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Seattle",
+    "url": "https://www.devopsdays.org/events/2019-seattle/welcome/",
+    "location": {
+      "city": "Seattle",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-04-23T00:00:00.000Z",
+      "end": "2019-04-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 15,
+      "fahrenheit": 59
+    },
+    "cost": 1
+  },
+  {
+    "name": "GOTO Chicago",
+    "url": "https://gotochgo.com/",
+    "location": {
+      "city": "Chicago",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-04-28T00:00:00.000Z",
+      "end": "2019-05-02T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
+    },
+    "cost": 2
+  },
+  {
+    "name": "PowerShell Summit",
+    "url": "https://powershell.org/summit/",
+    "location": {
+      "city": "Bellevue",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-04-29T00:00:00.000Z",
+      "end": "2019-05-02T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 15,
+      "fahrenheit": 59
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsDays Austin",
+    "url": "https://www.devopsdays.org/events/2019-austin/welcome/",
+    "location": {
+      "city": "Austin",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-02T00:00:00.000Z",
+      "end": "2019-05-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 30,
+      "fahrenheit": 86
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Des Moines",
+    "url": "https://www.devopsdays.org/events/2019-des-moines/welcome/",
+    "location": {
+      "city": "Des Moines",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-02T00:00:00.000Z",
+      "end": "2019-05-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 24,
+      "fahrenheit": 75
+    },
+    "cost": 1
+  },
+  {
+    "name": "Red Hat Summit",
+    "url": "https://www.redhat.com/en/summit/2018",
+    "location": {
+      "city": "Boston",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-07T00:00:00.000Z",
+      "end": "2019-05-09T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 67
+    },
+    "cost": 3
+  },
+  {
+    "name": "Craft Conference",
+    "url": "https://craft-conf.com/",
+    "location": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-07T00:00:00.000Z",
+      "end": "2019-05-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "DevOpsDays Zurich",
+    "url": "https://www.devopsdays.org/events/2019-zurich/welcome/",
+    "location": {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-14T00:00:00.000Z",
+      "end": "2019-05-15T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 67
+    },
+    "cost": 1
+  },
+  {
+    "name": "Continuous LifeCycle",
+    "url": "https://continuouslifecycle.london",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-14T00:00:00.000Z",
+      "end": "2019-05-16T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 65
+    },
+    "cost": 1
+  },
+  {
+    "name": "JAX DevOps",
+    "url": "https://devops.jaxlondon.com/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-14T00:00:00.000Z",
+      "end": "2019-05-17T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 65
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsDays Kiev",
+    "url": "https://www.devopsdays.org/events/2019-kiev/welcome/",
+    "location": {
+      "city": "Kiev",
+      "country": "Ukraine",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-17T00:00:00.000Z",
+      "end": "2019-05-18T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 69
+    },
+    "cost": 1
+  },
+  {
+    "name": "Interop ITX",
+    "url": "https://www.interop.com/",
+    "location": {
+      "city": "Las Vegas",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-20T00:00:00.000Z",
+      "end": "2019-05-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 32,
+      "fahrenheit": 90
+    },
+    "cost": 3
+  },
+  {
+    "name": "ChefConf",
+    "url": "https://chefconf.chef.io/",
+    "location": {
+      "city": "Seattle",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-20T00:00:00.000Z",
+      "end": "2019-05-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 65
+    },
+    "cost": 1
+  },
+  {
+    "name": "GlueCon",
+    "url": "http://gluecon.com",
+    "location": {
+      "city": "Denver",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-22T00:00:00.000Z",
+      "end": "2019-05-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 2
+  },
+  {
+    "name": "Riga DevDays",
+    "url": "https://rigadevdays.lv/",
+    "location": {
+      "city": "Riga",
+      "country": "Latvia",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-29T00:00:00.000Z",
+      "end": "2019-05-31T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 17,
+      "fahrenheit": 63
+    },
+    "cost": 1
+  },
+  {
+    "name": "Agile + DevOps West",
+    "url": "https://agiledevopswest.techwell.com/",
+    "location": {
+      "city": "Las Vegas",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-06-02T00:00:00.000Z",
+      "end": "2019-06-07T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 38,
+      "fahrenheit": 101
+    },
+    "cost": 2
+  },
+  {
+    "name": "MonitoRama",
+    "url": "http://monitorama.com/",
+    "location": {
+      "city": "Portland",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-06-03T00:00:00.000Z",
+      "end": "2019-06-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 1
+  },
+  {
+    "name": "DEVOPS.BCN",
+    "url": "https://devops.barcelona",
+    "location": {
+      "city": "Barcelona",
+      "country": "Spain",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-04T00:00:00.000Z",
+      "end": "2019-06-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 27,
+      "fahrenheit": 81
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "Velocity",
+    "url": "https://conferences.oreilly.com/velocity/vl-ca",
+    "location": {
+      "city": "San Jose",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-06-10T00:00:00.000Z",
+      "end": "2019-06-13T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 27,
+      "fahrenheit": 80
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "Cloud & DevOps World",
+    "url": "https://tmt.knect365.com/cloud-devops-world/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-12T00:00:00.000Z",
+      "end": "2019-06-13T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "DevOpsCon",
+    "url": "https://devopsconference.de/",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-11T00:00:00.000Z",
+      "end": "2019-06-14T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 22,
+      "fahrenheit": 71
+    },
+    "cost": 2
+  },
+  {
+    "name": "MacDevOpsYVR",
+    "url": "https://mdoyvr.com",
+    "location": {
+      "city": "Vancouver",
+      "country": "Canada",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-06-12T00:00:00.000Z",
+      "end": "2019-06-14T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 67
+    },
+    "cost": 1
+  },
+  {
+    "name": "Rootconf 2019",
+    "url": "https://rootconf.in/2019/",
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2019-06-21T00:00:00.000Z",
+      "end": "2019-06-22T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 29,
+      "fahrenheit": 84
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Enterprise Summit London",
+    "url": "https://events.itrevolution.com/eur/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-25T00:00:00.000Z",
+      "end": "2019-06-27T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 29,
+      "fahrenheit": 84
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Amsterdam",
+    "url": "https://www.devopsdays.org/events/2019-amsterdam/welcome/",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-26T00:00:00.000Z",
+      "end": "2019-06-28T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 68
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Minneapolis",
+    "url": "https://www.devopsdays.org/events/2019-minneapolis/welcome/",
+    "location": {
+      "city": "Minneapolis",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-08-06T00:00:00.000Z",
+      "end": "2019-08-07T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 27,
+      "fahrenheit": 81
+    },
+    "cost": 1
+  },
+  {
+    "name": "CloudNative London",
+    "url": "https://skillsmatter.com/conferences/11723-cloudnative-london-2019",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-09-25T00:00:00.000Z",
+      "end": "2019-09-27T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 67
+    },
+    "cost": 2
+  },
+  {
+    "name": "IP Expo Europe",
+    "url": "https://www.ipexpoeurope.com/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-09T00:00:00.000Z",
+      "end": "2019-10-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 16,
+      "fahrenheit": 60
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOps For Web",
+    "url": "https://www.code-conf.com/2019/devops-for-web-aar/",
+    "location": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-03-07T00:00:00.000Z",
+      "end": "2019-03-07T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 6,
+      "fahrenheit": 42
+    },
+    "cost": 1
+  },
+  {
+    "name": "SREcon19 Asia/Australia",
+    "url": "https://www.usenix.org/conferences",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2019-06-12T00:00:00.000Z",
+      "end": "2019-06-14T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 32,
+      "fahrenheit": 89
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "Cloud Foundry Summit Europe",
+    "url": "https://www.cloudfoundry.org/event/eusummit2019/",
+    "location": {
+      "city": "The Hague",
+      "country": "The Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-09-11T00:00:00.000Z",
+      "end": "2019-09-12T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 65
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "Container Days",
+    "url": "https://www.containerdays.io/",
+    "location": {
+      "city": "Hamburg",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-24T00:00:00.000Z",
+      "end": "2019-06-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 69
+    },
+    "cost": 1
+  },
+  {
+    "name": "GOTO Amsterdam 2019",
+    "url": "https://gotoams.nl/",
+    "location": {
+      "city": "Amsterdam",
+      "country": "The Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-17T00:00:00.000Z",
+      "end": "2019-06-20T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 68
+    },
+    "cost": 2
+  },
+  {
+    "name": "SREcon Europe",
+    "url": "https://www.usenix.org/conference/srecon19europe",
+    "location": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-02T00:00:00.000Z",
+      "end": "2019-10-04T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 14,
+      "fahrenheit": 57
+    },
+    "cost": "unknown"
+  }
+]
