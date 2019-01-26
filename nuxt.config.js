@@ -28,7 +28,9 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    "@fortawesome/fontawesome-svg-core/styles.css"
+    "@fortawesome/fontawesome-svg-core/styles.css",
+    "~/static/fonts/roboto.css"
+
   ],
 
 

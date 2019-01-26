@@ -36,6 +36,7 @@
   import FilterInfoRow from "../components/FilterInfoRow";
   import SubscriptionForm from "../components/SubscriptionForm";
 
+
   export default {
     name: "DevopsConferences",
     components: {
