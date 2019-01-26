@@ -32,9 +32,9 @@ jobs:
           name: Deploy to S3
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
-              aws s3 sync ./dist  s3://www.payrolled.fi --delete --acl public-read
+              aws s3 sync ./dist  s3://www.gotodevops.org --delete --acl public-read
             elif [ "${CIRCLE_BRANCH}" = "beta" ]; then
-              aws s3 sync ./dist s3://beta.payrolled.fi --delete --acl public-read
+              aws s3 sync ./dist s3://beta.gotodevops.org --delete --acl public-read
             else
               echo "No instruction for branch ${CIRCLE_BRANCH}"
             fi
