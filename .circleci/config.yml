@@ -15,7 +15,7 @@ jobs:
       - persist_to_workspace:
           root: ~/workspace
           paths:
-            - dist/nuxt
+            - dist/_nuxt
             - dist/index.html
             - dist/favicon.png
   deploy:
