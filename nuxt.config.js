@@ -10,7 +10,7 @@ module.exports = {
     title: "List Of DevOps Conferences In 2019",
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
+      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
       ],
     meta: [
       { charset: "utf-8" },
