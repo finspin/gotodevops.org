@@ -8,12 +8,15 @@ module.exports = {
   */
   head: {
     title: "List Of DevOps Conferences In 2019",
-    link: [ { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' } ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto' }
+      ],
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "Find your next DevOps conference from the most comprehensive list, maintained by a community of DevOps professionals." }
-    ],
+    ]
   },
 
   /*

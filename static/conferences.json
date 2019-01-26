@@ -1,5 +1,59 @@
 [
   {
+    "name": "DevOps Talks Conference Melbourne",
+    "url": "https://devopstalks.com/au/devops.html",
+    "location": {
+      "city": "Melbourne",
+      "country": "Australia",
+      "continent": "Australia"
+    },
+    "date": {
+      "start": "2019-03-21T00:00:00.000Z",
+      "end": "2019-03-22T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOps Talks Conference Auckland",
+    "url": "https://devopstalks.com/nz/devops.html",
+    "location": {
+      "city": "Auckland",
+      "country": "New Zealand",
+      "continent": "Oceania"
+    },
+    "date": {
+      "start": "2019-03-26T00:00:00.000Z",
+      "end": "2019-03-27T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Talks Conference Sydney",
+    "url": "https://devopstalks.com",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Australia"
+    },
+    "date": {
+      "start": "2019-09-10T00:00:00.000Z",
+      "end": "2019-09-11T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 71
+    },
+    "cost": 2
+  },
+  {
     "name": "All Things Open",
     "url": "https://allthingsopen.org/",
     "location": {
@@ -252,6 +306,60 @@
     "cost": 3
   },
   {
+    "name": "QCon San Francisco",
+    "url": "https://qconsf.com/",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-11-11T00:00:00.000Z",
+      "end": "2019-11-15T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 64,
+      "fahrenheit": 17
+    },
+    "cost": 3
+  },
+  {
+    "name": "QCon New York",
+    "url": "https://qconnewyork.com/",
+    "location": {
+      "city": "New York City",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-06-24T00:00:00.000Z",
+      "end": "2019-06-28T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 80,
+      "fahrenheit": 26
+    },
+    "cost": 3
+  },
+  {
+    "name": "QCon.ai San Francisco",
+    "url": "https://qcon.ai/",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-04-16T00:00:00.000Z",
+      "end": "2019-04-17T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 65,
+      "fahrenheit": 18
+    },
+    "cost": 3
+  },
+  {
     "name": "Incontro DevOps Italia",
     "url": "http://www.incontrodevops.it/events/idi2019/",
     "location": {
@@ -374,24 +482,6 @@
     "temperature": {
       "celsius": 10,
       "fahrenheit": 50
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOps Talks",
-    "url": "http://devopstalks.com/devops.html",
-    "location": {
-      "city": "Melbourne",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-03-21T00:00:00.000Z",
-      "end": "2019-03-22T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 24,
-      "fahrenheit": 75
     },
     "cost": 1
   },
