@@ -62,7 +62,7 @@
   .month {
     border: 1px solid #D4DDE9;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     border-right: none;
     padding: 10px 0;
     color: #545e6d;

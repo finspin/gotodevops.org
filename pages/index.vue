@@ -93,7 +93,6 @@
 
   h1 {
     font-size: 32px;
-    font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
   }

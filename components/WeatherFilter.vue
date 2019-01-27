@@ -58,7 +58,7 @@
   .weather {
     border: 1px solid #D4DDE9;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 5px;
     padding: 9px 0;
     color: #545e6d;

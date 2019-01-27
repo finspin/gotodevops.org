@@ -92,7 +92,7 @@
   }
 
   .name {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 19px;
     line-height: 1.4;
     color: #12263D;
