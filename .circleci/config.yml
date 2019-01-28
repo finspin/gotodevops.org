@@ -41,8 +41,16 @@ jobs:
       - run:
           name: Invalidate CloudFront cache
           command: |
-            aws configure set preview.cloudfront true
-            aws cloudfront create-invalidation --distribution-id $BETA_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+            if [ "${CIRCLE_BRANCH}" = "master" ]; then
+              aws configure set preview.cloudfront true
+              aws cloudfront create-invalidation --distribution-id $WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+              aws cloudfront create-invalidation --distribution-id $NON_WWW_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+            elif [ "${CIRCLE_BRANCH}" = "beta" ]; then
+              aws configure set preview.cloudfront true
+              aws cloudfront create-invalidation --distribution-id $BETA_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+            else
+              echo "No instruction for branch ${CIRCLE_BRANCH}"
+            fi
 workflows:
   version: 2
   build_and_deploy:
