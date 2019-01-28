@@ -51,6 +51,10 @@ module.exports = {
   ** Build configuration
   */
   build: {
+
+    analyze: {
+      analyzerMode: 'static'
+    },
     /*
     ** Plugins to load before mounting the App
     */
