@@ -52,9 +52,9 @@ module.exports = {
   */
   build: {
 
-    analyze: {
-      analyzerMode: 'static'
-    },
+    // analyze: {
+    //   analyzerMode: 'static'
+    // },
     /*
     ** Plugins to load before mounting the App
     */

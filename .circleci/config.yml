@@ -16,8 +16,10 @@ jobs:
           root: ~/workspace
           paths:
             - dist/_nuxt
-            - dist/index.html
+            - dist/fonts
             - dist/favicon.png
+            - dist/index.html
+            - dist/thank-you.html
   deploy:
     docker:
       - image: circleci/python:3.6.8
