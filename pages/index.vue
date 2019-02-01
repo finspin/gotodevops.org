@@ -16,10 +16,12 @@
           <div class="right-content">
             <div class="col-md-12 no-padding">
               <filter-info-row></filter-info-row>
-              <div class="collapse d-md-none container" id="collapse-filters">
-                <filters></filters>
-              </div>
-                <conference-list-info></conference-list-info>
+              <b-collapse id="collapse-filters">
+                <div class="container">
+                  <filters></filters>
+                </div>
+              </b-collapse>
+              <conference-list-info></conference-list-info>
               <conferences></conferences>
             </div>
           </div>
@@ -30,17 +32,15 @@
 </template>
 
 <script>
-  import Conferences from './components/Conferences'
-  import ConferenceListInfo from './components/ConferenceListInfo'
-  import Filters from './components/Filters'
-  import FilterInfoRow from './components/FilterInfoRow'
-  import SubscriptionForm from './components/SubscriptionForm'
-  import * as Sentry from '@sentry/browser'
+  import Conferences from "../components/Conferences";
+  import ConferenceListInfo from "../components/ConferenceListInfo";
+  import Filters from "../components/Filters";
+  import FilterInfoRow from "../components/FilterInfoRow";
+  import SubscriptionForm from "../components/SubscriptionForm";
 
-  Sentry.init({dsn: 'https://7f9b876b596b45319aa2b59093ccef19@sentry.io/1310125'});
 
   export default {
-    name: 'DevopsConferences',
+    name: "DevopsConferences",
     components: {
       Conferences,
       ConferenceListInfo,
@@ -49,7 +49,7 @@
       SubscriptionForm
     }
 
-  }
+  };
 </script>
 
 <style>
@@ -95,7 +95,6 @@
 
   h1 {
     font-size: 32px;
-    font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
   }

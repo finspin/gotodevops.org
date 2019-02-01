@@ -6,26 +6,31 @@ This is the source code for the website [gotodevops.org](http://www.gotodevops.o
 
 # How can I contribute?
 
-To add a new conference, send an email with the conference website URL to _hello@gotodevops.org_ or clone this repository, modify the [conferences.yml](https://github.com/finspin/gotodevops.org/blob/master/src/conferences.yml) file and submit a pull request.
+To add a new conference, send an email with the conference website URL to _hello@gotodevops.org_ or clone this repository, modify the [conferences.json](https://github.com/finspin/gotodevops.org/blob/master/static/conferences.json) file and submit a pull request.
 
 ## Data format
 
-If you submit a pull request with the conference details, please follow this format:
+If you submit a pull request with the conference details, please follow the format of this example:
 
 ```
-- name:
-  url: 
-  location:
-    city:
-    country:
-    continent:
-  date:
-    start:
-    end:
-  temperature:
-    celsius:
-    fahrenheit:
-  cost:
+{
+    "name": "Name ",
+    "url": "https://qconnewyork.com/",
+    "location": {
+      "city": "New York City",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-06-24T00:00:00.000Z",
+      "end": "2019-06-28T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 80,
+      "fahrenheit": 26
+    },
+    "cost": 3
+}
 ```
 
 * **name**: Name of the conference
@@ -37,8 +42,8 @@ If you submit a pull request with the conference details, please follow this for
   * **country**: Country where the conference takes place
   * **continent**: Continent where the conference takes place. Enter one of the following: _North America_, _South America_, _Europe_, _Asia_, _Africa_, _Australia_, _Antarctica_
 * **date**:
-  * **start**: Start date of the conference in the format YYYY-MM-DD, e.g. 2019-10-22
-  * **end**: End date of the conference in the format YYYY-MM-DD, e.g. 2019-10-25
+  * **start**: Start date of the conference, e.g. `2019-06-24T00:00:00.000Z`
+  * **end**: End date of the conference, e.g. `2019-06-26T00:00:00.000Z`
 * **temperature**:
   * **celsius**: Average temperature in the city during the conference in Celsius, e.g. 18. To find out the temperature, google e.g. _weather new york february_ and switch to Celsius.
   * **fahrenheit**: Average temperature in the city during the conference in Fahrenheit, e.g. 65. To find out the temperature, google e.g. _weather new york february_ and switch to Fahrenheit.

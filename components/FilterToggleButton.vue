@@ -1,9 +1,8 @@
 <template>
   <div class="d-inline-block">
-    <button class="btn btn-filter btn-link pr-0" type="button" data-toggle="collapse"
-            data-target="#collapse-filters"
-            aria-expanded="false" aria-controls="collapse-filters">
-      <font-awesome-icon icon="filter" class="mr-1" />FILTER
+    <button class="btn btn-filter btn-link pr-0" v-b-toggle="'collapse-filters'" type="button">
+      <font-awesome-icon icon="filter" class="mr-1"/>
+      FILTER
     </button>
   </div>
 </template>
@@ -18,7 +17,7 @@
 <style scoped>
   .btn-filter {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: #6542CB;
     cursor: pointer;
     text-align: center;

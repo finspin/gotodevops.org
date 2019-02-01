@@ -1,24 +1,21 @@
 <template>
-  <div class="row weather-filter">
+  <div class="row continent-filter">
     <div class="col-12">
-      <div class="filter-label">Weather</div>
+      <div class="filter-label">Location</div>
       <div class="row">
         <div class="col-4 pr-2 pr-sm-3">
-          <div @click="applyWeatherFilter('cold')" :class="['weather', { active: isActive('cold') }]">
-            <font-awesome-icon icon="snowflake" class="mr-1" />
-            COLD
+          <div @click="applyContinentFilter('USA')" :class="['continent', { active: isActive('USA') }]">
+            USA
           </div>
         </div>
         <div class="col-4 pr-2 pl-2 pr-sm-3 pl-sm-3">
-          <div @click="applyWeatherFilter('mild')" :class="['weather', { active: isActive('mild') }]">
-            <font-awesome-icon icon="cloud" class="mr-1" />
-           MILD
+          <div @click="applyContinentFilter('Europe')" :class="['continent', { active: isActive('Europe')} ]">
+            EUROPE
           </div>
         </div>
         <div class="col-4 pl-2 pl-sm-3">
-          <div @click="applyWeatherFilter('warm')" :class="['weather', { active: isActive('warm') }]">
-            <font-awesome-icon icon="umbrella-beach" class="mr-1" />
-            WARM
+          <div @click="applyContinentFilter('Asia / Australia')" :class="['continent', { active: isActive('Asia / Australia') }]">
+            ASIA / AUS
           </div>
         </div>
       </div>
@@ -30,48 +27,48 @@
   import {mapState, mapMutations} from 'vuex'
 
   export default {
-    name: "WeatherFilter",
+    name: "ContinentFilter",
     computed: {
       ...mapState([
         'filters'
-      ]),
+      ])
     },
     methods: {
       ...mapMutations([
-        'UPDATE_WEATHER_FILTER'
+        'UPDATE_CONTINENT_FILTER'
       ]),
-      applyWeatherFilter: function (weather) {
-        this.UPDATE_WEATHER_FILTER(weather);
+      applyContinentFilter: function (continent) {
+        this.UPDATE_CONTINENT_FILTER(continent);
       },
-      isActive: function (weather) {
-        return this.filters.weather === weather;
+      isActive: function (continent) {
+        return this.filters.continent === continent;
       }
-    },
+    }
   }
 </script>
 
 <style scoped>
-  .weather-filter {
-    padding-bottom: 20px;
+  .continent-filter {
+    padding-bottom: 25px;
   }
 
-  .weather {
+  .continent {
     border: 1px solid #D4DDE9;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 5px;
-    padding: 9px 0;
+    padding: 10px 0;
     color: #545e6d;
     background-color: #fff;
     cursor: pointer;
     text-align: center;
   }
 
-  .weather:hover {
+  .continent:hover {
     background-color: #ECEEF0;
   }
 
-  .weather.active {
+  .continent.active {
     background-color: #6542CB;
     border: 1px solid #6542CB;
     color: #fff;
@@ -84,7 +81,7 @@
   }
 
   @media (max-width: 576px) {
-    .weather {
+    .continent {
       padding: 5px 0;
       font-weight: 400;
     }
