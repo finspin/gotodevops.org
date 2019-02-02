@@ -1,9 +1,9 @@
 <template>
   <div class="d-inline-block">
-    <!--<button class="btn btn-filter btn-link pr-0" v-b-toggle="'collapse-filters'" type="button">-->
-      <!--<font-awesome-icon icon="filter" class="mr-1"/>-->
-      <!--FILTER-->
-    <!--</button>-->
+    <b-btn class="btn btn-filter btn-link pr-0" v-b-toggle="'collapse-filters'">
+      <font-awesome-icon icon="filter" class="mr-1"/>
+      FILTER
+    </b-btn>
   </div>
 </template>
 
@@ -22,5 +22,11 @@
     cursor: pointer;
     text-align: center;
     text-decoration: none;
+  }
+
+  /*b-btn assigns btn-secondary class by default*/
+  .btn-secondary {
+    background-color: #fff;
+    border: none;
   }
 </style>
