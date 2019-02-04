@@ -12,8 +12,6 @@
   import CostFilter from './CostFilter'
   import WeatherFilter from './WeatherFilter'
   import ContinentFilter from './ContinentFilter'
-  import ConferenceListInfo from './ConferenceListInfo'
-  import SubscriptionForm from './SubscriptionForm'
 
   export default {
     name: "Filters",
@@ -21,12 +19,7 @@
       MonthFilter,
       CostFilter,
       WeatherFilter,
-      ContinentFilter,
-      ConferenceListInfo,
-      SubscriptionForm
+      ContinentFilter
     }
   }
 </script>
-
-<style scoped>
-</style>
