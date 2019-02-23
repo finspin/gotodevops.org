@@ -19,16 +19,10 @@ module.exports = {
   },
 
   /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: "#fff" },
-
-  /*
   ** Global CSS
   */
   css: [
-    "@fortawesome/fontawesome-svg-core/styles.css",
-    "~/static/fonts/roboto.css"
+    "@fortawesome/fontawesome-svg-core/styles.css"
   ],
 
 
