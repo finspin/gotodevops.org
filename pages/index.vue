@@ -54,7 +54,7 @@
 
 <style>
   body {
-    font-family: Roboto, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #132839;
   }
 
