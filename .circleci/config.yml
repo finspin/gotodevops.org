@@ -59,5 +59,10 @@ workflows:
     jobs:
       - build
       - deploy:
+          filters:
+            branches:
+              only:
+                - master
+                - beta 
           requires:
             - build
