@@ -35,8 +35,10 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
               aws s3 sync ./dist  s3://www.gotodevops.org --delete --acl public-read
+              aws s3 sync ./dist/_nuxt  s3://www.gotodevops.org/_nuxt --delete --acl public-read --cache-control max-age=31536000,public
             elif [ "${CIRCLE_BRANCH}" = "beta" ]; then
               aws s3 sync ./dist s3://beta.gotodevops.org --delete --acl public-read
+              aws s3 sync ./dist/_nuxt  s3://beta.gotodevops.org/_nuxt --delete --acl public-read --cache-control max-age=31536000,public
             else
               echo "No instruction for branch ${CIRCLE_BRANCH}"
             fi
