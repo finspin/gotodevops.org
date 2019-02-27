@@ -1205,4 +1205,23 @@
     },
     "cost": "unknown"
   }
+  ,
+  {
+    "name": "DevOpsDays Portugal",
+    "url": "https://www.devopsdays.org/events/2019-portugal/welcome/",
+    "location": {
+      "city": "Lisbon",
+      "country": "Portugal",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-03T00:00:00.000Z",
+      "end": "2019-06-04T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 22,
+      "fahrenheit": 72
+    },
+    "cost": 1
+  }
 ]
