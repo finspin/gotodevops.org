@@ -14,6 +14,7 @@ module.exports = {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "google-site-verification", content: "-vXHtXbcyvgpc0ozZbgAgosriGOjsII3rolId9kZeCo" },
       { hid: "description", name: "description", content: "Find your next DevOps conference in 2019 from the most comprehensive list, maintained by a community of DevOps professionals. DevOps Conferences in USA, Europe, Asia and Australia &raquo;" }
     ]
   },
