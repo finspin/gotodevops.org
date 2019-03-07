@@ -354,8 +354,26 @@
       "end": "2019-11-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 64,
-      "fahrenheit": 17
+      "celsius": 17,
+      "fahrenheit": 64 
+    },
+    "cost": 3
+  },
+  {
+    "name": "The National DevOps Conference",
+    "url": "http://www.devopsonline.co.uk/national-devops-conference/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-18T00:00:00.000Z",
+      "end": "2019-06-19T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70 
     },
     "cost": 3
   },
@@ -372,8 +390,8 @@
       "end": "2019-06-28T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 80,
-      "fahrenheit": 26
+      "celsius": 26,
+      "fahrenheit": 80 
     },
     "cost": 3
   },
@@ -390,8 +408,8 @@
       "end": "2019-04-17T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 65,
-      "fahrenheit": 18
+      "celsius": 18,
+      "fahrenheit": 65 
     },
     "cost": 3
   },
