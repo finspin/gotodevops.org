@@ -1,9 +1,9 @@
 <template>
   <div class="d-inline-block">
-    <!--<b-btn class="btn btn-filter btn-link pr-0" v-b-toggle="'collapse-filters'">-->
-      <!--<font-awesome-icon icon="filter" class="mr-1"/>-->
-      <!--FILTER-->
-    <!--</b-btn>-->
+    <b-btn class="btn btn-filter btn-link pr-0" v-b-toggle="'collapse-filters'">
+      <font-awesome-icon icon="filter" class="mr-1"/>
+      FILTER
+    </b-btn>
   </div>
 </template>
 
