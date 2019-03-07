@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12 text-right mb-2">
         <subscribe-button></subscribe-button>
-        <!--<filter-toggle-button></filter-toggle-button>-->
+        <filter-toggle-button></filter-toggle-button>
       </div>
     </div>
   </div>

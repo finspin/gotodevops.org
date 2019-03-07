@@ -16,12 +16,12 @@
           <div class="right-content">
             <div class="col-md-12 no-padding">
               <filter-info-row></filter-info-row>
-              <!--<b-collapse id="collapse-filters">-->
-                <!--<div class="container">-->
-                  <!--<filters></filters>-->
-                <!--</div>-->
-              <!--</b-collapse>-->
-              <!--<conference-list-info></conference-list-info>-->
+              <b-collapse id="collapse-filters">
+                <div class="container">
+                  <filters></filters>
+                </div>
+              </b-collapse>
+              <conference-list-info></conference-list-info>
               <conferences></conferences>
             </div>
           </div>

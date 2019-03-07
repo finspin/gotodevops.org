@@ -28,10 +28,10 @@
         <div class="cost float-right">
           <div v-if="conference.cost === 0">FREE</div>
           <div v-if="conference.cost === 1">
-            < $300 / DAY
+            &lt; $300 / DAY
           </div>
           <div v-if="conference.cost === 2">
-            < $600 / DAY
+            &lt; $600 / DAY
           </div>
           <div v-if="conference.cost === 3">
             > $600 / DAY
@@ -117,14 +117,12 @@
 
   a {
     text-decoration: none;
-    text-underline: none;
     color: #333;
     display: block;
   }
 
   a:hover {
     text-decoration: none;
-    text-underline: none;
   }
 
   hr {
