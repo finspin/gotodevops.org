@@ -2,14 +2,14 @@
   <div id="conference-list-info" class="container">
     <div class="row">
       <div class="col-12 list-info">
-        <span v-if="numberOfDisplayedConferences === numberOfConferences">
+        <span v-show="numberOfDisplayedConferences === numberOfConferences">
         Displaying all {{ numberOfConferences }} conferences. Try some filters.
         </span>
-        <span v-if="numberOfDisplayedConferences > 0 && numberOfDisplayedConferences < numberOfConferences">
+        <span v-show="numberOfDisplayedConferences > 0 && numberOfDisplayedConferences < numberOfConferences">
           Displaying {{ numberOfDisplayedConferences }} out of {{ numberOfConferences }} conferences. <span
           class="link-style" @click="clearAllFilters()">Clear all filters</span>.
         </span>
-        <span v-if="numberOfDisplayedConferences === 0">
+        <span v-show="numberOfDisplayedConferences === 0">
           <span>There are no conferences to display. Try removing some filters or <span class="link-style"
                                                                                      @click="clearAllFilters()">clear all filters</span>.</span>
         </span>

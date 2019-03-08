@@ -15,28 +15,28 @@
       </div>
       <div class="col-3 col-md-3 weather">
         <div class="weather">
-          <font-awesome-icon v-if="conference.temperature.celsius < 10" icon="snowflake" :style="{ color: '#3f5167' }"
+          <font-awesome-icon v-show="conference.temperature.celsius < 10" icon="snowflake" :style="{ color: '#3f5167' }"
                              class="mr-1"/>
-          <font-awesome-icon v-if="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"
+          <font-awesome-icon v-show="conference.temperature.celsius >= 10 && conference.temperature.celsius < 20"
                              icon="cloud" :style="{ color: '#3f5167' }" class="mr-1"/>
-          <font-awesome-icon v-if="conference.temperature.celsius >= 20" icon="umbrella-beach"
+          <font-awesome-icon v-show="conference.temperature.celsius >= 20" icon="umbrella-beach"
                              :style="{ color: '#3f5167' }" class="mr-1"/>
           {{ conference.temperature.celsius }}℃
         </div>
       </div>
       <div class="col-4 col-md-3 pl-0">
         <div class="cost float-right">
-          <div v-if="conference.cost === 0">FREE</div>
-          <div v-if="conference.cost === 1">
+          <div v-show="conference.cost === 0">FREE</div>
+          <div v-show="conference.cost === 1">
             &lt; $300 / DAY
           </div>
-          <div v-if="conference.cost === 2">
+          <div v-show="conference.cost === 2">
             &lt; $600 / DAY
           </div>
-          <div v-if="conference.cost === 3">
+          <div v-show="conference.cost === 3">
             > $600 / DAY
           </div>
-          <div v-if="conference.cost === 'unknown'">
+          <div v-show="conference.cost === 'unknown'">
             <font-awesome-icon :icon="['far', 'question-circle']"/>
           </div>
         </div>
