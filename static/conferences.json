@@ -54,6 +54,24 @@
     "cost": 1
   },
   {
+    "name": "DevOpsDays Toronto",
+    "url": "https://www.devopsdays.org/events/2019-toronto/welcome/",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-29T00:00:00.000Z",
+      "end": "2019-05-30T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 67
+    },
+    "cost": 1
+  },
+  {
     "name": "DevOps Talks Conference Sydney",
     "url": "https://devopstalks.com",
     "location": {
@@ -555,7 +573,7 @@
       "celsius": 10,
       "fahrenheit": 50
     },
-    "cost": "unknown"
+    "cost": 2
   },
   {
     "name": "DevOpsDays Vancouver",
@@ -573,7 +591,7 @@
       "celsius": 10,
       "fahrenheit": 51
     },
-    "cost": "unknown"
+    "cost": 1
   },
   {
     "name": "Cloud Foundry Summit North America",
@@ -735,7 +753,7 @@
       "celsius": 21,
       "fahrenheit": 70
     },
-    "cost": "unknown"
+    "cost": 1
   },
   {
     "name": "DevOpsDays Zurich",
@@ -933,7 +951,7 @@
       "celsius": 27,
       "fahrenheit": 81
     },
-    "cost": "unknown"
+    "cost": 1
   },
   {
     "name": "Velocity",
@@ -951,7 +969,7 @@
       "celsius": 27,
       "fahrenheit": 80
     },
-    "cost": "unknown"
+    "cost": 2
   },
   {
     "name": "Cloud & DevOps World",
@@ -1135,7 +1153,7 @@
   },
   {
     "name": "SREcon19 Asia/Australia",
-    "url": "https://www.usenix.org/conferences",
+    "url": "https://www.usenix.org/conference/srecon19asia",
     "location": {
       "city": "Singapore",
       "country": "Singapore",
@@ -1149,7 +1167,7 @@
       "celsius": 32,
       "fahrenheit": 89
     },
-    "cost": "unknown"
+    "cost": 2
   },
   {
     "name": "Cloud Foundry Summit Europe",
