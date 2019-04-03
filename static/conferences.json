@@ -1260,4 +1260,23 @@
     },
     "cost": 1
   }
+  ,
+    {
+    "name": "AnsibleFest Atlanta",
+    "url": "https://www.ansible.com/ansiblefest",
+    "location": {
+      "city": "Atlanta",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-09-24T00:00:00.000Z",
+      "end": "2019-09-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 22,
+      "fahrenheit": 72
+    },
+    "cost": "unknown"
+  }
 ]
