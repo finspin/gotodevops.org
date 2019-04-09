@@ -72,6 +72,24 @@
     "cost": 1
   },
   {
+    "name": "Texas Linux Fest",
+    "url": "https://www.texaslinuxfest.org/",
+    "location": {
+      "city": "Dallas",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-05-31T00:00:00.000Z",
+      "end": "2019-06-01T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 29,
+      "fahrenheit": 85
+    },
+    "cost": 549
+  },
+  {
     "name": "DevOps Talks Conference Sydney",
     "url": "https://devopstalks.com",
     "location": {
