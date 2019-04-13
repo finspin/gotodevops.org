@@ -72,6 +72,24 @@
     "cost": 1
   },
   {
+    "name": "Dash ",
+    "url": "https://www.dashcon.io/",
+    "location": {
+      "city": "New York City",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-07-16T00:00:00.000Z",
+      "end": "2019-07-17T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 26,
+      "fahrenheit": 80
+    },
+    "cost": 1
+  },
+  {
     "name": "DevOps Talks Conference Sydney",
     "url": "https://devopstalks.com",
     "location": {
