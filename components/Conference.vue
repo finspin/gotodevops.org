@@ -2,7 +2,7 @@
   <a :href="conference.url">
     <div class="conference row">
       <div class="col-12">
-        <div class="name">{{ conference.name }}</div>
+        <div class="name">{{ conference.name }} <span class="goto-symbol">&raquo;</span></div>
       </div>
       <div class="col-12">
         <div class="location">{{conference.location.city }}, {{ conference.location.country}}</div>
@@ -89,6 +89,14 @@
   .conference {
     padding-top: 20px;
     padding-bottom: 10px;
+  }
+
+  .goto-symbol {
+    display: none;
+  }
+
+  .conference:hover .goto-symbol {
+    display: inline;
   }
 
   .name {
