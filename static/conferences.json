@@ -373,7 +373,7 @@
     },
     "temperature": {
       "celsius": 4,
-      "fahrenheit": 39 
+      "fahrenheit": 39
     },
     "cost": 1
   },
@@ -391,7 +391,7 @@
     },
     "temperature": {
       "celsius": 17,
-      "fahrenheit": 64 
+      "fahrenheit": 64
     },
     "cost": 3
   },
@@ -409,7 +409,7 @@
     },
     "temperature": {
       "celsius": 21,
-      "fahrenheit": 70 
+      "fahrenheit": 70
     },
     "cost": 3
   },
@@ -427,7 +427,7 @@
     },
     "temperature": {
       "celsius": 26,
-      "fahrenheit": 80 
+      "fahrenheit": 80
     },
     "cost": 3
   },
@@ -445,7 +445,7 @@
     },
     "temperature": {
       "celsius": 18,
-      "fahrenheit": 65 
+      "fahrenheit": 65
     },
     "cost": 3
   },
@@ -1314,5 +1314,23 @@
       "fahrenheit": 85
     },
     "cost": 1
-  }
+  },
+  {
+    "name": "Large Installation System Administration Conference (LISA) ",
+    "url": "https://www.usenix.org/conference/lisa19",
+    "location": {
+      "city": "Portland",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-10-28T00:00:00.000Z",
+      "end": "2019-10-30T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 13,
+      "fahrenheit": 55
+    },
+    "cost": 2
+}
 ]
