@@ -6,7 +6,7 @@ This is the source code for the website [gotodevops.org](http://www.gotodevops.o
 
 # How can I contribute?
 
-To add a new conference, send an email with the conference website URL to _hello@gotodevops.org_ or clone this repository, modify the [conferences.json](https://github.com/finspin/gotodevops.org/blob/master/static/conferences.json) file and submit a pull request.
+To add a new conference, send an email with the conference website URL to _hello@gotodevops.org_ or [fork](https://guides.github.com/activities/forking/) this repository, modify the [conferences.json](https://github.com/finspin/gotodevops.org/blob/master/static/conferences.json) file and submit a pull request.
 
 ## Data format
 
@@ -14,7 +14,7 @@ If you submit a pull request with the conference details, please follow the form
 
 ```
 {
-    "name": "Name ",
+    "name": "QCon New York",
     "url": "https://qconnewyork.com/",
     "location": {
       "city": "New York City",
