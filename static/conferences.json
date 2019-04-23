@@ -1258,8 +1258,7 @@
       "fahrenheit": 57
     },
     "cost": "unknown"
-  }
-  ,
+  },
   {
     "name": "DevOpsDays Portugal",
     "url": "https://www.devopsdays.org/events/2019-portugal/welcome/",
@@ -1277,9 +1276,8 @@
       "fahrenheit": 72
     },
     "cost": 1
-  }
-  ,
-    {
+  },
+  {
     "name": "AnsibleFest Atlanta",
     "url": "https://www.ansible.com/ansiblefest",
     "location": {
@@ -1316,6 +1314,24 @@
     "cost": 1
   },
   {
+    "name": "Tech Agile Conference",
+    "url": "https://www.code-conf.com/2019/technical-agile-conference/",
+    "location": {
+      "city": "Gothenburg",
+      "country": "Sweden",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-14T00:00:00.000Z",
+      "end": "2019-05-14T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 15,
+      "fahrenheit": 59
+    },
+    "cost": 1
+  },
+  {
     "name": "Large Installation System Administration Conference (LISA) ",
     "url": "https://www.usenix.org/conference/lisa19",
     "location": {
@@ -1332,5 +1348,5 @@
       "fahrenheit": 55
     },
     "cost": 2
-}
+  }
 ]
