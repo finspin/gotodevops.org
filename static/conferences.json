@@ -18,6 +18,24 @@
     "cost": 2
   },
   {
+    "name": "Rootconf 2019 - Bangalore",
+    "url": "https://hasgeek.com/rootconf/2019/",
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2019-06-21T09:00:00+0600",
+      "end": "2019-06-21T17:00:00+0600"
+    },
+    "temperature": {
+      "celsius": 29,
+      "fahrenheit": 84
+    },
+    "cost": 1
+  },
+  {
     "name": "DevOps Talks Conference Auckland",
     "url": "https://devopstalks.com/nz/devops.html",
     "location": {
