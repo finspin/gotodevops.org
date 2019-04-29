@@ -1348,5 +1348,23 @@
       "fahrenheit": 55
     },
     "cost": 2
+  },
+  {
+    "name": "GitHub Satellite",
+    "url": "https://githubsatellite.com",
+    "location": {
+      "city": "Kraftwerk",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-23T00:00:00.000Z",
+      "end": "2019-05-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 93,
+      "fahrenheit": 34
+    },
+    "cost": 2
   }
 ]
