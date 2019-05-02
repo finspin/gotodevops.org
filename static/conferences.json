@@ -1348,5 +1348,23 @@
       "fahrenheit": 55
     },
     "cost": 2
+  },
+  {
+    "name": "Puppetize PDX",
+    "url": "https://puppet.com/puppetize",
+    "location": {
+      "city": "Portland",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-10-09T00:00:00.000Z",
+      "end": "2019-10-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 13,
+      "fahrenheit": 55
+    },
+    "cost": 2
   }
 ]
