@@ -1348,5 +1348,23 @@
       "fahrenheit": 55
     },
     "cost": 2
+  },
+  {
+    "name": "Puppet Contributor Summit",
+    "url": "https://puppet.com/puppetize/contributor-summit",
+    "location": {
+      "city": "Budapest",
+      "country": "Hungary",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-06-04T00:00:00.000Z",
+      "end": "2019-06-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 24,
+      "fahrenheit": 75
+    },
+    "cost": 2
   }
 ]
