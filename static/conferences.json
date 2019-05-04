@@ -1224,7 +1224,7 @@
     "cost": 1
   },
   {
-    "name": "GOTO Amsterdam 2019",
+    "name": "GOTO Amsterdam",
     "url": "https://gotoams.nl/",
     "location": {
       "city": "Amsterdam",
@@ -1400,6 +1400,24 @@
     "temperature": {
       "celsius": 19,
       "fahrenheit": 66
+    },
+    "cost": 2
+  },
+  {
+    "name": "GOTO Berlin",
+    "url": "https://gotober.com/2019",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-23T00:00:00.000Z",
+      "end": "2019-10-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 13,
+      "fahrenheit": 56
     },
     "cost": 2
   }
