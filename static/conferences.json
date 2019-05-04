@@ -1366,5 +1366,23 @@
       "fahrenheit": 75
     },
     "cost": 2
+  },
+  {
+    "name": "GitHub Satellite",
+    "url": "https://githubsatellite.com",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-05-23T00:00:00.000Z",
+      "end": "2019-05-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
+    },
+    "cost": 2
   }
 ]
