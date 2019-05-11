@@ -1420,5 +1420,23 @@
       "fahrenheit": 56
     },
     "cost": 2
+  },
+  {
+    "name": "JAX London",
+    "url": "https://jaxlondon.com/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-07T00:00:00.000Z",
+      "end": "2019-10-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 16,
+      "fahrenheit": 60
+    },
+    "cost": 2
   }
 ]
