@@ -1452,8 +1452,8 @@
       "end": "2019-07-10T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 80,
-      "fahrenheit": 26
+      "celsius": 26,
+      "fahrenheit": 80
     },
     "cost": 2
   }
