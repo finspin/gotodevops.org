@@ -1456,5 +1456,23 @@
       "fahrenheit": 80
     },
     "cost": 2
+  },
+  {
+    "name": "DevOpsDays Sydney",
+    "url": "https://www.devopsdays.org/events/2019-sydney/welcome/",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Australia"
+    },
+    "date": {
+      "start": "2019-10-10T00:00:00.000Z",
+      "end": "2019-10-11T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 22,
+      "fahrenheit": 72
+    },
+    "cost": 1
   }
 ]
