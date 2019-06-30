@@ -1440,6 +1440,24 @@
     "cost": 2
   },
   {
+    "name": "GOTO Copenhagen",
+    "url": "https://gotocph.com/2019",
+    "location": {
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-11-21T00:00:00.000Z",
+      "end": "2019-11-22T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 7,
+      "fahrenheit": 45 
+    },
+    "cost": 3
+  },
+  {
     "name": "JAX London",
     "url": "https://jaxlondon.com/",
     "location": {
