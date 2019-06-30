@@ -1134,8 +1134,8 @@
     "cost": 2
   },
   {
-    "name": "IP Expo Europe",
-    "url": "https://www.ipexpoeurope.com/",
+    "name": "Digital Transformation EXPO Europe",
+    "url": "https://dt-x.io/europe/en/page/dtx-europe",
     "location": {
       "city": "London",
       "country": "UK",
@@ -1149,7 +1149,7 @@
       "celsius": 16,
       "fahrenheit": 60
     },
-    "cost": 2
+    "cost": 0
   },
   {
     "name": "DevOps For Web",
