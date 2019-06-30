@@ -1546,5 +1546,167 @@
       "fahrenheit": 58 
     },
     "cost": 2
+  },
+  {
+    "name": "DevOpsCon",
+    "url": "https://devopsconference.de/",
+    "location": {
+      "city": "Munich",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-12-02T00:00:00.000Z",
+      "end": "2019-12-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 4,
+      "fahrenheit": 39 
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsDays Berlin",
+    "url": "https://devopsdays.org/events/2019-berlin/welcome/",
+    "location": {
+      "city": "Berlin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-11-27T00:00:00.000Z",
+      "end": "2019-11-28T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 8,
+      "fahrenheit": 46
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps D-Day",
+    "url": "http://2019.devops-dday.com/",
+    "location": {
+      "city": "Marseille",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-11-13T00:00:00.000Z",
+      "end": "2019-11-14T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 16,
+      "fahrenheit": 60 
+    },
+    "cost": 1
+  },
+  {
+    "name": "Container Camp AU",
+    "url": "https://2019.container.camp/au",
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Australia"
+    },
+    "date": {
+      "start": "2019-07-25T00:00:00.000Z",
+      "end": "2019-07-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 17,
+      "fahrenheit": 63 
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsDays Goiânia",
+    "url": "https://devopsdays.org/events/2019-goiania/welcome/",
+    "location": {
+      "city": "Goiânia",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2019-08-03T00:00:00.000Z",
+      "end": "2019-08-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 31,
+      "fahrenheit": 88 
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Dallas",
+    "url": "https://devopsdays.org/events/2019-dallas/welcome/",
+    "location": {
+      "city": "Dallas",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-08-20T00:00:00.000Z",
+      "end": "2019-08-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 36,
+      "fahrenheit": 96 
+    },
+    "cost": "unknown" 
+  },
+  {
+    "name": "DevOpsDays Santa Maria",
+    "url": "https://devopsdays.org/events/2019-dallas/welcome/",
+    "location": {
+      "city": "Dallas",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-08-20T00:00:00.000Z",
+      "end": "2019-08-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 36,
+      "fahrenheit": 96 
+    },
+    "cost": "unknown" 
+  },
+  {
+    "name": "ShipItCon",
+    "url": "https://shipitcon.com/",
+    "location": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-09-06T00:00:00.000Z",
+      "end": "2019-09-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 17,
+      "fahrenheit": 63 
+    },
+    "cost": 1
+  },
+  {
+    "name": "GrillOps",
+    "url": "https://grillops.io/",
+    "location": {
+      "city": "Wrocław",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-09-14T00:00:00.000Z",
+      "end": "2019-09-15T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 67
+    },
+    "cost": "unknown" 
   }
 ]
