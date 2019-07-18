@@ -216,6 +216,24 @@
     "cost": 1
   },
   {
+    "name": "DevOpsDays Galway",
+    "url": "https://devopsdays.org/events/2019-galway/welcome/",
+    "location": {
+      "city": "Galway",
+      "country": "Ireland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-11-19T00:00:00.000Z",
+      "end": "2019-11-20T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 11,
+      "fahrenheit": 51
+    },
+    "cost": 1
+  },
+  {
     "name": "KubeCon and CloudNativeCon Europe",
     "url": "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2019/",
     "location": {
