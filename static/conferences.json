@@ -1708,5 +1708,23 @@
       "fahrenheit": 67
     },
     "cost": "unknown" 
+  },
+  {
+    "name": "DevOps Summit",
+    "url": "https://devopssummit.cz/en/",
+    "location": {
+      "city": "Ostrava",
+      "country": "Czech Republic",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-03T00:00:00.000Z",
+      "end": "2019-10-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 68
+    },
+    "cost": 1
   }
 ]
