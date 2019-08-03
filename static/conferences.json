@@ -1744,5 +1744,23 @@
       "fahrenheit": 68
     },
     "cost": 1
+  },
+  {
+    "name": "DevOps Space",
+    "url": "https://devops-space.pl/",
+    "location": {
+      "city": "Gdansk",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-15T00:00:00.000Z",
+      "end": "2019-10-16T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 13,
+      "fahrenheit": 55 
+    },
+    "cost": 1
   }
 ]
