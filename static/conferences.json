@@ -1674,24 +1674,6 @@
     "cost": "unknown" 
   },
   {
-    "name": "DevOpsDays Santa Maria",
-    "url": "https://devopsdays.org/events/2019-dallas/welcome/",
-    "location": {
-      "city": "Dallas",
-      "country": "USA",
-      "continent": "North America"
-    },
-    "date": {
-      "start": "2019-08-20T00:00:00.000Z",
-      "end": "2019-08-21T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 36,
-      "fahrenheit": 96 
-    },
-    "cost": "unknown" 
-  },
-  {
     "name": "ShipItCon",
     "url": "https://shipitcon.com/",
     "location": {
