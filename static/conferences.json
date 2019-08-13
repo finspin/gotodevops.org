@@ -1671,7 +1671,7 @@
       "celsius": 36,
       "fahrenheit": 96 
     },
-    "cost": "unknown" 
+    "cost": 1 
   },
   {
     "name": "ShipItCon",
