@@ -1744,5 +1744,23 @@
       "fahrenheit": 55 
     },
     "cost": 1
+  },
+  {
+    "name": "WinOps",
+    "url": "https://winops.org/",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-09-23T00:00:00.000Z",
+      "end": "2019-09-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 64 
+    },
+    "cost": 1
   }
 ]
