@@ -1762,5 +1762,41 @@
       "fahrenheit": 64 
     },
     "cost": 1
+  },
+  {
+    "name": "DevOps congress",
+    "url": "https://evenea.pl/event/devopscongress/",
+    "location": {
+      "city": "Wrocław",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-19T00:00:00.000Z",
+      "end": "2019-10-19T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 15,
+      "fahrenheit": 59 
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Warsaw",
+    "url": "https://devopsdays.pl/",
+    "location": {
+      "city": "Warsaw",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-11-25T00:00:00.000Z",
+      "end": "2019-11-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 6,
+      "fahrenheit": 43 
+    },
+    "cost": 1
   }
 ]
