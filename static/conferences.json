@@ -1798,5 +1798,23 @@
       "fahrenheit": 43 
     },
     "cost": 1
+  },
+  {
+    "name": "DevOpsDays Ghent - 10th Anniversary",
+    "url": "https://devopsdays.org/events/2019-ghent/welcome/",
+    "location": {
+      "city": "Ghent",
+      "country": "Belgium",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-29T08:00:00.000Z",
+      "end": "2019-10-30T18:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 15,
+      "fahrenheit": 60
+    },
+    "cost": 1
   }
 ]
