@@ -1831,7 +1831,8 @@
     },
     "temperature": {
       "celsius": 5,
-      "celsius": 41,
+      "celsius": 41
+    },
     "cost": 0
-    }
+  }
 ]
