@@ -1816,9 +1816,8 @@
       "fahrenheit": 60
     },
     "cost": 1
-  }
-  
-{
+  },
+  {
     "name": "ConfigManagemtCamp",
     "url": "https://cfgmgmtcamp.eu/",
     "location": {
@@ -1834,8 +1833,5 @@
       "celsius": 5,
       "celsius": 41,
     "cost": 0
-}
-
-
+    }
 ]
-
