@@ -1816,5 +1816,23 @@
       "fahrenheit": 60
     },
     "cost": 1
+  },
+  {
+    "name": "ConfigManagemtCamp",
+    "url": "https://cfgmgmtcamp.eu/",
+    "location": {
+      "city": "Gent",
+      "country": "Belgium",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-02-03T00:00:00.000Z",
+      "end": "2020-02-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 5,
+      "celsius": 41
+    },
+    "cost": 0
   }
 ]
