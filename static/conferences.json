@@ -1831,7 +1831,7 @@
     },
     "temperature": {
       "celsius": 5,
-      "celsius": 41
+      "fahrenheit": 41
     },
     "cost": 0
   }
