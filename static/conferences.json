@@ -1852,5 +1852,23 @@
       "fahrenheit": 80
     },
     "cost": 0
+  },
+  {
+    "name": "DevOps Institute's Global SKILup Day | FREE-Online",
+    "url": "https://devopsinstitute.com/devops-institute-skilup/",
+    "location": {
+      "city": "",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-12-10T00:00:00.000Z",
+      "end": "2019-12-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 26,
+      "fahrenheit": 80
+    },
+    "cost": 0
   }
 ]
