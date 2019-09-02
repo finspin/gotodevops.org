@@ -1834,5 +1834,23 @@
       "fahrenheit": 41
     },
     "cost": 0
+  },
+  {
+    "name": "All Day DevOps | 24hrs-FREE-Online",
+    "url": "https://www.alldaydevops.com/",
+    "location": {
+      "city": "",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-11-06T00:00:00.000Z",
+      "end": "2019-11-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 26,
+      "fahrenheit": 80
+    },
+    "cost": 0
   }
 ]
