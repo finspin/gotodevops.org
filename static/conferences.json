@@ -1870,5 +1870,23 @@
       "fahrenheit": 80
     },
     "cost": 0
+  },
+  {
+    "name": "DevOps Summit",
+    "url": "https://www.capitalcarbonconsulting.com/devops-summit-ottawa-nov-4th-5th-2019/",
+    "location": {
+      "city": "Ottawa",
+      "country": "Canada",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2019-11-04T00:00:00.000Z",
+      "end": "2019-11-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 6,
+      "fahrenheit": 42
+    },
+    "cost": 0
   }
 ]
