@@ -1836,10 +1836,28 @@
     "cost": 0
   },
   {
+    "name": "DevOps Stage",
+    "url": "https://devopsstage.com/",
+    "location": {
+      "city": "Kyiv",
+      "country": "Ukraine",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2019-10-18T00:00:00.000Z",
+      "end": "2019-10-19T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 14,
+      "fahrenheit": 57
+    },
+    "cost": 0
+  },
+  {
     "name": "All Day DevOps",
     "url": "https://www.alldaydevops.com/",
     "location": {
-      "city": "",
+      "city": "Online event",
       "country": "",
       "continent": ""
     },
