@@ -1836,34 +1836,16 @@
     "cost": 0
   },
   {
-    "name": "All Day DevOps | 24hrs-FREE-Online",
+    "name": "All Day DevOps",
     "url": "https://www.alldaydevops.com/",
     "location": {
       "city": "",
-      "country": "USA",
-      "continent": "North America"
+      "country": "",
+      "continent": ""
     },
     "date": {
       "start": "2019-11-06T00:00:00.000Z",
       "end": "2019-11-06T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 26,
-      "fahrenheit": 80
-    },
-    "cost": 0
-  },
-  {
-    "name": "DevOps Institute's Global SKILup Day | FREE-Online",
-    "url": "https://devopsinstitute.com/devops-institute-skilup/",
-    "location": {
-      "city": "",
-      "country": "USA",
-      "continent": "North America"
-    },
-    "date": {
-      "start": "2019-12-10T00:00:00.000Z",
-      "end": "2019-12-10T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -1887,6 +1869,6 @@
       "celsius": 6,
       "fahrenheit": 42
     },
-    "cost": 0
+    "cost": 1
   }
 ]
