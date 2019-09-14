@@ -7,19 +7,18 @@
 </template>
 
 <script>
-
-  export default {
-    name: "SubscribeButton",
-  }
+export default {
+  name: "SubscribeButton"
+};
 </script>
 
 <style scoped>
-  .subscribe-link {
-    font-size: 14px;
-    font-weight: 500;
-    color: #6542CB;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-  }
+.subscribe-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffa630;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
 </style>
