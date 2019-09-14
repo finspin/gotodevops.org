@@ -16,7 +16,7 @@ const createStore = () => {
     getters: {
       numberOfConferences: state => {
         // Don't count conferences with start day older than today
-        return _.filter(state.conferences, function(conference) {
+        return _.filter(state.conferences, function (conference) {
           const confStartDate = new Date(conference.date.start)
           if (confStartDate >= new Date()) {
             return conference
@@ -33,7 +33,7 @@ const createStore = () => {
         const activeContinentFilter = state.filters.continent
 
 
-        let filteredConferences = _.filter(state.conferences, function(conference) {
+        let filteredConferences = _.filter(state.conferences, function (conference) {
           let monthMatch, costMatch, continentMatch = false, weatherMatch = false, show = true
 
           // Month filter
@@ -64,7 +64,7 @@ const createStore = () => {
           // Continent filter
           if (activeContinentFilter === null) {
             continentMatch = true
-          } else if (activeContinentFilter === 'USA' && conference.location.country === 'USA') {
+          } else if (activeContinentFilter === 'Americas' && ['North America', 'South America'].indexOf(conference.location.continent) > -1) {
             continentMatch = true
           } else if (activeContinentFilter === 'Europe' && conference.location.continent === 'Europe') {
             continentMatch = true
