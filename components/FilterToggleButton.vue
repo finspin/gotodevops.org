@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .btn-filter {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: #ffa630;
   cursor: pointer;
