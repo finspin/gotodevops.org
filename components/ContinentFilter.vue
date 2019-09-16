@@ -68,8 +68,8 @@ export default {
 }
 
 .continent.active {
-  background-color: #6542cb;
-  border: 1px solid #6542cb;
+  background-color: #ffa630;
+  border: 1px solid #ffa630;
   color: #fff;
 }
 

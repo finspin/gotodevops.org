@@ -108,7 +108,7 @@ export default {
 }
 
 .month.active {
-  background-color: #6542cb;
+  background-color: #ffa630;
   color: #fff;
 }
 
