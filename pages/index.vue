@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div id="top-stripe"></div>
+    <top-navigation></top-navigation>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
-            <h1>DevOps Conferences 2019</h1>
             <div class="d-none d-md-block">
               <filters></filters>
               <subscription-form></subscription-form>
@@ -21,7 +21,6 @@
                   <filters></filters>
                 </div>
               </b-collapse>
-              <conference-list-info></conference-list-info>
               <conferences></conferences>
             </div>
           </div>
@@ -37,6 +36,7 @@ import ConferenceListInfo from "../components/ConferenceListInfo";
 import Filters from "../components/Filters";
 import FilterInfoRow from "../components/FilterInfoRow";
 import SubscriptionForm from "../components/SubscriptionForm";
+import TopNavigation from "../components/TopNavigation";
 
 export default {
   name: "DevopsConferences",
@@ -45,7 +45,8 @@ export default {
     ConferenceListInfo,
     Filters,
     FilterInfoRow,
-    SubscriptionForm
+    SubscriptionForm,
+    TopNavigation
   }
 };
 </script>
@@ -71,6 +72,7 @@ body {
   background-color: #eff8ff;
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 20px;
 }
 
 .left-content {
@@ -89,26 +91,14 @@ body {
   max-width: 530px;
   float: left;
   width: 100%;
-}
-
-h1 {
-  font-size: 32px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 24px;
-    text-align: center;
-    padding-bottom: 10px;
-  }
+  padding-top: 20px;
 }
 
 @media (max-width: 767px) {
   .left {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 0;
   }
 
   .right {
