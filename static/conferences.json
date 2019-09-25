@@ -1098,6 +1098,24 @@
     "cost": 0
   },
   {
+    "name": "Global SKILup Day",
+    "url": "https://devopsinstitute.com/globalskilupday/",
+    "location": {
+      "city": "",
+      "country": "",
+      "continent": ""
+    },
+    "date": {
+      "start": "2019-12-10T00:00:00.000Z",
+      "end": "2019-12-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 0
+  },
+  {
     "name": "GOTO Amsterdam",
     "url": "https://gotoams.nl/",
     "location": {
