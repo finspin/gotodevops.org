@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <div id="top-stripe"></div>
     <top-navigation></top-navigation>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
             <div class="d-none d-md-block">
+              <!-- <h1>DevOps Conferences 2019 / 2020</h1> -->
               <filters></filters>
-              <subscription-form></subscription-form>
             </div>
+            <subscription-form></subscription-form>
           </div>
         </div>
         <div class="col-md-6 right no-gutters">
@@ -39,7 +39,6 @@ import SubscriptionForm from "../components/SubscriptionForm";
 import TopNavigation from "../components/TopNavigation";
 
 export default {
-  name: "DevopsConferences",
   components: {
     Conferences,
     ConferenceListInfo,
@@ -52,22 +51,6 @@ export default {
 </script>
 
 <style>
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #132839;
-}
-
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-#top-stripe {
-  width: 100%;
-  height: 6px;
-  background: #ffa630;
-}
-
 .left {
   background-color: #eff8ff;
   padding-left: 40px;
@@ -92,6 +75,19 @@ body {
   float: left;
   width: 100%;
   padding-top: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {

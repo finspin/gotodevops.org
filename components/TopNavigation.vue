@@ -1,8 +1,12 @@
 <template>
   <div>
+    <div id="top-stripe"></div>
     <b-navbar toggleable="lg" type="light" variant="light">
       <div class="container-fluid">
-        <h1>DevOps Conferences 2019</h1>
+        <a class="navbar-brand" href="/">
+          <img src="~assets/logo.png" width="34" class="mr-2" alt="GoTo DevOps logo" />
+          GoTo DevOps
+        </a>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <!-- Right aligned nav items -->
@@ -11,7 +15,6 @@
               Advertise
               <sup>new</sup>
             </b-nav-item>
-            <b-nav-item href="/about">About</b-nav-item>
             <b-nav-item href="/add-conference">Add conference</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
@@ -27,6 +30,11 @@ export default {
 </script>
 
 <style scoped>
+#top-stripe {
+  width: 100%;
+  height: 6px;
+  background: #ffa630;
+}
 .container-fluid {
   max-width: 1115px;
 }
@@ -36,9 +44,12 @@ export default {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  font-size: 24px;
-  margin: 0;
+.brand-title {
+  color: #333;
+}
+
+.brand-title:hover {
+  text-decoration: none;
 }
 
 .nav-item {
@@ -50,7 +61,19 @@ h1 {
   margin-left: 10px;
 }
 
+.nav-link:hover {
+  color: #999 !important;
+}
+
 .nav-item sup {
   color: rgb(231, 55, 55);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  margin-top: -4px;
 }
 </style>

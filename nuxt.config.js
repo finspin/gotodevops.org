@@ -10,7 +10,9 @@ module.exports = {
     title: "List Of DevOps Conferences In 2019",
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      ],
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato&display=swap' }
+
+    ],
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -23,7 +25,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    "@fortawesome/fontawesome-svg-core/styles.css"
+    "@fortawesome/fontawesome-svg-core/styles.css",
+    "~/css/global.css"
   ],
 
 

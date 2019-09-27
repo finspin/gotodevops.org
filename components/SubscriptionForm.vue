@@ -1,6 +1,6 @@
 <template>
   <div class="row cost-filter">
-    <div class="col-12 mt-5">
+    <div class="col-12 mt-4">
       <h2>Get notified of new DevOps conferences!</h2>
       <form
         action="https://formspree.io/subscribe@gotodevops.org"
@@ -8,23 +8,14 @@
         class="form-inline mb-4"
       >
         <input
-          class="form-control col-7 offset-1"
+          class="form-control col-sm-7 offset-sm-1"
           id="email"
           name="email"
           type="text"
           placeholder="Enter your email"
         />
-        <button type="submit" class="btn col-3">SUBSCRIBE</button>
+        <button type="submit" class="btn col-sm-3">SUBSCRIBE</button>
       </form>
-      <div class="col-10 offset-1">
-        <p class="info">
-          Add conference by filling
-          <a href="https://forms.gle/1AJtAZMJxSwgAHJPA">this form</a> or by
-          <a
-            href="https://github.com/finspin/gotodevops.org#how-can-i-contribute"
-          >submitting a pull request</a>.
-        </p>
-      </div>
     </div>
   </div>
 </template>
