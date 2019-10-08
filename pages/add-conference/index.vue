@@ -41,7 +41,7 @@
             <span class="pr-info">
               <a
                 href="https://github.com/finspin/gotodevops.org#how-can-i-contribute"
-              >Or submit a pull request</a>!
+              >Or add conference by submitting a pull request</a>!
             </span>
           </div>
         </div>

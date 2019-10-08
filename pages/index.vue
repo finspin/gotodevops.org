@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <top-navigation></top-navigation>
-    <div class="container-fluid">
+    <hero></hero>
+    <div class="container-fluid content">
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
@@ -9,7 +10,7 @@
               <!-- <h1>DevOps Conferences 2019 / 2020</h1> -->
               <filters></filters>
             </div>
-            <subscription-form></subscription-form>
+            <!-- <subscription-form></subscription-form> -->
           </div>
         </div>
         <div class="col-md-6 right no-gutters">
@@ -37,6 +38,7 @@ import Filters from "../components/Filters";
 import FilterInfoRow from "../components/FilterInfoRow";
 import SubscriptionForm from "../components/SubscriptionForm";
 import TopNavigation from "../components/TopNavigation";
+import Hero from "../components/Hero";
 
 export default {
   components: {
@@ -45,12 +47,17 @@ export default {
     Filters,
     FilterInfoRow,
     SubscriptionForm,
-    TopNavigation
+    TopNavigation,
+    Hero
   }
 };
 </script>
 
 <style>
+.content {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .left {
   background-color: #eff8ff;
   padding-left: 40px;

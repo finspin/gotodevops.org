@@ -35,6 +35,7 @@ export default {
   height: 6px;
   background: #ffa630;
 }
+
 .container-fluid {
   max-width: 1115px;
 }
@@ -42,6 +43,8 @@ export default {
 .navbar {
   background-color: #fff !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
 }
 
 .brand-title {
