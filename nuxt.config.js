@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "List Of DevOps Conferences In 2019",
+    title: "List Of DevOps Conferences In 2019 / 2020",
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       ],
