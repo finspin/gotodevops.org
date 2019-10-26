@@ -450,7 +450,7 @@
     "cost": 1
   },
   {
-    "name": "DevOps Gathering 2019",
+    "name": "DevOps Gathering",
     "url": "https://devops-gathering.io/",
     "location": {
       "city": "Bochum",
@@ -458,8 +458,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-03-11T00:00:00.000Z",
-      "end": "2019-03-13T00:00:00.000Z"
+      "start": "2020-03-09T00:00:00.000Z",
+      "end": "2020-03-11T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 8,
@@ -1574,8 +1574,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-03-04T00:00:00.000Z",
-      "end": "2019-03-08T00:00:00.000Z"
+      "start": "2020-03-02T00:00:00.000Z",
+      "end": "2020-03-06T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 12,
@@ -1904,6 +1904,60 @@
     "temperature": {
       "celsius": 20,
       "fahrenheit": 69
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOps Talks Melbourne",
+    "url": "https://devops.talksplus.com/au/devops.html",
+    "location": {
+      "city": "Melbourne",
+      "country": "Australia",
+      "continent": "Australia"
+    },
+    "date": {
+      "start": "2020-03-18T00:00:00.000Z",
+      "end": "2020-03-20T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 24,
+      "fahrenheit": 76
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOps Talks Auckland",
+    "url": "https://devops.talksplus.com/nz/devops.html",
+    "location": {
+      "city": "Auckland",
+      "country": "New Zealand",
+      "continent": "Australia"
+    },
+    "date": {
+      "start": "2020-03-24T00:00:00.000Z",
+      "end": "2020-03-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOps Talks Singapore",
+    "url": "https://devops.talksplus.com/singapore/devops.html",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-08-17T00:00:00.000Z",
+      "end": "2020-08-19T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 31,
+      "fahrenheit": 88
     },
     "cost": 2
   }
