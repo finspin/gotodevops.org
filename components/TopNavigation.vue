@@ -11,7 +11,7 @@
         <b-collapse id="nav-collapse" is-nav>
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
-            <b-nav-item href="/advertise">
+            <b-nav-item href="/promote">
               Advertise
               <sup>new</sup>
             </b-nav-item>
@@ -42,7 +42,7 @@ export default {
 
 .navbar {
   background-color: #fff !important;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e6e6e6;
   padding-top: 3px !important;
   padding-bottom: 3px !important;
 }

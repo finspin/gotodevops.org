@@ -23,7 +23,7 @@
                 />
               </div>
               <div class="form-group">
-                <label for="email">Email address</label>
+                <label for="email">Your email address</label>
                 <input name="email" type="email" class="form-control" id="email" placeholder />
               </div>
               <div class="form-group row">

@@ -4,7 +4,7 @@
       <!-- <div class="col-2 mt-4">
       <img src="~/assets/girl-yellow-hair.png" alt="Conferenc speaker" width="70" />
       </div>-->
-      <div class="col-sm-6 mt-4">
+      <div class="col-sm-7 mt-4">
         <img
           src="~/assets/girl-yellow-hair.png"
           alt="Conference speaker"
@@ -13,7 +13,7 @@
         />
         <subscription-form></subscription-form>
       </div>
-      <div class="col-sm-5 offset-sm-1 mt-4 mb-3 float-sm-right">
+      <div class="col-sm-4 offset-sm-1 mt-1 mt-sm-3 mb-3 float-sm-right">
         <a class="sponsored" href="/">
           <div class="hero-sponsored mt-2">
             The world's first insurance made for DevOps professionals. Get global travel medical from $37 / month!
@@ -44,7 +44,7 @@ export default {
 .hero-sponsored {
   font-size: 14px;
   color: #666;
-  font-weight: 600;
+  font-weight: 400;
   padding: 10px 15px 5px 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 5px;
