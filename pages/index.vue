@@ -1,14 +1,14 @@
 <template>
   <div id="app">
-    <div id="top-stripe"></div>
-    <div class="container-fluid">
+    <top-navigation></top-navigation>
+    <hero></hero>
+    <div class="container-fluid content">
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
-            <h1>DevOps Conferences 2019 / 2020</h1>
+            <!-- <h1>DevOps Conferences 2019 / 2020</h1> -->
             <div class="d-none d-md-block">
               <filters></filters>
-              <subscription-form></subscription-form>
             </div>
           </div>
         </div>
@@ -21,7 +21,6 @@
                   <filters></filters>
                 </div>
               </b-collapse>
-              <conference-list-info></conference-list-info>
               <conferences></conferences>
             </div>
           </div>
@@ -37,40 +36,32 @@ import ConferenceListInfo from "../components/ConferenceListInfo";
 import Filters from "../components/Filters";
 import FilterInfoRow from "../components/FilterInfoRow";
 import SubscriptionForm from "../components/SubscriptionForm";
+import TopNavigation from "../components/TopNavigation";
+import Hero from "../components/Hero";
 
 export default {
-  name: "DevopsConferences",
   components: {
     Conferences,
     ConferenceListInfo,
     Filters,
     FilterInfoRow,
-    SubscriptionForm
+    SubscriptionForm,
+    TopNavigation,
+    Hero
   }
 };
 </script>
 
 <style>
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  color: #132839;
-}
-
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-#top-stripe {
-  width: 100%;
-  height: 6px;
-  background: #ffa630;
+.content {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .left {
   background-color: #eff8ff;
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 20px;
 }
 
 .left-content {
@@ -89,26 +80,27 @@ body {
   max-width: 530px;
   float: left;
   width: 100%;
+  padding-top: 20px;
 }
 
-h1 {
-  font-size: 32px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+/* h1 {
+  font-size: 28px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
-
 @media (max-width: 576px) {
   h1 {
-    font-size: 24px;
+    font-size: 21px;
     text-align: center;
     padding-bottom: 10px;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .left {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 0;
   }
 
   .right {
