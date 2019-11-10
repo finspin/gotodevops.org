@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependenies
+          name: Install dependencies
           command: 'npm install'
       - run:
           name: Generate static site
@@ -20,6 +20,8 @@ jobs:
             - dist/favicon.png
             - dist/index.html
             - dist/thank-you.html
+            - dist/add-conference
+            - dist/promote
   deploy:
     docker:
       - image: circleci/python:3.6.8
