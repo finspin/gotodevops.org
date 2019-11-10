@@ -6,6 +6,7 @@
         <a class="navbar-brand" href="/">
           <img src="~assets/logo.png" width="34" class="mr-2" alt="GoTo DevOps logo" />
           GoTo DevOps
+          <h1>DevOps Conferences 2019 / 2020</h1>
         </a>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
@@ -76,7 +77,11 @@ export default {
   font-weight: 700;
 }
 
-.navbar-brand img {
-  margin-top: -4px;
+h1 {
+  font-size: 13px;
+  color: #666;
+  padding-left: 50px;
+  margin-top: -5px;
+  margin-bottom: 0;
 }
 </style>

@@ -6,11 +6,10 @@
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
+            <!-- <h1>DevOps Conferences 2019 / 2020</h1> -->
             <div class="d-none d-md-block">
-              <!-- <h1>DevOps Conferences 2019 / 2020</h1> -->
               <filters></filters>
             </div>
-            <!-- <subscription-form></subscription-form> -->
           </div>
         </div>
         <div class="col-md-6 right no-gutters">
@@ -84,7 +83,7 @@ export default {
   padding-top: 20px;
 }
 
-h1 {
+/* h1 {
   font-size: 28px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -95,7 +94,7 @@ h1 {
     text-align: center;
     padding-bottom: 10px;
   }
-}
+} */
 
 @media (max-width: 767px) {
   .left {
