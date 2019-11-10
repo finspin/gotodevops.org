@@ -24,11 +24,11 @@
                 <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />3500 views / month
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Promotion in monthly newsletter
+                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only
+                2 spots available!
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only
-                <strike>2 spots</strike>&nbsp;1 spot available!
+                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />BONUS: Promotion in monthly newsletter
               </li>
             </ul>
             <div class="advertising-price text-center mb-4">
@@ -46,24 +46,29 @@
             <h3 class="text-center">Promote product</h3>
             <ul>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Conference stickied at the top
+                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Product placement at the top of the page
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Conference title highligted
+                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only DevOps related products
               </li>
               <li>
                 <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />3500 views / month
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only 2 spots available
+                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only 1 spot available
               </li>
               <li>
                 <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />BONUS: Promotion in monthly newsletter
               </li>
             </ul>
-            <div class="advertising-price text-center">
-              <span class="monthly-price">$197 / month</span>
+            <div class="advertising-price text-center mb-4">
+              <span class="monthly-price">
+                <span class="advertising-option-sum">$197</span> / month
+              </span>
             </div>
+            <div
+              class="advertising-contact text-center"
+            >Contact hello@gotodevops.org to start promoting your product!</div>
           </div>
         </div>
       </div>
@@ -114,12 +119,12 @@ p.advertising-slogan {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  /* background-color: #f3f1f1; */
   border: 1px solid #eeeeee;
   padding: 15px 30px;
   -webkit-box-shadow: 6px 6px 7px 0px #bdbcbc;
   -moz-box-shadow: 4px 4px 5px 0px #bdbcbc;
   box-shadow: 6px 6px 7px 0px #d8d8d8;
+  margin-bottom: 30px;
 }
 
 .advertising-option ul {

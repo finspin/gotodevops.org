@@ -14,9 +14,9 @@
         <subscription-form></subscription-form>
       </div>
       <div class="col-sm-4 offset-sm-1 mt-1 mt-sm-3 mb-3 float-sm-right">
-        <a class="sponsored" href="/">
+        <a class="sponsored" href="https://www.datadoghq.com/" rel="sponsored">
           <div class="hero-sponsored mt-2">
-            The world's first insurance made for DevOps professionals. Get global travel medical from $37 / month!
+            <b>Datadog</b> - modern monitoring & analytics. See inside any stack, any app, at any scale, anywhere.
             <div class="sponsored-info text-right">Sponsored</div>
           </div>
         </a>

@@ -1,6 +1,6 @@
 <template>
   <div id="month-filters">
-    <div class="row month-filter">
+    <div class="row month-filter month-filter-2019">
       <div class="col-12">
         <div class="filter-label">Year 2019</div>
       </div>
@@ -10,6 +10,21 @@
             <div
               @click="applyMonthFilter(month, '2019')"
               :class="['month', { active: isActive(month, '2019') }, { pastMonth: !isMonthActive(month) }]"
+            >{{ month }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row month-filter">
+      <div class="col-12">
+        <div class="filter-label">Year 2020</div>
+      </div>
+      <div class="col-12">
+        <div class="row no-gutters">
+          <div v-for="month in months" class="col-1">
+            <div
+              @click="applyMonthFilter(month, '2020')"
+              :class="['month', { active: isActive(month, '2020') }, { pastMonth: !isMonthActive(month, '2020') }]"
             >{{ month }}</div>
           </div>
         </div>
@@ -37,11 +52,11 @@ export default {
         _.findIndex(this.filters.months, { month: month, year: year }) > -1
       );
     },
-    isMonthActive: function(month) {
+    isMonthActive: function(month, year) {
       const now = new Date();
       const currentMonth = now.getMonth();
 
-      return this.months.indexOf(month) >= currentMonth;
+      return this.months.indexOf(month) >= currentMonth || year == "2020";
     }
   },
   data() {
@@ -69,6 +84,10 @@ export default {
 .month-filter {
   padding-top: 20px;
   padding-bottom: 25px;
+}
+
+.month-filter-2019 {
+  padding-bottom: 0 !important;
 }
 
 .month-filter.first {
