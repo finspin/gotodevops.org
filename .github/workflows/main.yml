@@ -19,3 +19,8 @@ jobs:
     - name: Check workspace
       working-directory: ${{ github.workspace }}
       run: ls -la
+    - name: Upload dist folder artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: dist
+        path: ${{ github.workspace }}/dist
