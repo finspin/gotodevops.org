@@ -2032,5 +2032,77 @@
       "fahrenheit": 88
     },
     "cost": 2
+  },
+  {
+    "name": "DevOpsCon New York",
+    "url": "https://devopscon.io/new-york/",
+    "location": {
+      "city": "New York City",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-09-28T00:00:00.000Z",
+      "end": "2020-10-01T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 80,
+      "fahrenheit": 26
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsCon Singapore",
+    "url": "https://devopscon.io/singapore/",
+    "location": {
+      "city": "Singapore",
+      "country": "Malaysia",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-03-23T00:00:00.000Z",
+      "end": "2020-03-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 32,
+      "fahrenheit": 89
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsCon London",
+    "url": "https://devopscon.io/london/",
+    "location": {
+      "city": "London",
+      "country": "England",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-04-21T00:00:00.000Z",
+      "end": "2020-04-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 65
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsCon Berlin",
+    "url": "https://devopscon.io/berlin/",
+    "location": {
+      "city": "Belin",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-06-08T00:00:00.000Z",
+      "end": "2020-06-11T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 80,
+      "fahrenheit": 26
+    },
+    "cost": 2
   }
 ]
