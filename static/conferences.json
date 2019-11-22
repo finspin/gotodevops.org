@@ -129,17 +129,17 @@
     "name": "All Day DevOps",
     "url": "https://www.alldaydevops.com/",
     "location": {
-      "city": "Online event",
+      "city": "Online",
       "country": "",
       "continent": ""
     },
     "date": {
-      "start": "2019-11-06T00:00:00.000Z",
-      "end": "2019-11-06T00:00:00.000Z"
+      "start": "2020-11-18T00:00:00.000Z",
+      "end": "2020-11-18T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 26,
-      "fahrenheit": 80
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 0
   },
@@ -1173,7 +1173,7 @@
     "name": "Global SKILup Day",
     "url": "https://devopsinstitute.com/globalskilupday/",
     "location": {
-      "city": "Online event",
+      "city": "Online",
       "country": "",
       "continent": ""
     },
@@ -2030,6 +2030,42 @@
     "temperature": {
       "celsius": 31,
       "fahrenheit": 88
+    },
+    "cost": 2
+  },
+  {
+    "name": "Cloud Science",
+    "url": "https://scientificfederation.com/cloud-science-2020/",
+    "location": {
+      "city": "Montreal",
+      "country": "Canada",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-07-20T00:00:00.000Z",
+      "end": "2020-07-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 26,
+      "fahrenheit": 80
+    },
+    "cost": "unknown"
+  },
+  {
+    "name": "DevOpsCon",
+    "url": "https://devopscon.io/singapore/",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-03-23T00:00:00.000Z",
+      "end": "2020-03-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 32,
+      "fahrenheit": 90
     },
     "cost": 2
   }

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <h2>Join 1547 DevOps enthusiasts!</h2> -->
     <form
       action="https://formspree.io/subscribe@gotodevops.org"
       method="POST"
@@ -18,7 +17,7 @@
     </form>
     <p>
       Join
-      <span class="number-of-subscribers">847</span> DevOps enthusiasts and get notified of new DevOps conferences!
+      <span class="number-of-subscribers">894</span> DevOps enthusiasts and get notified of new DevOps conferences!
     </p>
   </div>
 </template>
