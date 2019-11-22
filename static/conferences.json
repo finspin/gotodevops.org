@@ -1404,7 +1404,7 @@
     "cost": 3
   },
   {
-    "name": "DevOpsCon",
+    "name": "DevOpsCon London",
     "url": "https://devopscon.io/london/",
     "location": {
       "city": "London",
@@ -2084,24 +2084,6 @@
     "temperature": {
       "celsius": 26,
       "fahrenheit": 80
-    },
-    "cost": 2
-  },
-  {
-    "name": "DevOpsCon London",
-    "url": "https://devopscon.io/london/",
-    "location": {
-      "city": "London",
-      "country": "England",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2020-04-21T00:00:00.000Z",
-      "end": "2020-04-24T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 18,
-      "fahrenheit": 65
     },
     "cost": 2
   },
