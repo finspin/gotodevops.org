@@ -14,11 +14,12 @@
         <subscription-form></subscription-form>
       </div>
       <div class="col-sm-4 offset-sm-1 mt-1 mt-sm-3 mb-3 float-sm-right">
-        <a class="sponsored" href="https://www.datadoghq.com/" rel="sponsored">
-          <div class="hero-sponsored mt-2">
+        <a class="sponsored" href="https://devopsinstitute.com/globalskilupday/" rel="sponsored">
+          <!-- <div class="hero-sponsored mt-2">
             <b>Datadog</b> - modern monitoring & analytics. See inside any stack, any app, at any scale, anywhere.
             <div class="sponsored-info text-right">Sponsored</div>
-          </div>
+          </div> -->
+          <img src="~/assets/global-skilup-day.png" alt="Global SKILup Day">
         </a>
       </div>
     </div>
@@ -37,6 +38,9 @@ export default {
 </script>
 
 <style scoped>
+.sponsored img {
+  width: 100%;
+}
 .container-fluid {
   max-width: 1115px;
 }
