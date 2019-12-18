@@ -17,7 +17,7 @@
     </form>
     <p>
       Join
-      <span class="number-of-subscribers">894</span> DevOps enthusiasts and get notified of new DevOps conferences!
+      <span class="number-of-subscribers">978</span> DevOps enthusiasts and get notified of new DevOps conferences!
     </p>
   </div>
 </template>

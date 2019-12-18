@@ -1,9 +1,6 @@
 <template>
   <div class="container-fluid hero">
     <div class="row">
-      <!-- <div class="col-2 mt-4">
-      <img src="~/assets/girl-yellow-hair.png" alt="Conferenc speaker" width="70" />
-      </div>-->
       <div class="col-sm-7 mt-4">
         <img
           src="~/assets/girl-yellow-hair.png"
@@ -14,12 +11,11 @@
         <subscription-form></subscription-form>
       </div>
       <div class="col-sm-4 offset-sm-1 mt-1 mt-sm-3 mb-3 float-sm-right">
-        <a class="sponsored" href="https://devopsinstitute.com/globalskilupday/" rel="sponsored">
-          <!-- <div class="hero-sponsored mt-2">
+        <a class="sponsored" href="https://www.datadoghq.com/" rel="sponsored">
+          <div class="hero-sponsored mt-2">
             <b>Datadog</b> - modern monitoring & analytics. See inside any stack, any app, at any scale, anywhere.
             <div class="sponsored-info text-right">Sponsored</div>
-          </div> -->
-          <img src="~/assets/global-skilup-day.png" alt="Global SKILup Day">
+          </div>
         </a>
       </div>
     </div>
