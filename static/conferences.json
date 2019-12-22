@@ -2104,5 +2104,41 @@
       "fahrenheit": 80
     },
     "cost": 2
+  },
+  {
+    "name": "DevOps 2020",
+    "url": "https://devops2020.com/",
+    "location": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-04-21T00:00:00.000Z",
+      "end": "2020-04-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 7,
+      "fahrenheit": 45
+    },
+    "cost": 1
+  },
+  {
+    "name": "GOTO Oslo",
+    "url": "https://goto-oslo.com/",
+    "location": {
+      "city": "Oslo",
+      "country": "Norway",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-03-03T00:00:00.000Z",
+      "end": "2020-03-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 5,
+      "fahrenheit": 41
+    },
+    "cost": 2
   }
 ]
