@@ -6,7 +6,6 @@
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
-            <!-- <h1>DevOps Conferences 2019 / 2020</h1> -->
             <div class="d-none d-md-block">
               <filters></filters>
             </div>

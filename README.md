@@ -22,8 +22,8 @@ If you submit a pull request with the conference details, please follow the form
       "continent": "North America"
     },
     "date": {
-      "start": "2019-06-24T00:00:00.000Z",
-      "end": "2019-06-28T00:00:00.000Z"
+      "start": "2020-06-24T00:00:00.000Z",
+      "end": "2020-06-28T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 80,
@@ -33,22 +33,22 @@ If you submit a pull request with the conference details, please follow the form
 }
 ```
 
-* **name**: Name of the conference
+- **name**: Name of the conference
 
-* **url**: URL of the conference website
+- **url**: URL of the conference website
 
-* **location**:
-  * **city**: City where the conference takes place
-  * **country**: Country where the conference takes place
-  * **continent**: Continent where the conference takes place. Enter one of the following: _North America_, _South America_, _Europe_, _Asia_, _Africa_, _Australia_, _Antarctica_
-* **date**:
-  * **start**: Start date of the conference, e.g. `2019-06-24T00:00:00.000Z`
-  * **end**: End date of the conference, e.g. `2019-06-26T00:00:00.000Z`
-* **temperature**:
-  * **celsius**: Average temperature in the city during the conference in Celsius, e.g. 18. To find out the temperature, google e.g. _weather new york february_ and switch to Celsius.
-  * **fahrenheit**: Average temperature in the city during the conference in Fahrenheit, e.g. 65. To find out the temperature, google e.g. _weather new york february_ and switch to Fahrenheit.
-* **cost**: Cost of the conference ticket. Estimate the average price per day based on the total ticket cost and the number of days. Enter one of the following values: _unknown_, _0_, _1_, _2_ or _3_. Use the following cost mapping: 
-  * free = 0
-  * less than $300/day = 1
-  * less than $600/day = 2
-  * more than $600/day = 3
+- **location**:
+  - **city**: City where the conference takes place
+  - **country**: Country where the conference takes place
+  - **continent**: Continent where the conference takes place. Enter one of the following: _North America_, _South America_, _Europe_, _Asia_, _Africa_, _Australia_, _Antarctica_
+- **date**:
+  - **start**: Start date of the conference, e.g. `2020-06-24T00:00:00.000Z`
+  - **end**: End date of the conference, e.g. `2020-06-26T00:00:00.000Z`
+- **temperature**:
+  - **celsius**: Average temperature in the city during the conference in Celsius, e.g. 18. To find out the temperature, google e.g. _weather new york february_ and switch to Celsius.
+  - **fahrenheit**: Average temperature in the city during the conference in Fahrenheit, e.g. 65. To find out the temperature, google e.g. _weather new york february_ and switch to Fahrenheit.
+- **cost**: Cost of the conference ticket. Estimate the average price per day based on the total ticket cost and the number of days. Enter one of the following values: _unknown_, _0_, _1_, _2_ or _3_. Use the following cost mapping:
+  - free = 0
+  - less than $300/day = 1
+  - less than $600/day = 2
+  - more than $600/day = 3

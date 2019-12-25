@@ -6,7 +6,7 @@
         <a class="navbar-brand" href="/">
           <img src="~assets/logo.png" width="34" class="mr-2" alt="GoTo DevOps logo" />
           GoTo DevOps
-          <h1>DevOps Conferences 2019 / 2020</h1>
+          <h1>DevOps Conferences 2020</h1>
         </a>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
