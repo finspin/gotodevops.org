@@ -1,26 +1,41 @@
-name: CI
+name: Build and deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+      - beta
 
 jobs:
-  build:
+  build-and-deploy:
+    name: Build and deploy
     runs-on: [ubuntu-18.04]
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_REGION: "us-west-2"
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js 10.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 10.x
-    - name: Install dependencies and generate static site
-      run: |
-        npm install
-        npm run generate
-    - name: Check workspace
-      working-directory: ${{ github.workspace }}
-      run: ls -la
-    - name: Upload dist folder artifact
-      uses: actions/upload-artifact@v1
-      with:
-        name: dist
-        path: ${{ github.workspace }}/dist
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+
+      - name: Install dependencies and generate static site
+        run: |
+          npm install
+          npm run generate
+
+      - name: Install AWS CLI
+        run: pip install --user awscli
+
+      - name: Deploy site to AWS S3
+        run: |
+          aws s3 sync ./dist  s3://www.gotodevops.org --delete --acl public-read --exclude "*.js"
+          aws s3 sync ./dist  s3://www.gotodevops.org --delete --acl public-read --cache-control max-age=31536000,public --include "*.js"
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws configure set preview.cloudfront true
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.WWW_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.NON_WWW_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
