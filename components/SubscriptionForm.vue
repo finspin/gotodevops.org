@@ -1,7 +1,7 @@
 <template>
   <div>
     <form
-      action="https://formspree.io/subscribe@gotodevops.org"
+      action="https://uwmousj018.execute-api.us-west-2.amazonaws.com/dev/api/form_handling/subscribe@gotodevops.org"
       method="POST"
       class="form-inline mb-2 mt-2"
     >
