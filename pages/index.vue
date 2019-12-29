@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <top-navigation></top-navigation>
-    <hero></hero>
     <div class="container-fluid content">
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
+            <subscription-form></subscription-form>
             <div class="d-none d-md-block">
               <filters></filters>
             </div>
@@ -36,7 +36,6 @@ import Filters from "../components/Filters";
 import FilterInfoRow from "../components/FilterInfoRow";
 import SubscriptionForm from "../components/SubscriptionForm";
 import TopNavigation from "../components/TopNavigation";
-import Hero from "../components/Hero";
 
 export default {
   components: {
@@ -45,16 +44,15 @@ export default {
     Filters,
     FilterInfoRow,
     SubscriptionForm,
-    TopNavigation,
-    Hero
+    TopNavigation
   }
 };
 </script>
 
 <style>
-.content {
+/* .content {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
+} */
 
 .left {
   background-color: #eff8ff;

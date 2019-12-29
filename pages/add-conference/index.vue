@@ -2,48 +2,46 @@
   <div id="app">
     <div id="top-stripe"></div>
     <top-navigation></top-navigation>
-    <div class="hero-image">
-      <div class="container-fluid content">
-        <div class="row">
-          <div class="col-sm-10 offset-sm-1">
-            <h2 class="text-center">Add new conference</h2>
-          </div>
+    <div class="container-fluid content">
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1">
+          <h2 class="text-center">Add new conference</h2>
         </div>
-        <div class="row">
-          <div class="col-sm-8 offset-sm-2">
-            <form action="https://formspree.io/hello@gotodevops.org" method="POST">
-              <div class="form-group">
-                <label for="conferenceUrl">Conference URL *</label>
-                <input
-                  name="conferenceUrl"
-                  type="url"
-                  class="form-control"
-                  id="conferenceUrl"
-                  placeholder
-                />
+      </div>
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <form action="https://formspree.io/hello@gotodevops.org" method="POST">
+            <div class="form-group">
+              <label for="conferenceUrl">Conference URL *</label>
+              <input
+                name="conferenceUrl"
+                type="url"
+                class="form-control"
+                id="conferenceUrl"
+                placeholder
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Your email address</label>
+              <input name="email" type="email" class="form-control" id="email" placeholder />
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-6 offset-sm-3">
+                <button class="btn btn-primary btn-full" type="submit">SUBMIT</button>
               </div>
-              <div class="form-group">
-                <label for="email">Your email address</label>
-                <input name="email" type="email" class="form-control" id="email" placeholder />
-              </div>
-              <div class="form-group row">
-                <div class="col-sm-6 offset-sm-3">
-                  <button class="btn btn-primary btn-full" type="submit">SUBMIT</button>
-                </div>
-              </div>
-            </form>
-            <hr />
-          </div>
+            </div>
+          </form>
+          <hr />
         </div>
-        <div class="row">
-          <div class="col-sm-8 offset-sm-2 text-center mb-4">
-            <img class="github-logo" width="24" src="~/assets/github-logo.png" />
-            <span class="pr-info">
-              <a
-                href="https://github.com/finspin/gotodevops.org#how-can-i-contribute"
-              >Or add conference by submitting a pull request</a>!
-            </span>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2 text-center mb-4">
+          <img class="github-logo" width="24" src="~/assets/github-logo.png" />
+          <span class="pr-info">
+            <a
+              href="https://github.com/finspin/gotodevops.org#how-can-i-contribute"
+            >Or add conference by submitting a pull request</a>!
+          </span>
         </div>
       </div>
     </div>
@@ -65,12 +63,6 @@ export default {
   max-width: 767px;
   padding-top: 60px;
 }
-
-/* .hero-image {
-  background-image: url("~assets/conference1.jpg");
-  background-size: cover;
-  min-height: 500px;
-} */
 
 h2 {
   font-size: 34px;
