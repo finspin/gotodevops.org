@@ -1,24 +1,33 @@
 <template>
-  <div>
-    <form
-      action="https://uwmousj018.execute-api.us-west-2.amazonaws.com/dev/api/form_handling/subscribe@gotodevops.org"
-      method="POST"
-      class="form-inline mb-2 mt-2"
-    >
-      <input
-        class="form-control col-sm-6"
-        id="email"
-        style="height:36px"
-        name="email"
-        type="text"
-        placeholder="Enter your email"
+  <div class="row">
+    <div class="col-sm-12 mt-4">
+      <img
+        src="~/assets/girl-yellow-hair.png"
+        alt="Conference speaker"
+        width="70"
+        class="float-left mr-4"
       />
-      <button type="submit" class="btn col-sm-6">Send me new conferences!</button>
-    </form>
-    <p>
-      Join
-      <span class="number-of-subscribers">978</span> DevOps enthusiasts and get notified of new DevOps conferences!
-    </p>
+      <form
+        action="https://uwmousj018.execute-api.us-west-2.amazonaws.com/dev/api/form_handling/subscribe@gotodevops.org"
+        method="POST"
+        class="form-inline mb-2 mt-2"
+      >
+        <input
+          class="form-control col-sm-6"
+          id="email"
+          style="height:36px"
+          name="email"
+          type="text"
+          placeholder="Enter your email"
+        />
+        <button type="submit" class="btn col-sm-6">Send me new conferences!</button>
+      </form>
+      <p>
+        Join
+        <span class="number-of-subscribers">978</span> DevOps professionals and get notified of new DevOps conferences!
+      </p>
+      <hr />
+    </div>
   </div>
 </template>
 
@@ -63,6 +72,8 @@ button {
   border-color: #fb4d33;
   font-size: 15px;
   padding-top: 8px;
+  padding-left: 11px;
+  padding-right: 11px;
 }
 
 button:hover,
