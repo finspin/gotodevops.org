@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-sm-12">
           <h2 class="text-center">Advertise on GoTo DevOps</h2>
-          <p class="advertising-slogan text-center mb-5">Reach 25.000 DevOps professionals!</p>
+          <p class="advertising-slogan text-center mb-5">Reach over 25.000 DevOps professionals!</p>
         </div>
       </div>
       <div class="row advertising">
@@ -15,20 +15,35 @@
             <h3 class="text-center">Promote conference</h3>
             <ul>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Conference stickied at the top
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />Conference stickied at the top
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Conference title highligted
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />Conference background highlighted
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />3500 views / month
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />3500 views / month
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only
-                2 spots available!
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />Only
+                <strike>2 spots</strike> 1 spot available!
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />BONUS: Promotion in monthly newsletter
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />BONUS: Promotion in monthly newsletter
               </li>
             </ul>
             <div class="advertising-price text-center mb-4">
@@ -36,9 +51,7 @@
                 <span class="advertising-option-sum">$197</span> / month
               </span>
             </div>
-            <div
-              class="advertising-contact text-center"
-            >Contact hello@gotodevops.org to start promoting your conference!</div>
+            <div class="advertising-contact text-center">Contact hello@gotodevops.org to start promoting your conference!</div>
           </div>
         </div>
         <div class="col-sm-6">
@@ -46,19 +59,34 @@
             <h3 class="text-center">Promote product</h3>
             <ul>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Product placement at the top of the page
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />Product placement at the top of the page
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only DevOps related products
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />Only DevOps related products
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />3500 views / month
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />3500 views / month
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />Only 1 spot available
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />Only 1 spot available
               </li>
               <li>
-                <font-awesome-icon icon="check-circle" class="mr-3 check-icon" />BONUS: Promotion in monthly newsletter
+                <font-awesome-icon
+                  icon="check-circle"
+                  class="mr-3 check-icon"
+                />BONUS: Promotion in monthly newsletter
               </li>
             </ul>
             <div class="advertising-price text-center mb-4">
@@ -66,9 +94,7 @@
                 <span class="advertising-option-sum">$197</span> / month
               </span>
             </div>
-            <div
-              class="advertising-contact text-center"
-            >Contact hello@gotodevops.org to start promoting your product!</div>
+            <div class="advertising-contact text-center">Contact hello@gotodevops.org to start promoting your product!</div>
           </div>
         </div>
       </div>

@@ -77,21 +77,7 @@ export default {
   max-width: 530px;
   float: left;
   width: 100%;
-  padding-top: 20px;
 }
-
-/* h1 {
-  font-size: 28px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-@media (max-width: 576px) {
-  h1 {
-    font-size: 21px;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-} */
 
 @media (max-width: 767px) {
   .left {
@@ -111,6 +97,9 @@ export default {
     height: 100vh;
     /*overflow: hidden;*/
     overflow-y: scroll;
+  }
+  .right-content {
+    padding-top: 20px;
   }
 }
 </style>

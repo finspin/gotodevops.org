@@ -540,7 +540,7 @@
     "cost": 1
   },
   {
-    "name": "DevOps Pro Europe",
+    "name": "DevOps Pro Europe ❤️",
     "url": "https://devopspro.lt/",
     "location": {
       "city": "Vilnius",
@@ -555,7 +555,8 @@
       "celsius": 4,
       "fahrenheit": 39
     },
-    "cost": 1
+    "cost": 1,
+    "sponsored": true
   },
   {
     "name": "DevOps Space",
@@ -2169,7 +2170,7 @@
     },
     "date": {
       "start": "2020-05-18T00:00:00.000Z",
-      "end": "2020-05-20T00:00:00.000Z"
+      "end": "2020-05-19T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
