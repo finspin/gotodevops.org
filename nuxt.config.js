@@ -47,6 +47,13 @@ module.exports = {
         id: "UA-60153-41"
       }
     ],
+    [
+      "@netsells/nuxt-hotjar",
+      {
+        id: "1646783",
+        sv: "6"
+      }
+    ],
     // Doc: https://bootstrap-vue.js.org/docs/
     "bootstrap-vue/nuxt"
   ],
@@ -57,9 +64,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    // analyze: {
-    //   analyzerMode: 'static'
-    // },
     /*
     ** Plugins to load before mounting the App
     */
