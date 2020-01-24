@@ -67,7 +67,6 @@ export default {
 
 <style scoped>
 .month-filter {
-  padding-top: 20px;
   padding-bottom: 25px;
 }
 
