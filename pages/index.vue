@@ -7,6 +7,9 @@
           <div class="left-content">
             <subscription-form></subscription-form>
             <div class="d-none d-md-block">
+              <div class="row meta-filters">
+                <clear-filters-button></clear-filters-button>
+              </div>
               <filters></filters>
             </div>
           </div>
@@ -14,12 +17,6 @@
         <div class="col-md-6 right no-gutters">
           <div class="right-content">
             <div class="col-md-12 no-padding">
-              <filter-info-row></filter-info-row>
-              <b-collapse id="collapse-filters">
-                <div class="container">
-                  <filters></filters>
-                </div>
-              </b-collapse>
               <conferences></conferences>
             </div>
           </div>
@@ -33,18 +30,18 @@
 import Conferences from "../components/Conferences";
 import ConferenceListInfo from "../components/ConferenceListInfo";
 import Filters from "../components/Filters";
-import FilterInfoRow from "../components/FilterInfoRow";
 import SubscriptionForm from "../components/SubscriptionForm";
 import TopNavigation from "../components/TopNavigation";
+import ClearFiltersButton from "../components/ClearFiltersButton";
 
 export default {
   components: {
     Conferences,
     ConferenceListInfo,
     Filters,
-    FilterInfoRow,
     SubscriptionForm,
-    TopNavigation
+    TopNavigation,
+    ClearFiltersButton
   }
 };
 </script>
