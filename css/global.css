@@ -1,11 +1,28 @@
 body {
-    font-family: Nunito, Lato, Helvetica, Arial, sans-serif;
-    /* font-family: Lato, Helvetica, Arial, sans-serif; */
-    /* font-family: Roboto, Helvetica, Arial, sans-serif; */
-    color: #132839;
- }
-  
- .no-padding {
-    padding-left: 0;
-    padding-right: 0;
- }
+  font-family: Nunito, Lato, Helvetica, Arial, sans-serif;
+  /* font-family: Lato, Helvetica, Arial, sans-serif; */
+  /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+  color: #132839;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 0.25rem 0.5rem;
+  color: #fff;
+  text-align: center;
+  background-color: #666;
+  border-radius: 0.25rem;
+  font-size: 12px;
+}
+
+.bs-tooltip-right .arrow::before,
+.bs-tooltip-auto[x-placement^="right"] .arrow::before {
+  right: 0;
+  border-width: 0.4rem 0.4rem 0.4rem 0;
+  border-right-color: #666;
+}
