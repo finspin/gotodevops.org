@@ -46,7 +46,8 @@ export default {
 }
 
 .btn-clear-filters:disabled {
-  background-color: #ccc;
-  border-color: #ccc;
+  background-color: #bdbdbd;
+  border-color: #bdbdbd;
+  cursor: not-allowed;
 }
 </style>

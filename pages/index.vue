@@ -47,10 +47,6 @@ export default {
 </script>
 
 <style>
-/* .content {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-} */
-
 .left {
   background-color: #eff8ff;
   padding-left: 40px;
@@ -92,7 +88,6 @@ export default {
 @media (min-width: 768px) {
   .right {
     height: 100vh;
-    /*overflow: hidden;*/
     overflow-y: scroll;
   }
   .right-content {

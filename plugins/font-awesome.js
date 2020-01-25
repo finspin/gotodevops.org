@@ -8,7 +8,8 @@ import {
   faEnvelope,
   faPlusSquare,
   faCheckCircle,
-  faTimes
+  faTimes,
+  faInfoCircle
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faCalendarAlt,
@@ -28,7 +29,8 @@ library.add(
   faEnvelope,
   faPlusSquare,
   faCheckCircle,
-  faTimes
+  faTimes,
+  faInfoCircle
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

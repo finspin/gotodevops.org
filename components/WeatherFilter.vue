@@ -1,7 +1,14 @@
 <template>
   <div class="row weather-filter">
     <div class="col-12">
-      <div class="filter-label">Weather</div>
+      <div class="filter-label">Weather
+        <font-awesome-icon :icon="['fas', 'info-circle']" id="weather-filter-info-circle" class="ml-1" :style="{ color: '#666' }" />
+            <b-tooltip target="weather-filter-info-circle" triggers="hover" placement="right">Historical average day temperature at the conference location.<br />
+              <font-awesome-icon icon="snowflake" class="mr-1 mt-2" />COLD: under 10℃<br />
+              <font-awesome-icon icon="cloud" class="mr-1" />MILD: 10℃ - 20℃<br />
+              <font-awesome-icon icon="umbrella-beach" class="mr-1" />WARM: above 20℃
+            </b-tooltip>
+      </div>
       <div class="row">
         <div class="col-4 pr-2 pr-sm-3">
           <div
