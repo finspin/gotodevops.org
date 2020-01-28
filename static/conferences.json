@@ -2195,5 +2195,23 @@
       "fahrenheit": 94
     },
     "cost": 1
+  },
+  {
+    "name": "DevOps India Summit",
+    "url": "https://devopsindiasummit.com/",
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-07-10T00:00:00.000Z",
+      "end": "2020-07-11T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 28,
+      "fahrenheit": 83
+    },
+    "cost": 1
   }
 ]
