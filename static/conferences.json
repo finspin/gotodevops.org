@@ -468,7 +468,7 @@
     "cost": 1
   },
   {
-    "name": "DevOps Enterprise Summit Las Vegas",
+    "name": "DevOps Enterprise Summit Las Vegas ❤️",
     "url": "https://events.itrevolution.com/us/",
     "location": {
       "city": "Las Vegas",
@@ -476,14 +476,15 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-10-28T00:00:00.000Z",
-      "end": "2019-10-30T00:00:00.000Z"
+      "start": "2020-09-22T00:00:00.000Z",
+      "end": "2020-09-24T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 29,
-      "fahrenheit": 83
+      "celsius": 36,
+      "fahrenheit": 96
     },
-    "cost": 3
+    "cost": 3,
+    "sponsored": true
   },
   {
     "name": "DevOps Enterprise Summit London",
