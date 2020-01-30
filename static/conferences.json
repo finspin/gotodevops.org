@@ -495,14 +495,14 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-25T00:00:00.000Z",
-      "end": "2019-06-27T00:00:00.000Z"
+      "start": "2020-06-23T00:00:00.000Z",
+      "end": "2020-06-25T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 29,
       "fahrenheit": 84
     },
-    "cost": 1
+    "cost": 3
   },
   {
     "name": "DevOps For Web",
