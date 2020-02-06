@@ -2214,5 +2214,23 @@
       "fahrenheit": 83
     },
     "cost": 1
+  },
+  {
+    "name": "DevOps Days Kyiv",
+    "url": "https://devopsdays.com.ua",
+    "location": {
+      "city": "Kyiv",
+      "country": "UA",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-05-15T00:00:00.000Z",
+      "end": "2020-05-16T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 16,
+      "fahrenheit": 60
+    },
+    "cost": 1
   }
 ]
