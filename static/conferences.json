@@ -8,8 +8,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-04T00:00:00.000Z",
-      "end": "2019-11-09T00:00:00.000Z"
+      "start": "2020-11-08T00:00:00.000Z",
+      "end": "2020-11-13T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 25,
@@ -145,15 +145,15 @@
   },
   {
     "name": "All Things Open",
-    "url": "https://allthingsopen.org/",
+    "url": "https://2020.allthingsopen.org/",
     "location": {
       "city": "Raleigh",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-10-13T00:00:00.000Z",
-      "end": "2019-10-15T00:00:00.000Z"
+      "start": "2020-10-18T00:00:00.000Z",
+      "end": "2020-10-20T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 22,
@@ -162,20 +162,20 @@
     "cost": 1
   },
   {
-    "name": "AnsibleFest Atlanta",
+    "name": "AnsibleFest",
     "url": "https://www.ansible.com/ansiblefest",
     "location": {
-      "city": "Atlanta",
+      "city": "San Diego",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-09-24T00:00:00.000Z",
-      "end": "2019-09-26T00:00:00.000Z"
+      "start": "2020-10-12T00:00:00.000Z",
+      "end": "2020-10-14T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 22,
-      "fahrenheit": 72
+      "celsius": 23,
+      "fahrenheit": 74
     },
     "cost": 2
   },
@@ -198,7 +198,7 @@
     "cost": 1
   },
   {
-    "name": "Cloud & DevOps World",
+    "name": "Cloud & DevOps World Summit",
     "url": "https://tmt.knect365.com/cloud-devops-world/",
     "location": {
       "city": "London",
@@ -206,14 +206,14 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-12T00:00:00.000Z",
-      "end": "2019-06-13T00:00:00.000Z"
+      "start": "2020-06-10T00:00:00.000Z",
+      "end": "2020-06-11T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
       "fahrenheit": 70
     },
-    "cost": "unknown"
+    "cost": 0
   },
   {
     "name": "Cloud Expo Europe",
@@ -234,38 +234,38 @@
     "cost": 0
   },
   {
-    "name": "Cloud Foundry Summit Europe",
-    "url": "https://www.cloudfoundry.org/event/eusummit2019/",
+    "name": "Cloud Foundry Summit Dublin",
+    "url": "https://www.cloudfoundry.org/events/summit/dublin-2020/",
     "location": {
-      "city": "The Hague",
-      "country": "The Netherlands",
+      "city": "Dublin",
+      "country": "Ireland",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-09-11T00:00:00.000Z",
-      "end": "2019-09-12T00:00:00.000Z"
+      "start": "2020-10-29T00:00:00.000Z",
+      "end": "2020-10-29T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 18,
-      "fahrenheit": 65
+      "celsius": 14,
+      "fahrenheit": 57
     },
     "cost": 2
   },
   {
-    "name": "Cloud Foundry Summit North America",
-    "url": "https://www.cloudfoundry.org/event/nasummit2019/",
+    "name": "Cloud Foundry Summit Austin",
+    "url": "https://www.cloudfoundry.org/events/summit/austin-2020/",
     "location": {
-      "city": "Philadelphia",
+      "city": "Austin",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-04-02T00:00:00.000Z",
-      "end": "2019-04-04T00:00:00.000Z"
+      "start": "2020-06-25T00:00:00.000Z",
+      "end": "2020-06-25T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
+      "celsius": 33,
+      "fahrenheit": 92
     },
     "cost": 1
   },
@@ -350,8 +350,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-24T00:00:00.000Z",
-      "end": "2019-06-26T00:00:00.000Z"
+      "start": "2020-06-22T00:00:00.000Z",
+      "end": "2020-06-24T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -386,12 +386,12 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-05-07T00:00:00.000Z",
-      "end": "2019-05-10T00:00:00.000Z"
+      "start": "2020-06-09T00:00:00.000Z",
+      "end": "2020-06-12T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 70
+      "celsius": 26,
+      "fahrenheit": 78
     },
     "cost": 1
   },
@@ -422,8 +422,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-07-16T00:00:00.000Z",
-      "end": "2019-07-17T00:00:00.000Z"
+      "start": "2020-07-14T00:00:00.000Z",
+      "end": "2020-07-15T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -633,75 +633,21 @@
   },
   {
     "name": "DevOps Summit",
-    "url": "https://www.capitalcarbonconsulting.com/devops-summit-ottawa-nov-4th-5th-2019/",
+    "url": "https://www.capitalcarbonconsulting.com/upcoming-events/",
     "location": {
       "city": "Ottawa",
       "country": "Canada",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-04T00:00:00.000Z",
-      "end": "2019-11-05T00:00:00.000Z"
+      "start": "2020-11-02T00:00:00.000Z",
+      "end": "2020-11-03T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 6,
       "fahrenheit": 42
     },
     "cost": 1
-  },
-  {
-    "name": "DevOps Talks Conference Auckland",
-    "url": "https://devopstalks.com/nz/devops.html",
-    "location": {
-      "city": "Auckland",
-      "country": "New Zealand",
-      "continent": "Oceania"
-    },
-    "date": {
-      "start": "2019-03-26T00:00:00.000Z",
-      "end": "2019-03-27T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOps Talks Conference Melbourne",
-    "url": "https://devopstalks.com/au/devops.html",
-    "location": {
-      "city": "Melbourne",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-03-21T00:00:00.000Z",
-      "end": "2019-03-22T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
-    },
-    "cost": 2
-  },
-  {
-    "name": "DevOps Talks Conference Sydney",
-    "url": "https://devopstalks.com",
-    "location": {
-      "city": "Sydney",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-09-10T00:00:00.000Z",
-      "end": "2019-09-11T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 21,
-      "fahrenheit": 71
-    },
-    "cost": 2
   },
   {
     "name": "DevOps congress",
@@ -1144,8 +1090,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-10-09T00:00:00.000Z",
-      "end": "2019-10-10T00:00:00.000Z"
+      "start": "2020-09-30T00:00:00.000Z",
+      "end": "2020-10-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 16,
@@ -1198,8 +1144,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-17T00:00:00.000Z",
-      "end": "2019-06-20T00:00:00.000Z"
+      "start": "2020-06-08T00:00:00.000Z",
+      "end": "2020-06-11T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1209,15 +1155,15 @@
   },
   {
     "name": "GOTO Berlin",
-    "url": "https://gotober.com/2019",
+    "url": "https://gotober.com/",
     "location": {
       "city": "Berlin",
       "country": "Germany",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-10-23T00:00:00.000Z",
-      "end": "2019-10-25T00:00:00.000Z"
+      "start": "2020-10-28T00:00:00.000Z",
+      "end": "2020-10-30T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 13,
@@ -1234,8 +1180,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-13T00:00:00.000Z",
-      "end": "2019-11-14T00:00:00.000Z"
+      "start": "2020-04-30T00:00:00.000Z",
+      "end": "2020-05-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 10,
@@ -1265,19 +1211,19 @@
     "name": "GitHub Satellite",
     "url": "https://githubsatellite.com",
     "location": {
-      "city": "Berlin",
-      "country": "Germany",
+      "city": "Paris",
+      "country": "France",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-05-23T00:00:00.000Z",
-      "end": "2019-05-23T00:00:00.000Z"
+      "start": "2020-05-06T00:00:00.000Z",
+      "end": "2020-05-07T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
+      "celsius": 20,
+      "fahrenheit": 68
     },
-    "cost": 2
+    "cost": 1
   },
   {
     "name": "GlueCon",
@@ -1299,19 +1245,19 @@
   },
   {
     "name": "GrafanaCon",
-    "url": "http://grafanacon.org/",
+    "url": "https://grafana.com/about/events/grafanacon/2020/",
     "location": {
-      "city": "Los Angeles",
-      "country": "USA",
-      "continent": "North America"
+      "city": "Amsterdam",
+      "country": "The Netherlands",
+      "continent": "Europe"
     },
     "date": {
-      "start": "2019-02-25T00:00:00.000Z",
-      "end": "2019-02-26T00:00:00.000Z"
+      "start": "2020-05-13T00:00:00.000Z",
+      "end": "2020-05-14T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 69
+      "celsius": 17,
+      "fahrenheit": 63
     },
     "cost": 1
   },
@@ -1334,20 +1280,20 @@
     "cost": 1
   },
   {
-    "name": "HashiConf",
+    "name": "HashiConf US",
     "url": "https://www.hashiconf.com",
     "location": {
-      "city": "Seattle",
+      "city": "San Diego",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-09-09T00:00:00.000Z",
-      "end": "2019-09-11T00:00:00.000Z"
+      "start": "2020-10-13T00:00:00.000Z",
+      "end": "2020-10-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 70
+      "celsius": 23,
+      "fahrenheit": 74
     },
     "cost": 2
   },
@@ -1445,35 +1391,35 @@
     "name": "Jenkins World",
     "url": "https://www.cloudbees.com/devops-world/san-francisco",
     "location": {
-      "city": "San Francisco",
+      "city": "Las Vegas",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-08-12T00:00:00.000Z",
-      "end": "2019-08-15T00:00:00.000Z"
+      "start": "2020-09-21T00:00:00.000Z",
+      "end": "2020-09-24T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 20,
-      "fahrenheit": 68
+      "celsius": 36,
+      "fahrenheit": 96
     },
     "cost": 2
   },
   {
     "name": "KubeCon and CloudNativeCon China",
-    "url": "https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2019/",
+    "url": "https://www.lfasiallc.com/kubecon-cloudnativecon-open-source-summit-china/",
     "location": {
       "city": "Shanghai",
       "country": "China",
       "continent": "Asia"
     },
     "date": {
-      "start": "2019-06-25T00:00:00.000Z",
-      "end": "2019-06-26T00:00:00.000Z"
+      "start": "2020-07-28T00:00:00.000Z",
+      "end": "2020-07-30T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 28,
-      "fahrenheit": 82
+      "celsius": 32,
+      "fahrenheit": 90
     },
     "cost": 1
   },
@@ -1497,15 +1443,15 @@
   },
   {
     "name": "KubeCon and CloudNativeCon North America",
-    "url": "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/",
+    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
     "location": {
-      "city": "San Diego",
+      "city": "Boston",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-18T00:00:00.000Z",
-      "end": "2019-11-21T00:00:00.000Z"
+      "start": "2020-11-17T00:00:00.000Z",
+      "end": "2020-11-20T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
@@ -1540,8 +1486,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-06-12T00:00:00.000Z",
-      "end": "2019-06-14T00:00:00.000Z"
+      "start": "2020-06-10T00:00:00.000Z",
+      "end": "2020-06-12T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1666,8 +1612,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-06-24T00:00:00.000Z",
-      "end": "2019-06-28T00:00:00.000Z"
+      "start": "2020-06-15T00:00:00.000Z",
+      "end": "2020-06-19T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -1684,8 +1630,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-11T00:00:00.000Z",
-      "end": "2019-11-15T00:00:00.000Z"
+      "start": "2020-11-16T00:00:00.000Z",
+      "end": "2020-11-20T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 17,
@@ -1784,38 +1730,38 @@
     "cost": 1
   },
   {
-    "name": "SREcon19 Asia/Australia",
-    "url": "https://www.usenix.org/conference/srecon19asia",
+    "name": "SREcon Asia/Pacific",
+    "url": "https://www.usenix.org/conference/srecon20apac",
     "location": {
-      "city": "Singapore",
-      "country": "Singapore",
-      "continent": "Asia"
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Australia"
     },
     "date": {
-      "start": "2019-06-12T00:00:00.000Z",
-      "end": "2019-06-14T00:00:00.000Z"
+      "start": "2020-06-15T00:00:00.000Z",
+      "end": "2020-06-17T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 32,
-      "fahrenheit": 89
+      "celsius": 17,
+      "fahrenheit": 63
     },
     "cost": 2
   },
   {
-    "name": "SREcon Americas",
-    "url": "https://www.usenix.org/conference/srecon19americas",
+    "name": "SREcon Americas West",
+    "url": "https://www.usenix.org/conference/srecon20americaswest",
     "location": {
-      "city": "New York",
+      "city": "Santa Clara",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-03-25T00:00:00.000Z",
-      "end": "2019-03-27T00:00:00.000Z"
+      "start": "2020-03-24T00:00:00.000Z",
+      "end": "2020-03-26T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 10,
-      "fahrenheit": 50
+      "celsius": 19,
+      "fahrenheit": 66
     },
     "cost": 2
   },
@@ -1864,12 +1810,12 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-09-06T00:00:00.000Z",
-      "end": "2019-09-06T00:00:00.000Z"
+      "start": "2020-08-21T00:00:00.000Z",
+      "end": "2020-08-21T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 17,
-      "fahrenheit": 63
+      "celsius": 20,
+      "fahrenheit": 67
     },
     "cost": 1
   },
@@ -1918,8 +1864,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-18T00:00:00.000Z",
-      "end": "2019-06-19T00:00:00.000Z"
+      "start": "2020-06-16T00:00:00.000Z",
+      "end": "2020-06-17T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
@@ -1954,8 +1900,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-09-23T00:00:00.000Z",
-      "end": "2019-09-24T00:00:00.000Z"
+      "start": "2020-09-30T00:00:00.000Z",
+      "end": "2020-10-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 18,
@@ -1972,8 +1918,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-12-02T00:00:00.000Z",
-      "end": "2019-12-06T00:00:00.000Z"
+      "start": "2020-11-30T00:00:00.000Z",
+      "end": "2020-12-04T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -2230,6 +2176,60 @@
     "temperature": {
       "celsius": 16,
       "fahrenheit": 60
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Fusion",
+    "url": "https://www.devops-fusion.com/en/",
+    "location": {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-03-18T00:00:00.000Z",
+      "end": "2020-03-18T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 11,
+      "fahrenheit": 51
+    },
+    "cost": 3
+  },
+  {
+    "name": "IcingaConf",
+    "url": "https://icingaconf.com/",
+    "location": {
+      "city": "Amsterdam",
+      "country": "The Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-06-23T00:00:00.000Z",
+      "end": "2020-06-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 68
+    },
+    "cost": 2
+  },
+  {
+    "name": "Voxxed Days",
+    "url": "https://voxxeddays.com/minsk/",
+    "location": {
+      "city": "Minsk",
+      "country": "Belarus",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-05-28T00:00:00.000Z",
+      "end": "2020-05-31T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
     },
     "cost": 1
   }
