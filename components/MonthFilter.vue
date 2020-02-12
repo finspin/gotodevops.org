@@ -41,7 +41,7 @@ export default {
       const now = new Date();
       const currentMonth = now.getMonth();
 
-      return this.months.indexOf(month) >= currentMonth || year == "2020";
+      return this.months.indexOf(month) >= currentMonth;
     }
   },
   data() {
@@ -89,6 +89,7 @@ export default {
 .pastMonth {
   pointer-events: none;
   color: #bbb;
+  cursor: not-allowed;
 }
 
 .col-1:first-of-type .month {
