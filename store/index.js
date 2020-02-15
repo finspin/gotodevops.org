@@ -9,7 +9,8 @@ const createStore = () => {
         cost: null,
         months: [],
         weather: null,
-        continent: null
+        continent: null,
+        touchesWeekend: null
       }
     },
     getters: {
@@ -35,6 +36,7 @@ const createStore = () => {
         const activeMonthFilter = state.filters.months;
         const activeWeatherFilter = state.filters.weather;
         const activeContinentFilter = state.filters.continent;
+        const activeWeekendFilter = state.filters.touchesWeekend;
 
         let filteredConferences = _.filter(state.conferences, function(
           conference
@@ -43,6 +45,7 @@ const createStore = () => {
             costMatch,
             continentMatch = false,
             weatherMatch = false,
+            touchesWeekendMatch = true,
             show = true;
 
           // Month filter
@@ -110,6 +113,30 @@ const createStore = () => {
             continentMatch = true;
           }
 
+          // Weekend filter
+          const confEndDate = new Date(conference.date.end);
+          const confStartDay = confStartDate.getDay();
+          const confEndDay = confEndDate.getDay();
+
+          // Sunday is 0, Monday is 1 etc.
+          if (
+            activeWeekendFilter === false &&
+            ([0, 1, 5, 6].includes(confStartDay) ||
+              [0, 1, 5, 6].includes(confEndDay))
+          ) {
+            touchesWeekendMatch = false;
+          }
+
+          if (
+            activeWeekendFilter === true &&
+            !(
+              [0, 1, 5, 6].includes(confStartDay) ||
+              [0, 1, 5, 6].includes(confEndDay)
+            )
+          ) {
+            touchesWeekendMatch = false;
+          }
+
           // Hide conferences with start day older than today
           if (confStartDate < new Date()) {
             show = false;
@@ -120,6 +147,7 @@ const createStore = () => {
             costMatch &&
             weatherMatch &&
             continentMatch &&
+            touchesWeekendMatch &&
             show &&
             !conference.sponsored
           );
@@ -149,11 +177,18 @@ const createStore = () => {
         state.filters.continent =
           state.filters.continent === continent ? null : continent;
       },
+      UPDATE_WEEKEND_FILTER: (state, touchesWeekend) => {
+        state.filters.touchesWeekend =
+          state.filters.touchesWeekend === touchesWeekend
+            ? null
+            : touchesWeekend;
+      },
       CLEAR_ALL_FILTERS: state => {
         state.filters.cost = null;
         state.filters.months = [];
         state.filters.weather = null;
         state.filters.continent = null;
+        state.filters.touchesWeekend = null;
       }
     },
     actions: {}
