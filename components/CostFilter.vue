@@ -3,7 +3,7 @@
     <div class="col-12">
       <div class="filter-label">Ticket Cost
             <font-awesome-icon :icon="['fas', 'info-circle']" id="cost-filter-info-circle" class="ml-1" :style="{ color: '#666' }" />
-            <b-tooltip target="cost-filter-info-circle" triggers="hover" placement="right">All ticket prices are converted to USD based on a fixed conversion rate and include VAT. Check the conference website for the definite ticket prices.
+            <b-tooltip target="cost-filter-info-circle" triggers="hover" placement="right">All ticket prices are converted to USD based on a fixed conversion rate and they include VAT. Check the conference website for the final ticket prices.
             </b-tooltip>
       </div>
 

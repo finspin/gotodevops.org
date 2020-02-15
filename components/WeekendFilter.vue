@@ -1,7 +1,11 @@
 <template>
   <div class="row weekend-filter">
     <div class="col-12">
-      <div class="filter-label">Touches weekend</div>
+      <div class="filter-label">Touches weekend
+        <font-awesome-icon :icon="['fas', 'info-circle']" id="weekend-filter-info-circle" class="ml-1" :style="{ color: '#666' }" />
+            <b-tooltip target="weekend-filter-info-circle" triggers="hover" placement="right">A conference touches weekend if its start or end day falls on Friday, Saturday, Sunday or Monday.
+            </b-tooltip>
+      </div>
       <div class="row">
         <div class="col-4 pr-2 pr-sm-3">
           <div
