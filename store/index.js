@@ -18,7 +18,7 @@ const createStore = () => {
         // Don't count conferences with start day older than today
         return _.filter(state.conferences, function(conference) {
           const confStartDate = new Date(conference.date.start);
-          if (confStartDate >= new Date()) {
+          if (confStartDate >= new Date() && !conference.sponsored) {
             return conference;
           }
         }).length;

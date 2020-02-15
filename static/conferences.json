@@ -8,8 +8,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-04T00:00:00.000Z",
-      "end": "2019-11-09T00:00:00.000Z"
+      "start": "2020-11-08T00:00:00.000Z",
+      "end": "2020-11-13T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 25,
@@ -34,60 +34,6 @@
       "fahrenheit": 101
     },
     "cost": 2
-  },
-  {
-    "name": "Agile, Testing & DevOps Showcase Sydney",
-    "url": "https://www.unicomlearning.com/2019/Agile-Test-&-DevOps-Summit-Sydney-2019",
-    "location": {
-      "city": "Sydney",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-12-03T00:00:00.000Z",
-      "end": "2019-12-03T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 25,
-      "fahrenheit": 78
-    },
-    "cost": 3
-  },
-  {
-    "name": "Agile, Testing & DevOps Showcase Auckland",
-    "url": "https://www.unicomlearning.com/2019/Agile-Test-&-DevOps-Summit-Auckland-2019",
-    "location": {
-      "city": "Auckland",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-12-05T00:00:00.000Z",
-      "end": "2019-12-05T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 22,
-      "fahrenheit": 72
-    },
-    "cost": 3
-  },
-  {
-    "name": "Agile, Testing & DevOps Showcase Singapore",
-    "url": "https://conference.unicom.co.uk/showcases/singapore/2019/december/",
-    "location": {
-      "city": "Singapore",
-      "country": "Singapore",
-      "continent": "Asia"
-    },
-    "date": {
-      "start": "2019-12-10T00:00:00.000Z",
-      "end": "2019-12-10T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 31,
-      "fahrenheit": 87
-    },
-    "cost": 3
   },
   {
     "name": "Agile, Testing & DevOps Showcase Amsterdam",
@@ -145,15 +91,15 @@
   },
   {
     "name": "All Things Open",
-    "url": "https://allthingsopen.org/",
+    "url": "https://2020.allthingsopen.org/",
     "location": {
       "city": "Raleigh",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-10-13T00:00:00.000Z",
-      "end": "2019-10-15T00:00:00.000Z"
+      "start": "2020-10-18T00:00:00.000Z",
+      "end": "2020-10-20T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 22,
@@ -162,20 +108,20 @@
     "cost": 1
   },
   {
-    "name": "AnsibleFest Atlanta",
+    "name": "AnsibleFest",
     "url": "https://www.ansible.com/ansiblefest",
     "location": {
-      "city": "Atlanta",
+      "city": "San Diego",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-09-24T00:00:00.000Z",
-      "end": "2019-09-26T00:00:00.000Z"
+      "start": "2020-10-12T00:00:00.000Z",
+      "end": "2020-10-14T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 22,
-      "fahrenheit": 72
+      "celsius": 23,
+      "fahrenheit": 74
     },
     "cost": 2
   },
@@ -198,7 +144,7 @@
     "cost": 1
   },
   {
-    "name": "Cloud & DevOps World",
+    "name": "Cloud & DevOps World Summit",
     "url": "https://tmt.knect365.com/cloud-devops-world/",
     "location": {
       "city": "London",
@@ -206,14 +152,14 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-12T00:00:00.000Z",
-      "end": "2019-06-13T00:00:00.000Z"
+      "start": "2020-06-10T00:00:00.000Z",
+      "end": "2020-06-11T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
       "fahrenheit": 70
     },
-    "cost": "unknown"
+    "cost": 0
   },
   {
     "name": "Cloud Expo Europe",
@@ -234,58 +180,40 @@
     "cost": 0
   },
   {
-    "name": "Cloud Foundry Summit Europe",
-    "url": "https://www.cloudfoundry.org/event/eusummit2019/",
+    "name": "Cloud Foundry Summit Dublin",
+    "url": "https://www.cloudfoundry.org/events/summit/dublin-2020/",
     "location": {
-      "city": "The Hague",
-      "country": "The Netherlands",
+      "city": "Dublin",
+      "country": "Ireland",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-09-11T00:00:00.000Z",
-      "end": "2019-09-12T00:00:00.000Z"
+      "start": "2020-10-29T00:00:00.000Z",
+      "end": "2020-10-29T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 18,
-      "fahrenheit": 65
+      "celsius": 14,
+      "fahrenheit": 57
     },
     "cost": 2
   },
   {
-    "name": "Cloud Foundry Summit North America",
-    "url": "https://www.cloudfoundry.org/event/nasummit2019/",
+    "name": "Cloud Foundry Summit Austin",
+    "url": "https://www.cloudfoundry.org/events/summit/austin-2020/",
     "location": {
-      "city": "Philadelphia",
+      "city": "Austin",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-04-02T00:00:00.000Z",
-      "end": "2019-04-04T00:00:00.000Z"
+      "start": "2020-06-25T00:00:00.000Z",
+      "end": "2020-06-25T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
+      "celsius": 33,
+      "fahrenheit": 92
     },
     "cost": 1
-  },
-  {
-    "name": "CloudNative London",
-    "url": "https://skillsmatter.com/conferences/11723-cloudnative-london-2019",
-    "location": {
-      "city": "London",
-      "country": "UK",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-09-25T00:00:00.000Z",
-      "end": "2019-09-27T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 20,
-      "fahrenheit": 67
-    },
-    "cost": 2
   },
   {
     "name": "Config Management Camp",
@@ -324,24 +252,6 @@
     "cost": 0
   },
   {
-    "name": "Container Camp AU",
-    "url": "https://2019.container.camp/au",
-    "location": {
-      "city": "Sydney",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-07-25T00:00:00.000Z",
-      "end": "2019-07-26T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 17,
-      "fahrenheit": 63
-    },
-    "cost": 2
-  },
-  {
     "name": "Container Days",
     "url": "https://www.containerdays.io/",
     "location": {
@@ -350,8 +260,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-24T00:00:00.000Z",
-      "end": "2019-06-26T00:00:00.000Z"
+      "start": "2020-06-22T00:00:00.000Z",
+      "end": "2020-06-24T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -386,12 +296,12 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-05-07T00:00:00.000Z",
-      "end": "2019-05-10T00:00:00.000Z"
+      "start": "2020-06-09T00:00:00.000Z",
+      "end": "2020-06-12T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 70
+      "celsius": 26,
+      "fahrenheit": 78
     },
     "cost": 1
   },
@@ -422,8 +332,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-07-16T00:00:00.000Z",
-      "end": "2019-07-17T00:00:00.000Z"
+      "start": "2020-07-14T00:00:00.000Z",
+      "end": "2020-07-15T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -468,22 +378,23 @@
     "cost": 1
   },
   {
-    "name": "DevOps Enterprise Summit Las Vegas",
-    "url": "https://events.itrevolution.com/us/",
+    "name": "DevOps Enterprise Summit Las Vegas ❤️",
+    "url": "https://events.itrevolution.com/us/?utm_medium=referral&utm_source=gotodevops&utm_term=gotodevops-spons-8-mo-does20-us&utm_content=onsale&utm_campaign=does20us",
     "location": {
       "city": "Las Vegas",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-10-28T00:00:00.000Z",
-      "end": "2019-10-30T00:00:00.000Z"
+      "start": "2020-09-22T00:00:00.000Z",
+      "end": "2020-09-24T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 29,
-      "fahrenheit": 83
+      "celsius": 36,
+      "fahrenheit": 96
     },
-    "cost": 3
+    "cost": 3,
+    "sponsored": true
   },
   {
     "name": "DevOps Enterprise Summit London",
@@ -494,32 +405,14 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-25T00:00:00.000Z",
-      "end": "2019-06-27T00:00:00.000Z"
+      "start": "2020-06-23T00:00:00.000Z",
+      "end": "2020-06-25T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 29,
       "fahrenheit": 84
     },
-    "cost": 1
-  },
-  {
-    "name": "DevOps For Web",
-    "url": "https://www.code-conf.com/2019/devops-for-web-aar/",
-    "location": {
-      "city": "Aarhus",
-      "country": "Denmark",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-03-07T00:00:00.000Z",
-      "end": "2019-03-07T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 6,
-      "fahrenheit": 42
-    },
-    "cost": 1
+    "cost": 3
   },
   {
     "name": "DevOps Gathering",
@@ -599,7 +492,7 @@
     "url": "https://devopssummit.cz/en/",
     "location": {
       "city": "Ostrava",
-      "country": "Czech Republic",
+      "country": "Czechia",
       "continent": "Europe"
     },
     "date": {
@@ -632,15 +525,15 @@
   },
   {
     "name": "DevOps Summit",
-    "url": "https://www.capitalcarbonconsulting.com/devops-summit-ottawa-nov-4th-5th-2019/",
+    "url": "https://www.capitalcarbonconsulting.com/upcoming-events/",
     "location": {
       "city": "Ottawa",
       "country": "Canada",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-04T00:00:00.000Z",
-      "end": "2019-11-05T00:00:00.000Z"
+      "start": "2020-11-02T00:00:00.000Z",
+      "end": "2020-11-03T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 6,
@@ -649,124 +542,16 @@
     "cost": 1
   },
   {
-    "name": "DevOps Talks Conference Auckland",
-    "url": "https://devopstalks.com/nz/devops.html",
-    "location": {
-      "city": "Auckland",
-      "country": "New Zealand",
-      "continent": "Oceania"
-    },
-    "date": {
-      "start": "2019-03-26T00:00:00.000Z",
-      "end": "2019-03-27T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOps Talks Conference Melbourne",
-    "url": "https://devopstalks.com/au/devops.html",
-    "location": {
-      "city": "Melbourne",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-03-21T00:00:00.000Z",
-      "end": "2019-03-22T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
-    },
-    "cost": 2
-  },
-  {
-    "name": "DevOps Talks Conference Sydney",
-    "url": "https://devopstalks.com",
-    "location": {
-      "city": "Sydney",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-09-10T00:00:00.000Z",
-      "end": "2019-09-11T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 21,
-      "fahrenheit": 71
-    },
-    "cost": 2
-  },
-  {
-    "name": "DevOps congress",
-    "url": "https://evenea.pl/event/devopscongress/",
-    "location": {
-      "city": "Wrocław",
-      "country": "Poland",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-10-19T00:00:00.000Z",
-      "end": "2019-10-19T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 15,
-      "fahrenheit": 59
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOpsCon",
-    "url": "https://devopsconference.de/",
-    "location": {
-      "city": "Berlin",
-      "country": "Germany",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-06-11T00:00:00.000Z",
-      "end": "2019-06-14T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 22,
-      "fahrenheit": 71
-    },
-    "cost": 2
-  },
-  {
-    "name": "DevOpsCon",
-    "url": "https://devopsconference.de/",
-    "location": {
-      "city": "Munich",
-      "country": "Germany",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-12-02T00:00:00.000Z",
-      "end": "2019-12-05T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 4,
-      "fahrenheit": 39
-    },
-    "cost": 2
-  },
-  {
     "name": "DevOpsDays Amsterdam",
-    "url": "https://www.devopsdays.org/events/2019-amsterdam/welcome/",
+    "url": "https://devopsdays.org/events/2020-amsterdam",
     "location": {
       "city": "Amsterdam",
       "country": "Netherlands",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-26T00:00:00.000Z",
-      "end": "2019-06-28T00:00:00.000Z"
+      "start": "2020-06-17T00:00:00.000Z",
+      "end": "2020-06-19T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -776,15 +561,15 @@
   },
   {
     "name": "DevOpsDays Austin",
-    "url": "https://www.devopsdays.org/events/2019-austin/welcome/",
+    "url": "https://devopsdays.org/events/2020-austin",
     "location": {
       "city": "Austin",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-05-02T00:00:00.000Z",
-      "end": "2019-05-03T00:00:00.000Z"
+      "start": "2020-05-04T00:00:00.000Z",
+      "end": "2020-05-05T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 30,
@@ -794,51 +579,33 @@
   },
   {
     "name": "DevOpsDays Berlin",
-    "url": "https://devopsdays.org/events/2019-berlin/welcome/",
+    "url": "https://devopsdays.org/events/2020-berlin",
     "location": {
       "city": "Berlin",
       "country": "Germany",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-11-27T00:00:00.000Z",
-      "end": "2019-11-28T00:00:00.000Z"
+      "start": "2020-10-28T00:00:00.000Z",
+      "end": "2020-10-29T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 8,
-      "fahrenheit": 46
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOpsDays Copenhagen",
-    "url": "https://www.devopsdays.org/events/2019-copenhagen/welcome/",
-    "location": {
-      "city": "Copenhagen",
-      "country": "Denmark",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-04-03T00:00:00.000Z",
-      "end": "2019-04-04T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 8,
-      "fahrenheit": 47
+      "celsius": 14,
+      "fahrenheit": 57
     },
     "cost": 1
   },
   {
     "name": "DevOpsDays Dallas",
-    "url": "https://devopsdays.org/events/2019-dallas/welcome/",
+    "url": "https://devopsdays.org/events/2020-dallas",
     "location": {
       "city": "Dallas",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-08-20T00:00:00.000Z",
-      "end": "2019-08-21T00:00:00.000Z"
+      "start": "2020-08-26T00:00:00.000Z",
+      "end": "2020-08-27T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 36,
@@ -848,15 +615,15 @@
   },
   {
     "name": "DevOpsDays Des Moines",
-    "url": "https://www.devopsdays.org/events/2019-des-moines/welcome/",
+    "url": "https://devopsdays.org/events/2020-des-moines",
     "location": {
       "city": "Des Moines",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-05-02T00:00:00.000Z",
-      "end": "2019-05-03T00:00:00.000Z"
+      "start": "2020-05-14T00:00:00.000Z",
+      "end": "2020-05-15T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 24,
@@ -865,88 +632,16 @@
     "cost": 1
   },
   {
-    "name": "DevOpsDays Galway",
-    "url": "https://devopsdays.org/events/2019-galway/welcome/",
-    "location": {
-      "city": "Galway",
-      "country": "Ireland",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-11-18T00:00:00.000Z",
-      "end": "2019-11-19T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 11,
-      "fahrenheit": 51
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOpsDays Ghent - 10th Anniversary",
-    "url": "https://devopsdays.org/events/2019-ghent/welcome/",
-    "location": {
-      "city": "Ghent",
-      "country": "Belgium",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-10-29T08:00:00.000Z",
-      "end": "2019-10-30T18:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 15,
-      "fahrenheit": 60
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOpsDays Goiânia",
-    "url": "https://devopsdays.org/events/2019-goiania/welcome/",
-    "location": {
-      "city": "Goiânia",
-      "country": "Brazil",
-      "continent": "South America"
-    },
-    "date": {
-      "start": "2019-08-03T00:00:00.000Z",
-      "end": "2019-08-03T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 31,
-      "fahrenheit": 88
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOpsDays Kiev",
-    "url": "https://www.devopsdays.org/events/2019-kiev/welcome/",
-    "location": {
-      "city": "Kiev",
-      "country": "Ukraine",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-05-17T00:00:00.000Z",
-      "end": "2019-05-18T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 21,
-      "fahrenheit": 69
-    },
-    "cost": 1
-  },
-  {
     "name": "DevOpsDays Los Angeles",
-    "url": "https://www.devopsdays.org/events/2019-los-angeles/welcome/",
+    "url": "https://devopsdays.org/events/2020-los-angeles",
     "location": {
       "city": "Los Angeles",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-03-08T00:00:00.000Z",
-      "end": "2019-03-08T00:00:00.000Z"
+      "start": "2020-03-06T00:00:00.000Z",
+      "end": "2020-03-06T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
@@ -956,15 +651,15 @@
   },
   {
     "name": "DevOpsDays Minneapolis",
-    "url": "https://www.devopsdays.org/events/2019-minneapolis/welcome/",
+    "url": "https://devopsdays.org/events/2020-minneapolis",
     "location": {
       "city": "Minneapolis",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-08-06T00:00:00.000Z",
-      "end": "2019-08-07T00:00:00.000Z"
+      "start": "2020-08-04T00:00:00.000Z",
+      "end": "2020-08-05T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 27,
@@ -974,51 +669,33 @@
   },
   {
     "name": "DevOpsDays New York City",
-    "url": "https://www.devopsdays.org/events/2019-new-york-city/welcome/",
+    "url": "https://devopsdays.org/events/2020-new-york-city",
     "location": {
       "city": "New York City",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-01-24T00:00:00.000Z",
-      "end": "2019-01-25T00:00:00.000Z"
+      "start": "2020-03-03T00:00:00.000Z",
+      "end": "2020-03-04T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 4,
-      "fahrenheit": 39
-    },
-    "cost": 1
-  },
-  {
-    "name": "DevOpsDays Portugal",
-    "url": "https://www.devopsdays.org/events/2019-portugal/welcome/",
-    "location": {
-      "city": "Lisbon",
-      "country": "Portugal",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-06-03T00:00:00.000Z",
-      "end": "2019-06-04T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 22,
-      "fahrenheit": 72
+      "celsius": 11,
+      "fahrenheit": 52
     },
     "cost": 1
   },
   {
     "name": "DevOpsDays Seattle",
-    "url": "https://www.devopsdays.org/events/2019-seattle/welcome/",
+    "url": "https://devopsdays.org/events/2020-seattle",
     "location": {
       "city": "Seattle",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-04-23T00:00:00.000Z",
-      "end": "2019-04-24T00:00:00.000Z"
+      "start": "2020-04-14T00:00:00.000Z",
+      "end": "2020-04-15T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 15,
@@ -1027,34 +704,16 @@
     "cost": 1
   },
   {
-    "name": "DevOpsDays Sydney",
-    "url": "https://www.devopsdays.org/events/2019-sydney/welcome/",
-    "location": {
-      "city": "Sydney",
-      "country": "Australia",
-      "continent": "Australia"
-    },
-    "date": {
-      "start": "2019-10-10T00:00:00.000Z",
-      "end": "2019-10-11T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 22,
-      "fahrenheit": 72
-    },
-    "cost": 1
-  },
-  {
     "name": "DevOpsDays Tokyo",
-    "url": "https://www.devopsdays.org/events/2019-tokyo/welcome/",
+    "url": "https://devopsdays.org/events/2020-tokyo",
     "location": {
       "city": "Tokyo",
       "country": "Japan",
       "continent": "Asia"
     },
     "date": {
-      "start": "2019-04-09T00:00:00.000Z",
-      "end": "2019-04-10T00:00:00.000Z"
+      "start": "2020-04-09T00:00:00.000Z",
+      "end": "2020-04-10T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 19,
@@ -1064,33 +723,33 @@
   },
   {
     "name": "DevOpsDays Toronto",
-    "url": "https://www.devopsdays.org/events/2019-toronto/welcome/",
+    "url": "https://devopsdays.org/events/2020-toronto",
     "location": {
       "city": "Toronto",
       "country": "Canada",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-05-29T00:00:00.000Z",
-      "end": "2019-05-30T00:00:00.000Z"
+      "start": "2020-04-16T00:00:00.000Z",
+      "end": "2020-04-17T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 19,
-      "fahrenheit": 67
+      "celsius": 12,
+      "fahrenheit": 54
     },
     "cost": 1
   },
   {
     "name": "DevOpsDays Vancouver",
-    "url": "https://www.devopsdays.org/events/2019-vancouver/welcome/",
+    "url": "https://devopsdays.org/events/2020-vancouver/welcome/",
     "location": {
       "city": "Vancouver",
       "country": "Canada",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-03-29T00:00:00.000Z",
-      "end": "2019-03-30T00:00:00.000Z"
+      "start": "2020-03-30T00:00:00.000Z",
+      "end": "2020-03-31T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 10,
@@ -1099,38 +758,20 @@
     "cost": 1
   },
   {
-    "name": "DevOpsDays Warsaw",
-    "url": "https://devopsdays.pl/",
-    "location": {
-      "city": "Warsaw",
-      "country": "Poland",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-11-25T00:00:00.000Z",
-      "end": "2019-11-26T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 6,
-      "fahrenheit": 43
-    },
-    "cost": 1
-  },
-  {
     "name": "DevOpsDays Zurich",
-    "url": "https://www.devopsdays.org/events/2019-zurich/welcome/",
+    "url": "https://devopsdays.org/events/2020-zurich",
     "location": {
       "city": "Zurich",
       "country": "Switzerland",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-05-14T00:00:00.000Z",
-      "end": "2019-05-15T00:00:00.000Z"
+      "start": "2020-09-08T00:00:00.000Z",
+      "end": "2020-09-09T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 19,
-      "fahrenheit": 67
+      "celsius": 20,
+      "fahrenheit": 68
     },
     "cost": 1
   },
@@ -1143,8 +784,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-10-09T00:00:00.000Z",
-      "end": "2019-10-10T00:00:00.000Z"
+      "start": "2020-09-30T00:00:00.000Z",
+      "end": "2020-10-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 16,
@@ -1197,8 +838,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-17T00:00:00.000Z",
-      "end": "2019-06-20T00:00:00.000Z"
+      "start": "2020-06-08T00:00:00.000Z",
+      "end": "2020-06-11T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1208,15 +849,15 @@
   },
   {
     "name": "GOTO Berlin",
-    "url": "https://gotober.com/2019",
+    "url": "https://gotober.com/",
     "location": {
       "city": "Berlin",
       "country": "Germany",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-10-23T00:00:00.000Z",
-      "end": "2019-10-25T00:00:00.000Z"
+      "start": "2020-10-28T00:00:00.000Z",
+      "end": "2020-10-30T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 13,
@@ -1233,8 +874,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-13T00:00:00.000Z",
-      "end": "2019-11-14T00:00:00.000Z"
+      "start": "2020-04-30T00:00:00.000Z",
+      "end": "2020-05-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 10,
@@ -1244,15 +885,15 @@
   },
   {
     "name": "GOTO Copenhagen",
-    "url": "https://gotocph.com/2019",
+    "url": "https://gotocph.com",
     "location": {
       "city": "Copenhagen",
       "country": "Denmark",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-11-21T00:00:00.000Z",
-      "end": "2019-11-22T00:00:00.000Z"
+      "start": "2020-11-09T00:00:00.000Z",
+      "end": "2020-11-13T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 7,
@@ -1264,19 +905,19 @@
     "name": "GitHub Satellite",
     "url": "https://githubsatellite.com",
     "location": {
-      "city": "Berlin",
-      "country": "Germany",
+      "city": "Paris",
+      "country": "France",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-05-23T00:00:00.000Z",
-      "end": "2019-05-23T00:00:00.000Z"
+      "start": "2020-05-06T00:00:00.000Z",
+      "end": "2020-05-07T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 19,
-      "fahrenheit": 66
+      "celsius": 20,
+      "fahrenheit": 68
     },
-    "cost": 2
+    "cost": 1
   },
   {
     "name": "GlueCon",
@@ -1298,19 +939,19 @@
   },
   {
     "name": "GrafanaCon",
-    "url": "http://grafanacon.org/",
+    "url": "https://grafana.com/about/events/grafanacon/2020/",
     "location": {
-      "city": "Los Angeles",
-      "country": "USA",
-      "continent": "North America"
+      "city": "Amsterdam",
+      "country": "The Netherlands",
+      "continent": "Europe"
     },
     "date": {
-      "start": "2019-02-25T00:00:00.000Z",
-      "end": "2019-02-26T00:00:00.000Z"
+      "start": "2020-05-13T00:00:00.000Z",
+      "end": "2020-05-14T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 69
+      "celsius": 17,
+      "fahrenheit": 63
     },
     "cost": 1
   },
@@ -1333,38 +974,38 @@
     "cost": 1
   },
   {
-    "name": "HashiConf",
+    "name": "HashiConf US",
     "url": "https://www.hashiconf.com",
     "location": {
-      "city": "Seattle",
+      "city": "San Diego",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-09-09T00:00:00.000Z",
-      "end": "2019-09-11T00:00:00.000Z"
+      "start": "2020-10-13T00:00:00.000Z",
+      "end": "2020-10-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 70
+      "celsius": 23,
+      "fahrenheit": 74
     },
     "cost": 2
   },
   {
     "name": "HashiConf EU",
-    "url": "https://hashiconfeu.hashicorp.com/",
+    "url": "https://hashiconf.com/eu/",
     "location": {
       "city": "Amsterdam",
       "country": "The Netherlands",
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-07-08T00:00:00.000Z",
-      "end": "2019-07-10T00:00:00.000Z"
+      "start": "2020-06-08T00:00:00.000Z",
+      "end": "2020-06-10T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 26,
-      "fahrenheit": 80
+      "celsius": 20,
+      "fahrenheit": 68
     },
     "cost": 2
   },
@@ -1444,35 +1085,35 @@
     "name": "Jenkins World",
     "url": "https://www.cloudbees.com/devops-world/san-francisco",
     "location": {
-      "city": "San Francisco",
+      "city": "Las Vegas",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-08-12T00:00:00.000Z",
-      "end": "2019-08-15T00:00:00.000Z"
+      "start": "2020-09-21T00:00:00.000Z",
+      "end": "2020-09-24T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 20,
-      "fahrenheit": 68
+      "celsius": 36,
+      "fahrenheit": 96
     },
     "cost": 2
   },
   {
     "name": "KubeCon and CloudNativeCon China",
-    "url": "https://www.lfasiallc.com/events/kubecon-cloudnativecon-china-2019/",
+    "url": "https://www.lfasiallc.com/kubecon-cloudnativecon-open-source-summit-china/",
     "location": {
       "city": "Shanghai",
       "country": "China",
       "continent": "Asia"
     },
     "date": {
-      "start": "2019-06-25T00:00:00.000Z",
-      "end": "2019-06-26T00:00:00.000Z"
+      "start": "2020-07-28T00:00:00.000Z",
+      "end": "2020-07-30T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 28,
-      "fahrenheit": 82
+      "celsius": 32,
+      "fahrenheit": 90
     },
     "cost": 1
   },
@@ -1496,15 +1137,15 @@
   },
   {
     "name": "KubeCon and CloudNativeCon North America",
-    "url": "https://events.linuxfoundation.org/events/kubecon-cloudnativecon-north-america-2019/",
+    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
     "location": {
-      "city": "San Diego",
+      "city": "Boston",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-18T00:00:00.000Z",
-      "end": "2019-11-21T00:00:00.000Z"
+      "start": "2020-11-17T00:00:00.000Z",
+      "end": "2020-11-20T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
@@ -1539,8 +1180,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-06-12T00:00:00.000Z",
-      "end": "2019-06-14T00:00:00.000Z"
+      "start": "2020-06-10T00:00:00.000Z",
+      "end": "2020-06-12T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1665,8 +1306,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-06-24T00:00:00.000Z",
-      "end": "2019-06-28T00:00:00.000Z"
+      "start": "2020-06-15T00:00:00.000Z",
+      "end": "2020-06-19T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -1683,8 +1324,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-11-11T00:00:00.000Z",
-      "end": "2019-11-15T00:00:00.000Z"
+      "start": "2020-11-16T00:00:00.000Z",
+      "end": "2020-11-20T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 17,
@@ -1737,8 +1378,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-05-29T00:00:00.000Z",
-      "end": "2019-05-31T00:00:00.000Z"
+      "start": "2020-05-26T00:00:00.000Z",
+      "end": "2020-05-28T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 17,
@@ -1783,56 +1424,38 @@
     "cost": 1
   },
   {
-    "name": "SREcon19 Asia/Australia",
-    "url": "https://www.usenix.org/conference/srecon19asia",
+    "name": "SREcon Asia/Pacific",
+    "url": "https://www.usenix.org/conference/srecon20apac",
     "location": {
-      "city": "Singapore",
-      "country": "Singapore",
-      "continent": "Asia"
+      "city": "Sydney",
+      "country": "Australia",
+      "continent": "Australia"
     },
     "date": {
-      "start": "2019-06-12T00:00:00.000Z",
-      "end": "2019-06-14T00:00:00.000Z"
+      "start": "2020-06-15T00:00:00.000Z",
+      "end": "2020-06-17T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 32,
-      "fahrenheit": 89
+      "celsius": 17,
+      "fahrenheit": 63
     },
     "cost": 2
   },
   {
-    "name": "SREcon Americas",
-    "url": "https://www.usenix.org/conference/srecon19americas",
+    "name": "SREcon Americas West",
+    "url": "https://www.usenix.org/conference/srecon20americaswest",
     "location": {
-      "city": "New York",
+      "city": "Santa Clara",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2019-03-25T00:00:00.000Z",
-      "end": "2019-03-27T00:00:00.000Z"
+      "start": "2020-03-24T00:00:00.000Z",
+      "end": "2020-03-26T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 10,
-      "fahrenheit": 50
-    },
-    "cost": 2
-  },
-  {
-    "name": "SREcon Europe",
-    "url": "https://www.usenix.org/conference/srecon19europe",
-    "location": {
-      "city": "Dublin",
-      "country": "Ireland",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-10-02T00:00:00.000Z",
-      "end": "2019-10-04T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 14,
-      "fahrenheit": 57
+      "celsius": 19,
+      "fahrenheit": 66
     },
     "cost": 2
   },
@@ -1863,30 +1486,12 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-09-06T00:00:00.000Z",
-      "end": "2019-09-06T00:00:00.000Z"
+      "start": "2020-08-21T00:00:00.000Z",
+      "end": "2020-08-21T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 17,
-      "fahrenheit": 63
-    },
-    "cost": 1
-  },
-  {
-    "name": "Tech Agile Conference",
-    "url": "https://www.code-conf.com/2019/technical-agile-conference/",
-    "location": {
-      "city": "Gothenburg",
-      "country": "Sweden",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2019-05-14T00:00:00.000Z",
-      "end": "2019-05-14T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 15,
-      "fahrenheit": 59
+      "celsius": 20,
+      "fahrenheit": 67
     },
     "cost": 1
   },
@@ -1917,8 +1522,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-06-18T00:00:00.000Z",
-      "end": "2019-06-19T00:00:00.000Z"
+      "start": "2020-06-16T00:00:00.000Z",
+      "end": "2020-06-17T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
@@ -1953,8 +1558,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-09-23T00:00:00.000Z",
-      "end": "2019-09-24T00:00:00.000Z"
+      "start": "2020-09-30T00:00:00.000Z",
+      "end": "2020-10-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 18,
@@ -1971,8 +1576,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2019-12-02T00:00:00.000Z",
-      "end": "2019-12-06T00:00:00.000Z"
+      "start": "2020-11-30T00:00:00.000Z",
+      "end": "2020-12-04T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -2175,6 +1780,780 @@
     "temperature": {
       "celsius": 20,
       "fahrenheit": 68
+    },
+    "cost": 1
+  },
+  {
+    "name": "Global DevOps Summit",
+    "url": "https://www.clavent.com/global-devops-summit-bangalore/",
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-04-02T00:00:00.000Z",
+      "end": "2020-04-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 34,
+      "fahrenheit": 94
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps India Summit",
+    "url": "https://devopsindiasummit.com/",
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-07-10T00:00:00.000Z",
+      "end": "2020-07-11T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 28,
+      "fahrenheit": 83
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Days Kyiv",
+    "url": "https://devopsdays.com.ua",
+    "location": {
+      "city": "Kyiv",
+      "country": "Ukraine",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-05-15T00:00:00.000Z",
+      "end": "2020-05-16T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 16,
+      "fahrenheit": 60
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Fusion",
+    "url": "https://www.devops-fusion.com/en/",
+    "location": {
+      "city": "Zurich",
+      "country": "Switzerland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-03-18T00:00:00.000Z",
+      "end": "2020-03-18T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 11,
+      "fahrenheit": 51
+    },
+    "cost": 3
+  },
+  {
+    "name": "IcingaConf",
+    "url": "https://icingaconf.com/",
+    "location": {
+      "city": "Amsterdam",
+      "country": "The Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-06-23T00:00:00.000Z",
+      "end": "2020-06-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 68
+    },
+    "cost": 2
+  },
+  {
+    "name": "Voxxed Days",
+    "url": "https://voxxeddays.com/minsk/",
+    "location": {
+      "city": "Minsk",
+      "country": "Belarus",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-05-28T00:00:00.000Z",
+      "end": "2020-05-31T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 66
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Guadalajara",
+    "url": "https://devopsdays.org/events/2020-guadalajara",
+    "location": {
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-02-20T00:00:00.000Z",
+      "end": "2020-02-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 27,
+      "fahrenheit": 81
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Madrid",
+    "url": "https://devopsdays.org/events/2020-madrid/welcome/",
+    "location": {
+      "city": "Madrid",
+      "country": "Spain",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-02-21T00:00:00.000Z",
+      "end": "2020-02-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 12,
+      "fahrenheit": 53
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Geneva",
+    "url": "https://devopsdays.org/events/2020-geneva/welcome/",
+    "location": {
+      "city": "Geneva",
+      "country": "Switzerland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-02-24T00:00:00.000Z",
+      "end": "2020-02-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 7,
+      "fahrenheit": 44
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Charlotte",
+    "url": "https://devopsdays.org/events/2020-charlotte/welcome/",
+    "location": {
+      "city": "Charlotte",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-02-27T00:00:00.000Z",
+      "end": "2020-02-28T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 13,
+      "fahrenheit": 56
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Cáceres",
+    "url": "https://devopsdays.org/events/2020-caceres/welcome/",
+    "location": {
+      "city": "Cáceres",
+      "country": "Spain",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-03-05T00:00:00.000Z",
+      "end": "2020-03-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 17,
+      "fahrenheit": 63
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Jakarta",
+    "url": "https://devopsdays.org/events/2020-jakarta",
+    "location": {
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-03-11T00:00:00.000Z",
+      "end": "2020-03-12T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 89
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Prague",
+    "url": "https://devopsdays.org/events/2020-prague",
+    "location": {
+      "city": "Prague",
+      "country": "Czechia",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-03-18T00:00:00.000Z",
+      "end": "2020-03-19T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 10,
+      "fahrenheit": 50
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Natal",
+    "url": "https://devopsdays.org/events/2020-natal/welcome/",
+    "location": {
+      "city": "Natal",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2020-03-28T00:00:00.000Z",
+      "end": "2020-03-28T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 31,
+      "fahrenheit": 89
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Houston",
+    "url": "https://devopsdays.org/events/2020-houston",
+    "location": {
+      "city": "Houston",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-04-14T00:00:00.000Z",
+      "end": "2020-04-15T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 25,
+      "fahrenheit": 76
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Atlanta",
+    "url": "https://devopsdays.org/events/2020-atlanta",
+    "location": {
+      "city": "Atlanta",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-04-21T00:00:00.000Z",
+      "end": "2020-04-22T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 25,
+      "fahrenheit": 76
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Kraków",
+    "url": "https://devopsdays.org/events/2020-krakow",
+    "location": {
+      "city": "Kraków",
+      "country": "Poland",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-04-21T00:00:00.000Z",
+      "end": "2020-04-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 14,
+      "fahrenheit": 57
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Baltimore",
+    "url": "https://devopsdays.org/events/2020-baltimore",
+    "location": {
+      "city": "Baltimore",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-04-21T00:00:00.000Z",
+      "end": "2020-04-22T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 19,
+      "fahrenheit": 67
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Singapore",
+    "url": "https://devopsdays.org/events/2020-singapore",
+    "location": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-04-23T00:00:00.000Z",
+      "end": "2020-04-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 32,
+      "fahrenheit": 90
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Aracaju",
+    "url": "https://devopsdays.org/events/2020-aracaju/welcome/",
+    "location": {
+      "city": "Aracaju",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2020-04-25T00:00:00.000Z",
+      "end": "2020-04-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 30,
+      "fahrenheit": 86
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Denver",
+    "url": "https://devopsdays.org/events/2020-denver",
+    "location": {
+      "city": "Denver",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-04-26T00:00:00.000Z",
+      "end": "2020-04-28T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 65
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Boise",
+    "url": "https://devopsdays.org/events/2020-boise",
+    "location": {
+      "city": "Boise",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-05-15T00:00:00.000Z",
+      "end": "2020-05-15T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 74
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Porto Alegre",
+    "url": "https://devopsdays.org/events/2020-porto-alegre/welcome/",
+    "location": {
+      "city": "Porto Alegre",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2020-05-22T00:00:00.000Z",
+      "end": "2020-05-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Porto",
+    "url": "https://devopsdays.org/events/2020-portugal/welcome/",
+    "location": {
+      "city": "Porto",
+      "country": "Portugal",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-06-01T00:00:00.000Z",
+      "end": "2020-06-02T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Salt Lake City",
+    "url": "https://devopsdays.org/events/2020-salt-lake-city",
+    "location": {
+      "city": "Salt Lake City",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-06-02T00:00:00.000Z",
+      "end": "2020-06-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 28,
+      "fahrenheit": 83
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays João Pessoa",
+    "url": "https://devopsdays.org/events/2020-joao-pessoa/welcome/",
+    "location": {
+      "city": "João Pessoa",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2020-06-06T00:00:00.000Z",
+      "end": "2020-06-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 29,
+      "fahrenheit": 84
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Aarhus",
+    "url": "https://devopsdays.org/events/2020-aarhus",
+    "location": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-06-10T00:00:00.000Z",
+      "end": "2020-06-11T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 65
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays São Paulo",
+    "url": "https://devopsdays.org/events/2020-sao-paulo/welcome/",
+    "location": {
+      "city": "São Paulo",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2020-07-02T00:00:00.000Z",
+      "end": "2020-07-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 74
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Chicago",
+    "url": "https://devopsdays.org/events/2020-chicago",
+    "location": {
+      "city": "Chicago",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-09-01T00:00:00.000Z",
+      "end": "2020-09-02T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 74
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Portland",
+    "url": "https://devopsdays.org/events/2020-portland-or",
+    "location": {
+      "city": "Portland",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-09-08T00:00:00.000Z",
+      "end": "2020-09-10T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 24,
+      "fahrenheit": 75
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Florianópolis",
+    "url": "https://devopsdays.org/events/2020-florianopolis/welcome/",
+    "location": {
+      "city": "Florianópolis",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2020-09-12T00:00:00.000Z",
+      "end": "2020-09-12T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Columbus",
+    "url": "https://devopsdays.org/events/2020-columbus/welcome/",
+    "location": {
+      "city": "Columbus",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-09-16T00:00:00.000Z",
+      "end": "2020-09-17T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 26,
+      "fahrenheit": 78
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Cape Town",
+    "url": "https://devopsdays.org/events/2020-cape-town",
+    "location": {
+      "city": "Cape Town",
+      "country": "South Africa",
+      "continent": "Africa"
+    },
+    "date": {
+      "start": "2020-09-17T00:00:00.000Z",
+      "end": "2020-09-18T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Istanbul",
+    "url": "https://devopsdays.org/events/2020-istanbul",
+    "location": {
+      "city": "Istanbul",
+      "country": "Turkey",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2020-09-17T00:00:00.000Z",
+      "end": "2020-09-18T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 25,
+      "fahrenheit": 77
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Cairo",
+    "url": "https://devopsdays.org/events/2020-cairo/welcome/",
+    "location": {
+      "city": "Cairo",
+      "country": "Egypt",
+      "continent": "Africa"
+    },
+    "date": {
+      "start": "2020-09-20T00:00:00.000Z",
+      "end": "2020-09-20T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 34,
+      "fahrenheit": 92
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays London",
+    "url": "https://devopsdays.org/events/2020-london",
+    "location": {
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-09-24T00:00:00.000Z",
+      "end": "2020-09-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 67
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Belo Horizonte",
+    "url": "https://devopsdays.org/events/2020-belo-horizonte/welcome/",
+    "location": {
+      "city": "Belo Horizonte",
+      "country": "Brazil",
+      "continent": "South America"
+    },
+    "date": {
+      "start": "2020-09-26T00:00:00.000Z",
+      "end": "2020-09-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 29,
+      "fahrenheit": 84
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Boston",
+    "url": "https://devopsdays.org/events/2020-boston",
+    "location": {
+      "city": "Boston",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-09-28T00:00:00.000Z",
+      "end": "2020-09-29T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 23,
+      "fahrenheit": 73
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Buffalo",
+    "url": "https://devopsdays.org/events/2020-buffalo/welcome/",
+    "location": {
+      "city": "Buffalo",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-09-30T00:00:00.000Z",
+      "end": "2020-10-01T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 21,
+      "fahrenheit": 70
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Paris",
+    "url": "https://devopsdays.org/events/2020-paris/welcome/",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-10-15T00:00:00.000Z",
+      "end": "2020-10-15T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 17,
+      "fahrenheit": 63
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Raleigh",
+    "url": "https://devopsdays.org/events/2020-raleigh/welcome/",
+    "location": {
+      "city": "Raleigh",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-10-18T00:00:00.000Z",
+      "end": "2020-10-20T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 22,
+      "fahrenheit": 72
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Philadelphia",
+    "url": "https://devopsdays.org/events/2020-philadelphia",
+    "location": {
+      "city": "Philadelphia",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-10-20T00:00:00.000Z",
+      "end": "2020-10-21T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 20,
+      "fahrenheit": 67
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Eindhoven",
+    "url": "https://devopsdays.org/events/2020-eindhoven/welcome/",
+    "location": {
+      "city": "Eindhoven",
+      "country": "The Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-10-21T00:00:00.000Z",
+      "end": "2020-10-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 15,
+      "fahrenheit": 59
     },
     "cost": 1
   }

@@ -188,7 +188,7 @@ hr {
 }
 
 .sponsored hr {
-  display: none;
+  /* display: none; */
 }
 
 .sponsored-label {

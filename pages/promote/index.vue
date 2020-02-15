@@ -36,8 +36,7 @@
                 <font-awesome-icon
                   icon="check-circle"
                   class="mr-3 check-icon"
-                />Only
-                <strike>2 spots</strike> 1 spot available!
+                /><strike>2 spots available</strike> sold out until March 2020!
               </li>
               <li>
                 <font-awesome-icon
