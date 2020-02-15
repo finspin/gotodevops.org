@@ -137,16 +137,6 @@ const createStore = () => {
             touchesWeekendMatch = false;
           }
 
-          // console.log(confStartDay, confEndDay);
-          console.log(
-            conference.name,
-            confStartDay,
-            confEndDay,
-            activeWeekendFilter,
-            touchesWeekendMatch
-          );
-          // console.log("activeWeekendFilter", activeWeekendFilter);
-
           // Hide conferences with start day older than today
           if (confStartDate < new Date()) {
             show = false;
