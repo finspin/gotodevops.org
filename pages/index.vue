@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <top-navigation></top-navigation>
+    <premium-ad-spot></premium-ad-spot>
     <div class="container-fluid content">
       <div class="row">
         <div class="col-md-6 left no-gutters">
@@ -36,6 +37,7 @@ import Filters from "../components/Filters";
 import SubscriptionForm from "../components/SubscriptionForm";
 import TopNavigation from "../components/TopNavigation";
 import ClearFiltersButton from "../components/ClearFiltersButton";
+import PremiumAdSpot from "../components/PremiumAdSpot";
 
 export default {
   components: {
@@ -44,7 +46,8 @@ export default {
     Filters,
     SubscriptionForm,
     TopNavigation,
-    ClearFiltersButton
+    ClearFiltersButton,
+    PremiumAdSpot
   }
 };
 </script>

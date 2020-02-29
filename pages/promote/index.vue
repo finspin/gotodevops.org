@@ -47,7 +47,7 @@
             </ul>
             <div class="advertising-price text-center mb-4">
               <span class="monthly-price">
-                <span class="advertising-option-sum">$197</span> / month
+                <span class="advertising-option-sum">$297</span> / month
               </span>
             </div>
             <div class="advertising-contact text-center">Contact hello@gotodevops.org to start promoting your conference!</div>
@@ -90,7 +90,7 @@
             </ul>
             <div class="advertising-price text-center mb-4">
               <span class="monthly-price">
-                <span class="advertising-option-sum">$197</span> / month
+                <span class="advertising-option-sum">$297</span> / month
               </span>
             </div>
             <div class="advertising-contact text-center">Contact hello@gotodevops.org to start promoting your product!</div>
