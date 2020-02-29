@@ -2,6 +2,7 @@
   <a
     :href="conference.url"
     :rel="conference.sponsored && 'sponsored'"
+    @click="captureOutboundLink(conference.url); return false;"
   >
     <div class="conference row">
       <div class="col-12">
