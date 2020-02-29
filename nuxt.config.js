@@ -1,7 +1,7 @@
 import webpack from "webpack";
 
 module.exports = {
-  mode: "universal",
+  mode: "spa",
 
   /*
   ** Headers of the page
@@ -45,13 +45,6 @@ module.exports = {
       "@nuxtjs/google-analytics",
       {
         id: "UA-60153-41"
-      }
-    ],
-    [
-      "@netsells/nuxt-hotjar",
-      {
-        id: "1646783",
-        sv: "6"
       }
     ],
     // Doc: https://bootstrap-vue.js.org/docs/
