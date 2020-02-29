@@ -29,7 +29,8 @@ module.exports = {
         content:
           "Find your next DevOps conference in 2020 from the most comprehensive list, maintained by a community of DevOps professionals. DevOps Conferences in USA, Europe, Asia and Australia &raquo;"
       }
-    ]
+    ],
+    script: [{ src: "/js/track-outbound-links.js" }]
   },
 
   /*
