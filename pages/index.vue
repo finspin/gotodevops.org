@@ -1,12 +1,16 @@
 <template>
   <div id="app">
     <top-navigation></top-navigation>
+    <premium-ad-spot></premium-ad-spot>
     <div class="container-fluid content">
       <div class="row">
         <div class="col-md-6 left no-gutters">
           <div class="left-content">
             <subscription-form></subscription-form>
             <div class="d-none d-md-block">
+              <!-- <div class="row meta-filters">
+                <clear-filters-button></clear-filters-button>
+              </div> -->
               <filters></filters>
             </div>
           </div>
@@ -14,12 +18,9 @@
         <div class="col-md-6 right no-gutters">
           <div class="right-content">
             <div class="col-md-12 no-padding">
-              <filter-info-row></filter-info-row>
-              <b-collapse id="collapse-filters">
-                <div class="container">
-                  <filters></filters>
-                </div>
-              </b-collapse>
+              <div class="d-none d-md-block">
+                <conference-list-info></conference-list-info>
+              </div>
               <conferences></conferences>
             </div>
           </div>
@@ -33,27 +34,25 @@
 import Conferences from "../components/Conferences";
 import ConferenceListInfo from "../components/ConferenceListInfo";
 import Filters from "../components/Filters";
-import FilterInfoRow from "../components/FilterInfoRow";
 import SubscriptionForm from "../components/SubscriptionForm";
 import TopNavigation from "../components/TopNavigation";
+import ClearFiltersButton from "../components/ClearFiltersButton";
+import PremiumAdSpot from "../components/PremiumAdSpot";
 
 export default {
   components: {
     Conferences,
     ConferenceListInfo,
     Filters,
-    FilterInfoRow,
     SubscriptionForm,
-    TopNavigation
+    TopNavigation,
+    ClearFiltersButton,
+    PremiumAdSpot
   }
 };
 </script>
 
 <style>
-/* .content {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-} */
-
 .left {
   background-color: #eff8ff;
   padding-left: 40px;
@@ -77,21 +76,7 @@ export default {
   max-width: 530px;
   float: left;
   width: 100%;
-  padding-top: 20px;
 }
-
-/* h1 {
-  font-size: 28px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-@media (max-width: 576px) {
-  h1 {
-    font-size: 21px;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-} */
 
 @media (max-width: 767px) {
   .left {
@@ -109,8 +94,10 @@ export default {
 @media (min-width: 768px) {
   .right {
     height: 100vh;
-    /*overflow: hidden;*/
     overflow-y: scroll;
+  }
+  .right-content {
+    padding-top: 20px;
   }
 }
 </style>

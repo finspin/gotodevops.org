@@ -1,7 +1,12 @@
 <template>
   <div class="row cost-filter">
     <div class="col-12">
-      <div class="filter-label">Ticket Cost</div>
+      <div class="filter-label">Ticket Cost
+            <font-awesome-icon :icon="['fas', 'info-circle']" id="cost-filter-info-circle" class="ml-1" :style="{ color: '#666' }" />
+            <b-tooltip target="cost-filter-info-circle" triggers="hover" placement="right">All ticket prices are converted to USD based on a fixed conversion rate and they include VAT. Check the conference website for the final ticket prices.
+            </b-tooltip>
+      </div>
+
       <div class="row">
         <div class="col-4 pr-2 pr-sm-3">
           <div
@@ -10,10 +15,10 @@
           >FREE</div>
         </div>
         <div class="col-4 pr-2 pl-2 pr-sm-3 pl-sm-3">
-          <div @click="applyCostFilter(1)" :class="['cost', { active: isActive(1)} ]">< $300 / DAY</div>
+          <div @click="applyCostFilter(1)" :class="['cost', { active: isActive(1)} ]">&lt; $300 / DAY</div>
         </div>
         <div class="col-4 pl-2 pl-sm-3">
-          <div @click="applyCostFilter(2)" :class="['cost', { active: isActive(2) }]">< $600 / DAY</div>
+          <div @click="applyCostFilter(2)" :class="['cost', { active: isActive(2) }]">&lt; $600 / DAY</div>
         </div>
       </div>
     </div>

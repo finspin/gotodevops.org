@@ -20,7 +20,10 @@
           type="text"
           placeholder="Enter your email"
         />
-        <button type="submit" class="btn col-sm-6">Send me new conferences!</button>
+        <button
+          type="submit"
+          class="btn col-sm-6"
+        >Send me new conferences!</button>
       </form>
       <p>
         Join
@@ -117,6 +120,10 @@ button:active {
   p {
     text-align: center;
     margin-top: 30px;
+  }
+
+  hr {
+    display: none;
   }
 }
 </style>

@@ -1,7 +1,14 @@
 <template>
-  <a :href="conference.url">
+  <a
+    :href="conference.url"
+    :rel="conference.sponsored && 'sponsored'"
+  >
     <div class="conference row">
       <div class="col-12">
+        <span
+          v-if="conference.sponsored"
+          class="sponsored-label"
+        >SPONSORED</span>
         <div class="name">
           {{ conference.name }}
           <span class="goto-symbol">&raquo;</span>
@@ -178,5 +185,16 @@ a:hover {
 hr {
   margin-top: 2px;
   margin-bottom: 7px;
+}
+
+.sponsored hr {
+  /* display: none; */
+}
+
+.sponsored-label {
+  font-size: 10px;
+  color: rgb(172, 171, 171);
+  float: right;
+  font-weight: bold;
 }
 </style>

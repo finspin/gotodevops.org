@@ -1,11 +1,36 @@
-import Vue from 'vue'
-import { library, config } from '@fortawesome/fontawesome-svg-core'
-import { faUmbrellaBeach, faCloud, faSnowflake, faFilter, faEnvelope, faPlusSquare, faCheckCircle } from '@fortawesome/free-solid-svg-icons'
-import { faCalendarAlt, faQuestionCircle } from '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import Vue from "vue";
+import { library, config } from "@fortawesome/fontawesome-svg-core";
+import {
+  faUmbrellaBeach,
+  faCloud,
+  faSnowflake,
+  faFilter,
+  faEnvelope,
+  faPlusSquare,
+  faCheckCircle,
+  faTimes,
+  faInfoCircle
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faCalendarAlt,
+  faQuestionCircle
+} from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-config.autoAddCss = false
+config.autoAddCss = false;
 
-library.add(faUmbrellaBeach, faCloud, faSnowflake, faCalendarAlt, faQuestionCircle, faFilter, faEnvelope, faPlusSquare, faCheckCircle);
+library.add(
+  faUmbrellaBeach,
+  faCloud,
+  faSnowflake,
+  faCalendarAlt,
+  faQuestionCircle,
+  faFilter,
+  faEnvelope,
+  faPlusSquare,
+  faCheckCircle,
+  faTimes,
+  faInfoCircle
+);
 
-Vue.component('font-awesome-icon', FontAwesomeIcon);
+Vue.component("font-awesome-icon", FontAwesomeIcon);

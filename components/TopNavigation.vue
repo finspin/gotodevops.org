@@ -1,15 +1,30 @@
 <template>
   <div>
     <div id="top-stripe"></div>
-    <b-navbar toggleable="lg" type="light" variant="light">
+    <b-navbar
+      toggleable="lg"
+      type="light"
+      variant="light"
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-          <img src="~assets/logo.png" width="34" class="mr-2" alt="GoTo DevOps logo" />
+        <a
+          class="navbar-brand"
+          href="/"
+        >
+          <img
+            src="~assets/logo.png"
+            width="34"
+            class="mr-2"
+            alt="GoTo DevOps logo"
+          />
           GoTo DevOps
           <h1>DevOps Conferences 2020</h1>
         </a>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-collapse id="nav-collapse" is-nav>
+        <b-collapse
+          id="nav-collapse"
+          is-nav
+        >
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
             <b-nav-item href="/promote">

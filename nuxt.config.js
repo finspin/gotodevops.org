@@ -1,7 +1,7 @@
 import webpack from "webpack";
 
 module.exports = {
-  mode: "universal",
+  mode: "spa",
 
   /*
   ** Headers of the page
@@ -57,9 +57,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    // analyze: {
-    //   analyzerMode: 'static'
-    // },
     /*
     ** Plugins to load before mounting the App
     */
