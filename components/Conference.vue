@@ -2,7 +2,7 @@
   <a
     :href="conference.url"
     :rel="conference.sponsored && 'sponsored'"
-    @click="captureOutboundLink(conference.url); return false;"
+    @click.prevent="captureOutboundLink(conference.url)"
   >
     <div class="conference row">
       <div class="col-12">
@@ -80,6 +80,14 @@ export default {
     }
   },
   methods: {
+    captureOutboundLink: url => {
+      ga("send", "event", "outbound", "click", url, {
+        transport: "beacon",
+        hitCallback: function() {
+          document.location = url;
+        }
+      });
+    },
     conferenceDateRange: conference => {
       const locale = "en-us";
       const confStartDate = new Date(conference.date.start);
