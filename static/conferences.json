@@ -2556,5 +2556,23 @@
       "fahrenheit": 59
     },
     "cost": 1
+  },
+  {
+    "name": "MLOps",
+    "url": "https://www.mlopsconf.com/",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-05-06T00:00:00.000Z",
+      "end": "2020-05-06T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 18,
+      "fahrenheit": 64
+    },
+    "cost": 1
   }
 ]
