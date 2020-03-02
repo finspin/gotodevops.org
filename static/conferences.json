@@ -2574,5 +2574,41 @@
       "fahrenheit": 64
     },
     "cost": 1
+  },
+  {
+    "name": "DevOops",
+    "url": "https://devoops-moscow.ru/en/",
+    "location": {
+      "city": "Moscow",
+      "country": "Russia",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-04-29T00:00:00.000Z",
+      "end": "2020-04-30T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 11,
+      "fahrenheit": 52
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOops",
+    "url": "https://devoops-piter.ru/en/",
+    "location": {
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2020-10-07T00:00:00.000Z",
+      "end": "2020-10-08T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 8,
+      "fahrenheit": 47
+    },
+    "cost": 2
   }
 ]
