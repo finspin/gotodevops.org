@@ -27,6 +27,7 @@
         </div>
       </div>
     </div>
+    <sticky-footer-stripe></sticky-footer-stripe>
   </div>
 </template>
 
@@ -38,6 +39,7 @@ import SubscriptionForm from "../components/SubscriptionForm";
 import TopNavigation from "../components/TopNavigation";
 import ClearFiltersButton from "../components/ClearFiltersButton";
 import PremiumAdSpot from "../components/PremiumAdSpot";
+import StickyFooterStripe from "../components/StickyFooterStripe";
 
 export default {
   components: {
@@ -47,12 +49,17 @@ export default {
     SubscriptionForm,
     TopNavigation,
     ClearFiltersButton,
-    PremiumAdSpot
+    PremiumAdSpot,
+    StickyFooterStripe
   }
 };
 </script>
 
 <style>
+#app {
+  padding-bottom: 30px;
+}
+
 .left {
   background-color: #eff8ff;
   padding-left: 40px;
