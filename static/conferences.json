@@ -433,8 +433,8 @@
     "cost": 1
   },
   {
-    "name": "DevOps Pro Europe ❤️",
-    "url": "https://devopspro.lt/?utm_medium=partner&utm_source=gotodevops",
+    "name": "DevOps Pro Europe",
+    "url": "https://devopspro.lt",
     "location": {
       "city": "Vilnius",
       "country": "Lithuania",
@@ -448,8 +448,7 @@
       "celsius": 4,
       "fahrenheit": 39
     },
-    "cost": 1,
-    "sponsored": true
+    "cost": 1
   },
   {
     "name": "DevOps Space",
