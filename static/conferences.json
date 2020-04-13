@@ -73,15 +73,15 @@
   },
   {
     "name": "All Day DevOps",
-    "url": "https://www.alldaydevops.com/",
+    "url": "https://www.alldaydevops.com/spring-break",
     "location": {
       "city": "Online",
       "country": "",
       "continent": ""
     },
     "date": {
-      "start": "2020-11-18T00:00:00.000Z",
-      "end": "2020-11-18T00:00:00.000Z"
+      "start": "2020-04-17T00:00:00.000Z",
+      "end": "2020-04-17T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -1053,12 +1053,12 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-04-21T00:00:00.000Z",
-      "end": "2020-04-24T00:00:00.000Z"
+      "start": "2020-08-31T00:00:00.000Z",
+      "end": "2020-09-03T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 15,
-      "fahrenheit": 59
+      "celsius": 20,
+      "fahrenheit": 67
     },
     "cost": 2
   },
@@ -1665,12 +1665,12 @@
       "continent": "Asia"
     },
     "date": {
-      "start": "2020-03-23T00:00:00.000Z",
-      "end": "2020-03-26T00:00:00.000Z"
+      "start": "2020-09-07T00:00:00.000Z",
+      "end": "2020-09-10T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 32,
-      "fahrenheit": 90
+      "celsius": 31,
+      "fahrenheit": 88
     },
     "cost": 2
   },
