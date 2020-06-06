@@ -411,8 +411,9 @@
       "celsius": 29,
       "fahrenheit": 84
     },
-    "cost": 3,
-    "sponsored": true
+    "cost": 1,
+    "sponsored": true,
+    "offer": "💰Use GOTODEVOPSDEAL code for 50% off! Only $240/ticket!"
   },
   {
     "name": "DevOps Gathering",

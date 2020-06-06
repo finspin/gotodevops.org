@@ -21,6 +21,14 @@
           {{ conference.location.country }}
         </div>
       </div>
+      <div
+        class="col-12"
+        v-if="conference.offer"
+      >
+        <div class="offer">
+          {{ conference.offer}}
+        </div>
+      </div>
       <div class="col-5 col-md-6 mr-0 pr-0">
         <div class="date">
           <font-awesome-icon
@@ -166,6 +174,12 @@ export default {
   color: #8c9197;
   margin-bottom: 20px;
   font-size: 16px;
+}
+
+.offer {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .date,
