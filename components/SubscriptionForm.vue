@@ -27,7 +27,7 @@
       </form>
       <p>
         Join
-        <span class="number-of-subscribers">978</span> DevOps professionals and get notified of new DevOps conferences!
+        <span class="number-of-subscribers">978</span> DevOps professionals and receive a <b>monthly email</b> about upcoming conferences and exclusive coupon codes.
       </p>
       <hr />
     </div>

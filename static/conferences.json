@@ -116,7 +116,7 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-10-12T00:00:00.000Z",
+      "start": "2020-10-13T00:00:00.000Z",
       "end": "2020-10-14T00:00:00.000Z"
     },
     "temperature": {
@@ -195,7 +195,8 @@
       "celsius": 14,
       "fahrenheit": 57
     },
-    "cost": 2
+    "cost": 2,
+    "display": false
   },
   {
     "name": "Cloud Foundry Summit Austin",
@@ -324,7 +325,7 @@
     "cost": 1
   },
   {
-    "name": "Dash ",
+    "name": "Dash",
     "url": "https://www.dashcon.io/",
     "location": {
       "city": "New York City",
@@ -332,12 +333,12 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-07-14T00:00:00.000Z",
-      "end": "2020-07-15T00:00:00.000Z"
+      "start": "2020-08-11T00:00:00.000Z",
+      "end": "2020-08-11T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 26,
-      "fahrenheit": 80
+      "celsius": 29,
+      "fahrenheit": 84
     },
     "cost": 1
   },
@@ -378,7 +379,7 @@
     "cost": 1
   },
   {
-    "name": "DevOps Enterprise Summit Las Vegas️",
+    "name": "DevOps Enterprise Summit Las Vegas ❤️",
     "url": "https://events.itrevolution.com/us/",
     "location": {
       "city": "Las Vegas",
@@ -393,10 +394,11 @@
       "celsius": 21,
       "fahrenheit": 70
     },
-    "cost": 3
+    "cost": 3,
+    "sponsored": true
   },
   {
-    "name": "DevOps Enterprise Summit London - Virtual ❤️",
+    "name": "DevOps Enterprise Summit London - Virtual️",
     "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=gotodevops-spons-does20-virtual&utm_content=onsale&utm_campaign=does20eur",
     "location": {
       "city": "London",
@@ -412,7 +414,7 @@
       "fahrenheit": 84
     },
     "cost": 1,
-    "sponsored": true,
+    "sponsored": false,
     "offer": "💰Use GOTODEVOPSDEAL code for 50% off! Only $240/ticket!"
   },
   {
@@ -604,14 +606,15 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-08-26T00:00:00.000Z",
-      "end": "2020-08-27T00:00:00.000Z"
+      "start": "2021-08-25T00:00:00.000Z",
+      "end": "2021-08-26T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 36,
       "fahrenheit": 96
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Des Moines",
@@ -658,14 +661,15 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-08-04T00:00:00.000Z",
-      "end": "2020-08-05T00:00:00.000Z"
+      "start": "2021-07-20T00:00:00.000Z",
+      "end": "2021-07-21T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 27,
       "fahrenheit": 81
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays New York City",
@@ -856,8 +860,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-10-28T00:00:00.000Z",
-      "end": "2020-10-30T00:00:00.000Z"
+      "start": "2020-09-15T00:00:00.000Z",
+      "end": "2020-09-15T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 13,
@@ -982,7 +986,7 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-10-13T00:00:00.000Z",
+      "start": "2020-10-12T00:00:00.000Z",
       "end": "2020-10-15T00:00:00.000Z"
     },
     "temperature": {
@@ -1054,8 +1058,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-08-31T00:00:00.000Z",
-      "end": "2020-09-03T00:00:00.000Z"
+      "start": "2020-07-29T00:00:00.000Z",
+      "end": "2020-07-30T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1100,16 +1104,16 @@
     "cost": 2
   },
   {
-    "name": "KubeCon and CloudNativeCon China",
-    "url": "https://www.lfasiallc.com/kubecon-cloudnativecon-open-source-summit-china/",
+    "name": "Cloud Native Summit",
+    "url": "https://cncf.lfasiallc.cn/",
     "location": {
       "city": "Shanghai",
       "country": "China",
       "continent": "Asia"
     },
     "date": {
-      "start": "2020-07-28T00:00:00.000Z",
-      "end": "2020-07-30T00:00:00.000Z"
+      "start": "2020-07-30T00:00:00.000Z",
+      "end": "2020-08-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 32,
@@ -1486,14 +1490,15 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-08-21T00:00:00.000Z",
-      "end": "2020-08-21T00:00:00.000Z"
+      "start": "2021-08-21T00:00:00.000Z",
+      "end": "2021-08-21T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
       "fahrenheit": 67
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "Texas Linux Fest",
@@ -1565,7 +1570,8 @@
       "celsius": 18,
       "fahrenheit": 64
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "re:INVENT",
@@ -1630,14 +1636,15 @@
       "continent": "Asia"
     },
     "date": {
-      "start": "2020-08-17T00:00:00.000Z",
-      "end": "2020-08-19T00:00:00.000Z"
+      "start": "2021-08-17T00:00:00.000Z",
+      "end": "2021-08-19T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 31,
       "fahrenheit": 88
     },
-    "cost": 2
+    "cost": 2,
+    "display": false
   },
   {
     "name": "Cloud Science",
@@ -1648,14 +1655,15 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-07-20T00:00:00.000Z",
-      "end": "2020-07-21T00:00:00.000Z"
+      "start": "2021-09-28T00:00:00.000Z",
+      "end": "2021-09-29T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
       "fahrenheit": 80
     },
-    "cost": "unknown"
+    "cost": "unknown",
+    "display": false
   },
   {
     "name": "DevOpsCon Singapore",
@@ -1684,8 +1692,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-09-28T00:00:00.000Z",
-      "end": "2020-10-01T00:00:00.000Z"
+      "start": "2020-06-29T00:00:00.000Z",
+      "end": "2020-06-30T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -1810,8 +1818,8 @@
       "continent": "Asia"
     },
     "date": {
-      "start": "2020-07-10T00:00:00.000Z",
-      "end": "2020-07-11T00:00:00.000Z"
+      "start": "2020-09-09T00:00:00.000Z",
+      "end": "2020-09-09T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 28,
@@ -2278,12 +2286,12 @@
       "continent": "South America"
     },
     "date": {
-      "start": "2020-07-02T00:00:00.000Z",
-      "end": "2020-07-03T00:00:00.000Z"
+      "start": "2020-12-03T00:00:00.000Z",
+      "end": "2020-12-04T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 23,
-      "fahrenheit": 74
+      "celsius": 28,
+      "fahrenheit": 83
     },
     "cost": 1
   },
@@ -2297,7 +2305,7 @@
     },
     "date": {
       "start": "2020-09-01T00:00:00.000Z",
-      "end": "2020-09-02T00:00:00.000Z"
+      "end": "2020-09-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 23,
@@ -2314,14 +2322,15 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-09-08T00:00:00.000Z",
-      "end": "2020-09-10T00:00:00.000Z"
+      "start": "2021-09-08T00:00:00.000Z",
+      "end": "2021-09-10T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 24,
       "fahrenheit": 75
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Florianópolis",
@@ -2339,7 +2348,8 @@
       "celsius": 23,
       "fahrenheit": 73
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Columbus",
@@ -2357,7 +2367,8 @@
       "celsius": 26,
       "fahrenheit": 78
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Cape Town",
@@ -2375,7 +2386,8 @@
       "celsius": 21,
       "fahrenheit": 70
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Istanbul",
@@ -2393,7 +2405,8 @@
       "celsius": 25,
       "fahrenheit": 77
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Cairo",
@@ -2404,8 +2417,8 @@
       "continent": "Africa"
     },
     "date": {
-      "start": "2020-09-20T00:00:00.000Z",
-      "end": "2020-09-20T00:00:00.000Z"
+      "start": "2020-09-21T00:00:00.000Z",
+      "end": "2020-09-21T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 34,
@@ -2459,7 +2472,7 @@
     },
     "date": {
       "start": "2020-09-28T00:00:00.000Z",
-      "end": "2020-09-29T00:00:00.000Z"
+      "end": "2020-09-28T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 23,
@@ -2476,7 +2489,7 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-09-30T00:00:00.000Z",
+      "start": "2020-10-01T00:00:00.000Z",
       "end": "2020-10-01T00:00:00.000Z"
     },
     "temperature": {
@@ -2537,7 +2550,8 @@
       "celsius": 20,
       "fahrenheit": 67
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Eindhoven",
@@ -2555,7 +2569,8 @@
       "celsius": 15,
       "fahrenheit": 59
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "MLOps",

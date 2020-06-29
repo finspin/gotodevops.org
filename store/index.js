@@ -18,7 +18,14 @@ const createStore = () => {
         // Don't count conferences with start day older than today
         return _.filter(state.conferences, function(conference) {
           const confStartDate = new Date(conference.date.start);
-          if (confStartDate >= new Date() && !conference.sponsored) {
+
+          // Filter out conferences that have set conference.display to false
+          let display = true;
+          if (conference.hasOwnProperty("display")) {
+            display = conference.display;
+          }
+
+          if (confStartDate >= new Date() && !conference.sponsored && display) {
             return conference;
           }
         }).length;
@@ -46,7 +53,8 @@ const createStore = () => {
             continentMatch = false,
             weatherMatch = false,
             touchesWeekendMatch = true,
-            show = true;
+            show = true,
+            display = true;
 
           // Month filter
           const locale = "en-us";
@@ -142,6 +150,11 @@ const createStore = () => {
             show = false;
           }
 
+          // Flag to enable hiding some conferences (e.g. cancelled or postponed)
+          if (conference.hasOwnProperty("display")) {
+            display = conference.display;
+          }
+
           return (
             monthMatch &&
             costMatch &&
@@ -149,6 +162,7 @@ const createStore = () => {
             continentMatch &&
             touchesWeekendMatch &&
             show &&
+            display &&
             !conference.sponsored
           );
         });
