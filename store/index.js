@@ -10,7 +10,8 @@ const createStore = () => {
         months: [],
         weather: null,
         continent: null,
-        touchesWeekend: null
+        touchesWeekend: null,
+        virtualEvent: null
       }
     },
     getters: {
@@ -44,6 +45,7 @@ const createStore = () => {
         const activeWeatherFilter = state.filters.weather;
         const activeContinentFilter = state.filters.continent;
         const activeWeekendFilter = state.filters.touchesWeekend;
+        const activeVirtualEventFilter = state.filters.virtualEvent;
 
         let filteredConferences = _.filter(state.conferences, function(
           conference
@@ -53,6 +55,7 @@ const createStore = () => {
             continentMatch = false,
             weatherMatch = false,
             touchesWeekendMatch = true,
+            virtualEventMatch = false,
             show = true,
             display = true;
 
@@ -145,6 +148,12 @@ const createStore = () => {
             touchesWeekendMatch = false;
           }
 
+          // Virtual event filter
+          virtualEventMatch =
+            activeVirtualEventFilter === null
+              ? true
+              : conference.virtual === activeVirtualEventFilter;
+
           // Hide conferences with start day older than today
           if (confStartDate < new Date()) {
             show = false;
@@ -161,6 +170,7 @@ const createStore = () => {
             weatherMatch &&
             continentMatch &&
             touchesWeekendMatch &&
+            virtualEventMatch &&
             show &&
             display &&
             !conference.sponsored
@@ -196,6 +206,10 @@ const createStore = () => {
           state.filters.touchesWeekend === touchesWeekend
             ? null
             : touchesWeekend;
+      },
+      UPDATE_VIRTUAL_EVENT_FILTER: (state, virtualEvent) => {
+        state.filters.virtualEvent =
+          state.filters.virtualEvent === virtualEvent ? null : virtualEvent;
       },
       CLEAR_ALL_FILTERS: state => {
         state.filters.cost = null;

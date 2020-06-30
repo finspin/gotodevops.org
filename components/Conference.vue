@@ -17,8 +17,11 @@
       </div>
       <div class="col-12">
         <div class="location">
+          <div v-if="conference.location.city">
           {{ conference.location.city}}<span v-if="conference.location.country">,</span>
           {{ conference.location.country }}
+          </div>
+          <span v-if="conference.virtual">Virtual event</span>
         </div>
       </div>
       <div
@@ -40,7 +43,7 @@
         </div>
       </div>
       <div class="col-3 col-md-3 weather">
-        <div class="weather">
+        <div class="weather" v-if="conference.temperature.celsius">
           <font-awesome-icon
             v-show="conference.temperature.celsius < 10"
             icon="snowflake"

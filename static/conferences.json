@@ -2,6 +2,7 @@
   {
     "name": "Agile + DevOps East",
     "url": "https://agiledevopseast.techwell.com/",
+    "virtual": false,
     "location": {
       "city": "Orlando",
       "country": "USA",
@@ -20,6 +21,7 @@
   {
     "name": "Agile + DevOps West",
     "url": "https://agiledevopswest.techwell.com/",
+    "virtual": false,
     "location": {
       "city": "Las Vegas",
       "country": "USA",
@@ -38,6 +40,7 @@
   {
     "name": "Agile, Testing & DevOps Showcase Amsterdam",
     "url": "https://conference.unicom.co.uk/showcases/2020/january/amsterdam/",
+    "virtual": false,
     "location": {
       "city": "Amsterdam",
       "country": "The Netherlands",
@@ -56,6 +59,7 @@
   {
     "name": "Agile, Testing & DevOps Showcase Manchester",
     "url": "https://conference.unicom.co.uk/showcases/2020/february/manchester/",
+    "virtual": false,
     "location": {
       "city": "Manchester",
       "country": "UK",
@@ -74,14 +78,15 @@
   {
     "name": "All Day DevOps",
     "url": "https://www.alldaydevops.com/spring-break",
+    "virtual": true,
     "location": {
-      "city": "Online",
-      "country": "",
-      "continent": ""
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
-      "start": "2020-04-17T00:00:00.000Z",
-      "end": "2020-04-17T00:00:00.000Z"
+      "start": "2020-11-12T00:00:00.000Z",
+      "end": "2020-11-12T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -92,6 +97,7 @@
   {
     "name": "All Things Open",
     "url": "https://2020.allthingsopen.org/",
+    "virtual": false,
     "location": {
       "city": "Raleigh",
       "country": "USA",
@@ -110,24 +116,26 @@
   {
     "name": "AnsibleFest",
     "url": "https://www.ansible.com/ansiblefest",
+    "virtual": true,
     "location": {
-      "city": "San Diego",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-10-13T00:00:00.000Z",
       "end": "2020-10-14T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 23,
-      "fahrenheit": 74
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 2
   },
   {
     "name": "ChefConf",
     "url": "https://chefconf.chef.io/",
+    "virtual": false,
     "location": {
       "city": "Seattle",
       "country": "USA",
@@ -146,6 +154,7 @@
   {
     "name": "Cloud & DevOps World Summit",
     "url": "https://tmt.knect365.com/cloud-devops-world/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -164,6 +173,7 @@
   {
     "name": "Cloud Expo Europe",
     "url": "https://www.cloudexpoeurope.com/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -182,6 +192,7 @@
   {
     "name": "Cloud Foundry Summit Dublin",
     "url": "https://www.cloudfoundry.org/events/summit/dublin-2020/",
+    "virtual": false,
     "location": {
       "city": "Dublin",
       "country": "Ireland",
@@ -201,6 +212,7 @@
   {
     "name": "Cloud Foundry Summit Austin",
     "url": "https://www.cloudfoundry.org/events/summit/austin-2020/",
+    "virtual": false,
     "location": {
       "city": "Austin",
       "country": "USA",
@@ -219,6 +231,7 @@
   {
     "name": "Config Management Camp",
     "url": "https://cfgmgmtcamp.eu/ghent2020/",
+    "virtual": false,
     "location": {
       "city": "Ghent",
       "country": "Belgium",
@@ -237,6 +250,7 @@
   {
     "name": "ConfigManagementCamp",
     "url": "https://cfgmgmtcamp.eu/",
+    "virtual": false,
     "location": {
       "city": "Gent",
       "country": "Belgium",
@@ -255,6 +269,7 @@
   {
     "name": "Container Days",
     "url": "https://www.containerdays.io/",
+    "virtual": false,
     "location": {
       "city": "Hamburg",
       "country": "Germany",
@@ -273,24 +288,26 @@
   {
     "name": "Continuous LifeCycle",
     "url": "https://continuouslifecycle.london",
+    "virtual": true,
     "location": {
-      "city": "London",
-      "country": "UK",
-      "continent": "Europe"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
-      "start": "2020-05-13T00:00:00.000Z",
-      "end": "2020-05-15T00:00:00.000Z"
+      "start": "2020-07-15T00:00:00.000Z",
+      "end": "2020-07-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 18,
-      "fahrenheit": 65
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 1
   },
   {
     "name": "Craft Conference",
     "url": "https://craft-conf.com/",
+    "virtual": false,
     "location": {
       "city": "Budapest",
       "country": "Hungary",
@@ -309,42 +326,45 @@
   {
     "name": "DEVOPS.BARCELONA",
     "url": "https://devops.barcelona",
+    "virtual": false,
     "location": {
       "city": "Barcelona",
       "country": "Spain",
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-05-05T00:00:00.000Z",
-      "end": "2020-05-07T00:00:00.000Z"
+      "start": "2020-12-14T00:00:00.000Z",
+      "end": "2020-12-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 27,
-      "fahrenheit": 81
+      "celsius": 15,
+      "fahrenheit": 60
     },
     "cost": 1
   },
   {
     "name": "Dash",
     "url": "https://www.dashcon.io/",
+    "virtual": true,
     "location": {
-      "city": "New York City",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-08-11T00:00:00.000Z",
       "end": "2020-08-11T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 29,
-      "fahrenheit": 84
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 1
   },
   {
     "name": "DevOn Summit",
     "url": "https://www.devonsummit.com/",
+    "virtual": false,
     "location": {
       "city": "Utrecht",
       "country": "The Netherlands",
@@ -363,6 +383,7 @@
   {
     "name": "DevOps D-Day",
     "url": "http://2019.devops-dday.com/",
+    "virtual": false,
     "location": {
       "city": "Marseille",
       "country": "France",
@@ -381,6 +402,7 @@
   {
     "name": "DevOps Enterprise Summit Las Vegas ❤️",
     "url": "https://events.itrevolution.com/us/",
+    "virtual": false,
     "location": {
       "city": "Las Vegas",
       "country": "USA",
@@ -400,18 +422,19 @@
   {
     "name": "DevOps Enterprise Summit London - Virtual️",
     "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=gotodevops-spons-does20-virtual&utm_content=onsale&utm_campaign=does20eur",
+    "virtual": true,
     "location": {
-      "city": "London",
-      "country": "UK",
-      "continent": "Europe"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-06-23T00:00:00.000Z",
       "end": "2020-06-25T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 29,
-      "fahrenheit": 84
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 1,
     "sponsored": false,
@@ -420,6 +443,7 @@
   {
     "name": "DevOps Gathering",
     "url": "https://devops-gathering.io/",
+    "virtual": false,
     "location": {
       "city": "Bochum",
       "country": "Germany",
@@ -438,6 +462,7 @@
   {
     "name": "DevOps Pro Europe",
     "url": "https://devopspro.lt",
+    "virtual": false,
     "location": {
       "city": "Vilnius",
       "country": "Lithuania",
@@ -456,6 +481,7 @@
   {
     "name": "DevOps Space",
     "url": "https://devops-space.pl/",
+    "virtual": false,
     "location": {
       "city": "Gdansk",
       "country": "Poland",
@@ -474,6 +500,7 @@
   {
     "name": "DevOps Stage",
     "url": "https://devopsstage.com/",
+    "virtual": false,
     "location": {
       "city": "Kyiv",
       "country": "Ukraine",
@@ -492,6 +519,7 @@
   {
     "name": "DevOps Summit",
     "url": "https://devopssummit.cz/en/",
+    "virtual": false,
     "location": {
       "city": "Ostrava",
       "country": "Czechia",
@@ -510,6 +538,7 @@
   {
     "name": "DevOps Summit",
     "url": "https://www.devopssummitamsterdam.com/",
+    "virtual": false,
     "location": {
       "city": "Amsterdam",
       "country": "The Netherlands",
@@ -528,6 +557,7 @@
   {
     "name": "DevOps Summit",
     "url": "https://www.capitalcarbonconsulting.com/upcoming-events/",
+    "virtual": false,
     "location": {
       "city": "Ottawa",
       "country": "Canada",
@@ -546,6 +576,7 @@
   {
     "name": "DevOpsDays Amsterdam",
     "url": "https://devopsdays.org/events/2020-amsterdam",
+    "virtual": false,
     "location": {
       "city": "Amsterdam",
       "country": "Netherlands",
@@ -564,6 +595,7 @@
   {
     "name": "DevOpsDays Austin",
     "url": "https://devopsdays.org/events/2020-austin",
+    "virtual": false,
     "location": {
       "city": "Austin",
       "country": "USA",
@@ -582,6 +614,7 @@
   {
     "name": "DevOpsDays Berlin",
     "url": "https://devopsdays.org/events/2020-berlin",
+    "virtual": false,
     "location": {
       "city": "Berlin",
       "country": "Germany",
@@ -600,6 +633,7 @@
   {
     "name": "DevOpsDays Dallas",
     "url": "https://devopsdays.org/events/2020-dallas",
+    "virtual": false,
     "location": {
       "city": "Dallas",
       "country": "USA",
@@ -619,6 +653,7 @@
   {
     "name": "DevOpsDays Des Moines",
     "url": "https://devopsdays.org/events/2020-des-moines",
+    "virtual": false,
     "location": {
       "city": "Des Moines",
       "country": "USA",
@@ -637,6 +672,7 @@
   {
     "name": "DevOpsDays Los Angeles",
     "url": "https://devopsdays.org/events/2020-los-angeles",
+    "virtual": false,
     "location": {
       "city": "Los Angeles",
       "country": "USA",
@@ -655,6 +691,7 @@
   {
     "name": "DevOpsDays Minneapolis",
     "url": "https://devopsdays.org/events/2020-minneapolis",
+    "virtual": false,
     "location": {
       "city": "Minneapolis",
       "country": "USA",
@@ -674,6 +711,7 @@
   {
     "name": "DevOpsDays New York City",
     "url": "https://devopsdays.org/events/2020-new-york-city",
+    "virtual": false,
     "location": {
       "city": "New York City",
       "country": "USA",
@@ -692,6 +730,7 @@
   {
     "name": "DevOpsDays Seattle",
     "url": "https://devopsdays.org/events/2020-seattle",
+    "virtual": false,
     "location": {
       "city": "Seattle",
       "country": "USA",
@@ -710,6 +749,7 @@
   {
     "name": "DevOpsDays Tokyo",
     "url": "https://devopsdays.org/events/2020-tokyo",
+    "virtual": false,
     "location": {
       "city": "Tokyo",
       "country": "Japan",
@@ -728,6 +768,7 @@
   {
     "name": "DevOpsDays Toronto",
     "url": "https://devopsdays.org/events/2020-toronto",
+    "virtual": false,
     "location": {
       "city": "Toronto",
       "country": "Canada",
@@ -746,6 +787,7 @@
   {
     "name": "DevOpsDays Vancouver",
     "url": "https://devopsdays.org/events/2020-vancouver/welcome/",
+    "virtual": false,
     "location": {
       "city": "Vancouver",
       "country": "Canada",
@@ -764,24 +806,26 @@
   {
     "name": "DevOpsDays Zurich",
     "url": "https://devopsdays.org/events/2020-zurich",
+    "virtual": true,
     "location": {
-      "city": "Zurich",
-      "country": "Switzerland",
-      "continent": "Europe"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-09-08T00:00:00.000Z",
       "end": "2020-09-09T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 20,
-      "fahrenheit": 68
+      "celsius": null,
+      "fahrenheit": null
     },
-    "cost": 1
+    "cost": 0
   },
   {
     "name": "Digital Transformation EXPO Europe",
     "url": "https://dt-x.io/europe/en/page/dtx-europe",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -800,6 +844,7 @@
   {
     "name": "Fosdem",
     "url": "https://fosdem.org/2020/",
+    "virtual": false,
     "location": {
       "city": "Brussels",
       "country": "Belgium",
@@ -818,10 +863,11 @@
   {
     "name": "Global SKILup Day",
     "url": "https://devopsinstitute.com/globalskilupday/",
+    "virtual": true,
     "location": {
-      "city": "Online",
-      "country": "",
-      "continent": ""
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2019-12-10T00:00:00.000Z",
@@ -836,6 +882,7 @@
   {
     "name": "GOTO Amsterdam",
     "url": "https://gotoams.nl/",
+    "virtual": false,
     "location": {
       "city": "Amsterdam",
       "country": "The Netherlands",
@@ -852,26 +899,28 @@
     "cost": 2
   },
   {
-    "name": "GOTO Berlin",
+    "name": "GOTOpia Europe 2020",
     "url": "https://gotober.com/",
+    "virtual": true,
     "location": {
-      "city": "Berlin",
-      "country": "Germany",
-      "continent": "Europe"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-09-15T00:00:00.000Z",
-      "end": "2020-09-15T00:00:00.000Z"
+      "end": "2020-09-18T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 13,
-      "fahrenheit": 56
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 2
   },
   {
     "name": "GOTO Chicago",
     "url": "https://gotochgo.com/",
+    "virtual": false,
     "location": {
       "city": "Chicago",
       "country": "USA",
@@ -890,6 +939,7 @@
   {
     "name": "GOTO Copenhagen",
     "url": "https://gotocph.com",
+    "virtual": false,
     "location": {
       "city": "Copenhagen",
       "country": "Denmark",
@@ -908,6 +958,7 @@
   {
     "name": "GitHub Satellite",
     "url": "https://githubsatellite.com",
+    "virtual": false,
     "location": {
       "city": "Paris",
       "country": "France",
@@ -926,6 +977,7 @@
   {
     "name": "GlueCon",
     "url": "http://gluecon.com",
+    "virtual": false,
     "location": {
       "city": "Broomfield",
       "country": "USA",
@@ -944,6 +996,7 @@
   {
     "name": "GrafanaCon",
     "url": "https://grafana.com/about/events/grafanacon/2020/",
+    "virtual": false,
     "location": {
       "city": "Amsterdam",
       "country": "The Netherlands",
@@ -962,6 +1015,7 @@
   {
     "name": "GrillOps",
     "url": "https://grillops.io/",
+    "virtual": false,
     "location": {
       "city": "Wrocław",
       "country": "Poland",
@@ -978,26 +1032,28 @@
     "cost": 1
   },
   {
-    "name": "HashiConf US",
-    "url": "https://www.hashiconf.com",
+    "name": "HashiConf Digital",
+    "url": "https://hashiconf.com/digital-october/",
+    "virtual": true,
     "location": {
-      "city": "San Diego",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-10-12T00:00:00.000Z",
       "end": "2020-10-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 23,
-      "fahrenheit": 74
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 2
   },
   {
     "name": "HashiConf EU",
     "url": "https://hashiconf.com/eu/",
+    "virtual": false,
     "location": {
       "city": "Amsterdam",
       "country": "The Netherlands",
@@ -1016,6 +1072,7 @@
   {
     "name": "Incontro DevOps Italia",
     "url": "https://2020.incontrodevops.it/",
+    "virtual": false,
     "location": {
       "city": "Bologna",
       "country": "Italy",
@@ -1034,6 +1091,7 @@
   {
     "name": "Interop",
     "url": "https://www.interop.com/",
+    "virtual": false,
     "location": {
       "city": "Las Vegas",
       "country": "USA",
@@ -1050,16 +1108,36 @@
     "cost": 3
   },
   {
+    "name": "DevOpsCon Online Edition",
+    "url": "https://devopscon.io/online-edition-2020/",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2020-06-29T00:00:00.000Z",
+      "end": "2020-06-03T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 2
+  },
+  {
     "name": "DevOpsCon London",
     "url": "https://devopscon.io/london/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-07-29T00:00:00.000Z",
-      "end": "2020-07-30T00:00:00.000Z"
+      "start": "2020-08-31T00:00:00.000Z",
+      "end": "2020-09-03T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1070,6 +1148,7 @@
   {
     "name": "JAX London",
     "url": "https://jaxlondon.com/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -1088,6 +1167,7 @@
   {
     "name": "Jenkins World",
     "url": "https://www.cloudbees.com/devops-world/san-francisco",
+    "virtual": false,
     "location": {
       "city": "Las Vegas",
       "country": "USA",
@@ -1101,47 +1181,70 @@
       "celsius": 36,
       "fahrenheit": 96
     },
-    "cost": 2
+    "cost": 2,
+    "display": false
   },
   {
     "name": "Cloud Native Summit",
     "url": "https://cncf.lfasiallc.cn/",
+    "virtual": true,
     "location": {
-      "city": "Shanghai",
-      "country": "China",
-      "continent": "Asia"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-07-30T00:00:00.000Z",
       "end": "2020-08-01T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 32,
-      "fahrenheit": 90
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 1
   },
   {
     "name": "KubeCon and CloudNativeCon Europe",
-    "url": "https://events19.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2020/",
+    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
+    "virtual": true,
     "location": {
-      "city": "Amsterdam",
-      "country": "The Netherlands",
-      "continent": "Europe"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
-      "start": "2020-03-30T00:00:00.000Z",
-      "end": "2020-04-02T00:00:00.000Z"
+      "start": "2020-08-17T00:00:00.000Z",
+      "end": "2020-08-17T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 13,
-      "fahrenheit": 56
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1
+  },
+  {
+    "name": "Commit",
+    "url": "https://about.gitlab.com/events/commit/",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2020-08-26T00:00:00.000Z",
+      "end": "2020-08-26T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 1
   },
   {
     "name": "KubeCon and CloudNativeCon North America",
     "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
+    "virtual": false,
     "location": {
       "city": "Boston",
       "country": "USA",
@@ -1160,6 +1263,7 @@
   {
     "name": "Large Installation System Administration Conference (LISA) ",
     "url": "https://www.usenix.org/conference/lisa19",
+    "virtual": false,
     "location": {
       "city": "Portland",
       "country": "USA",
@@ -1178,6 +1282,7 @@
   {
     "name": "MacDevOpsYVR",
     "url": "https://mdoyvr.com",
+    "virtual": false,
     "location": {
       "city": "Vancouver",
       "country": "Canada",
@@ -1196,6 +1301,7 @@
   {
     "name": "Monitorama",
     "url": "http://monitorama.com/",
+    "virtual": false,
     "location": {
       "city": "Portland",
       "country": "USA",
@@ -1214,6 +1320,7 @@
   {
     "name": "NDC London",
     "url": "https://ndc-london.com/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -1232,6 +1339,7 @@
   {
     "name": "PowerShell Summit",
     "url": "https://powershell.org/summit/",
+    "virtual": false,
     "location": {
       "city": "Bellevue",
       "country": "USA",
@@ -1250,6 +1358,7 @@
   {
     "name": "Puppet Contributor Summit",
     "url": "https://puppet.com/puppetize/contributor-summit",
+    "virtual": false,
     "location": {
       "city": "Budapest",
       "country": "Hungary",
@@ -1268,6 +1377,7 @@
   {
     "name": "Puppetize PDX",
     "url": "https://puppet.com/puppetize",
+    "virtual": false,
     "location": {
       "city": "Portland",
       "country": "USA",
@@ -1286,6 +1396,7 @@
   {
     "name": "QCon London",
     "url": "https://qconlondon.com/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -1304,6 +1415,7 @@
   {
     "name": "QCon New York",
     "url": "https://qconnewyork.com/",
+    "virtual": false,
     "location": {
       "city": "New York City",
       "country": "USA",
@@ -1322,6 +1434,7 @@
   {
     "name": "QCon San Francisco",
     "url": "https://qconsf.com/",
+    "virtual": false,
     "location": {
       "city": "San Francisco",
       "country": "USA",
@@ -1340,6 +1453,7 @@
   {
     "name": "QCon.ai San Francisco",
     "url": "https://qcon.ai/",
+    "virtual": false,
     "location": {
       "city": "San Francisco",
       "country": "USA",
@@ -1358,6 +1472,7 @@
   {
     "name": "Red Hat Summit",
     "url": "https://www.redhat.com/en/summit",
+    "virtual": false,
     "location": {
       "city": "San Francisco",
       "country": "USA",
@@ -1376,6 +1491,7 @@
   {
     "name": "Riga DevDays",
     "url": "https://rigadevdays.lv/",
+    "virtual": false,
     "location": {
       "city": "Riga",
       "country": "Latvia",
@@ -1394,6 +1510,7 @@
   {
     "name": "Rootconf 2019",
     "url": "https://rootconf.in/2019/",
+    "virtual": false,
     "location": {
       "city": "Bangalore",
       "country": "India",
@@ -1412,6 +1529,7 @@
   {
     "name": "SCALE 18x",
     "url": "http://www.socallinuxexpo.org/scale/18x",
+    "virtual": false,
     "location": {
       "city": "Pasadena",
       "country": "USA",
@@ -1430,6 +1548,7 @@
   {
     "name": "SREcon Asia/Pacific",
     "url": "https://www.usenix.org/conference/srecon20apac",
+    "virtual": false,
     "location": {
       "city": "Sydney",
       "country": "Australia",
@@ -1448,6 +1567,7 @@
   {
     "name": "SREcon Americas West",
     "url": "https://www.usenix.org/conference/srecon20americaswest",
+    "virtual": false,
     "location": {
       "city": "Santa Clara",
       "country": "USA",
@@ -1466,6 +1586,7 @@
   {
     "name": "ScaleConf",
     "url": "http://scaleconf.org/",
+    "virtual": false,
     "location": {
       "city": "Cape Town",
       "country": "South Africa",
@@ -1484,6 +1605,7 @@
   {
     "name": "ShipItCon",
     "url": "https://shipitcon.com/",
+    "virtual": false,
     "location": {
       "city": "Dublin",
       "country": "Ireland",
@@ -1503,6 +1625,7 @@
   {
     "name": "Texas Linux Fest",
     "url": "https://2020.texaslinuxfest.org/",
+    "virtual": false,
     "location": {
       "city": "Austin",
       "country": "USA",
@@ -1521,6 +1644,7 @@
   {
     "name": "The National DevOps Conference",
     "url": "http://www.devopsonline.co.uk/national-devops-conference/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -1539,6 +1663,7 @@
   {
     "name": "Velocity",
     "url": "https://conferences.oreilly.com/velocity/vl-ca",
+    "virtual": false,
     "location": {
       "city": "San Jose",
       "country": "USA",
@@ -1557,6 +1682,7 @@
   {
     "name": "WinOps",
     "url": "https://winops.org/",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -1576,6 +1702,7 @@
   {
     "name": "re:INVENT",
     "url": "https://reinvent.awsevents.com/",
+    "virtual": false,
     "location": {
       "city": "Las Vegas",
       "country": "USA",
@@ -1594,6 +1721,7 @@
   {
     "name": "DevOps Talks Melbourne",
     "url": "https://devops.talksplus.com/au/devops.html",
+    "virtual": false,
     "location": {
       "city": "Melbourne",
       "country": "Australia",
@@ -1612,6 +1740,7 @@
   {
     "name": "DevOps Talks Auckland",
     "url": "https://devops.talksplus.com/nz/devops.html",
+    "virtual": false,
     "location": {
       "city": "Auckland",
       "country": "New Zealand",
@@ -1630,6 +1759,7 @@
   {
     "name": "DevOps Talks Singapore",
     "url": "https://devops.talksplus.com/singapore/devops.html",
+    "virtual": false,
     "location": {
       "city": "Singapore",
       "country": "Singapore",
@@ -1649,6 +1779,7 @@
   {
     "name": "Cloud Science",
     "url": "https://scientificfederation.com/cloud-science-2020/",
+    "virtual": false,
     "location": {
       "city": "Montreal",
       "country": "Canada",
@@ -1668,6 +1799,7 @@
   {
     "name": "DevOpsCon Singapore",
     "url": "https://devopscon.io/singapore/",
+    "virtual": false,
     "location": {
       "city": "Singapore",
       "country": "Singapore",
@@ -1686,14 +1818,15 @@
   {
     "name": "DevOpsCon New York",
     "url": "https://devopscon.io/new-york/",
+    "virtual": false,
     "location": {
       "city": "New York City",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2020-06-29T00:00:00.000Z",
-      "end": "2020-06-30T00:00:00.000Z"
+      "start": "2020-09-28T00:00:00.000Z",
+      "end": "2020-10-01T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -1704,24 +1837,26 @@
   {
     "name": "DevOpsCon Berlin",
     "url": "https://devopscon.io/berlin/",
+    "virtual": false,
     "location": {
       "city": "Berlin",
       "country": "Germany",
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-06-08T00:00:00.000Z",
-      "end": "2020-06-11T00:00:00.000Z"
+      "start": "2020-10-12T00:00:00.000Z",
+      "end": "2020-10-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 26,
-      "fahrenheit": 80
+      "celsius": 14,
+      "fahrenheit": 57
     },
     "cost": 2
   },
   {
     "name": "DevOps 2020",
     "url": "https://devops2020.com/",
+    "virtual": false,
     "location": {
       "city": "Helsinki",
       "country": "Finland",
@@ -1740,6 +1875,7 @@
   {
     "name": "GOTO Oslo",
     "url": "https://goto-oslo.com/",
+    "virtual": false,
     "location": {
       "city": "Oslo",
       "country": "Norway",
@@ -1758,6 +1894,7 @@
   {
     "name": "swampUP",
     "url": "https://swampup.jfrog.com/",
+    "virtual": false,
     "location": {
       "city": "San Jose",
       "country": "USA",
@@ -1776,6 +1913,7 @@
   {
     "name": "DevOpsDays Poznań",
     "url": "https://devopsdays.org/events/2020-poznan/welcome/",
+    "virtual": false,
     "location": {
       "city": "Poznań",
       "country": "Poland",
@@ -1794,6 +1932,7 @@
   {
     "name": "Global DevOps Summit",
     "url": "https://www.clavent.com/global-devops-summit-bangalore/",
+    "virtual": false,
     "location": {
       "city": "Bangalore",
       "country": "India",
@@ -1812,24 +1951,26 @@
   {
     "name": "DevOps India Summit",
     "url": "https://devopsindiasummit.com/",
+    "virtual": true,
     "location": {
-      "city": "Bangalore",
-      "country": "India",
-      "continent": "Asia"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-09-09T00:00:00.000Z",
       "end": "2020-09-09T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 28,
-      "fahrenheit": 83
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 1
   },
   {
     "name": "DevOps Days Kyiv",
     "url": "https://devopsdays.com.ua",
+    "virtual": false,
     "location": {
       "city": "Kyiv",
       "country": "Ukraine",
@@ -1848,6 +1989,7 @@
   {
     "name": "DevOps Fusion",
     "url": "https://www.devops-fusion.com/en/",
+    "virtual": false,
     "location": {
       "city": "Zurich",
       "country": "Switzerland",
@@ -1858,14 +2000,15 @@
       "end": "2020-08-26T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 11,
-      "fahrenheit": 51
+      "celsius": 24,
+      "fahrenheit": 76
     },
     "cost": 3
   },
   {
     "name": "IcingaConf",
     "url": "https://icingaconf.com/",
+    "virtual": false,
     "location": {
       "city": "Amsterdam",
       "country": "The Netherlands",
@@ -1884,6 +2027,7 @@
   {
     "name": "Voxxed Days",
     "url": "https://voxxeddays.com/minsk/",
+    "virtual": false,
     "location": {
       "city": "Minsk",
       "country": "Belarus",
@@ -1902,6 +2046,7 @@
   {
     "name": "DevOpsDays Guadalajara",
     "url": "https://devopsdays.org/events/2020-guadalajara",
+    "virtual": false,
     "location": {
       "city": "Guadalajara",
       "country": "Mexico",
@@ -1920,6 +2065,7 @@
   {
     "name": "DevOpsDays Madrid",
     "url": "https://devopsdays.org/events/2020-madrid/welcome/",
+    "virtual": false,
     "location": {
       "city": "Madrid",
       "country": "Spain",
@@ -1938,6 +2084,7 @@
   {
     "name": "DevOpsDays Geneva",
     "url": "https://devopsdays.org/events/2020-geneva/welcome/",
+    "virtual": false,
     "location": {
       "city": "Geneva",
       "country": "Switzerland",
@@ -1956,6 +2103,7 @@
   {
     "name": "DevOpsDays Charlotte",
     "url": "https://devopsdays.org/events/2020-charlotte/welcome/",
+    "virtual": false,
     "location": {
       "city": "Charlotte",
       "country": "USA",
@@ -1974,6 +2122,7 @@
   {
     "name": "DevOpsDays Cáceres",
     "url": "https://devopsdays.org/events/2020-caceres/welcome/",
+    "virtual": false,
     "location": {
       "city": "Cáceres",
       "country": "Spain",
@@ -1992,6 +2141,7 @@
   {
     "name": "DevOpsDays Jakarta",
     "url": "https://devopsdays.org/events/2020-jakarta",
+    "virtual": false,
     "location": {
       "city": "Jakarta",
       "country": "Indonesia",
@@ -2010,24 +2160,26 @@
   {
     "name": "DevOpsDays Prague",
     "url": "https://devopsdays.org/events/2020-prague",
+    "virtual": false,
     "location": {
       "city": "Prague",
       "country": "Czechia",
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-03-18T00:00:00.000Z",
-      "end": "2020-03-19T00:00:00.000Z"
+      "start": "2020-09-29T00:00:00.000Z",
+      "end": "2020-09-30T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 10,
-      "fahrenheit": 50
+      "celsius": 20,
+      "fahrenheit": 68
     },
     "cost": 1
   },
   {
     "name": "DevOpsDays Natal",
     "url": "https://devopsdays.org/events/2020-natal/welcome/",
+    "virtual": false,
     "location": {
       "city": "Natal",
       "country": "Brazil",
@@ -2046,6 +2198,7 @@
   {
     "name": "DevOpsDays Houston",
     "url": "https://devopsdays.org/events/2020-houston",
+    "virtual": false,
     "location": {
       "city": "Houston",
       "country": "USA",
@@ -2064,6 +2217,7 @@
   {
     "name": "DevOpsDays Atlanta",
     "url": "https://devopsdays.org/events/2020-atlanta",
+    "virtual": false,
     "location": {
       "city": "Atlanta",
       "country": "USA",
@@ -2080,8 +2234,47 @@
     "cost": 1
   },
   {
+    "name": "DeveloperWeek",
+    "url": "https://www.developerweek.com/DC/",
+    "virtual": false,
+    "location": {
+      "city": "Washington D.C.",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2020-09-15T00:00:00.000Z",
+      "end": "2020-09-16T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 27,
+      "fahrenheit": 81
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOpsDays Kiev",
+    "url": "https://devopsdays.com.ua/",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2020-09-04T00:00:00.000Z",
+      "end": "2020-09-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1
+  },
+  {
     "name": "DevOpsDays Kraków",
     "url": "https://devopsdays.org/events/2020-krakow",
+    "virtual": false,
     "location": {
       "city": "Kraków",
       "country": "Poland",
@@ -2100,6 +2293,7 @@
   {
     "name": "DevOpsDays Baltimore",
     "url": "https://devopsdays.org/events/2020-baltimore",
+    "virtual": false,
     "location": {
       "city": "Baltimore",
       "country": "USA",
@@ -2118,6 +2312,7 @@
   {
     "name": "DevOpsDays Singapore",
     "url": "https://devopsdays.org/events/2020-singapore",
+    "virtual": false,
     "location": {
       "city": "Singapore",
       "country": "Singapore",
@@ -2136,6 +2331,7 @@
   {
     "name": "DevOpsDays Aracaju",
     "url": "https://devopsdays.org/events/2020-aracaju/welcome/",
+    "virtual": false,
     "location": {
       "city": "Aracaju",
       "country": "Brazil",
@@ -2154,6 +2350,7 @@
   {
     "name": "DevOpsDays Denver",
     "url": "https://devopsdays.org/events/2020-denver",
+    "virtual": false,
     "location": {
       "city": "Denver",
       "country": "USA",
@@ -2172,6 +2369,7 @@
   {
     "name": "DevOpsDays Boise",
     "url": "https://devopsdays.org/events/2020-boise",
+    "virtual": false,
     "location": {
       "city": "Boise",
       "country": "USA",
@@ -2190,6 +2388,7 @@
   {
     "name": "DevOpsDays Porto Alegre",
     "url": "https://devopsdays.org/events/2020-porto-alegre/welcome/",
+    "virtual": false,
     "location": {
       "city": "Porto Alegre",
       "country": "Brazil",
@@ -2208,6 +2407,7 @@
   {
     "name": "DevOpsDays Porto",
     "url": "https://devopsdays.org/events/2020-portugal/welcome/",
+    "virtual": false,
     "location": {
       "city": "Porto",
       "country": "Portugal",
@@ -2226,6 +2426,7 @@
   {
     "name": "DevOpsDays Salt Lake City",
     "url": "https://devopsdays.org/events/2020-salt-lake-city",
+    "virtual": false,
     "location": {
       "city": "Salt Lake City",
       "country": "USA",
@@ -2244,6 +2445,7 @@
   {
     "name": "DevOpsDays João Pessoa",
     "url": "https://devopsdays.org/events/2020-joao-pessoa/welcome/",
+    "virtual": false,
     "location": {
       "city": "João Pessoa",
       "country": "Brazil",
@@ -2262,6 +2464,7 @@
   {
     "name": "DevOpsDays Aarhus",
     "url": "https://devopsdays.org/events/2020-aarhus",
+    "virtual": false,
     "location": {
       "city": "Aarhus",
       "country": "Denmark",
@@ -2280,6 +2483,7 @@
   {
     "name": "DevOpsDays São Paulo",
     "url": "https://devopsdays.org/events/2020-sao-paulo/welcome/",
+    "virtual": false,
     "location": {
       "city": "São Paulo",
       "country": "Brazil",
@@ -2298,24 +2502,26 @@
   {
     "name": "DevOpsDays Chicago",
     "url": "https://devopsdays.org/events/2020-chicago",
+    "virtual": true,
     "location": {
-      "city": "Chicago",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-09-01T00:00:00.000Z",
       "end": "2020-09-01T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 23,
-      "fahrenheit": 74
+      "celsius": null,
+      "fahrenheit": null
     },
-    "cost": 1
+    "cost": 0
   },
   {
     "name": "DevOpsDays Portland",
     "url": "https://devopsdays.org/events/2020-portland-or",
+    "virtual": false,
     "location": {
       "city": "Portland",
       "country": "USA",
@@ -2335,6 +2541,7 @@
   {
     "name": "DevOpsDays Florianópolis",
     "url": "https://devopsdays.org/events/2020-florianopolis/welcome/",
+    "virtual": false,
     "location": {
       "city": "Florianópolis",
       "country": "Brazil",
@@ -2354,6 +2561,7 @@
   {
     "name": "DevOpsDays Columbus",
     "url": "https://devopsdays.org/events/2020-columbus/welcome/",
+    "virtual": false,
     "location": {
       "city": "Columbus",
       "country": "USA",
@@ -2373,6 +2581,7 @@
   {
     "name": "DevOpsDays Cape Town",
     "url": "https://devopsdays.org/events/2020-cape-town",
+    "virtual": false,
     "location": {
       "city": "Cape Town",
       "country": "South Africa",
@@ -2392,6 +2601,7 @@
   {
     "name": "DevOpsDays Istanbul",
     "url": "https://devopsdays.org/events/2020-istanbul",
+    "virtual": false,
     "location": {
       "city": "Istanbul",
       "country": "Turkey",
@@ -2411,24 +2621,26 @@
   {
     "name": "DevOpsDays Cairo",
     "url": "https://devopsdays.org/events/2020-cairo/welcome/",
+    "virtual": true,
     "location": {
-      "city": "Cairo",
-      "country": "Egypt",
-      "continent": "Africa"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-09-21T00:00:00.000Z",
       "end": "2020-09-21T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 34,
-      "fahrenheit": 92
+      "celsius": null,
+      "fahrenheit": null
     },
-    "cost": 1
+    "cost": 0
   },
   {
     "name": "DevOpsDays London",
     "url": "https://devopsdays.org/events/2020-london",
+    "virtual": false,
     "location": {
       "city": "London",
       "country": "UK",
@@ -2447,6 +2659,7 @@
   {
     "name": "DevOpsDays Belo Horizonte",
     "url": "https://devopsdays.org/events/2020-belo-horizonte/welcome/",
+    "virtual": false,
     "location": {
       "city": "Belo Horizonte",
       "country": "Brazil",
@@ -2465,42 +2678,45 @@
   {
     "name": "DevOpsDays Boston",
     "url": "https://devopsdays.org/events/2020-boston",
+    "virtual": true,
     "location": {
-      "city": "Boston",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-09-28T00:00:00.000Z",
       "end": "2020-09-28T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 23,
-      "fahrenheit": 73
+      "celsius": null,
+      "fahrenheit": null
     },
-    "cost": 1
+    "cost": 0
   },
   {
     "name": "DevOpsDays Buffalo",
     "url": "https://devopsdays.org/events/2020-buffalo/welcome/",
+    "virtual": true,
     "location": {
-      "city": "Buffalo",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-10-01T00:00:00.000Z",
       "end": "2020-10-01T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 70
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 1
   },
   {
     "name": "DevOpsDays Paris",
     "url": "https://devopsdays.org/events/2020-paris/welcome/",
+    "virtual": false,
     "location": {
       "city": "Paris",
       "country": "France",
@@ -2514,11 +2730,13 @@
       "celsius": 17,
       "fahrenheit": 63
     },
-    "cost": 1
+    "cost": 1,
+    "display": false
   },
   {
     "name": "DevOpsDays Raleigh",
     "url": "https://devopsdays.org/events/2020-raleigh/welcome/",
+    "virtual": false,
     "location": {
       "city": "Raleigh",
       "country": "USA",
@@ -2537,6 +2755,7 @@
   {
     "name": "DevOpsDays Philadelphia",
     "url": "https://devopsdays.org/events/2020-philadelphia",
+    "virtual": false,
     "location": {
       "city": "Philadelphia",
       "country": "USA",
@@ -2556,6 +2775,7 @@
   {
     "name": "DevOpsDays Eindhoven",
     "url": "https://devopsdays.org/events/2020-eindhoven/welcome/",
+    "virtual": false,
     "location": {
       "city": "Eindhoven",
       "country": "The Netherlands",
@@ -2575,6 +2795,7 @@
   {
     "name": "MLOps",
     "url": "https://www.mlopsconf.com/",
+    "virtual": false,
     "location": {
       "city": "San Francisco",
       "country": "USA",
@@ -2593,6 +2814,7 @@
   {
     "name": "DevOops",
     "url": "https://devoops-moscow.ru/en/",
+    "virtual": false,
     "location": {
       "city": "Moscow",
       "country": "Russia",
@@ -2611,6 +2833,7 @@
   {
     "name": "DevOops",
     "url": "https://devoops-piter.ru/en/",
+    "virtual": false,
     "location": {
       "city": "Saint Petersburg",
       "country": "Russia",
