@@ -3,7 +3,7 @@
     <div class="container sponsored">
       <conference
         v-for="conference in sponsoredConferences"
-        :key="conference.url + conference.location.city"
+        :key="conference.url"
         :conference=conference
       ></conference>
     </div>
@@ -15,7 +15,7 @@
     >
       <conference
         v-for="conference in filteredConferences"
-        :key="conference.url + conference.location.city"
+        :key="conference.url"
         :conference=conference
       ></conference>
     </transition-group>

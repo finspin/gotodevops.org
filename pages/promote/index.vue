@@ -36,7 +36,7 @@
                 <font-awesome-icon
                   icon="check-circle"
                   class="mr-3 check-icon"
-                /><strike>2 spots</strike> 1 spot available!
+                /><strike>Only 1 spot available</strike> Sold out!
               </li>
               <li>
                 <font-awesome-icon

@@ -7,13 +7,13 @@
             </b-tooltip>
       </div>
       <div class="row">
-        <div class="col-4 pr-2 pr-sm-3">
+        <div class="col-6 pr-2 pr-sm-3">
           <div
             @click="applyWeekendFilter(true)"
             :class="['touches-weekend', { active: isActive(true) }]"
           >YES</div>
         </div>
-        <div class="col-4 pr-2 pl-2 pr-sm-3 pl-sm-3">
+        <div class="col-6 pr-2 pl-2 pr-sm-3 pl-sm-3">
           <div @click="applyWeekendFilter(false)" :class="['touches-weekend', { active: isActive(false)} ]">NO</div>
         </div>
       </div>
