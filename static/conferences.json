@@ -402,21 +402,21 @@
   {
     "name": "DevOps Enterprise Summit Las Vegas ❤️",
     "url": "https://events.itrevolution.com/us/",
-    "virtual": false,
+    "virtual": true,
     "location": {
-      "city": "Las Vegas",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
-      "start": "2020-11-09T00:00:00.000Z",
-      "end": "2020-11-11T00:00:00.000Z"
+      "start": "2020-10-13T00:00:00.000Z",
+      "end": "2020-10-15T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 21,
-      "fahrenheit": 70
+      "celsius": null,
+      "fahrenheit": null
     },
-    "cost": 3,
+    "cost": 1,
     "sponsored": true
   },
   {
