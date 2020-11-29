@@ -295,8 +295,8 @@
       "continent": null
     },
     "date": {
-      "start": "2020-07-15T00:00:00.000Z",
-      "end": "2020-07-15T00:00:00.000Z"
+      "start": "2021-05-11T00:00:00.000Z",
+      "end": "2021-05-13T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -333,8 +333,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-12-14T00:00:00.000Z",
-      "end": "2020-12-15T00:00:00.000Z"
+      "start": "2020-11-14T00:00:00.000Z",
+      "end": "2020-11-15T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 15,
@@ -416,8 +416,7 @@
       "celsius": null,
       "fahrenheit": null
     },
-    "cost": 1,
-    "sponsored": true
+    "cost": 1
   },
   {
     "name": "DevOps Enterprise Summit London - Virtual️",
@@ -861,8 +860,8 @@
     "cost": 0
   },
   {
-    "name": "Global SKILup Day",
-    "url": "https://devopsinstitute.com/globalskilupday/",
+    "name": "Global SKILup Festival",
+    "url": "https://devopsinstitute.com/skilup-festival/",
     "virtual": true,
     "location": {
       "city": null,
@@ -870,8 +869,8 @@
       "continent": null
     },
     "date": {
-      "start": "2019-12-10T00:00:00.000Z",
-      "end": "2019-12-10T00:00:00.000Z"
+      "start": "2020-12-07T00:00:00.000Z",
+      "end": "2020-12-11T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -899,7 +898,7 @@
     "cost": 2
   },
   {
-    "name": "GOTOpia Europe 2020",
+    "name": "GOTO Europe 2020",
     "url": "https://gotober.com/",
     "virtual": true,
     "location": {
@@ -1129,15 +1128,15 @@
   {
     "name": "DevOpsCon London",
     "url": "https://devopscon.io/london/",
-    "virtual": false,
+    "virtual": true,
     "location": {
-      "city": "London",
-      "country": "UK",
-      "continent": "Europe"
+      "city": "",
+      "country": "",
+      "continent": ""
     },
     "date": {
-      "start": "2020-08-31T00:00:00.000Z",
-      "end": "2020-09-03T00:00:00.000Z"
+      "start": "2021-04-21T00:00:00.000Z",
+      "end": "2021-04-22T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1702,21 +1701,21 @@
   {
     "name": "re:INVENT",
     "url": "https://reinvent.awsevents.com/",
-    "virtual": false,
+    "virtual": true,
     "location": {
-      "city": "Las Vegas",
-      "country": "USA",
-      "continent": "North America"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
       "start": "2020-11-30T00:00:00.000Z",
-      "end": "2020-12-04T00:00:00.000Z"
+      "end": "2020-12-18T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 20,
-      "fahrenheit": 69
+      "celsius": null,
+      "fahrenheit": null
     },
-    "cost": 2
+    "cost": 0
   },
   {
     "name": "DevOps Talks Melbourne",
@@ -2490,8 +2489,8 @@
       "continent": "South America"
     },
     "date": {
-      "start": "2020-12-03T00:00:00.000Z",
-      "end": "2020-12-04T00:00:00.000Z"
+      "start": "2020-11-03T00:00:00.000Z",
+      "end": "2020-11-04T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 28,
