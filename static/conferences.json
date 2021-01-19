@@ -2849,3 +2849,21 @@
     "cost": 2
   }
 ]
+{
+    "name": "The DEVOPS Conference",
+    "url": "https://www.thedevopsconference.com/",
+    "location": {
+      "city": "Online",
+      "country": "Helsinki",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2021-03-23T00:00:00.000Z",
+      "end": "2021-03-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 12,
+      "fahrenheit": 54
+    },
+    "cost": 0
+}
