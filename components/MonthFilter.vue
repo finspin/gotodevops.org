@@ -2,14 +2,14 @@
   <div id="month-filters">
     <div class="row month-filter">
       <div class="col-12">
-        <div class="filter-label">Year 2020</div>
+        <div class="filter-label">Year 2021</div>
       </div>
       <div class="col-12">
         <div class="row no-gutters">
           <div v-for="month in months" class="col-1" :key="month">
             <div
-              @click="applyMonthFilter(month, '2020')"
-              :class="['month', { active: isActive(month, '2020') }, { pastMonth: !isMonthActive(month, '2020') }]"
+              @click="applyMonthFilter(month, '2021')"
+              :class="['month', { active: isActive(month, '2021') }, { pastMonth: !isMonthActive(month, '2021') }]"
             >{{ month }}</div>
           </div>
         </div>
