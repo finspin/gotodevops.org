@@ -77,7 +77,7 @@
   },
   {
     "name": "All Day DevOps",
-    "url": "https://www.alldaydevops.com/spring-break",
+    "url": "https://www.alldaydevops.com/",
     "virtual": true,
     "location": {
       "city": null,
@@ -85,8 +85,8 @@
       "continent": null
     },
     "date": {
-      "start": "2020-11-12T00:00:00.000Z",
-      "end": "2020-11-12T00:00:00.000Z"
+      "start": "2021-10-28T00:00:00.000Z",
+      "end": "2021-10-28T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -419,8 +419,8 @@
     "cost": 1
   },
   {
-    "name": "DevOps Enterprise Summit London - Virtual️",
-    "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=gotodevops-spons-does20-virtual&utm_content=onsale&utm_campaign=does20eur",
+    "name": "DevOps Enterprise Summit Virtual - US 2021",
+    "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=organic-listing-2021-us&utm_content=onsale&utm_campaign=does21us",
     "virtual": true,
     "location": {
       "city": null,
@@ -428,16 +428,35 @@
       "continent": null
     },
     "date": {
-      "start": "2020-06-23T00:00:00.000Z",
-      "end": "2020-06-25T00:00:00.000Z"
+      "start": "2021-10-05T00:00:00.000Z",
+      "end": "2021-10-07T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
       "fahrenheit": null
     },
     "cost": 1,
-    "sponsored": false,
-    "offer": "💰Use GOTODEVOPSDEAL code for 50% off! Only $240/ticket!"
+    "sponsored": false
+  },
+  {
+    "name": "DevOps Enterprise Summit Virtual - Europe 2021",
+    "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=organic-listing-2021-eur&utm_content=onsale&utm_campaign=does21eur",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2021-05-18T00:00:00.000Z",
+      "end": "2021-05-20T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1,
+    "sponsored": false
   },
   {
     "name": "DevOps Gathering",
@@ -1139,8 +1158,8 @@
       "end": "2021-04-22T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 20,
-      "fahrenheit": 67
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 2
   },
@@ -1836,19 +1855,19 @@
   {
     "name": "DevOpsCon Berlin",
     "url": "https://devopscon.io/berlin/",
-    "virtual": false,
+    "virtual": true,
     "location": {
-      "city": "Berlin",
-      "country": "Germany",
-      "continent": "Europe"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
-      "start": "2020-10-12T00:00:00.000Z",
-      "end": "2020-10-15T00:00:00.000Z"
+      "start": "2021-06-14T00:00:00.000Z",
+      "end": "2021-06-17T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 14,
-      "fahrenheit": 57
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 2
   },
@@ -1988,19 +2007,19 @@
   {
     "name": "DevOps Fusion",
     "url": "https://www.devops-fusion.com/en/",
-    "virtual": false,
+    "virtual": true,
     "location": {
-      "city": "Zurich",
-      "country": "Switzerland",
-      "continent": "Europe"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
-      "start": "2020-08-26T00:00:00.000Z",
-      "end": "2020-08-26T00:00:00.000Z"
+      "start": "2021-06-30T00:00:00.000Z",
+      "end": "2021-06-30T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 24,
-      "fahrenheit": 76
+      "celsius": null,
+      "fahrenheit": null
     },
     "cost": 3
   },
@@ -2847,5 +2866,62 @@
       "fahrenheit": 47
     },
     "cost": 2
+  },
+  {
+    "name": "cdCon",
+    "url": "https://events.linuxfoundation.org/cdcon/",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2021-06-23T00:00:00.000Z",
+      "end": "2021-06-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1
+  },
+  {
+    "name": "The DevOps Conference",
+    "url": "https://www.thedevopsconference.com/",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2021-03-23T00:00:00.000Z",
+      "end": "2021-03-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1
+  },
+  {
+    "name": "SKILup Day: Cloud Native and Serverless",
+    "url": "https://devopsinstitute.com/cns-2021/?utm_campaign=SKILup%20Day-Cloud%20Native%20Feb%202021&utm_source=GoToDevOps.org&utm_medium=event%20listing",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2021-02-25T00:00:00.000Z",
+      "end": "2021-02-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 0
   }
 ]
