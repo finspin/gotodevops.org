@@ -2,6 +2,7 @@
   <a
     :href="conference.url"
     :rel="conference.sponsored && 'sponsored'"
+    @click.prevent="captureOutboundLink(conference.url)"
   >
     <div class="conference row">
       <div class="col-12">
@@ -16,8 +17,19 @@
       </div>
       <div class="col-12">
         <div class="location">
+          <div v-if="conference.location.city">
           {{ conference.location.city}}<span v-if="conference.location.country">,</span>
           {{ conference.location.country }}
+          </div>
+          <span v-if="conference.virtual">Virtual event</span>
+        </div>
+      </div>
+      <div
+        class="col-12"
+        v-if="conference.offer"
+      >
+        <div class="offer">
+          {{ conference.offer}}
         </div>
       </div>
       <div class="col-5 col-md-6 mr-0 pr-0">
@@ -31,7 +43,7 @@
         </div>
       </div>
       <div class="col-3 col-md-3 weather">
-        <div class="weather">
+        <div class="weather" v-if="conference.temperature.celsius">
           <font-awesome-icon
             v-show="conference.temperature.celsius < 10"
             icon="snowflake"
@@ -79,6 +91,14 @@ export default {
     }
   },
   methods: {
+    captureOutboundLink: url => {
+      ga("send", "event", "outbound", "click", url, {
+        transport: "beacon",
+        hitCallback: function() {
+          document.location = url;
+        }
+      });
+    },
     conferenceDateRange: conference => {
       const locale = "en-us";
       const confStartDate = new Date(conference.date.start);
@@ -157,6 +177,12 @@ export default {
   color: #8c9197;
   margin-bottom: 20px;
   font-size: 16px;
+}
+
+.offer {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .date,

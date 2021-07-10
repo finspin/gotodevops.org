@@ -1,13 +1,13 @@
 import webpack from "webpack";
 
 module.exports = {
-  mode: "universal",
+  mode: "spa",
 
   /*
   ** Headers of the page
   */
   head: {
-    title: "List Of DevOps Conferences In 2020",
+    title: "List Of DevOps Conferences In 2021",
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
       {
@@ -27,7 +27,7 @@ module.exports = {
         hid: "description",
         name: "description",
         content:
-          "Find your next DevOps conference in 2020 from the most comprehensive list, maintained by a community of DevOps professionals. DevOps Conferences in USA, Europe, Asia and Australia &raquo;"
+          "Find your next DevOps conference in 2021 from the most comprehensive list, maintained by a community of DevOps professionals. DevOps Conferences in USA, Europe, Asia and Australia &raquo;"
       }
     ]
   },
@@ -45,13 +45,6 @@ module.exports = {
       "@nuxtjs/google-analytics",
       {
         id: "UA-60153-41"
-      }
-    ],
-    [
-      "@netsells/nuxt-hotjar",
-      {
-        id: "1646783",
-        sv: "6"
       }
     ],
     // Doc: https://bootstrap-vue.js.org/docs/

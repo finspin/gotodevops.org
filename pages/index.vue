@@ -7,9 +7,9 @@
           <div class="left-content">
             <subscription-form></subscription-form>
             <div class="d-none d-md-block">
-              <div class="row meta-filters">
+              <!-- <div class="row meta-filters">
                 <clear-filters-button></clear-filters-button>
-              </div>
+              </div> -->
               <filters></filters>
             </div>
           </div>
@@ -17,6 +17,9 @@
         <div class="col-md-6 right no-gutters">
           <div class="right-content">
             <div class="col-md-12 no-padding">
+              <div class="d-none d-md-block">
+                <conference-list-info></conference-list-info>
+              </div>
               <conferences></conferences>
             </div>
           </div>

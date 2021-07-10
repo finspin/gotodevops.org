@@ -1,13 +1,12 @@
 <template>
-  <div id="conference-list-info" class="container">
+  <div
+    id="conference-list-info"
+    class="container"
+  >
     <div class="row">
       <div class="col-12 list-info">
-        <span
-          v-show="numberOfDisplayedConferences === numberOfConferences"
-        >Displaying all {{ numberOfConferences }} conferences. Try some filters.</span>
-        <span
-          v-show="numberOfDisplayedConferences > 0 && numberOfDisplayedConferences < numberOfConferences"
-        >
+        <span v-show="numberOfDisplayedConferences === numberOfConferences">Displaying {{ numberOfConferences }} conferences. Try some filters.</span>
+        <span v-show="numberOfDisplayedConferences > 0 && numberOfDisplayedConferences < numberOfConferences">
           Displaying {{ numberOfDisplayedConferences }} out of {{ numberOfConferences }} conferences.
           <span
             class="link-style"
@@ -50,7 +49,7 @@ export default {
   text-align: right;
   font-size: 13px;
   color: #627690;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   padding-bottom: 15px;
 }
 

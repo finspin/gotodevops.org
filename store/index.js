@@ -9,7 +9,9 @@ const createStore = () => {
         cost: null,
         months: [],
         weather: null,
-        continent: null
+        continent: null,
+        touchesWeekend: null,
+        virtualEvent: null
       }
     },
     getters: {
@@ -17,7 +19,14 @@ const createStore = () => {
         // Don't count conferences with start day older than today
         return _.filter(state.conferences, function(conference) {
           const confStartDate = new Date(conference.date.start);
-          if (confStartDate >= new Date() && !conference.sponsored) {
+
+          // Filter out conferences that have set conference.display to false
+          let display = true;
+          if (conference.hasOwnProperty("display")) {
+            display = conference.display;
+          }
+
+          if (confStartDate >= new Date() && !conference.sponsored && display) {
             return conference;
           }
         }).length;
@@ -35,6 +44,8 @@ const createStore = () => {
         const activeMonthFilter = state.filters.months;
         const activeWeatherFilter = state.filters.weather;
         const activeContinentFilter = state.filters.continent;
+        const activeWeekendFilter = state.filters.touchesWeekend;
+        const activeVirtualEventFilter = state.filters.virtualEvent;
 
         let filteredConferences = _.filter(state.conferences, function(
           conference
@@ -43,7 +54,10 @@ const createStore = () => {
             costMatch,
             continentMatch = false,
             weatherMatch = false,
-            show = true;
+            touchesWeekendMatch = true,
+            virtualEventMatch = false,
+            show = true,
+            display = true;
 
           // Month filter
           const locale = "en-us";
@@ -110,9 +124,44 @@ const createStore = () => {
             continentMatch = true;
           }
 
+          // Weekend filter
+          const confEndDate = new Date(conference.date.end);
+          const confStartDay = confStartDate.getDay();
+          const confEndDay = confEndDate.getDay();
+
+          // Sunday is 0, Monday is 1 etc.
+          if (
+            activeWeekendFilter === false &&
+            ([0, 1, 5, 6].includes(confStartDay) ||
+              [0, 1, 5, 6].includes(confEndDay))
+          ) {
+            touchesWeekendMatch = false;
+          }
+
+          if (
+            activeWeekendFilter === true &&
+            !(
+              [0, 1, 5, 6].includes(confStartDay) ||
+              [0, 1, 5, 6].includes(confEndDay)
+            )
+          ) {
+            touchesWeekendMatch = false;
+          }
+
+          // Virtual event filter
+          virtualEventMatch =
+            activeVirtualEventFilter === null
+              ? true
+              : conference.virtual === activeVirtualEventFilter;
+
           // Hide conferences with start day older than today
           if (confStartDate < new Date()) {
             show = false;
+          }
+
+          // Flag to enable hiding some conferences (e.g. cancelled or postponed)
+          if (conference.hasOwnProperty("display")) {
+            display = conference.display;
           }
 
           return (
@@ -120,7 +169,10 @@ const createStore = () => {
             costMatch &&
             weatherMatch &&
             continentMatch &&
+            touchesWeekendMatch &&
+            virtualEventMatch &&
             show &&
+            display &&
             !conference.sponsored
           );
         });
@@ -149,11 +201,22 @@ const createStore = () => {
         state.filters.continent =
           state.filters.continent === continent ? null : continent;
       },
+      UPDATE_WEEKEND_FILTER: (state, touchesWeekend) => {
+        state.filters.touchesWeekend =
+          state.filters.touchesWeekend === touchesWeekend
+            ? null
+            : touchesWeekend;
+      },
+      UPDATE_VIRTUAL_EVENT_FILTER: (state, virtualEvent) => {
+        state.filters.virtualEvent =
+          state.filters.virtualEvent === virtualEvent ? null : virtualEvent;
+      },
       CLEAR_ALL_FILTERS: state => {
         state.filters.cost = null;
         state.filters.months = [];
         state.filters.weather = null;
         state.filters.continent = null;
+        state.filters.touchesWeekend = null;
       }
     },
     actions: {}
