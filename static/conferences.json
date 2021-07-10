@@ -9,8 +9,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-11-08T00:00:00.000Z",
-      "end": "2020-11-13T00:00:00.000Z"
+      "start": "2021-11-14T00:00:00.000Z",
+      "end": "2021-11-19T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 25,
@@ -96,7 +96,7 @@
   },
   {
     "name": "All Things Open",
-    "url": "https://2020.allthingsopen.org/",
+    "url": "https://2021.allthingsopen.org/",
     "virtual": false,
     "location": {
       "city": "Raleigh",
@@ -105,7 +105,7 @@
     },
     "date": {
       "start": "2020-10-18T00:00:00.000Z",
-      "end": "2020-10-20T00:00:00.000Z"
+      "end": "2020-10-19T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 22,
@@ -123,8 +123,8 @@
       "continent": null
     },
     "date": {
-      "start": "2020-10-13T00:00:00.000Z",
-      "end": "2020-10-14T00:00:00.000Z"
+      "start": "2021-09-29T00:00:00.000Z",
+      "end": "2021-09-30T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -563,8 +563,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-10-07T00:00:00.000Z",
-      "end": "2019-10-08T00:00:00.000Z"
+      "start": "2021-10-12T00:00:00.000Z",
+      "end": "2021-10-12T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 15,
@@ -964,8 +964,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-11-09T00:00:00.000Z",
-      "end": "2020-11-13T00:00:00.000Z"
+      "start": "2021-11-08T00:00:00.000Z",
+      "end": "2021-11-10T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 7,
@@ -1050,8 +1050,8 @@
     "cost": 1
   },
   {
-    "name": "HashiConf Digital",
-    "url": "https://hashiconf.com/digital-october/",
+    "name": "HashiConf Global",
+    "url": "https://hashiconf.com/global/",
     "virtual": true,
     "location": {
       "city": null,
@@ -1059,8 +1059,8 @@
       "continent": null
     },
     "date": {
-      "start": "2020-10-12T00:00:00.000Z",
-      "end": "2020-10-15T00:00:00.000Z"
+      "start": "2021-10-19T00:00:00.000Z",
+      "end": "2021-10-20T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -1242,7 +1242,7 @@
   },
   {
     "name": "Commit",
-    "url": "https://about.gitlab.com/events/commit/",
+    "url": "https://gitlabcommitvirtual2021.com/",
     "virtual": true,
     "location": {
       "city": null,
@@ -1250,8 +1250,8 @@
       "continent": null
     },
     "date": {
-      "start": "2020-08-26T00:00:00.000Z",
-      "end": "2020-08-26T00:00:00.000Z"
+      "start": "2021-08-03T00:00:00.000Z",
+      "end": "2021-08-04T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -1817,19 +1817,38 @@
   {
     "name": "DevOpsCon Singapore",
     "url": "https://devopscon.io/singapore/",
-    "virtual": false,
+    "virtual": true,
     "location": {
-      "city": "Singapore",
-      "country": "Singapore",
-      "continent": "Asia"
+      "city": null,
+      "country": null,
+      "continent": null
     },
     "date": {
-      "start": "2020-09-07T00:00:00.000Z",
-      "end": "2020-09-10T00:00:00.000Z"
+      "start": "2021-11-22T00:00:00.000Z",
+      "end": "2021-11-25T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 31,
-      "fahrenheit": 88
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOpsCon Munich",
+    "url": "https://devopscon.io/munich/",
+    "virtual": false,
+    "location": {
+      "city": "Munich",
+      "country": "Germany",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2021-11-29T00:00:00.000Z",
+      "end": "2021-12-02T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 8,
+      "fahrenheit": 46
     },
     "cost": 2
   },
@@ -1843,8 +1862,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-09-28T00:00:00.000Z",
-      "end": "2020-10-01T00:00:00.000Z"
+      "start": "2021-09-27T00:00:00.000Z",
+      "end": "2021-09-30T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 26,
@@ -2898,6 +2917,25 @@
     "date": {
       "start": "2021-03-23T00:00:00.000Z",
       "end": "2021-03-24T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 0
+  },
+  {
+    "name": "ScaleUp 360°",
+    "url": "https://www.scale-up-360.com/en/continuous-delivery",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2022-05-17T00:00:00.000Z",
+      "end": "2022-05-18T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
