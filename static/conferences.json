@@ -2961,5 +2961,62 @@
       "fahrenheit": null
     },
     "cost": 0
+  },
+  {
+    "name": "DevOps Enterprise Summit Virtual - Europe",
+    "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=does22eur-gotodevops-organic&utm_content=onsale&utm_campaign=does22eur",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2022-03-10T00:00:00.000Z",
+      "end": "2021-03-12T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1
+  },
+  {
+    "name": "DevOps Enterprise Summit US Flagship Event",
+    "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=does22lasvegas-gotodevops-organic&utm_content=onsale&utm_campaign=does22lasvegas",
+    "virtual": false,
+    "location": {
+      "city": "Las Vegas",
+      "country": "US",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2022-10-18T00:00:00.000Z",
+      "end": "2021-10-20T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 28,
+      "fahrenheit": 83
+    },
+    "cost": 2
+  },
+  {
+    "name": "DevOps Enterprise Summit Virtual - US",
+    "url": "https://events.itrevolution.com/virtual/?utm_medium=referral&utm_source=gotodevops&utm_term=does22us-gotodevops-organic&utm_content=onsale&utm_campaign=does22us",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2022-08-02T00:00:00.000Z",
+      "end": "2021-08-04T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1
   }
 ]
