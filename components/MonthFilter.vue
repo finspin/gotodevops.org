@@ -2,14 +2,14 @@
   <div id="month-filters">
     <div class="row month-filter">
       <div class="col-12">
-        <div class="filter-label">Year 2021</div>
+        <div class="filter-label">Year {{ currentYear() }}</div>
       </div>
       <div class="col-12">
         <div class="row no-gutters">
           <div v-for="month in months" class="col-1" :key="month">
             <div
-              @click="applyMonthFilter(month, '2021')"
-              :class="['month', { active: isActive(month, '2021') }, { pastMonth: !isMonthActive(month, '2021') }]"
+              @click="applyMonthFilter(month, currentYear())"
+              :class="['month', { active: isActive(month, currentYear()) }, { pastMonth: !isMonthActive(month, currentYear()) }]"
             >{{ month }}</div>
           </div>
         </div>
@@ -27,6 +27,9 @@ export default {
     ...mapState(["filters"])
   },
   methods: {
+    currentYear() {
+      return new Date().getFullYear().toString()
+    },
     ...mapMutations(["UPDATE_MONTH_FILTER"]),
     applyMonthFilter: function(month, year) {
       const payload = { month: month, year: year };

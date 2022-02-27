@@ -18,7 +18,7 @@
             alt="GoTo DevOps logo"
           />
           GoTo DevOps
-          <h1>DevOps Conferences 2021</h1>
+          <h1>DevOps Conferences {{ new Date().getFullYear() }}</h1>
         </a>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse

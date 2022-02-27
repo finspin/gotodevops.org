@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "List Of DevOps Conferences In 2021",
+    title: "List Of DevOps Conferences In " + new Date().getFullYear(),
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
       {
@@ -27,7 +27,9 @@ module.exports = {
         hid: "description",
         name: "description",
         content:
-          "Find your next DevOps conference in 2021 from the most comprehensive list, maintained by a community of DevOps professionals. DevOps Conferences in USA, Europe, Asia and Australia &raquo;"
+          "Find your next DevOps conference in " +
+          new Date().getFullYear() +
+          " from the most comprehensive list, maintained by a community of DevOps professionals. DevOps Conferences in USA, Europe, Asia and Australia &raquo;"
       }
     ]
   },
