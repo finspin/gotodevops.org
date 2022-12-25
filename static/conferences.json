@@ -848,8 +848,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-06-08T00:00:00.000Z",
-      "end": "2020-06-11T00:00:00.000Z"
+      "start": "2023-06-26T00:00:00.000Z",
+      "end": "2023-06-29T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 20,
@@ -1165,21 +1165,21 @@
   {
     "name": "KubeCon and CloudNativeCon Europe",
     "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/",
-    "virtual": true,
+    "virtual": false,
     "location": {
-      "city": null,
-      "country": null,
-      "continent": null
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "continent": "Europe"
     },
     "date": {
-      "start": "2020-08-17T00:00:00.000Z",
-      "end": "2020-08-17T00:00:00.000Z"
+      "start": "2023-04-18T00:00:00.000Z",
+      "end": "2023-04-21T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": null,
-      "fahrenheit": null
+      "celsius": 13,
+      "fahrenheit": 56
     },
-    "cost": 1
+    "cost": 2
   },
   {
     "name": "Commit",
@@ -1205,19 +1205,19 @@
     "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/",
     "virtual": false,
     "location": {
-      "city": "Boston",
+      "city": "Chicago",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2020-11-17T00:00:00.000Z",
-      "end": "2020-11-20T00:00:00.000Z"
+      "start": "2023-11-06T00:00:00.000Z",
+      "end": "2023-11-09T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
       "fahrenheit": 70
     },
-    "cost": 1
+    "cost": 2
   },
   {
     "name": "Large Installation System Administration Conference (LISA) ",
@@ -1506,26 +1506,26 @@
   },
   {
     "name": "SREcon Asia/Pacific",
-    "url": "https://www.usenix.org/conference/srecon20apac",
+    "url": "https://www.usenix.org/conference/srecon23apac",
     "virtual": false,
     "location": {
-      "city": "Sydney",
-      "country": "Australia",
-      "continent": "Australia"
+      "city": "Singapore",
+      "country": "Singapore",
+      "continent": "Asia"
     },
     "date": {
-      "start": "2020-06-15T00:00:00.000Z",
-      "end": "2020-06-17T00:00:00.000Z"
+      "start": "2023-06-14T00:00:00.000Z",
+      "end": "2023-06-16T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 17,
-      "fahrenheit": 63
+      "celsius": 32,
+      "fahrenheit": 89
     },
     "cost": 2
   },
   {
-    "name": "SREcon Americas West",
-    "url": "https://www.usenix.org/conference/srecon20americaswest",
+    "name": "SREcon Americas",
+    "url": "https://www.usenix.org/conference/srecon23americas",
     "virtual": false,
     "location": {
       "city": "Santa Clara",
@@ -1533,8 +1533,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-03-24T00:00:00.000Z",
-      "end": "2020-03-26T00:00:00.000Z"
+      "start": "2023-03-21T00:00:00.000Z",
+      "end": "2023-03-23T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 19,
@@ -1610,8 +1610,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-06-16T00:00:00.000Z",
-      "end": "2020-06-17T00:00:00.000Z"
+      "start": "2023-06-20T00:00:00.000Z",
+      "end": "2023-06-21T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 21,
@@ -1698,7 +1698,7 @@
   },
   {
     "name": "DevOps Talks Auckland",
-    "url": "https://devops.talksplus.com/nz/devops.html",
+    "url": "https://devops.talksplus.com/nz/devops",
     "virtual": false,
     "location": {
       "city": "Auckland",
@@ -1706,18 +1706,18 @@
       "continent": "Australia"
     },
     "date": {
-      "start": "2020-03-24T00:00:00.000Z",
-      "end": "2020-03-25T00:00:00.000Z"
+      "start": "2023-11-21T00:00:00.000Z",
+      "end": "2023-11-22T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 23,
-      "fahrenheit": 73
+      "celsius": 20,
+      "fahrenheit": 67
     },
     "cost": 2
   },
   {
     "name": "DevOps Talks Singapore",
-    "url": "https://devops.talksplus.com/singapore/devops.html",
+    "url": "https://devops.talksplus.com/singapore/devops",
     "virtual": false,
     "location": {
       "city": "Singapore",
@@ -1725,15 +1725,14 @@
       "continent": "Asia"
     },
     "date": {
-      "start": "2021-08-17T00:00:00.000Z",
-      "end": "2021-08-19T00:00:00.000Z"
+      "start": "2023-09-06T00:00:00.000Z",
+      "end": "2023-09-07T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 31,
       "fahrenheit": 88
     },
-    "cost": 2,
-    "display": false
+    "cost": 2
   },
   {
     "name": "Cloud Science",
@@ -1830,25 +1829,6 @@
       "fahrenheit": null
     },
     "cost": 2
-  },
-  {
-    "name": "DevOps 2020",
-    "url": "https://devops2020.com/",
-    "virtual": false,
-    "location": {
-      "city": "Helsinki",
-      "country": "Finland",
-      "continent": "Europe"
-    },
-    "date": {
-      "start": "2020-04-21T00:00:00.000Z",
-      "end": "2020-04-23T00:00:00.000Z"
-    },
-    "temperature": {
-      "celsius": 7,
-      "fahrenheit": 45
-    },
-    "cost": 1
   },
   {
     "name": "GOTO Oslo",
@@ -1967,19 +1947,19 @@
   {
     "name": "DevOps Fusion",
     "url": "https://www.devops-fusion.com/en/",
-    "virtual": true,
+    "virtual": false,
     "location": {
-      "city": null,
-      "country": null,
-      "continent": null
+      "city": "Zurich",
+      "country": "Switzerland",
+      "continent": "Europe"
     },
     "date": {
-      "start": "2021-06-30T00:00:00.000Z",
-      "end": "2021-06-30T00:00:00.000Z"
+      "start": "2023-06-21T00:00:00.000Z",
+      "end": "2023-06-21T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": null,
-      "fahrenheit": null
+      "celsius": 23,
+      "fahrenheit": 73
     },
     "cost": 3
   },
@@ -2213,22 +2193,22 @@
   },
   {
     "name": "DeveloperWeek",
-    "url": "https://www.developerweek.com/DC/",
+    "url": "https://www.developerweek.com/events/agenda-overview/",
     "virtual": false,
     "location": {
-      "city": "Washington D.C.",
+      "city": "Oakland",
       "country": "USA",
       "continent": "North America"
     },
     "date": {
-      "start": "2020-09-15T00:00:00.000Z",
-      "end": "2020-09-16T00:00:00.000Z"
+      "start": "2023-02-15T00:00:00.000Z",
+      "end": "2023-02-17T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 27,
-      "fahrenheit": 81
+      "celsius": 17,
+      "fahrenheit": 62
     },
-    "cost": 1
+    "cost": 2
   },
   {
     "name": "DevOpsDays Kiev",
@@ -2856,8 +2836,8 @@
       "continent": null
     },
     "date": {
-      "start": "2021-03-23T00:00:00.000Z",
-      "end": "2021-03-24T00:00:00.000Z"
+      "start": "2023-03-22T00:00:00.000Z",
+      "end": "2023-03-23T00:00:00.000Z"
     },
     "temperature": {
       "celsius": null,
@@ -2957,6 +2937,44 @@
     "temperature": {
       "celsius": null,
       "fahrenheit": null
+    },
+    "cost": 1
+  },
+  {
+    "name": "Agile, DevOps, Testing and Low Code Showcase Europe",
+    "url": "https://conference.unicomseminars.org/agile-devops-software-testing-conference/manchester/",
+    "virtual": false,
+    "location": {
+      "city": "Manchester",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2023-02-09T00:00:00.000Z",
+      "end": "2023-02-09T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 7,
+      "fahrenheit": 45
+    },
+    "cost": 1
+  },
+  {
+    "name": "Agile, DevOps, Testing and Low Code Showcase India",
+    "url": "https://www.unicomlearning.com/agile-devops-software-testing-conference/bengaluru-india-2023/",
+    "virtual": false,
+    "location": {
+      "city": "Bangalore",
+      "country": "India",
+      "continent": "Asia"
+    },
+    "date": {
+      "start": "2023-02-23T00:00:00.000Z",
+      "end": "2021-02-23T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 31,
+      "fahrenheit": 87
     },
     "cost": 1
   }
