@@ -2977,5 +2977,43 @@
       "fahrenheit": 87
     },
     "cost": 1
+  },
+  {
+    "name": "DevOps Enterprise Summit Amsterdam",
+    "url": "https://itrevolution.com/product/devops-enterprise-summit-amsterdam-2023/",
+    "virtual": false,
+    "location": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "continent": "Europe"
+    },
+    "date": {
+      "start": "2023-05-16T00:00:00.000Z",
+      "end": "2023-05-17T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 17,
+      "fahrenheit": 63
+    },
+    "cost": 3
+  },
+  {
+    "name": "DevOps Enterprise Summit Las Vegas",
+    "url": "https://itrevolution.com/product/devops-enterprise-summit-las-vegas-2023/",
+    "virtual": false,
+    "location": {
+      "city": "Las Vegas",
+      "country": "USA",
+      "continent": "North America"
+    },
+    "date": {
+      "start": "2023-11-03T00:00:00.000Z",
+      "end": "2023-11-05T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 28,
+      "fahrenheit": 83
+    },
+    "cost": 3
   }
 ]
