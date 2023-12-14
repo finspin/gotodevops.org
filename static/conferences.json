@@ -3015,5 +3015,43 @@
       "fahrenheit": 83
     },
     "cost": 3
+  },
+  {
+    "name": "Enterprise Technology Leadership Summit Europe Virtual",
+    "url": "https://itrevolution.com/product/enterprise-technology-leadership-summit-europe-2024/",
+    "virtual": true,
+    "location": {
+      "city": null,
+      "country": null,
+      "continent": null
+    },
+    "date": {
+      "start": "2024-04-24T00:00:00.000Z",
+      "end": "2024-04-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": null,
+      "fahrenheit": null
+    },
+    "cost": 1
+  },
+  {
+    "name": "Enterprise Technology Leadership Summit Las Vegas",
+    "url": "https://itrevolution.com/product/enterprise-technology-leadership-summit-las-vegas-2024/",
+    "virtual": false,
+    "location": {
+      "city": Las Vegas,
+      "country": USA,
+      "continent": North America
+    },
+    "date": {
+      "start": "2024-04-24T00:00:00.000Z",
+      "end": "2024-04-25T00:00:00.000Z"
+    },
+    "temperature": {
+      "celsius": 30,
+      "fahrenheit": 85
+    },
+    "cost": 3
   }
 ]
