@@ -1088,19 +1088,19 @@
   {
     "name": "DevOpsCon London",
     "url": "https://devopscon.io/london/",
-    "virtual": true,
+    "virtual": false,
     "location": {
-      "city": "",
-      "country": "",
-      "continent": ""
+      "city": "London",
+      "country": "UK",
+      "continent": "Europe"
     },
     "date": {
-      "start": "2021-04-21T00:00:00.000Z",
-      "end": "2021-04-22T00:00:00.000Z"
+      "start": "2024-04-08T00:00:00.000Z",
+      "end": "2024-04-11T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": null,
-      "fahrenheit": null
+      "celsius": 15,
+      "fahrenheit": 59
     },
     "cost": 2
   },
@@ -1114,8 +1114,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2019-10-07T00:00:00.000Z",
-      "end": "2019-10-10T00:00:00.000Z"
+      "start": "2024-09-30T00:00:00.000Z",
+      "end": "2024-10-03T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 16,
@@ -1267,8 +1267,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-06-08T00:00:00.000Z",
-      "end": "2020-06-10T00:00:00.000Z"
+      "start": "2024-06-10T00:00:00.000Z",
+      "end": "2024-06-12T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 23,
@@ -1278,7 +1278,7 @@
   },
   {
     "name": "NDC London",
-    "url": "https://ndc-london.com/",
+    "url": "https://ndclondon.com/",
     "virtual": false,
     "location": {
       "city": "London",
@@ -1286,8 +1286,8 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-01-27T00:00:00.000Z",
-      "end": "2020-01-31T00:00:00.000Z"
+      "start": "2024-01-27T00:00:00.000Z",
+      "end": "2024-02-02T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 9,
@@ -1362,12 +1362,12 @@
       "continent": "Europe"
     },
     "date": {
-      "start": "2020-03-02T00:00:00.000Z",
-      "end": "2020-03-06T00:00:00.000Z"
+      "start": "2024-04-08T00:00:00.000Z",
+      "end": "2024-04-10T00:00:00.000Z"
     },
     "temperature": {
-      "celsius": 12,
-      "fahrenheit": 53
+      "celsius": 15,
+      "fahrenheit": 59
     },
     "cost": 3
   },
@@ -1400,8 +1400,8 @@
       "continent": "North America"
     },
     "date": {
-      "start": "2020-11-16T00:00:00.000Z",
-      "end": "2020-11-20T00:00:00.000Z"
+      "start": "2024-11-18T00:00:00.000Z",
+      "end": "2024-11-22T00:00:00.000Z"
     },
     "temperature": {
       "celsius": 17,
