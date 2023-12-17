@@ -3040,9 +3040,9 @@
     "url": "https://itrevolution.com/product/enterprise-technology-leadership-summit-las-vegas-2024/",
     "virtual": false,
     "location": {
-      "city": Las Vegas,
-      "country": USA,
-      "continent": North America
+      "city": "Las Vegas",
+      "country": "USA",
+      "continent": "North America"
     },
     "date": {
       "start": "2024-04-24T00:00:00.000Z",
